@@ -15,9 +15,9 @@ window.CONTENT = {
     {icon:"↗", title:"Built-in Memory & Multi-Agent Collaboration", text:"Your AI employees retain context across shifts, coordinate seamlessly in dedicated team channels, and manage persistent task boards while you sleep."}
   ],
   demo: {
-    title: "See it in action",
-    text: "Explore our live monorepo showcase running on Vercel to see autonomous triage, CI/CD PR reviewer workflows, and MCP tool hubs in action. Experience how standing AI workers maintain production codebases with zero manual babysitting.",
-    button: "Explore the Live Vercel Demo →",
+    title: "Live development & preview portal",
+    text: "The monorepo preview portal on Vercel is a work in progress: it shows autonomous triage, CI/CD PR-reviewer lanes, and MCP tool hubs as they are built. Expect rough edges; the source is public.",
+    button: "Open the preview portal (WIP) →",
     href: "https://termux-monorepo.vercel.app",
     repoHref: "https://github.com/timerloggedout-spec/termux-monorepo"
   },

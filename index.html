@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Landing</title>
+<meta name="description" content="">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0d10;--surface:#12151a;--text:#f2f4f7;--muted:#9aa3ad;--hair:#22272e;--accent:#4fd1c5;--accent2:#2e7e7e}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 0}nav .brand{font-weight:800;letter-spacing:-.01em}nav ul{display:flex;gap:24px;list-style:none;margin:0;padding:0;font-size:14px;color:var(--muted)}nav ul a:hover{color:var(--text)}
+.hero{padding:88px 0 64px;text-align:center}.hero h1{font-size:clamp(34px,5.5vw,60px);font-weight:800;letter-spacing:-.03em;line-height:1.08;margin:0 auto 18px;max-width:820px}
+.hero p{font-size:19px;color:var(--muted);max-width:640px;margin:0 auto 32px}
+.btn{display:inline-block;padding:14px 26px;border-radius:10px;font-weight:700;background:var(--accent);color:#04211f;font-size:16px}.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:transparent;color:var(--text);border:1px solid var(--hair)}.btn.ghost:hover{border-color:var(--accent)}
+.incentive{margin-top:12px;font-size:14px;color:var(--accent)}
+section{padding:64px 0;border-top:1px solid var(--hair)}h2{font-size:30px;letter-spacing:-.02em;margin:0 0 10px}.lead{color:var(--muted);max-width:640px;margin:0 0 32px}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}.card{background:var(--surface);border:1px solid var(--hair);border-radius:14px;padding:24px}
+.card .ic{width:40px;height:40px;border-radius:10px;background:rgba(79,209,197,.12);color:var(--accent);display:flex;align-items:center;justify-content:center;font-size:20px;margin-bottom:14px}.card h3{margin:0 0 6px;font-size:17px}.card p{margin:0;color:var(--muted);font-size:15px}
+.demo{display:grid;grid-template-columns:1.1fr .9fr;gap:32px;align-items:center}.demo .frame{background:var(--surface);border:1px solid var(--hair);border-radius:14px;padding:18px;min-height:260px;display:flex;flex-direction:column;justify-content:center;gap:12px}
+.demo .frame .bar{height:10px;border-radius:6px;background:var(--hair)}.demo .frame .bar.short{width:60%}.demo .frame .bar.acc{background:var(--accent2);width:40%}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.trust{text-align:center;color:var(--muted);font-size:15px}
+.cta{text-align:center;background:linear-gradient(180deg,var(--surface),var(--bg))}.cta h2{font-size:34px}
+footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;border-top:1px solid var(--hair)}footer ul{display:flex;gap:16px;list-style:none;margin:0;padding:0}footer .disc{width:100%;font-size:12px;opacity:.8}
+@media (max-width:760px){.demo{grid-template-columns:1fr}nav ul{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><a class="brand" href="#" id="brand"></a><ul id="nav"></ul></nav>
+<header class="hero"><h1 id="h1"></h1><p id="sub"></p><a class="btn" id="cta1"></a><div class="incentive" id="inc"></div></header>
+<section id="why"><h2>Why</h2><div class="grid3" id="benefits"></div></section>
+<section id="demo"><div class="demo"><div><h2 id="demoTitle"></h2><p class="lead" id="demoText"></p><div class="actions"><a class="btn" id="demoBtn" target="_blank" rel="noopener"></a><a class="btn ghost" id="repoBtn" target="_blank" rel="noopener">View the source</a></div></div><div class="frame"><div class="bar acc"></div><div class="bar"></div><div class="bar short"></div><div class="bar"></div><div class="bar short"></div></div></div></section>
+<section class="trust" id="trustSec"><p id="trust"></p></section>
+<section class="cta" id="cta"><h2 id="ctaH"></h2><a class="btn" id="cta2"></a><div class="incentive" id="inc2"></div></section>
+<footer><span id="fline"></span><ul id="flinks"></ul><span class="disc" id="disc"></span></footer>
+</div>
+<script src="js/content.js"></script>
+<script>
+(function(){const C=window.CONTENT,$=i=>document.getElementById(i),esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+document.title=C.brand;$('brand').textContent=C.brand;$('nav').innerHTML=C.nav.map(n=>`<li><a href="${n.href}">${esc(n.label)}</a></li>`).join('');
+$('h1').textContent=C.hero.headline;$('sub').textContent=C.hero.subhead;for(const id of['cta1','cta2']){$(id).textContent=C.hero.cta;$(id).href=C.hero.ctaHref;}
+$('inc').textContent=C.hero.incentive;$('inc2').textContent=C.hero.incentive;$('ctaH').textContent=C.hero.headline;
+$('benefits').innerHTML=C.benefits.map(b=>`<div class="card"><div class="ic">${esc(b.icon)}</div><h3>${esc(b.title)}</h3><p>${esc(b.text)}</p></div>`).join('');
+$('demoTitle').textContent=C.demo.title;$('demoText').textContent=C.demo.text;$('demoBtn').textContent=C.demo.button;$('demoBtn').href=C.demo.href;$('repoBtn').href=C.demo.repoHref;
+if(C.trust){$('trust').textContent=C.trust}else{$('trustSec').style.display='none'}
+$('fline').textContent=C.footer.line;$('flinks').innerHTML=C.footer.links.map(l=>`<li><a href="${l.href}" target="_blank" rel="noopener">${esc(l.label)}</a></li>`).join('');$('disc').textContent=C.footer.disclosure||'';
+document.querySelector('meta[name=description]').content=C.hero.subhead;})();
+</script>
+</body>
+</html>

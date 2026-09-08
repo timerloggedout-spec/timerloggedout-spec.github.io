@@ -1,0 +1,30 @@
+// Landing page copy (Chloe, Head of Marketing, 2026-09-08). This is the ONLY file that changes when copy changes.
+window.CONTENT = {
+  brand: "Autonomous AI Employees",
+  nav: [{label:"Why", href:"#why"},{label:"Demo", href:"#demo"},{label:"Get started", href:"#cta"}],
+  hero: {
+    headline: "Deploy 24/7 Autonomous AI Employees for Your Engineering Workflows",
+    subhead: "Go beyond chat wrappers. Hire deep-reasoning AI employees equipped with persistent inboxes, cloud browsers, and terminal execution to automate complex software tasks.",
+    cta: "Claim Your 500 Bonus Credits",
+    ctaHref: "https://cellcog.ai/invitation/l19hdRGY9dTh",
+    incentive: "Sign up via this invitation and receive 500 bonus credits on your first purchase to kickstart your autonomous team."
+  },
+  benefits: [
+    {icon:"⚙", title:"True Cross-Modal Super-Agents", text:"Execute terminal commands, browse live staging sites, and generate production assets across code, data dashboards, and multimedia without leaving your workflow."},
+    {icon:"◎", title:"#1 in Deep Research (July 2026)", text:"Powered by benchmark-leading reasoning models that thoroughly synthesize vast codebases and technical documentation with verifiable accuracy."},
+    {icon:"↗", title:"Built-in Memory & Multi-Agent Collaboration", text:"Your AI employees retain context across shifts, coordinate seamlessly in dedicated team channels, and manage persistent task boards while you sleep."}
+  ],
+  demo: {
+    title: "See it in action",
+    text: "Explore our live monorepo showcase running on Vercel to see autonomous triage, CI/CD PR reviewer workflows, and MCP tool hubs in action. Experience how standing AI workers maintain production codebases with zero manual babysitting.",
+    button: "Explore the Live Vercel Demo →",
+    href: "https://termux-monorepo.vercel.app",
+    repoHref: "https://github.com/timerloggedout-spec/termux-monorepo"
+  },
+  trust: "CellCog Max ranked #1 overall on the Deep Research Benchmark (July 2026 snapshot). Live leaderboard: huggingface.co/spaces/muset-ai/DeepResearch-Bench-Leaderboard",
+  footer: {
+    line: "Powered by CellCog.",
+    links: [{label:"Terms of Service", href:"https://cellcog.ai/policies/terms"},{label:"Privacy Policy", href:"https://cellcog.ai/policies/privacy"},{label:"Invitation Link", href:"https://cellcog.ai/invitation/l19hdRGY9dTh"},{label:"GitHub", href:"https://github.com/timerloggedout-spec/termux-monorepo"}],
+    disclosure: "New accounts signing up through this partner invitation receive 500 promotional credits upon their first purchase. Terms and platform credit policies apply."
+  }
+};

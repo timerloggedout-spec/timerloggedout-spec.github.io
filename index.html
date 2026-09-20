@@ -18,6 +18,9 @@ nav{display:flex;justify-content:space-between;align-items:center;padding:20px 0
 section{padding:64px 0;border-top:1px solid var(--hair)}h2{font-size:30px;letter-spacing:-.02em;margin:0 0 10px}.lead{color:var(--muted);max-width:640px;margin:0 0 32px}
 .grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}.card{background:var(--surface);border:1px solid var(--hair);border-radius:14px;padding:24px}
 .card .ic{width:40px;height:40px;border-radius:10px;background:rgba(79,209,197,.12);color:var(--accent);display:flex;align-items:center;justify-content:center;font-size:20px;margin-bottom:14px}.card h3{margin:0 0 6px;font-size:17px}.card p{margin:0;color:var(--muted);font-size:15px}
+.grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.pcard{display:flex;flex-direction:column;transition:border-color .15s,transform .15s}.pcard:hover{border-color:var(--accent);transform:translateY(-2px)}.pcard .tag{display:inline-block;font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}.pcard p{flex:1}.pcard .offer{margin-top:14px;font-size:13px;font-weight:600;color:var(--accent)}
+.pnote{color:var(--muted);font-size:14px;margin:24px 0 0}.pnote a{color:var(--accent)}
 .demo{display:grid;grid-template-columns:1.1fr .9fr;gap:32px;align-items:center}.demo .frame{background:var(--surface);border:1px solid var(--hair);border-radius:14px;padding:18px;min-height:260px;display:flex;flex-direction:column;justify-content:center;gap:12px}
 .demo .frame .bar{height:10px;border-radius:6px;background:var(--hair)}.demo .frame .bar.short{width:60%}.demo .frame .bar.acc{background:var(--accent2);width:40%}
 .actions{display:flex;gap:12px;flex-wrap:wrap}
@@ -34,6 +37,7 @@ footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-con
 <section id="why"><h2>Why</h2><div class="grid3" id="benefits"></div></section>
 <section id="demo"><div class="demo"><div><h2 id="demoTitle"></h2><p class="lead" id="demoText"></p><div class="actions"><a class="btn" id="demoBtn" target="_blank" rel="noopener"></a><a class="btn ghost" id="repoBtn" target="_blank" rel="noopener">View the source</a></div></div><div class="frame"><div class="bar acc"></div><div class="bar"></div><div class="bar short"></div><div class="bar"></div><div class="bar short"></div></div></div></section>
 <section class="trust" id="trustSec"><p id="trust"></p></section>
+<section id="partners"><h2 id="pTitle"></h2><p class="lead" id="pLead"></p><div class="grid4" id="pGrid"></div><p class="pnote" id="pNote"></p></section>
 <section class="cta" id="cta"><h2 id="ctaH"></h2><a class="btn" id="cta2"></a><div class="incentive" id="inc2"></div></section>
 <footer><span id="fline"></span><ul id="flinks"></ul><span class="disc" id="disc"></span></footer>
 </div>
@@ -46,6 +50,9 @@ $('inc').textContent=C.hero.incentive;$('inc2').textContent=C.hero.incentive;$('
 $('benefits').innerHTML=C.benefits.map(b=>`<div class="card"><div class="ic">${esc(b.icon)}</div><h3>${esc(b.title)}</h3><p>${esc(b.text)}</p></div>`).join('');
 $('demoTitle').textContent=C.demo.title;$('demoText').textContent=C.demo.text;$('demoBtn').textContent=C.demo.button;$('demoBtn').href=C.demo.href;$('repoBtn').href=C.demo.repoHref;
 if(C.trust){$('trust').textContent=C.trust}else{$('trustSec').style.display='none'}
+if(C.partners&&C.partners.items&&C.partners.items.length){const P=C.partners;$('pTitle').textContent=P.title;$('pLead').textContent=P.lead;
+$('pGrid').innerHTML=P.items.map(p=>`<a class="card pcard" href="${esc(p.href)}" target="_blank" rel="noopener sponsored"><div class="ic">${esc(p.icon||'◇')}</div><span class="tag">${esc(p.category||'')}</span><h3>${esc(p.name)}</h3><p>${esc(p.text||'')}</p>${p.offer?`<span class="offer">${esc(p.offer)}</span>`:''}</a>`).join('');
+$('pNote').innerHTML=(P.note?esc(P.note)+' ':'')+(P.registryHref?`<a href="${esc(P.registryHref)}" target="_blank" rel="noopener">${esc(P.registryLabel||'Registry')}</a>`:'');}else{$('partners').style.display='none'}
 $('fline').textContent=C.footer.line;$('flinks').innerHTML=C.footer.links.map(l=>`<li><a href="${l.href}" target="_blank" rel="noopener">${esc(l.label)}</a></li>`).join('');$('disc').textContent=C.footer.disclosure||'';
 document.querySelector('meta[name=description]').content=C.hero.subhead;})();
 </script>

@@ -1,17 +1,26 @@
 {
-  "generated_at": "2026-09-22T12:55:10Z",
+  "generated_at": "2026-09-22T20:08:36Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
-  "receipts": 41,
+  "receipts": 44,
   "kinds": {
     "upstream_pr": 12,
     "claim_skipped_closed": 1,
-    "followup_skip_idempotent": 28
+    "followup_skip_idempotent": 31
   },
   "outcomes": {
-    "ok": 41
+    "ok": 44
   },
   "foreign_open_prs": [
+    {
+      "html_url": "https://github.com/w1977-0/open-stream-saver/pull/3",
+      "title": "help-wanted: stake + contribute for #1",
+      "number": 3,
+      "repo": "w1977-0/open-stream-saver",
+      "state": "open",
+      "updated_at": "2026-09-22T13:40:22Z",
+      "tribute": true
+    },
     {
       "html_url": "https://github.com/umn-adc/ATLAS/pull/42",
       "title": "help-wanted: stake + contribute for #31",
@@ -121,8 +130,21 @@
       "tribute": true
     }
   ],
-  "foreign_open_count": 12,
+  "foreign_open_count": 13,
   "tributes": [
+    {
+      "pr_url": "https://github.com/DeltaV-Station/Delta-v/pull/6534",
+      "kinds": [
+        "upstream_pr"
+      ],
+      "ok": true,
+      "last_ts": "2026-09-22T19:59:57Z",
+      "providers": [],
+      "repo": "DeltaV-Station/Delta-v",
+      "number": 6534,
+      "title": "help-wanted: stake + contribute for #6533",
+      "state": "closed"
+    },
     {
       "pr_url": "https://github.com/vedantnimbarte/zero/pull/81",
       "kinds": [
@@ -156,14 +178,30 @@
         "followup_skip_idempotent",
         "followup_skip_idempotent",
         "followup_skip_idempotent",
+        "followup_skip_idempotent",
+        "followup_skip_idempotent",
+        "followup_skip_idempotent",
         "followup_skip_idempotent"
       ],
       "ok": true,
-      "last_ts": "2026-09-22T11:36:35Z",
+      "last_ts": "2026-09-22T19:54:16Z",
       "providers": [],
       "repo": "vedantnimbarte/zero",
       "number": 81,
       "title": "docs(layout): refresh stale ponytail comments (flex + grid)",
+      "state": "open"
+    },
+    {
+      "pr_url": "https://github.com/w1977-0/open-stream-saver/pull/3",
+      "kinds": [
+        "upstream_pr"
+      ],
+      "ok": true,
+      "last_ts": "2026-09-22T13:40:22Z",
+      "providers": [],
+      "repo": "w1977-0/open-stream-saver",
+      "number": 3,
+      "title": "help-wanted: stake + contribute for #1",
       "state": "open"
     },
     {
@@ -508,7 +546,7 @@
       "state": "closed"
     }
   ],
-  "tribute_count": 27,
+  "tribute_count": 29,
   "issues": {
     "https://github.com/vedantnimbarte/zero/issues/72": [
       {
@@ -883,6 +921,30 @@
         "ok": true,
         "lane": "help-wanted-followup",
         "foreign": true
+      },
+      {
+        "ts": "2026-09-22T13:40:35Z",
+        "kind": "followup_skip_idempotent",
+        "issue": "https://github.com/vedantnimbarte/zero/pull/81",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true
+      },
+      {
+        "ts": "2026-09-22T16:56:39Z",
+        "kind": "followup_skip_idempotent",
+        "issue": "https://github.com/vedantnimbarte/zero/pull/81",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true
+      },
+      {
+        "ts": "2026-09-22T19:54:16Z",
+        "kind": "followup_skip_idempotent",
+        "issue": "https://github.com/vedantnimbarte/zero/pull/81",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true
       }
     ]
   },
@@ -903,7 +965,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "bf45b3eff90c568aab3b678900751a6ac2fda598",
+    "source_sha": "4ae5bb294b3f632c533126c3e1062ce96b2d51bd",
     "source_ref": "master",
     "history_complete": true,
     "history_count": 1,
@@ -936,12 +998,12 @@
   },
   "evolution": [
     {
-      "sha": "bf45b3eff90c568aab3b678900751a6ac2fda598",
-      "short_sha": "bf45b3eff90c",
-      "date": "2026-09-22T05:54:28-07:00",
+      "sha": "4ae5bb294b3f632c533126c3e1062ce96b2d51bd",
+      "short_sha": "4ae5bb294b3f",
+      "date": "2026-09-22T13:08:02-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #733 from timerloggedout-spec/feat/help-wanted-control-surface-v2",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/bf45b3eff90c568aab3b678900751a6ac2fda598"
+      "subject": "feat: extend dashboard sitemap surfaces (#748)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/4ae5bb294b3f632c533126c3e1062ce96b2d51bd"
     }
   ],
   "pipeline": [

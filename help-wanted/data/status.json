@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T22:27:28Z",
+  "generated_at": "2026-10-18T22:38:17Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 2821,
@@ -16,6 +16,15 @@
     "ok": 2821
   },
   "foreign_open_prs": [
+    {
+      "html_url": "https://github.com/SoroScan/soroscan/pull/1690",
+      "title": "help-wanted: stake + contribute for #1663",
+      "number": 1690,
+      "repo": "SoroScan/soroscan",
+      "state": "open",
+      "updated_at": "2026-10-18T22:36:35Z",
+      "tribute": true
+    },
     {
       "html_url": "https://github.com/CodeGirlsInc/FrieghtFlow/pull/1743",
       "title": "help-wanted: stake + contribute for #1717",
@@ -359,8 +368,21 @@
       "tribute": true
     }
   ],
-  "foreign_open_count": 38,
+  "foreign_open_count": 39,
   "tributes": [
+    {
+      "pr_url": "https://github.com/SoroScan/soroscan/pull/1690",
+      "kinds": [
+        "upstream_pr"
+      ],
+      "ok": true,
+      "last_ts": "2026-10-18T22:36:35Z",
+      "providers": [],
+      "repo": "SoroScan/soroscan",
+      "number": 1690,
+      "title": "help-wanted: stake + contribute for #1663",
+      "state": "open"
+    },
     {
       "pr_url": "https://github.com/vedantnimbarte/zero/pull/81",
       "kinds": [
@@ -4385,7 +4407,7 @@
       "providers": []
     }
   ],
-  "tribute_count": 104,
+  "tribute_count": 105,
   "issues": {
     "https://github.com/vedantnimbarte/zero/issues/72": [
       {
@@ -30446,7 +30468,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "9d7a6b20b33610adddcf2653adbd6a163866bbe9",
+    "source_sha": "ef87751f3a9f9a705f33961913c19b4a6e4275a1",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -30480,12 +30502,12 @@
   },
   "evolution": [
     {
-      "sha": "9d7a6b20b33610adddcf2653adbd6a163866bbe9",
-      "short_sha": "9d7a6b20b336",
-      "date": "2026-10-18T22:26:23Z",
+      "sha": "ef87751f3a9f9a705f33961913c19b4a6e4275a1",
+      "short_sha": "ef87751f3a9f",
+      "date": "2026-10-18T22:37:34Z",
       "author": "github-actions[bot]",
-      "subject": "ops(help-wanted): live status refresh 2026-10-18T22:26Z",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/9d7a6b20b33610adddcf2653adbd6a163866bbe9"
+      "subject": "ops(help-wanted): live status refresh 2026-10-18T22:37Z",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/ef87751f3a9f9a705f33961913c19b4a6e4275a1"
     }
   ],
   "pipeline": [

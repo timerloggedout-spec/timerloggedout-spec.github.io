@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T05:21:23Z",
+  "generated_at": "2026-10-19T06:03:52Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 2860,
@@ -30881,7 +30881,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "dacb6397723a0d48c894b9d656d5aa1c45e781f1",
+    "source_sha": "3c20cdf284fa33340ac9af1de6413dc71f17e548",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -30915,12 +30915,12 @@
   },
   "evolution": [
     {
-      "sha": "dacb6397723a0d48c894b9d656d5aa1c45e781f1",
-      "short_sha": "dacb6397723a",
-      "date": "2026-10-19T05:20:40Z",
-      "author": "github-actions[bot]",
-      "subject": "ops(help-wanted): live status refresh 2026-10-19T05:20Z",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/dacb6397723a0d48c894b9d656d5aa1c45e781f1"
+      "sha": "3c20cdf284fa33340ac9af1de6413dc71f17e548",
+      "short_sha": "3c20cdf284fa",
+      "date": "2026-10-18T23:02:48-07:00",
+      "author": "Founders' are 'found' to implement.",
+      "subject": "ci(pages): opt gh-pages artifact out of Vercel git deploys (#1251) [skip render]",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/3c20cdf284fa33340ac9af1de6413dc71f17e548"
     }
   ],
   "pipeline": [

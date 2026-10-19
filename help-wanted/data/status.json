@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T10:41:17Z",
+  "generated_at": "2026-10-19T11:54:56Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 2860,
@@ -13,8 +13,10 @@
     "followup_changes": 2
   },
   "outcomes": {
-    "ok": 2860
+    "actioned": 175,
+    "skipped": 2685
   },
+  "outcome_semantics": "actioned/skipped/failed are operational receipt states, not successful tribute counts",
   "foreign_open_prs": [
     {
       "html_url": "https://github.com/sorolens/sorolens/pull/753",
@@ -30868,7 +30870,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "daa6be60c10ca2ecc0418ad2e77b593bf2126dab",
+    "source_sha": "ba6543f85c797146f9aae97b155141f2979b4470",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -30902,12 +30904,12 @@
   },
   "evolution": [
     {
-      "sha": "daa6be60c10ca2ecc0418ad2e77b593bf2126dab",
-      "short_sha": "daa6be60c10c",
-      "date": "2026-10-19T03:40:35-07:00",
+      "sha": "ba6543f85c797146f9aae97b155141f2979b4470",
+      "short_sha": "ba6543f85c79",
+      "date": "2026-10-19T04:54:06-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "lane-compounding: live dashboard data (raw-first) + proposal registry entry (#1282)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/daa6be60c10ca2ecc0418ad2e77b593bf2126dab"
+      "subject": "feat(telemetry): automate audit outcomes and evidence-aware follow-up",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/ba6543f85c797146f9aae97b155141f2979b4470"
     }
   ],
   "pipeline": [

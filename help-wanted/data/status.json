@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T07:42:57Z",
+  "generated_at": "2026-10-19T09:19:25Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 2860,
@@ -30868,7 +30868,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "1f082d5134f0db65511c8c61e4cccf4f18feee5f",
+    "source_sha": "8c969995b2fd060b2a970bff3e6d3cfac1063154",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -30902,12 +30902,12 @@
   },
   "evolution": [
     {
-      "sha": "1f082d5134f0db65511c8c61e4cccf4f18feee5f",
-      "short_sha": "1f082d5134f0",
-      "date": "2026-10-19T07:42:14Z",
-      "author": "github-actions[bot]",
-      "subject": "ops(help-wanted): live status refresh 2026-10-19T07:42Z",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/1f082d5134f0db65511c8c61e4cccf4f18feee5f"
+      "sha": "8c969995b2fd060b2a970bff3e6d3cfac1063154",
+      "short_sha": "8c969995b2fd",
+      "date": "2026-10-19T02:17:31-07:00",
+      "author": "Founders' are 'found' to implement.",
+      "subject": "ci(vercel): path-scoped ignoreCommand for help-wanted-* and mcp-hub (#1272) [skip render]",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/8c969995b2fd060b2a970bff3e6d3cfac1063154"
     }
   ],
   "pipeline": [

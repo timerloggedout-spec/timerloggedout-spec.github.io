@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T09:19:25Z",
+  "generated_at": "2026-10-19T10:41:17Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 2860,
@@ -22,7 +22,7 @@
       "number": 753,
       "repo": "sorolens/sorolens",
       "state": "open",
-      "updated_at": "2026-10-19T05:19:54Z",
+      "updated_at": "2026-10-19T10:32:55Z",
       "tribute": true
     },
     {
@@ -376,7 +376,7 @@
         "upstream_pr"
       ],
       "ok": true,
-      "last_ts": "2026-10-19T05:19:54Z",
+      "last_ts": "2026-10-19T10:32:55Z",
       "providers": [],
       "repo": "sorolens/sorolens",
       "number": 753,
@@ -30868,7 +30868,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "8c969995b2fd060b2a970bff3e6d3cfac1063154",
+    "source_sha": "daa6be60c10ca2ecc0418ad2e77b593bf2126dab",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -30902,12 +30902,12 @@
   },
   "evolution": [
     {
-      "sha": "8c969995b2fd060b2a970bff3e6d3cfac1063154",
-      "short_sha": "8c969995b2fd",
-      "date": "2026-10-19T02:17:31-07:00",
+      "sha": "daa6be60c10ca2ecc0418ad2e77b593bf2126dab",
+      "short_sha": "daa6be60c10c",
+      "date": "2026-10-19T03:40:35-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "ci(vercel): path-scoped ignoreCommand for help-wanted-* and mcp-hub (#1272) [skip render]",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/8c969995b2fd060b2a970bff3e6d3cfac1063154"
+      "subject": "lane-compounding: live dashboard data (raw-first) + proposal registry entry (#1282)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/daa6be60c10ca2ecc0418ad2e77b593bf2126dab"
     }
   ],
   "pipeline": [

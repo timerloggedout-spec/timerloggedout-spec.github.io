@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T11:38:09Z",
+  "generated_at": "2026-10-20T12:34:39Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3153,
@@ -33820,7 +33820,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "5fd8e8dc108324a9b3862b9f98873d5f3771dd89",
+    "source_sha": "2194a62192dce89e3dedbb3142418aad06d6fab9",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -33854,12 +33854,12 @@
   },
   "evolution": [
     {
-      "sha": "5fd8e8dc108324a9b3862b9f98873d5f3771dd89",
-      "short_sha": "5fd8e8dc1083",
-      "date": "2026-10-20T11:37:28Z",
-      "author": "github-actions[bot]",
-      "subject": "ops(help-wanted): live status refresh 2026-10-20T11:37Z",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/5fd8e8dc108324a9b3862b9f98873d5f3771dd89"
+      "sha": "2194a62192dce89e3dedbb3142418aad06d6fab9",
+      "short_sha": "2194a62192dc",
+      "date": "2026-10-20T05:31:00-07:00",
+      "author": "Founders' are 'found' to implement.",
+      "subject": "fix(ops): reduce quota waste from unrelated Vercel builds",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/2194a62192dce89e3dedbb3142418aad06d6fab9"
     }
   ],
   "pipeline": [

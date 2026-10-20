@@ -1,23 +1,32 @@
 {
-  "generated_at": "2026-10-20T17:04:33Z",
+  "generated_at": "2026-10-20T20:10:25Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
-  "receipts": 3229,
+  "receipts": 3268,
   "kinds": {
     "upstream_pr": 12,
     "claim_skipped_closed": 1,
     "followup_skip_idempotent": 35,
-    "followup_skip_cooldown": 3006,
+    "followup_skip_cooldown": 3043,
     "followup_reengage": 50,
-    "followup_stale_nudge": 123,
+    "followup_stale_nudge": 125,
     "followup_changes": 2
   },
   "outcomes": {
-    "actioned": 187,
-    "skipped": 3042
+    "actioned": 189,
+    "skipped": 3079
   },
   "outcome_semantics": "actioned/skipped/failed are operational receipt states, not successful tribute counts",
   "foreign_open_prs": [
+    {
+      "html_url": "https://github.com/SO4-Markets/interface/pull/1029",
+      "title": "help-wanted: stake + contribute for #918",
+      "number": 1029,
+      "repo": "SO4-Markets/interface",
+      "state": "open",
+      "updated_at": "2026-10-20T20:08:40Z",
+      "tribute": true
+    },
     {
       "html_url": "https://github.com/use-assay/Assay/pull/509",
       "title": "help-wanted: stake + contribute for #305",
@@ -87,7 +96,7 @@
       "number": 1990,
       "repo": "LabsCrypt/remitlend",
       "state": "open",
-      "updated_at": "2026-10-17T18:50:23Z",
+      "updated_at": "2026-10-20T20:09:05Z",
       "tribute": true
     },
     {
@@ -168,7 +177,7 @@
       "number": 547,
       "repo": "traceopt-ai/traceml",
       "state": "open",
-      "updated_at": "2026-10-17T18:50:48Z",
+      "updated_at": "2026-10-20T20:09:16Z",
       "tribute": true
     },
     {
@@ -361,7 +370,7 @@
       "tribute": true
     }
   ],
-  "foreign_open_count": 38,
+  "foreign_open_count": 39,
   "tributes": [
     {
       "pr_url": "https://github.com/E-Timileyin/Sail-CLI/pull/23",
@@ -483,10 +492,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "E-Timileyin/Sail-CLI",
       "number": 23,
@@ -612,10 +622,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "Kilo-Org/agentic-path",
       "number": 26,
@@ -741,10 +752,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_stale_nudge",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "mangiapanejohn-dev/MOBIUS-Searcher",
       "number": 7,
@@ -869,10 +881,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "w1977-0/open-stream-saver",
       "number": 3,
@@ -997,10 +1010,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "Vasudev-ai/Focusflow",
       "number": 15,
@@ -1125,10 +1139,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "OrionStarAI/EasyCode",
       "number": 53,
@@ -1249,10 +1264,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "ThinkLikeAFounder/pulsartrack",
       "number": 898,
@@ -1370,10 +1386,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "MergeFi/contracts",
       "number": 374,
@@ -1490,10 +1507,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "EF-CHAIN/SendAm",
       "number": 492,
@@ -1603,10 +1621,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
-        "followup_stale_nudge"
+        "followup_stale_nudge",
+        "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "Heliobond/frontend",
       "number": 614,
@@ -1715,10 +1734,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "EF-CHAIN/SendAm",
       "number": 607,
@@ -1826,10 +1846,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "SO4-Markets/so4-oracle",
       "number": 1143,
@@ -1935,10 +1956,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "StellarLock/StellarLock",
       "number": 865,
@@ -2040,10 +2062,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "KayStcx/KayStcx",
       "number": 104,
@@ -2142,10 +2165,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "TrusTrove/TrusTrove-contract",
       "number": 860,
@@ -2238,10 +2262,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "laugh-tales/starpass-contracts",
       "number": 59,
@@ -2329,10 +2354,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
-        "followup_stale_nudge"
+        "followup_stale_nudge",
+        "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "Saidur-droid/MergeEarn",
       "number": 76,
@@ -2412,10 +2438,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "TricklePay/tricklepay-backend",
       "number": 441,
@@ -2491,10 +2518,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_stale_nudge",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "fsr5-fhaachen/portals",
       "number": 948,
@@ -2565,10 +2593,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "ROCm/rocm-libraries",
       "number": 13152,
@@ -2638,10 +2667,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "topoteretes/cognee",
       "number": 5439,
@@ -2704,10 +2734,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
-        "followup_skip_cooldown"
+        "followup_skip_cooldown",
+        "followup_stale_nudge"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "traceopt-ai/traceml",
       "number": 547,
@@ -2768,10 +2799,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "Suhas29wasnotavailable/blroad",
       "number": 12,
@@ -2830,10 +2862,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "MMALI3287/vibewatt",
       "number": 100,
@@ -2884,10 +2917,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "apache/hugegraph-computer",
       "number": 365,
@@ -2935,10 +2969,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "ciaren-labs/Ciaren",
       "number": 234,
@@ -2977,10 +3012,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "finos/fluxnova-bpm-platform",
       "number": 352,
@@ -3016,10 +3052,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "ShippedLabs/soroban-upgrade-safeguard",
       "number": 781,
@@ -3048,10 +3085,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "stellar-compliance-kit/compliance-primitives",
       "number": 656,
@@ -3079,10 +3117,11 @@
         "followup_stale_nudge",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "Health-watchers/health_watchers",
       "number": 1698,
@@ -3106,10 +3145,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
-        "followup_skip_cooldown"
+        "followup_skip_cooldown",
+        "followup_stale_nudge"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "LabsCrypt/remitlend",
       "number": 1990,
@@ -3132,10 +3172,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "RetinaX-Org/RetinaX",
       "number": 352,
@@ -3156,10 +3197,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "0xLizTech/stellarforge",
       "number": 614,
@@ -3179,10 +3221,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "SoroScan/soroscan",
       "number": 1690,
@@ -3201,10 +3244,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "sorolens/sorolens",
       "number": 753,
@@ -3220,10 +3264,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "francordel/kdemos",
       "number": 27,
@@ -3236,10 +3281,11 @@
         "followup_skip_cooldown",
         "followup_skip_cooldown",
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "seleniumboot/selenium-boot",
       "number": 183,
@@ -3250,14 +3296,28 @@
       "pr_url": "https://github.com/use-assay/Assay/pull/509",
       "kinds": [
         "followup_skip_cooldown",
+        "followup_skip_cooldown",
         "followup_skip_cooldown"
       ],
       "ok": true,
-      "last_ts": "2026-10-20T17:01:52Z",
+      "last_ts": "2026-10-20T20:08:53Z",
       "providers": [],
       "repo": "use-assay/Assay",
       "number": 509,
       "title": "help-wanted: stake + contribute for #305",
+      "state": "open"
+    },
+    {
+      "pr_url": "https://github.com/SO4-Markets/interface/pull/1029",
+      "kinds": [
+        "followup_skip_cooldown"
+      ],
+      "ok": true,
+      "last_ts": "2026-10-20T20:08:53Z",
+      "providers": [],
+      "repo": "SO4-Markets/interface",
+      "number": 1029,
+      "title": "help-wanted: stake + contribute for #918",
       "state": "open"
     },
     {
@@ -4834,7 +4894,7 @@
       "providers": []
     }
   ],
-  "tribute_count": 109,
+  "tribute_count": 110,
   "issues": {
     "https://github.com/vedantnimbarte/zero/issues/72": [
       {
@@ -7319,6 +7379,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/w1977-0/open-stream-saver/pull/3",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/umn-adc/ATLAS/pull/42": [
@@ -8855,6 +8924,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/Vasudev-ai/Focusflow/pull/15",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/bmad-code-org/bmad-loop/pull/819": [
@@ -10197,6 +10275,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/Kilo-Org/agentic-path/pull/26",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/mangiapanejohn-dev/MOBIUS-Searcher/pull/7": [
@@ -11303,6 +11390,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/mangiapanejohn-dev/MOBIUS-Searcher/pull/7",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/E-Timileyin/Sail-CLI/pull/23": [
@@ -12361,6 +12457,15 @@
       },
       {
         "ts": "2026-10-20T17:01:52Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/E-Timileyin/Sail-CLI/pull/23",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
         "kind": "followup_skip_cooldown",
         "issue": "https://github.com/E-Timileyin/Sail-CLI/pull/23",
         "ok": true,
@@ -13895,6 +14000,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/OrionStarAI/EasyCode/pull/53",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/C-Address-Onboarding-Bridge/C-Address-Onboarding-Bridge-Backend/pull/587": [
@@ -15024,6 +15138,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/ThinkLikeAFounder/pulsartrack/pull/898",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/vavallee/bindery/pull/2770": [
@@ -16039,6 +16162,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/MergeFi/contracts/pull/374",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/EF-CHAIN/SendAm/pull/492": [
@@ -17022,6 +17154,15 @@
       },
       {
         "ts": "2026-10-20T17:01:52Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/EF-CHAIN/SendAm/pull/492",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
         "kind": "followup_skip_cooldown",
         "issue": "https://github.com/EF-CHAIN/SendAm/pull/492",
         "ok": true,
@@ -18257,6 +18398,15 @@
         "action": "stale_nudge",
         "has_contributing": true,
         "url_count": 13
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/Heliobond/frontend/pull/614",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/EF-CHAIN/SendAm/pull/607": [
@@ -19168,6 +19318,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/EF-CHAIN/SendAm/pull/607",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/SO4-Markets/so4-oracle/pull/1143": [
@@ -20070,6 +20229,15 @@
       },
       {
         "ts": "2026-10-20T17:01:52Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/SO4-Markets/so4-oracle/pull/1143",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
         "kind": "followup_skip_cooldown",
         "issue": "https://github.com/SO4-Markets/so4-oracle/pull/1143",
         "ok": true,
@@ -21091,6 +21259,15 @@
       },
       {
         "ts": "2026-10-20T17:01:52Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/StellarLock/StellarLock/pull/865",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
         "kind": "followup_skip_cooldown",
         "issue": "https://github.com/StellarLock/StellarLock/pull/865",
         "ok": true,
@@ -22177,6 +22354,15 @@
       },
       {
         "ts": "2026-10-20T17:01:52Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/KayStcx/KayStcx/pull/104",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
         "kind": "followup_skip_cooldown",
         "issue": "https://github.com/KayStcx/KayStcx/pull/104",
         "ok": true,
@@ -23671,6 +23857,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/TrusTrove/TrusTrove-contract/pull/860",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/StellarCanary/Protocol-Canary/pull/345": [
@@ -24921,6 +25116,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/laugh-tales/starpass-contracts/pull/59",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/arsova-mx/OpenPoker/pull/69": [
@@ -25728,6 +25932,15 @@
         "action": "stale_nudge",
         "has_contributing": true,
         "url_count": 3
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/Saidur-droid/MergeEarn/pull/76",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/dentalpin/dentalpin/pull/591": [
@@ -27261,6 +27474,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/TricklePay/tricklepay-backend/pull/441",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/Magiclovekorean/unbloarchy/pull/5": [
@@ -27930,6 +28152,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/fsr5-fhaachen/portals/pull/948",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/amponce/archive-movie-browser/pull/437": [
@@ -28530,6 +28761,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/ROCm/rocm-libraries/pull/13152",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/topoteretes/cognee/pull/5439": [
@@ -29090,6 +29330,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/topoteretes/cognee/pull/5439",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/aHuddini/UniPlaySong/pull/101": [
@@ -29624,6 +29873,18 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_stale_nudge",
+        "issue": "https://github.com/traceopt-ai/traceml/pull/547",
+        "ok": true,
+        "comment_url": "https://github.com/traceopt-ai/traceml/pull/547#issuecomment-6300396191",
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "stale_nudge",
+        "has_contributing": true,
+        "url_count": 5
       }
     ],
     "https://github.com/Local-Settle/local-settle-frontend/pull/4": [
@@ -30477,6 +30738,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/Suhas29wasnotavailable/blroad/pull/12",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/MMALI3287/vibewatt/pull/100": [
@@ -30929,6 +31199,15 @@
       },
       {
         "ts": "2026-10-20T17:01:52Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/MMALI3287/vibewatt/pull/100",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
         "kind": "followup_skip_cooldown",
         "issue": "https://github.com/MMALI3287/vibewatt/pull/100",
         "ok": true,
@@ -31522,6 +31801,15 @@
       },
       {
         "ts": "2026-10-20T17:01:52Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/apache/hugegraph-computer/pull/365",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
         "kind": "followup_skip_cooldown",
         "issue": "https://github.com/apache/hugegraph-computer/pull/365",
         "ok": true,
@@ -32194,6 +32482,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/ciaren-labs/Ciaren/pull/234",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/MyFanss/MyFans/pull/2056": [
@@ -32756,6 +33053,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/finos/fluxnova-bpm-platform/pull/352",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/use-assay/Assay/pull/348": [
@@ -33078,6 +33384,15 @@
       },
       {
         "ts": "2026-10-20T17:01:52Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/ShippedLabs/soroban-upgrade-safeguard/pull/781",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
         "kind": "followup_skip_cooldown",
         "issue": "https://github.com/ShippedLabs/soroban-upgrade-safeguard/pull/781",
         "ok": true,
@@ -33538,6 +33853,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/stellar-compliance-kit/compliance-primitives/pull/656",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/Health-watchers/health_watchers/pull/1698": [
@@ -33708,6 +34032,15 @@
       },
       {
         "ts": "2026-10-20T17:01:52Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/Health-watchers/health_watchers/pull/1698",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
         "kind": "followup_skip_cooldown",
         "issue": "https://github.com/Health-watchers/health_watchers/pull/1698",
         "ok": true,
@@ -33990,6 +34323,18 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_stale_nudge",
+        "issue": "https://github.com/LabsCrypt/remitlend/pull/1990",
+        "ok": true,
+        "comment_url": "https://github.com/LabsCrypt/remitlend/pull/1990#issuecomment-6300392865",
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "stale_nudge",
+        "has_contributing": true,
+        "url_count": 1
       }
     ],
     "https://github.com/xtekky/gpt4free/pull/3541": [
@@ -34138,6 +34483,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/RetinaX-Org/RetinaX/pull/352",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/CodeGirlsInc/FrieghtFlow/pull/1743": [
@@ -34268,6 +34622,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/0xLizTech/stellarforge/pull/614",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/SoroScan/soroscan/pull/1690": [
@@ -34369,6 +34732,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/SoroScan/soroscan/pull/1690",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/sorolens/sorolens/pull/753": [
@@ -34461,6 +34833,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/sorolens/sorolens/pull/753",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/StellarFoundry/soroban-security-scanner/pull/200": [
@@ -34537,6 +34918,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/francordel/kdemos/pull/27",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/seleniumboot/selenium-boot/pull/183": [
@@ -34575,6 +34965,15 @@
         "lane": "help-wanted-followup",
         "foreign": true,
         "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/seleniumboot/selenium-boot/pull/183",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
       }
     ],
     "https://github.com/use-assay/Assay/pull/509": [
@@ -34591,6 +34990,26 @@
         "ts": "2026-10-20T17:01:52Z",
         "kind": "followup_skip_cooldown",
         "issue": "https://github.com/use-assay/Assay/pull/509",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
+      },
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/use-assay/Assay/pull/509",
+        "ok": true,
+        "lane": "help-wanted-followup",
+        "foreign": true,
+        "action": "skip"
+      }
+    ],
+    "https://github.com/SO4-Markets/interface/pull/1029": [
+      {
+        "ts": "2026-10-20T20:08:53Z",
+        "kind": "followup_skip_cooldown",
+        "issue": "https://github.com/SO4-Markets/interface/pull/1029",
         "ok": true,
         "lane": "help-wanted-followup",
         "foreign": true,
@@ -34615,7 +35034,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "541c707087ff27e074f658bbe297db1a81f8eb5c",
+    "source_sha": "27e0432a2c78eba2efbed124685139658d37dfd7",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -34649,12 +35068,12 @@
   },
   "evolution": [
     {
-      "sha": "541c707087ff27e074f658bbe297db1a81f8eb5c",
-      "short_sha": "541c707087ff",
-      "date": "2026-10-20T17:03:50Z",
+      "sha": "27e0432a2c78eba2efbed124685139658d37dfd7",
+      "short_sha": "27e0432a2c78",
+      "date": "2026-10-20T20:09:41Z",
       "author": "github-actions[bot]",
-      "subject": "ops(help-wanted): live status refresh 2026-10-20T17:03Z",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/541c707087ff27e074f658bbe297db1a81f8eb5c"
+      "subject": "ops(help-wanted): live status refresh 2026-10-20T20:09Z",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/27e0432a2c78eba2efbed124685139658d37dfd7"
     }
   ],
   "pipeline": [

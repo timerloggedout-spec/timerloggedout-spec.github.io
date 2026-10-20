@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T20:33:42Z",
+  "generated_at": "2026-10-20T21:38:34Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3268,
@@ -43,15 +43,6 @@
       "repo": "seleniumboot/selenium-boot",
       "state": "open",
       "updated_at": "2026-10-20T05:18:00Z",
-      "tribute": true
-    },
-    {
-      "html_url": "https://github.com/francordel/kdemos/pull/27",
-      "title": "help-wanted: stake + contribute for #26",
-      "number": 27,
-      "repo": "francordel/kdemos",
-      "state": "open",
-      "updated_at": "2026-10-19T21:15:24Z",
       "tribute": true
     },
     {
@@ -370,7 +361,7 @@
       "tribute": true
     }
   ],
-  "foreign_open_count": 39,
+  "foreign_open_count": 38,
   "tributes": [
     {
       "pr_url": "https://github.com/E-Timileyin/Sail-CLI/pull/23",
@@ -3273,7 +3264,7 @@
       "repo": "francordel/kdemos",
       "number": 27,
       "title": "help-wanted: stake + contribute for #26",
-      "state": "open"
+      "state": "closed"
     },
     {
       "pr_url": "https://github.com/seleniumboot/selenium-boot/pull/183",
@@ -4681,11 +4672,7 @@
       ],
       "ok": true,
       "last_ts": "2026-09-30T08:32:55Z",
-      "providers": [],
-      "repo": "tarantool/tarantool",
-      "number": 13285,
-      "title": "help-wanted: stake + contribute for #13284",
-      "state": "closed"
+      "providers": []
     },
     {
       "pr_url": "https://github.com/inferstep/ATLAS/pull/278",
@@ -35034,7 +35021,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "42a72f2b12361dbf1be465a5711f5fd2f41e7c3d",
+    "source_sha": "ed2ab069b77672baac8ee81e6d594e46a160ca4a",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -35068,12 +35055,12 @@
   },
   "evolution": [
     {
-      "sha": "42a72f2b12361dbf1be465a5711f5fd2f41e7c3d",
-      "short_sha": "42a72f2b1236",
-      "date": "2026-10-20T20:32:57Z",
+      "sha": "ed2ab069b77672baac8ee81e6d594e46a160ca4a",
+      "short_sha": "ed2ab069b776",
+      "date": "2026-10-20T21:37:54Z",
       "author": "github-actions[bot]",
-      "subject": "ops(help-wanted): live status refresh 2026-10-20T20:32Z",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/42a72f2b12361dbf1be465a5711f5fd2f41e7c3d"
+      "subject": "ops(help-wanted): live status refresh 2026-10-20T21:37Z",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/ed2ab069b77672baac8ee81e6d594e46a160ca4a"
     }
   ],
   "pipeline": [

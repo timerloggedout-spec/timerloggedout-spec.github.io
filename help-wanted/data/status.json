@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T05:59:21Z",
+  "generated_at": "2026-10-20T11:29:02Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3116,
@@ -3475,11 +3475,7 @@
       ],
       "ok": true,
       "last_ts": "2026-10-18T04:31:11Z",
-      "providers": [],
-      "repo": "Local-Settle/local-settle-frontend",
-      "number": 4,
-      "title": "help-wanted: stake + contribute for #1",
-      "state": "closed"
+      "providers": []
     },
     {
       "pr_url": "https://github.com/Local-Settle/local-settle-backend/pull/127",
@@ -3497,11 +3493,7 @@
       ],
       "ok": true,
       "last_ts": "2026-10-18T04:31:11Z",
-      "providers": [],
-      "repo": "Local-Settle/local-settle-backend",
-      "number": 127,
-      "title": "help-wanted: stake + contribute for #2",
-      "state": "closed"
+      "providers": []
     },
     {
       "pr_url": "https://github.com/xtekky/gpt4free/pull/3541",
@@ -4495,7 +4487,24 @@
       ],
       "ok": true,
       "last_ts": "2026-09-30T08:32:55Z",
-      "providers": []
+      "providers": [],
+      "repo": "tarantool/tarantool",
+      "number": 13285,
+      "title": "help-wanted: stake + contribute for #13284",
+      "state": "closed"
+    },
+    {
+      "pr_url": "https://github.com/inferstep/ATLAS/pull/278",
+      "kinds": [
+        "upstream_pr"
+      ],
+      "ok": true,
+      "last_ts": "2026-09-29T21:08:36Z",
+      "providers": [],
+      "repo": "inferstep/ATLAS",
+      "number": 278,
+      "title": "help-wanted: stake + contribute for #277",
+      "state": "closed"
     },
     {
       "pr_url": "https://github.com/bmad-code-org/bmad-loop/pull/819",
@@ -4691,7 +4700,7 @@
       "providers": []
     }
   ],
-  "tribute_count": 107,
+  "tribute_count": 108,
   "issues": {
     "https://github.com/vedantnimbarte/zero/issues/72": [
       {
@@ -33441,7 +33450,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "e17f3254ef1481225c8b0182d6a191dfb36f04d3",
+    "source_sha": "9bf2dfa04037803a6442f94f2abd1db5bb9dd86e",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -33475,12 +33484,12 @@
   },
   "evolution": [
     {
-      "sha": "e17f3254ef1481225c8b0182d6a191dfb36f04d3",
-      "short_sha": "e17f3254ef14",
-      "date": "2026-10-20T05:58:41Z",
+      "sha": "9bf2dfa04037803a6442f94f2abd1db5bb9dd86e",
+      "short_sha": "9bf2dfa04037",
+      "date": "2026-10-20T11:28:21Z",
       "author": "github-actions[bot]",
-      "subject": "ops(help-wanted): live status refresh 2026-10-20T05:58Z",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/e17f3254ef1481225c8b0182d6a191dfb36f04d3"
+      "subject": "ops(help-wanted): live status refresh 2026-10-20T11:28Z",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/9bf2dfa04037803a6442f94f2abd1db5bb9dd86e"
     }
   ],
   "pipeline": [

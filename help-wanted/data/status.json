@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T23:11:28Z",
+  "generated_at": "2026-10-20T23:25:52Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3268,
@@ -18,6 +18,15 @@
   },
   "outcome_semantics": "actioned/skipped/failed are operational receipt states, not successful tribute counts",
   "foreign_open_prs": [
+    {
+      "html_url": "https://github.com/C-Address-Onboarding-Bridge/C-Address-Onboarding-Bridge--Frontend-/pull/971",
+      "title": "help-wanted: stake + contribute for #901",
+      "number": 971,
+      "repo": "C-Address-Onboarding-Bridge/C-Address-Onboarding-Bridge--Frontend-",
+      "state": "open",
+      "updated_at": "2026-10-20T23:24:28Z",
+      "tribute": true
+    },
     {
       "html_url": "https://github.com/SO4-Markets/interface/pull/1029",
       "title": "help-wanted: stake + contribute for #918",
@@ -78,7 +87,7 @@
       "number": 352,
       "repo": "RetinaX-Org/RetinaX",
       "state": "open",
-      "updated_at": "2026-10-17T22:40:27Z",
+      "updated_at": "2026-10-20T23:24:49Z",
       "tribute": true
     },
     {
@@ -123,7 +132,7 @@
       "number": 352,
       "repo": "finos/fluxnova-bpm-platform",
       "state": "open",
-      "updated_at": "2026-10-17T22:17:08Z",
+      "updated_at": "2026-10-20T23:24:54Z",
       "tribute": true
     },
     {
@@ -141,7 +150,7 @@
       "number": 365,
       "repo": "apache/hugegraph-computer",
       "state": "open",
-      "updated_at": "2026-10-17T22:17:12Z",
+      "updated_at": "2026-10-20T23:24:57Z",
       "tribute": true
     },
     {
@@ -361,8 +370,21 @@
       "tribute": true
     }
   ],
-  "foreign_open_count": 38,
+  "foreign_open_count": 39,
   "tributes": [
+    {
+      "pr_url": "https://github.com/C-Address-Onboarding-Bridge/C-Address-Onboarding-Bridge--Frontend-/pull/971",
+      "kinds": [
+        "upstream_pr"
+      ],
+      "ok": true,
+      "last_ts": "2026-10-20T23:24:28Z",
+      "providers": [],
+      "repo": "C-Address-Onboarding-Bridge/C-Address-Onboarding-Bridge--Frontend-",
+      "number": 971,
+      "title": "help-wanted: stake + contribute for #901",
+      "state": "open"
+    },
     {
       "pr_url": "https://github.com/E-Timileyin/Sail-CLI/pull/23",
       "kinds": [
@@ -4881,7 +4903,7 @@
       "providers": []
     }
   ],
-  "tribute_count": 110,
+  "tribute_count": 111,
   "issues": {
     "https://github.com/vedantnimbarte/zero/issues/72": [
       {
@@ -35021,7 +35043,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "74b25aaa2124b4f124b642b9e88442e7a398db9f",
+    "source_sha": "5f475d8c5370f1b7214d4629c9089b25a3b5e077",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -35055,12 +35077,12 @@
   },
   "evolution": [
     {
-      "sha": "74b25aaa2124b4f124b642b9e88442e7a398db9f",
-      "short_sha": "74b25aaa2124",
-      "date": "2026-10-20T16:10:08-07:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "feat(quota): live quota panel on the Tribute dashboard \u2014 full registry, readings-fed, linked",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/74b25aaa2124b4f124b642b9e88442e7a398db9f"
+      "sha": "5f475d8c5370f1b7214d4629c9089b25a3b5e077",
+      "short_sha": "5f475d8c5370",
+      "date": "2026-10-20T23:25:11Z",
+      "author": "github-actions[bot]",
+      "subject": "ops(help-wanted): live status refresh 2026-10-20T23:25Z",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/5f475d8c5370f1b7214d4629c9089b25a3b5e077"
     }
   ],
   "pipeline": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T12:57:09Z",
+  "generated_at": "2026-10-21T13:22:52Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3382,
@@ -36168,7 +36168,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "642bec4477c033ed600178624a0d3c472a35e0dc",
+    "source_sha": "ecb5b73fbcaf76ad7f23bc75937a213911f6566d",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -36202,12 +36202,12 @@
   },
   "evolution": [
     {
-      "sha": "642bec4477c033ed600178624a0d3c472a35e0dc",
-      "short_sha": "642bec4477c0",
-      "date": "2026-10-21T05:56:22-07:00",
+      "sha": "ecb5b73fbcaf76ad7f23bc75937a213911f6566d",
+      "short_sha": "ecb5b73fbcaf",
+      "date": "2026-10-21T06:21:50-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "feat(providers): add legally held offline Typhoon protocol (#1468)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/642bec4477c033ed600178624a0d3c472a35e0dc"
+      "subject": "Merge pull request #1471 from timerloggedout-spec/cue/provider-operational-batch-20261021",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/ecb5b73fbcaf76ad7f23bc75937a213911f6566d"
     }
   ],
   "pipeline": [

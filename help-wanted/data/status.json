@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T05:22:32Z",
+  "generated_at": "2026-10-21T05:28:41Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3345,
@@ -35811,7 +35811,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "55b60cbd596807e01b9ae4a4e2c63a434a87aef0",
+    "source_sha": "8bd01dad253184ee6f8a61c64c210901abe72e99",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -35845,12 +35845,12 @@
   },
   "evolution": [
     {
-      "sha": "55b60cbd596807e01b9ae4a4e2c63a434a87aef0",
-      "short_sha": "55b60cbd5968",
-      "date": "2026-10-21T05:20:49Z",
-      "author": "github-actions[bot]",
-      "subject": "ops(help-wanted): live status refresh 2026-10-21T05:20Z",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/55b60cbd596807e01b9ae4a4e2c63a434a87aef0"
+      "sha": "8bd01dad253184ee6f8a61c64c210901abe72e99",
+      "short_sha": "8bd01dad2531",
+      "date": "2026-10-20T22:28:00-07:00",
+      "author": "Founders' are 'found' to implement.",
+      "subject": "ops: batch Vercel deploys (changed projects only, quota-aware, priority-ordered) (#1413)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/8bd01dad253184ee6f8a61c64c210901abe72e99"
     }
   ],
   "pipeline": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T03:23:21Z",
+  "generated_at": "2026-10-21T04:37:28Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3307,
@@ -35402,7 +35402,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "e5d061974ff9f6dd3884a8f983b5b446d07eacb6",
+    "source_sha": "119984e63ebde62050d60fe1f664cbafc2b601c1",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -35436,12 +35436,12 @@
   },
   "evolution": [
     {
-      "sha": "e5d061974ff9f6dd3884a8f983b5b446d07eacb6",
-      "short_sha": "e5d061974ff9",
-      "date": "2026-10-20T20:22:41-07:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "fix(dashboard): restore the quota panel link lost in the control-surface redesign (#1396)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/e5d061974ff9f6dd3884a8f983b5b446d07eacb6"
+      "sha": "119984e63ebde62050d60fe1f664cbafc2b601c1",
+      "short_sha": "119984e63ebd",
+      "date": "2026-10-21T04:36:48Z",
+      "author": "github-actions[bot]",
+      "subject": "ops(help-wanted): live status refresh 2026-10-21T04:36Z",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/119984e63ebde62050d60fe1f664cbafc2b601c1"
     }
   ],
   "pipeline": [

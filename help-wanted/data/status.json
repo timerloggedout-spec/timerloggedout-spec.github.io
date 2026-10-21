@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T20:24:42Z",
+  "generated_at": "2026-10-21T23:18:14Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3531,
@@ -69,7 +69,7 @@
       "number": 1690,
       "repo": "SoroScan/soroscan",
       "state": "open",
-      "updated_at": "2026-10-18T22:36:35Z",
+      "updated_at": "2026-10-21T23:18:11Z",
       "tribute": true
     },
     {
@@ -123,7 +123,7 @@
       "number": 781,
       "repo": "ShippedLabs/soroban-upgrade-safeguard",
       "state": "open",
-      "updated_at": "2026-10-21T18:37:59Z",
+      "updated_at": "2026-10-21T23:14:35Z",
       "tribute": true
     },
     {
@@ -204,7 +204,7 @@
       "number": 441,
       "repo": "TricklePay/tricklepay-backend",
       "state": "open",
-      "updated_at": "2026-10-19T13:12:16Z",
+      "updated_at": "2026-10-21T22:46:59Z",
       "tribute": true
     },
     {
@@ -37693,7 +37693,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "1c2caad75011d7a8f3fe40f60ecb3051d88684e5",
+    "source_sha": "0522f6aa4a091be6a11f60a81f1d4f2f6e0cf666",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -37727,12 +37727,12 @@
   },
   "evolution": [
     {
-      "sha": "1c2caad75011d7a8f3fe40f60ecb3051d88684e5",
-      "short_sha": "1c2caad75011",
-      "date": "2026-10-21T20:22:58Z",
+      "sha": "0522f6aa4a091be6a11f60a81f1d4f2f6e0cf666",
+      "short_sha": "0522f6aa4a09",
+      "date": "2026-10-21T23:17:35Z",
       "author": "github-actions[bot]",
-      "subject": "ops(help-wanted): live status refresh 2026-10-21T20:22Z",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/1c2caad75011d7a8f3fe40f60ecb3051d88684e5"
+      "subject": "ops(help-wanted): live status refresh 2026-10-21T23:17Z",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/0522f6aa4a091be6a11f60a81f1d4f2f6e0cf666"
     }
   ],
   "pipeline": [

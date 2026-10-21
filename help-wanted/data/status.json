@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T00:40:33Z",
+  "generated_at": "2026-10-21T00:44:46Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3307,
@@ -35437,7 +35437,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "3cd6a50107e77e4611db026cfa1013f5da7a4788",
+    "source_sha": "7fd4a2ae24d6b3a10f3c727c6cbda5c8977714da",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -35471,12 +35471,12 @@
   },
   "evolution": [
     {
-      "sha": "3cd6a50107e77e4611db026cfa1013f5da7a4788",
-      "short_sha": "3cd6a50107e7",
-      "date": "2026-10-21T00:39:43Z",
-      "author": "github-actions[bot]",
-      "subject": "ops(help-wanted): live status refresh 2026-10-21T00:39Z",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/3cd6a50107e77e4611db026cfa1013f5da7a4788"
+      "sha": "7fd4a2ae24d6b3a10f3c727c6cbda5c8977714da",
+      "short_sha": "7fd4a2ae24d6",
+      "date": "2026-10-20T17:43:31-07:00",
+      "author": "Founders' are 'found' to implement.",
+      "subject": "\ud83c\udfa8 Palette: UX and accessibility improvements for dashboard and Termux cockpit (rebased #1151) (#1351)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/7fd4a2ae24d6b3a10f3c727c6cbda5c8977714da"
     }
   ],
   "pipeline": [

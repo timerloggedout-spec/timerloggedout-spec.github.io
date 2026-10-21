@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T18:40:54Z",
+  "generated_at": "2026-10-21T20:07:25Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3494,
@@ -18,15 +18,6 @@
   },
   "outcome_semantics": "actioned/skipped/failed are operational receipt states, not successful tribute counts",
   "foreign_open_prs": [
-    {
-      "html_url": "https://github.com/zh-95/fronte-rivoluzionario/pull/59",
-      "title": "help-wanted: stake + contribute for #9",
-      "number": 59,
-      "repo": "zh-95/fronte-rivoluzionario",
-      "state": "open",
-      "updated_at": "2026-10-21T14:08:16Z",
-      "tribute": true
-    },
     {
       "html_url": "https://github.com/C-Address-Onboarding-Bridge/C-Address-Onboarding-Bridge--Frontend-/pull/971",
       "title": "help-wanted: stake + contribute for #901",
@@ -352,7 +343,7 @@
       "tribute": true
     }
   ],
-  "foreign_open_count": 37,
+  "foreign_open_count": 36,
   "tributes": [
     {
       "pr_url": "https://github.com/E-Timileyin/Sail-CLI/pull/23",
@@ -3324,7 +3315,7 @@
       "repo": "zh-95/fronte-rivoluzionario",
       "number": 59,
       "title": "help-wanted: stake + contribute for #9",
-      "state": "open"
+      "state": "closed"
     },
     {
       "pr_url": "https://github.com/Heliobond/frontend/pull/614",
@@ -4818,11 +4809,7 @@
       ],
       "ok": true,
       "last_ts": "2026-10-02T05:35:25Z",
-      "providers": [],
-      "repo": "kawacukennedy/afrpoweros",
-      "number": 40,
-      "title": "help-wanted: stake + contribute for #5",
-      "state": "closed"
+      "providers": []
     },
     {
       "pr_url": "https://github.com/LibreUML/LibreUML/pull/130",
@@ -37301,7 +37288,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "fe6a138df50913758bb820e87a447aa53fc70fb3",
+    "source_sha": "f20631bf05508d017c005cc3a05d13ac52b382de",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -37335,12 +37322,12 @@
   },
   "evolution": [
     {
-      "sha": "fe6a138df50913758bb820e87a447aa53fc70fb3",
-      "short_sha": "fe6a138df509",
-      "date": "2026-10-21T18:40:12Z",
+      "sha": "f20631bf05508d017c005cc3a05d13ac52b382de",
+      "short_sha": "f20631bf0550",
+      "date": "2026-10-21T20:06:38Z",
       "author": "github-actions[bot]",
-      "subject": "ops(help-wanted): live status refresh 2026-10-21T18:40Z",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/fe6a138df50913758bb820e87a447aa53fc70fb3"
+      "subject": "ops(help-wanted): live status refresh 2026-10-21T20:06Z",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/f20631bf05508d017c005cc3a05d13ac52b382de"
     }
   ],
   "pipeline": [

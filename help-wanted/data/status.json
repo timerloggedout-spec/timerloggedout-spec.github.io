@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T12:21:19Z",
+  "generated_at": "2026-10-21T12:57:09Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3382,
@@ -36168,7 +36168,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "04b5b8c7cb5e8278508d11f7d440cf3d79f93d7a",
+    "source_sha": "642bec4477c033ed600178624a0d3c472a35e0dc",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -36202,12 +36202,12 @@
   },
   "evolution": [
     {
-      "sha": "04b5b8c7cb5e8278508d11f7d440cf3d79f93d7a",
-      "short_sha": "04b5b8c7cb5e",
-      "date": "2026-10-21T05:20:07-07:00",
+      "sha": "642bec4477c033ed600178624a0d3c472a35e0dc",
+      "short_sha": "642bec4477c0",
+      "date": "2026-10-21T05:56:22-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #1463 from timerloggedout-spec/cue/openrouter-private-quota-20261021",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/04b5b8c7cb5e8278508d11f7d440cf3d79f93d7a"
+      "subject": "feat(providers): add legally held offline Typhoon protocol (#1468)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/642bec4477c033ed600178624a0d3c472a35e0dc"
     }
   ],
   "pipeline": [

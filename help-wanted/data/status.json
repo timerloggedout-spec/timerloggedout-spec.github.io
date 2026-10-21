@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T07:41:24Z",
+  "generated_at": "2026-10-21T09:26:53Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3382,
@@ -276,7 +276,7 @@
       "number": 492,
       "repo": "EF-CHAIN/SendAm",
       "state": "open",
-      "updated_at": "2026-10-19T13:12:23Z",
+      "updated_at": "2026-10-21T07:46:15Z",
       "tribute": true
     },
     {
@@ -36168,7 +36168,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "e0bd98aee5bb30976ccbc898649db8bbaef8c5a2",
+    "source_sha": "09d59cc767e522e1f70a0c4a9aeb594027389699",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -36202,12 +36202,12 @@
   },
   "evolution": [
     {
-      "sha": "e0bd98aee5bb30976ccbc898649db8bbaef8c5a2",
-      "short_sha": "e0bd98aee5bb",
-      "date": "2026-10-21T07:39:41Z",
+      "sha": "09d59cc767e522e1f70a0c4a9aeb594027389699",
+      "short_sha": "09d59cc767e5",
+      "date": "2026-10-21T09:24:10Z",
       "author": "github-actions[bot]",
-      "subject": "ops(help-wanted): live status refresh 2026-10-21T07:39Z",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/e0bd98aee5bb30976ccbc898649db8bbaef8c5a2"
+      "subject": "chore(observatory): refresh repository index",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/09d59cc767e522e1f70a0c4a9aeb594027389699"
     }
   ],
   "pipeline": [

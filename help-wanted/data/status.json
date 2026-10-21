@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T00:44:46Z",
+  "generated_at": "2026-10-21T03:23:21Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3307,
@@ -43,15 +43,6 @@
       "repo": "use-assay/Assay",
       "state": "open",
       "updated_at": "2026-10-20T13:51:48Z",
-      "tribute": true
-    },
-    {
-      "html_url": "https://github.com/seleniumboot/selenium-boot/pull/183",
-      "title": "help-wanted: stake + contribute for #180",
-      "number": 183,
-      "repo": "seleniumboot/selenium-boot",
-      "state": "open",
-      "updated_at": "2026-10-20T05:18:00Z",
       "tribute": true
     },
     {
@@ -169,15 +160,6 @@
       "repo": "Suhas29wasnotavailable/blroad",
       "state": "open",
       "updated_at": "2026-10-18T05:09:10Z",
-      "tribute": true
-    },
-    {
-      "html_url": "https://github.com/traceopt-ai/traceml/pull/547",
-      "title": "help-wanted: stake + contribute for #128",
-      "number": 547,
-      "repo": "traceopt-ai/traceml",
-      "state": "open",
-      "updated_at": "2026-10-20T20:09:16Z",
       "tribute": true
     },
     {
@@ -370,7 +352,7 @@
       "tribute": true
     }
   ],
-  "foreign_open_count": 39,
+  "foreign_open_count": 37,
   "tributes": [
     {
       "pr_url": "https://github.com/E-Timileyin/Sail-CLI/pull/23",
@@ -2765,7 +2747,7 @@
       "repo": "traceopt-ai/traceml",
       "number": 547,
       "title": "help-wanted: stake + contribute for #128",
-      "state": "open"
+      "state": "closed"
     },
     {
       "pr_url": "https://github.com/Suhas29wasnotavailable/blroad/pull/12",
@@ -3306,7 +3288,7 @@
       "repo": "seleniumboot/selenium-boot",
       "number": 183,
       "title": "help-wanted: stake + contribute for #180",
-      "state": "open"
+      "state": "closed"
     },
     {
       "pr_url": "https://github.com/use-assay/Assay/pull/509",
@@ -4283,11 +4265,7 @@
       ],
       "ok": true,
       "last_ts": "2026-10-10T23:32:39Z",
-      "providers": [],
-      "repo": "Vikram-sardiwal/react-open-source",
-      "number": 50,
-      "title": "help-wanted: stake + contribute for #16",
-      "state": "closed"
+      "providers": []
     },
     {
       "pr_url": "https://github.com/tusharmotwani1718/dropsend/pull/24",
@@ -4735,19 +4713,6 @@
       "providers": []
     },
     {
-      "pr_url": "https://github.com/inferstep/ATLAS/pull/278",
-      "kinds": [
-        "upstream_pr"
-      ],
-      "ok": true,
-      "last_ts": "2026-09-29T21:08:36Z",
-      "providers": [],
-      "repo": "inferstep/ATLAS",
-      "number": 278,
-      "title": "help-wanted: stake + contribute for #277",
-      "state": "closed"
-    },
-    {
       "pr_url": "https://github.com/bmad-code-org/bmad-loop/pull/819",
       "kinds": [
         "followup_reengage",
@@ -4941,7 +4906,7 @@
       "providers": []
     }
   ],
-  "tribute_count": 111,
+  "tribute_count": 110,
   "issues": {
     "https://github.com/vedantnimbarte/zero/issues/72": [
       {
@@ -35437,7 +35402,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "7fd4a2ae24d6b3a10f3c727c6cbda5c8977714da",
+    "source_sha": "e5d061974ff9f6dd3884a8f983b5b446d07eacb6",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -35471,12 +35436,12 @@
   },
   "evolution": [
     {
-      "sha": "7fd4a2ae24d6b3a10f3c727c6cbda5c8977714da",
-      "short_sha": "7fd4a2ae24d6",
-      "date": "2026-10-20T17:43:31-07:00",
+      "sha": "e5d061974ff9f6dd3884a8f983b5b446d07eacb6",
+      "short_sha": "e5d061974ff9",
+      "date": "2026-10-20T20:22:41-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "\ud83c\udfa8 Palette: UX and accessibility improvements for dashboard and Termux cockpit (rebased #1151) (#1351)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/7fd4a2ae24d6b3a10f3c727c6cbda5c8977714da"
+      "subject": "fix(dashboard): restore the quota panel link lost in the control-surface redesign (#1396)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/e5d061974ff9f6dd3884a8f983b5b446d07eacb6"
     }
   ],
   "pipeline": [

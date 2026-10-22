@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T07:49:41Z",
+  "generated_at": "2026-10-22T07:52:31Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3681,
@@ -199,15 +199,6 @@
       "tribute": true
     },
     {
-      "html_url": "https://github.com/TricklePay/tricklepay-backend/pull/441",
-      "title": "help-wanted: stake + contribute for #395",
-      "number": 441,
-      "repo": "TricklePay/tricklepay-backend",
-      "state": "open",
-      "updated_at": "2026-10-21T22:46:59Z",
-      "tribute": true
-    },
-    {
       "html_url": "https://github.com/Saidur-droid/MergeEarn/pull/76",
       "title": "help-wanted: stake + contribute for #69",
       "number": 76,
@@ -352,7 +343,7 @@
       "tribute": true
     }
   ],
-  "foreign_open_count": 37,
+  "foreign_open_count": 36,
   "tributes": [
     {
       "pr_url": "https://github.com/E-Timileyin/Sail-CLI/pull/23",
@@ -2502,7 +2493,7 @@
       "repo": "TricklePay/tricklepay-backend",
       "number": 441,
       "title": "help-wanted: stake + contribute for #395",
-      "state": "open"
+      "state": "closed"
     },
     {
       "pr_url": "https://github.com/fsr5-fhaachen/portals/pull/948",
@@ -4795,11 +4786,7 @@
       ],
       "ok": true,
       "last_ts": "2026-10-05T09:02:35Z",
-      "providers": [],
-      "repo": "CopilotKit/CopilotKit",
-      "number": 7594,
-      "title": "help-wanted: stake + contribute for #4775",
-      "state": "closed"
+      "providers": []
     },
     {
       "pr_url": "https://github.com/pulseaiclub/phi/pull/286",
@@ -39222,7 +39209,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "dd75cc1c4f9d9b2a5398bca23aaabdc169882732",
+    "source_sha": "af523a8dae3df2634dbc9ac52a7570e9fa28da0d",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -39256,12 +39243,12 @@
   },
   "evolution": [
     {
-      "sha": "dd75cc1c4f9d9b2a5398bca23aaabdc169882732",
-      "short_sha": "dd75cc1c4f9d",
-      "date": "2026-10-22T00:48:27-07:00",
+      "sha": "af523a8dae3df2634dbc9ac52a7570e9fa28da0d",
+      "short_sha": "af523a8dae3d",
+      "date": "2026-10-22T00:51:26-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "feat(quota): expand registry 28 to 64 records (per-metric stub splits, Codespaces, Cloudflare, hyperscaler stubs) (#1504)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/dd75cc1c4f9d9b2a5398bca23aaabdc169882732"
+      "subject": "web-design: shared dashboard.css, unified nav, sitemap fix (assessment P0-2/P0-3) (#1503)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/af523a8dae3df2634dbc9ac52a7570e9fa28da0d"
     }
   ],
   "pipeline": [

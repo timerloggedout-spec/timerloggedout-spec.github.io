@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T07:52:31Z",
+  "generated_at": "2026-10-22T08:07:35Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3681,
@@ -39209,7 +39209,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "af523a8dae3df2634dbc9ac52a7570e9fa28da0d",
+    "source_sha": "64211266c125157c8100526577adc23f4d7ef69a",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -39243,12 +39243,12 @@
   },
   "evolution": [
     {
-      "sha": "af523a8dae3df2634dbc9ac52a7570e9fa28da0d",
-      "short_sha": "af523a8dae3d",
-      "date": "2026-10-22T00:51:26-07:00",
+      "sha": "64211266c125157c8100526577adc23f4d7ef69a",
+      "short_sha": "64211266c125",
+      "date": "2026-10-22T01:06:54-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "web-design: shared dashboard.css, unified nav, sitemap fix (assessment P0-2/P0-3) (#1503)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/af523a8dae3df2634dbc9ac52a7570e9fa28da0d"
+      "subject": "fix(quota): give the vercel reading its observed_at so the alert can surface (P0-1) (#1509)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/64211266c125157c8100526577adc23f4d7ef69a"
     }
   ],
   "pipeline": [

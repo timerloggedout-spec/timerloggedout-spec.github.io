@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T04:44:18Z",
+  "generated_at": "2026-10-22T04:46:26Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3643,
@@ -141,7 +141,7 @@
       "number": 234,
       "repo": "ciaren-labs/Ciaren",
       "state": "open",
-      "updated_at": "2026-10-17T12:10:39Z",
+      "updated_at": "2026-10-22T04:45:51Z",
       "tribute": true
     },
     {
@@ -38829,7 +38829,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "adc44029ba0374f0e8b657cba2af7884ab73c4c5",
+    "source_sha": "6f4f802e159e933fb1fbabcd35564bb81de48b65",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -38863,12 +38863,12 @@
   },
   "evolution": [
     {
-      "sha": "adc44029ba0374f0e8b657cba2af7884ab73c4c5",
-      "short_sha": "adc44029ba03",
-      "date": "2026-10-22T04:43:39Z",
+      "sha": "6f4f802e159e933fb1fbabcd35564bb81de48b65",
+      "short_sha": "6f4f802e159e",
+      "date": "2026-10-22T04:45:44Z",
       "author": "github-actions[bot]",
-      "subject": "ops(help-wanted): live status refresh 2026-10-22T04:43Z",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/adc44029ba0374f0e8b657cba2af7884ab73c4c5"
+      "subject": "ops(help-wanted): live status refresh 2026-10-22T04:45Z",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/6f4f802e159e933fb1fbabcd35564bb81de48b65"
     }
   ],
   "pipeline": [

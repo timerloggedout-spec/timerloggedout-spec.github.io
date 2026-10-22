@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T23:40:14Z",
+  "generated_at": "2026-10-22T04:35:55Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3606,
@@ -18,15 +18,6 @@
   },
   "outcome_semantics": "actioned/skipped/failed are operational receipt states, not successful tribute counts",
   "foreign_open_prs": [
-    {
-      "html_url": "https://github.com/QuinCyMP/dense-melee-lab/pull/10",
-      "title": "help-wanted: stake + contribute for #1",
-      "number": 10,
-      "repo": "QuinCyMP/dense-melee-lab",
-      "state": "open",
-      "updated_at": "2026-10-21T23:38:07Z",
-      "tribute": true
-    },
     {
       "html_url": "https://github.com/AmpedWasTaken/SML/pull/18",
       "title": "help-wanted: stake + contribute for #17",
@@ -60,7 +51,7 @@
       "number": 509,
       "repo": "use-assay/Assay",
       "state": "open",
-      "updated_at": "2026-10-20T13:51:48Z",
+      "updated_at": "2026-10-22T03:08:04Z",
       "tribute": true
     },
     {
@@ -361,7 +352,7 @@
       "tribute": true
     }
   ],
-  "foreign_open_count": 38,
+  "foreign_open_count": 37,
   "tributes": [
     {
       "pr_url": "https://github.com/E-Timileyin/Sail-CLI/pull/23",
@@ -3455,7 +3446,7 @@
       "repo": "QuinCyMP/dense-melee-lab",
       "number": 10,
       "title": "help-wanted: stake + contribute for #1",
-      "state": "open"
+      "state": "closed"
     },
     {
       "pr_url": "https://github.com/zh-95/fronte-rivoluzionario/pull/59",
@@ -4202,19 +4193,6 @@
       "repo": "Neziahtech/streampay",
       "number": 147,
       "title": "help-wanted: stake + contribute for #5",
-      "state": "closed"
-    },
-    {
-      "pr_url": "https://github.com/nextcloud/spreed/pull/19662",
-      "kinds": [
-        "upstream_pr"
-      ],
-      "ok": true,
-      "last_ts": "2026-10-16T05:59:13Z",
-      "providers": [],
-      "repo": "nextcloud/spreed",
-      "number": 19662,
-      "title": "help-wanted: stake + contribute for #19498",
       "state": "closed"
     },
     {
@@ -5250,7 +5228,7 @@
       "providers": []
     }
   ],
-  "tribute_count": 114,
+  "tribute_count": 113,
   "issues": {
     "https://github.com/vedantnimbarte/zero/issues/72": [
       {
@@ -38481,7 +38459,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "f8fe2c3cfe773027728ab756c3f94c6d379b7adb",
+    "source_sha": "9f6ac11d3789ec8efcc20d700c3c0266d53177b6",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -38515,12 +38493,12 @@
   },
   "evolution": [
     {
-      "sha": "f8fe2c3cfe773027728ab756c3f94c6d379b7adb",
-      "short_sha": "f8fe2c3cfe77",
-      "date": "2026-10-21T23:39:03Z",
+      "sha": "9f6ac11d3789ec8efcc20d700c3c0266d53177b6",
+      "short_sha": "9f6ac11d3789",
+      "date": "2026-10-22T04:35:15Z",
       "author": "github-actions[bot]",
-      "subject": "ops(help-wanted): live status refresh 2026-10-21T23:39Z",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/f8fe2c3cfe773027728ab756c3f94c6d379b7adb"
+      "subject": "ops(help-wanted): live status refresh 2026-10-22T04:35Z",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/9f6ac11d3789ec8efcc20d700c3c0266d53177b6"
     }
   ],
   "pipeline": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T07:47:09Z",
+  "generated_at": "2026-10-22T07:49:41Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3681,
@@ -39222,7 +39222,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "981cf57475fd209625267de294127990ace7e22a",
+    "source_sha": "dd75cc1c4f9d9b2a5398bca23aaabdc169882732",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -39256,12 +39256,12 @@
   },
   "evolution": [
     {
-      "sha": "981cf57475fd209625267de294127990ace7e22a",
-      "short_sha": "981cf57475fd",
-      "date": "2026-10-22T00:45:27-07:00",
+      "sha": "dd75cc1c4f9d9b2a5398bca23aaabdc169882732",
+      "short_sha": "dd75cc1c4f9d",
+      "date": "2026-10-22T00:48:27-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #1501 from timerloggedout-spec/claude/inventory-quota-tui",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/981cf57475fd209625267de294127990ace7e22a"
+      "subject": "feat(quota): expand registry 28 to 64 records (per-metric stub splits, Codespaces, Cloudflare, hyperscaler stubs) (#1504)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/dd75cc1c4f9d9b2a5398bca23aaabdc169882732"
     }
   ],
   "pipeline": [

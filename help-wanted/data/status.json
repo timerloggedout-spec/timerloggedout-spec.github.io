@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T05:24:47Z",
+  "generated_at": "2026-10-22T07:47:09Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3681,
@@ -18,15 +18,6 @@
   },
   "outcome_semantics": "actioned/skipped/failed are operational receipt states, not successful tribute counts",
   "foreign_open_prs": [
-    {
-      "html_url": "https://github.com/OneBusAway/go-gtfs/pull/33",
-      "title": "help-wanted: stake + contribute for #22",
-      "number": 33,
-      "repo": "OneBusAway/go-gtfs",
-      "state": "open",
-      "updated_at": "2026-10-22T05:24:25Z",
-      "tribute": true
-    },
     {
       "html_url": "https://github.com/AmpedWasTaken/SML/pull/18",
       "title": "help-wanted: stake + contribute for #17",
@@ -361,7 +352,7 @@
       "tribute": true
     }
   ],
-  "foreign_open_count": 38,
+  "foreign_open_count": 37,
   "tributes": [
     {
       "pr_url": "https://github.com/E-Timileyin/Sail-CLI/pull/23",
@@ -3529,7 +3520,7 @@
       "repo": "OneBusAway/go-gtfs",
       "number": 33,
       "title": "help-wanted: stake + contribute for #22",
-      "state": "open"
+      "state": "closed"
     },
     {
       "pr_url": "https://github.com/QuinCyMP/dense-melee-lab/pull/10",
@@ -4900,11 +4891,7 @@
       ],
       "ok": true,
       "last_ts": "2026-10-05T00:54:51Z",
-      "providers": [],
-      "repo": "dentalpin/dentalpin",
-      "number": 591,
-      "title": "help-wanted: stake + contribute for #590",
-      "state": "closed"
+      "providers": []
     },
     {
       "pr_url": "https://github.com/estruyf/playwright-github-actions-reporter/pull/59",
@@ -39235,7 +39222,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "eeaa697374712b01e3e509e39af1afa7a3f127b9",
+    "source_sha": "981cf57475fd209625267de294127990ace7e22a",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -39269,12 +39256,12 @@
   },
   "evolution": [
     {
-      "sha": "eeaa697374712b01e3e509e39af1afa7a3f127b9",
-      "short_sha": "eeaa69737471",
-      "date": "2026-10-22T05:23:08Z",
-      "author": "github-actions[bot]",
-      "subject": "ops(help-wanted): live status refresh 2026-10-22T05:23Z",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/eeaa697374712b01e3e509e39af1afa7a3f127b9"
+      "sha": "981cf57475fd209625267de294127990ace7e22a",
+      "short_sha": "981cf57475fd",
+      "date": "2026-10-22T00:45:27-07:00",
+      "author": "Founders' are 'found' to implement.",
+      "subject": "Merge pull request #1501 from timerloggedout-spec/claude/inventory-quota-tui",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/981cf57475fd209625267de294127990ace7e22a"
     }
   ],
   "pipeline": [

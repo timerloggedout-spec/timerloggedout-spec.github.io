@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T08:07:35Z",
+  "generated_at": "2026-10-22T08:13:17Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3681,
@@ -39209,7 +39209,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "64211266c125157c8100526577adc23f4d7ef69a",
+    "source_sha": "6f3a45637001e0c6ffcd4c9cf0e84207c291f5a7",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -39243,12 +39243,12 @@
   },
   "evolution": [
     {
-      "sha": "64211266c125157c8100526577adc23f4d7ef69a",
-      "short_sha": "64211266c125",
-      "date": "2026-10-22T01:06:54-07:00",
+      "sha": "6f3a45637001e0c6ffcd4c9cf0e84207c291f5a7",
+      "short_sha": "6f3a45637001",
+      "date": "2026-10-22T01:12:33-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "fix(quota): give the vercel reading its observed_at so the alert can surface (P0-1) (#1509)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/64211266c125157c8100526577adc23f4d7ef69a"
+      "subject": "fix(quota): phone-width tables + interval actually refetches (assessment P1-4/P2-9) (#1512)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/6f3a45637001e0c6ffcd4c9cf0e84207c291f5a7"
     }
   ],
   "pipeline": [

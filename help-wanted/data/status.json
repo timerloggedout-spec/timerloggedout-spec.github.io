@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T23:10:05Z",
+  "generated_at": "2026-10-24T20:03:47Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -20,15 +20,6 @@
   },
   "outcome_semantics": "actioned/skipped/failed are operational receipt states, not successful tribute counts",
   "foreign_open_prs": [
-    {
-      "html_url": "https://github.com/SO4-Markets/interface/pull/1029",
-      "title": "help-wanted: stake + contribute for #918",
-      "number": 1029,
-      "repo": "SO4-Markets/interface",
-      "state": "open",
-      "updated_at": "2026-10-20T20:08:40Z",
-      "tribute": true
-    },
     {
       "html_url": "https://github.com/use-assay/Assay/pull/509",
       "title": "help-wanted: stake + contribute for #305",
@@ -318,7 +309,7 @@
       "tribute": true
     }
   ],
-  "foreign_open_count": 33,
+  "foreign_open_count": 32,
   "tributes": [
     {
       "pr_url": "https://github.com/E-Timileyin/Sail-CLI/pull/23",
@@ -3596,11 +3587,7 @@
       ],
       "ok": true,
       "last_ts": "2026-10-23T13:25:09Z",
-      "providers": [],
-      "repo": "SO4-Markets/interface",
-      "number": 1029,
-      "title": "help-wanted: stake + contribute for #918",
-      "state": "open"
+      "providers": []
     },
     {
       "pr_url": "https://github.com/AmpedWasTaken/SML/pull/18",
@@ -42363,7 +42350,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "97eeb8f6c537ebdf8b241edfdf4a91b07d49504f",
+    "source_sha": "cd5fc5002b4079b029522cb1cb5d511d64faf50e",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42397,12 +42384,12 @@
   },
   "evolution": [
     {
-      "sha": "97eeb8f6c537ebdf8b241edfdf4a91b07d49504f",
-      "short_sha": "97eeb8f6c537",
-      "date": "2026-10-23T23:09:25Z",
-      "author": "github-actions[bot]",
-      "subject": "ops(help-wanted): live status refresh 2026-10-23T23:09Z",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/97eeb8f6c537ebdf8b241edfdf4a91b07d49504f"
+      "sha": "cd5fc5002b4079b029522cb1cb5d511d64faf50e",
+      "short_sha": "cd5fc5002b40",
+      "date": "2026-10-24T13:03:02-07:00",
+      "author": "Founders' are 'found' to implement.",
+      "subject": "fix(secrets): phantom-secret remediation (dead-branch) (#1638)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/cd5fc5002b4079b029522cb1cb5d511d64faf50e"
     }
   ],
   "pipeline": [

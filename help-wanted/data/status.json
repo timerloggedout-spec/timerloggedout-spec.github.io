@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T20:03:47Z",
+  "generated_at": "2026-10-25T05:10:28Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42350,7 +42350,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "cd5fc5002b4079b029522cb1cb5d511d64faf50e",
+    "source_sha": "77c3d3bb1743ec76b5ec81bdb38d4f3716739f7f",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42384,12 +42384,12 @@
   },
   "evolution": [
     {
-      "sha": "cd5fc5002b4079b029522cb1cb5d511d64faf50e",
-      "short_sha": "cd5fc5002b40",
-      "date": "2026-10-24T13:03:02-07:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "fix(secrets): phantom-secret remediation (dead-branch) (#1638)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/cd5fc5002b4079b029522cb1cb5d511d64faf50e"
+      "sha": "77c3d3bb1743ec76b5ec81bdb38d4f3716739f7f",
+      "short_sha": "77c3d3bb1743",
+      "date": "2026-10-25T05:09:34Z",
+      "author": "github-actions[bot]",
+      "subject": "ops(help-wanted): live status refresh 2026-10-25T05:09Z",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/77c3d3bb1743ec76b5ec81bdb38d4f3716739f7f"
     }
   ],
   "pipeline": [

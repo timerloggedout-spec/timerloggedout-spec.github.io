@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T23:45:21Z",
+  "generated_at": "2026-10-27T23:50:31Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -41993,7 +41993,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "976de76d86ee1f2bd12626acc7178d95517a4576",
+    "source_sha": "29f4372ea2ee4f343499641291000a761a42f267",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42027,12 +42027,12 @@
   },
   "evolution": [
     {
-      "sha": "976de76d86ee1f2bd12626acc7178d95517a4576",
-      "short_sha": "976de76d86ee",
-      "date": "2026-10-27T16:44:39-07:00",
+      "sha": "29f4372ea2ee4f343499641291000a761a42f267",
+      "short_sha": "29f4372ea2ee",
+      "date": "2026-10-27T16:49:52-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "feat(dashboards): Linguist mapping panel \u2014 feed-driven prototype (stage 2) (#1863)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/976de76d86ee1f2bd12626acc7178d95517a4576"
+      "subject": "feat(linguist): Linguist Panel feed substrate \u2014 canonical mapping registry, collector, feed v1 (#1864)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/29f4372ea2ee4f343499641291000a761a42f267"
     }
   ],
   "pipeline": [

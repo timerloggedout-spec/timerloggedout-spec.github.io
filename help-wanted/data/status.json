@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T23:50:31Z",
+  "generated_at": "2026-10-27T23:54:42Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -41993,7 +41993,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "29f4372ea2ee4f343499641291000a761a42f267",
+    "source_sha": "1a9f84940d50a2e077284a19bc2093953267d444",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42027,12 +42027,12 @@
   },
   "evolution": [
     {
-      "sha": "29f4372ea2ee4f343499641291000a761a42f267",
-      "short_sha": "29f4372ea2ee",
-      "date": "2026-10-27T16:49:52-07:00",
+      "sha": "1a9f84940d50a2e077284a19bc2093953267d444",
+      "short_sha": "1a9f84940d50",
+      "date": "2026-10-27T16:54:06-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "feat(linguist): Linguist Panel feed substrate \u2014 canonical mapping registry, collector, feed v1 (#1864)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/29f4372ea2ee4f343499641291000a761a42f267"
+      "subject": "feat(linguist): panel-alignment fields for linguist-panel-feed/v1 (viz lane contract) (#1868)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/1a9f84940d50a2e077284a19bc2093953267d444"
     }
   ],
   "pipeline": [

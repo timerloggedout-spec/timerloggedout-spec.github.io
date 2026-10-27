@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T12:41:36Z",
+  "generated_at": "2026-10-27T12:42:23Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42041,7 +42041,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "51d8dfb8b3e566885b3e2c3c427240ba4dbb676d",
+    "source_sha": "292d8fc83b7d6edff052e8b9c97368f9768acd03",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42075,12 +42075,12 @@
   },
   "evolution": [
     {
-      "sha": "51d8dfb8b3e566885b3e2c3c427240ba4dbb676d",
-      "short_sha": "51d8dfb8b3e5",
-      "date": "2026-10-27T05:38:48-07:00",
+      "sha": "292d8fc83b7d6edff052e8b9c97368f9768acd03",
+      "short_sha": "292d8fc83b7d",
+      "date": "2026-10-27T12:41:19Z",
       "author": "github-actions[bot]",
-      "subject": "chore(delphi): refresh oracle-panel-feed.json (#1751)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/51d8dfb8b3e566885b3e2c3c427240ba4dbb676d"
+      "subject": "ops(help-wanted): live status refresh 2026-10-27T12:41Z",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/292d8fc83b7d6edff052e8b9c97368f9768acd03"
     }
   ],
   "pipeline": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T12:34:46Z",
+  "generated_at": "2026-10-27T12:41:36Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42041,7 +42041,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "b5674829ef0bdff9088df2382f62ea63326b67cb",
+    "source_sha": "51d8dfb8b3e566885b3e2c3c427240ba4dbb676d",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42075,12 +42075,12 @@
   },
   "evolution": [
     {
-      "sha": "b5674829ef0bdff9088df2382f62ea63326b67cb",
-      "short_sha": "b5674829ef0b",
-      "date": "2026-10-27T05:33:14-07:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "feat(delphi): panel feed \u2014 stated passes carry their status; n normalized (#1753)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/b5674829ef0bdff9088df2382f62ea63326b67cb"
+      "sha": "51d8dfb8b3e566885b3e2c3c427240ba4dbb676d",
+      "short_sha": "51d8dfb8b3e5",
+      "date": "2026-10-27T05:38:48-07:00",
+      "author": "github-actions[bot]",
+      "subject": "chore(delphi): refresh oracle-panel-feed.json (#1751)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/51d8dfb8b3e566885b3e2c3c427240ba4dbb676d"
     }
   ],
   "pipeline": [

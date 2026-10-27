@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T13:04:41Z",
+  "generated_at": "2026-10-27T13:09:45Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42015,7 +42015,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "4980f624d26e665b30cb710f5081b7c9ec9cb1d5",
+    "source_sha": "22d68c1a78955a83c09ca0ee957008d32b596774",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42049,12 +42049,12 @@
   },
   "evolution": [
     {
-      "sha": "4980f624d26e665b30cb710f5081b7c9ec9cb1d5",
-      "short_sha": "4980f624d26e",
-      "date": "2026-10-27T06:03:46-07:00",
+      "sha": "22d68c1a78955a83c09ca0ee957008d32b596774",
+      "short_sha": "22d68c1a7895",
+      "date": "2026-10-27T06:09:04-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #1781 from timerloggedout-spec/feat/oracle-panel-substrate-render",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/4980f624d26e665b30cb710f5081b7c9ec9cb1d5"
+      "subject": "fix(3l0): re-land observed Delphi weighting + discrimination flag (repairs #1756 overwrite of #1750; math redesign #1784) (#1785)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/22d68c1a78955a83c09ca0ee957008d32b596774"
     }
   ],
   "pipeline": [

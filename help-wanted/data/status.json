@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T12:47:55Z",
+  "generated_at": "2026-10-27T12:50:04Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42028,7 +42028,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "9fe67c94e4f9130081ead2e3e7b87f6c18eba26e",
+    "source_sha": "2b1a0ca30bbcc2b50dc20bd5b78b1155742909a7",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42062,12 +42062,12 @@
   },
   "evolution": [
     {
-      "sha": "9fe67c94e4f9130081ead2e3e7b87f6c18eba26e",
-      "short_sha": "9fe67c94e4f9",
-      "date": "2026-10-27T05:45:58-07:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "fix(dashboards): restore DoE executed_comparisons \u2014 Delphi payload, owner-labeled (required) (#1768)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/9fe67c94e4f9130081ead2e3e7b87f6c18eba26e"
+      "sha": "2b1a0ca30bbcc2b50dc20bd5b78b1155742909a7",
+      "short_sha": "2b1a0ca30bbc",
+      "date": "2026-10-27T05:47:45-07:00",
+      "author": "github-actions[bot]",
+      "subject": "chore(dashboards): refresh surface feeds (#1773)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/2b1a0ca30bbcc2b50dc20bd5b78b1155742909a7"
     }
   ],
   "pipeline": [

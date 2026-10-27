@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T05:10:28Z",
+  "generated_at": "2026-10-27T00:53:31Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -26,7 +26,7 @@
       "number": 509,
       "repo": "use-assay/Assay",
       "state": "open",
-      "updated_at": "2026-10-22T03:08:04Z",
+      "updated_at": "2026-10-25T06:20:31Z",
       "tribute": true
     },
     {
@@ -45,15 +45,6 @@
       "repo": "SoroScan/soroscan",
       "state": "open",
       "updated_at": "2026-10-21T23:18:11Z",
-      "tribute": true
-    },
-    {
-      "html_url": "https://github.com/0xLizTech/stellarforge/pull/614",
-      "title": "help-wanted: stake + contribute for #92",
-      "number": 614,
-      "repo": "0xLizTech/stellarforge",
-      "state": "open",
-      "updated_at": "2026-10-21T05:20:00Z",
       "tribute": true
     },
     {
@@ -81,15 +72,6 @@
       "repo": "Health-watchers/health_watchers",
       "state": "open",
       "updated_at": "2026-10-20T05:18:18Z",
-      "tribute": true
-    },
-    {
-      "html_url": "https://github.com/stellar-compliance-kit/compliance-primitives/pull/656",
-      "title": "help-wanted: stake + contribute for #180",
-      "number": 656,
-      "repo": "stellar-compliance-kit/compliance-primitives",
-      "state": "open",
-      "updated_at": "2026-10-19T23:39:52Z",
       "tribute": true
     },
     {
@@ -188,7 +170,7 @@
       "number": 860,
       "repo": "TrusTrove/TrusTrove-contract",
       "state": "open",
-      "updated_at": "2026-10-20T04:49:10Z",
+      "updated_at": "2026-10-25T22:43:01Z",
       "tribute": true
     },
     {
@@ -216,24 +198,6 @@
       "repo": "SO4-Markets/so4-oracle",
       "state": "open",
       "updated_at": "2026-10-21T00:37:23Z",
-      "tribute": true
-    },
-    {
-      "html_url": "https://github.com/EF-CHAIN/SendAm/pull/607",
-      "title": "help-wanted: stake + contribute for #538",
-      "number": 607,
-      "repo": "EF-CHAIN/SendAm",
-      "state": "open",
-      "updated_at": "2026-10-21T07:39:56Z",
-      "tribute": true
-    },
-    {
-      "html_url": "https://github.com/EF-CHAIN/SendAm/pull/492",
-      "title": "help-wanted: stake + contribute for #465",
-      "number": 492,
-      "repo": "EF-CHAIN/SendAm",
-      "state": "open",
-      "updated_at": "2026-10-21T07:46:15Z",
       "tribute": true
     },
     {
@@ -309,7 +273,7 @@
       "tribute": true
     }
   ],
-  "foreign_open_count": 32,
+  "foreign_open_count": 28,
   "tributes": [
     {
       "pr_url": "https://github.com/E-Timileyin/Sail-CLI/pull/23",
@@ -1619,11 +1583,7 @@
       ],
       "ok": true,
       "last_ts": "2026-10-23T13:25:09Z",
-      "providers": [],
-      "repo": "EF-CHAIN/SendAm",
-      "number": 492,
-      "title": "help-wanted: stake + contribute for #465",
-      "state": "open"
+      "providers": []
     },
     {
       "pr_url": "https://github.com/EF-CHAIN/SendAm/pull/607",
@@ -1751,11 +1711,7 @@
       ],
       "ok": true,
       "last_ts": "2026-10-23T13:25:09Z",
-      "providers": [],
-      "repo": "EF-CHAIN/SendAm",
-      "number": 607,
-      "title": "help-wanted: stake + contribute for #538",
-      "state": "open"
+      "providers": []
     },
     {
       "pr_url": "https://github.com/SO4-Markets/so4-oracle/pull/1143",
@@ -3253,7 +3209,7 @@
       "repo": "stellar-compliance-kit/compliance-primitives",
       "number": 656,
       "title": "help-wanted: stake + contribute for #180",
-      "state": "open"
+      "state": "closed"
     },
     {
       "pr_url": "https://github.com/Health-watchers/health_watchers/pull/1698",
@@ -3440,7 +3396,7 @@
       "repo": "0xLizTech/stellarforge",
       "number": 614,
       "title": "help-wanted: stake + contribute for #92",
-      "state": "open"
+      "state": "closed"
     },
     {
       "pr_url": "https://github.com/SoroScan/soroscan/pull/1690",
@@ -3962,11 +3918,7 @@
       ],
       "ok": true,
       "last_ts": "2026-10-22T11:50:12Z",
-      "providers": [],
-      "repo": "qim-center/qim3d",
-      "number": 273,
-      "title": "help-wanted: stake + contribute for #225",
-      "state": "closed"
+      "providers": []
     },
     {
       "pr_url": "https://github.com/gabe-santana/saccade/pull/27",
@@ -5147,11 +5099,7 @@
       ],
       "ok": true,
       "last_ts": "2026-10-04T12:20:20Z",
-      "providers": [],
-      "repo": "Magiclovekorean/unbloarchy",
-      "number": 5,
-      "title": "help-wanted: stake + contribute for #4",
-      "state": "closed"
+      "providers": []
     },
     {
       "pr_url": "https://github.com/GRITui/pixel-builder/pull/13",
@@ -42350,7 +42298,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "77c3d3bb1743ec76b5ec81bdb38d4f3716739f7f",
+    "source_sha": "8696160da4faa079563e2ac765ede31aa145d306",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42384,12 +42332,12 @@
   },
   "evolution": [
     {
-      "sha": "77c3d3bb1743ec76b5ec81bdb38d4f3716739f7f",
-      "short_sha": "77c3d3bb1743",
-      "date": "2026-10-25T05:09:34Z",
-      "author": "github-actions[bot]",
-      "subject": "ops(help-wanted): live status refresh 2026-10-25T05:09Z",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/77c3d3bb1743ec76b5ec81bdb38d4f3716739f7f"
+      "sha": "8696160da4faa079563e2ac765ede31aa145d306",
+      "short_sha": "8696160da4fa",
+      "date": "2026-10-26T17:52:35-07:00",
+      "author": "Founders' are 'found' to implement.",
+      "subject": "fix(quota): label the 64 as registry records, not services (count-integrity) (#1682)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/8696160da4faa079563e2ac765ede31aa145d306"
     }
   ],
   "pipeline": [

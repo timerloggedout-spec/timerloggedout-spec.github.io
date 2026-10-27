@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T12:53:53Z",
+  "generated_at": "2026-10-27T13:04:41Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -53,7 +53,7 @@
       "number": 948,
       "repo": "fsr5-fhaachen/portals",
       "state": "open",
-      "updated_at": "2026-10-20T13:52:05Z",
+      "updated_at": "2026-10-27T12:55:56Z",
       "tribute": true
     },
     {
@@ -72,15 +72,6 @@
       "repo": "Vasudev-ai/Focusflow",
       "state": "open",
       "updated_at": "2026-10-27T11:52:10Z",
-      "tribute": true
-    },
-    {
-      "html_url": "https://github.com/Kilo-Org/agentic-path/pull/26",
-      "title": "help-wanted: stake + contribute for #25",
-      "number": 26,
-      "repo": "Kilo-Org/agentic-path",
-      "state": "open",
-      "updated_at": "2026-10-21T20:22:37Z",
       "tribute": true
     },
     {
@@ -111,7 +102,7 @@
       "tribute": true
     }
   ],
-  "foreign_open_count": 10,
+  "foreign_open_count": 9,
   "tributes": [
     {
       "pr_url": "https://github.com/E-Timileyin/Sail-CLI/pull/23",
@@ -405,11 +396,7 @@
       ],
       "ok": true,
       "last_ts": "2026-10-23T13:25:09Z",
-      "providers": [],
-      "repo": "Kilo-Org/agentic-path",
-      "number": 26,
-      "title": "help-wanted: stake + contribute for #25",
-      "state": "open"
+      "providers": []
     },
     {
       "pr_url": "https://github.com/mangiapanejohn-dev/MOBIUS-Searcher/pull/7",
@@ -42028,7 +42015,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "47e1cfda5e1897ad2546d39fe7e2cb4c3698e187",
+    "source_sha": "4980f624d26e665b30cb710f5081b7c9ec9cb1d5",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42062,12 +42049,12 @@
   },
   "evolution": [
     {
-      "sha": "47e1cfda5e1897ad2546d39fe7e2cb4c3698e187",
-      "short_sha": "47e1cfda5e18",
-      "date": "2026-10-27T05:52:11-07:00",
+      "sha": "4980f624d26e665b30cb710f5081b7c9ec9cb1d5",
+      "short_sha": "4980f624d26e",
+      "date": "2026-10-27T06:03:46-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #1777 from timerloggedout-spec/web-design/doe-comparisons-restore",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/47e1cfda5e1897ad2546d39fe7e2cb4c3698e187"
+      "subject": "Merge pull request #1781 from timerloggedout-spec/feat/oracle-panel-substrate-render",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/4980f624d26e665b30cb710f5081b7c9ec9cb1d5"
     }
   ],
   "pipeline": [

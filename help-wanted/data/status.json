@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T12:21:07Z",
+  "generated_at": "2026-10-27T12:32:39Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42041,7 +42041,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "ba71a16d1820e3df2897819d5a1e90fb67968faf",
+    "source_sha": "5e01e1f6a29d8834596bda87599b5027cb08ba0c",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42075,12 +42075,12 @@
   },
   "evolution": [
     {
-      "sha": "ba71a16d1820e3df2897819d5a1e90fb67968faf",
-      "short_sha": "ba71a16d1820",
-      "date": "2026-10-27T05:20:28-07:00",
+      "sha": "5e01e1f6a29d8834596bda87599b5027cb08ba0c",
+      "short_sha": "5e01e1f6a29d",
+      "date": "2026-10-27T05:31:32-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #1589 from timerloggedout-spec/feat/free-tier-usage-value-board",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/ba71a16d1820e3df2897819d5a1e90fb67968faf"
+      "subject": "feat(3l0): backfill observed Delphi weighting from ledger #1489 (#1750)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/5e01e1f6a29d8834596bda87599b5027cb08ba0c"
     }
   ],
   "pipeline": [

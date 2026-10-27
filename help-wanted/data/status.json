@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T00:53:31Z",
+  "generated_at": "2026-10-27T08:49:22Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42298,7 +42298,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "8696160da4faa079563e2ac765ede31aa145d306",
+    "source_sha": "6a7ce4838a82b0cbd75f347ae2ea93a340496cf8",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42332,12 +42332,12 @@
   },
   "evolution": [
     {
-      "sha": "8696160da4faa079563e2ac765ede31aa145d306",
-      "short_sha": "8696160da4fa",
-      "date": "2026-10-26T17:52:35-07:00",
+      "sha": "6a7ce4838a82b0cbd75f347ae2ea93a340496cf8",
+      "short_sha": "6a7ce4838a82",
+      "date": "2026-10-27T01:48:36-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "fix(quota): label the 64 as registry records, not services (count-integrity) (#1682)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/8696160da4faa079563e2ac765ede31aa145d306"
+      "subject": "Merge pull request #1716 from timerloggedout-spec/web-design/admin-panel",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/6a7ce4838a82b0cbd75f347ae2ea93a340496cf8"
     }
   ],
   "pipeline": [

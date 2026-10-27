@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T13:09:45Z",
+  "generated_at": "2026-10-27T14:11:15Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -20,15 +20,6 @@
   },
   "outcome_semantics": "actioned/skipped/failed are operational receipt states, not successful tribute counts",
   "foreign_open_prs": [
-    {
-      "html_url": "https://github.com/apache/hugegraph-computer/pull/365",
-      "title": "help-wanted: stake + contribute for #325",
-      "number": 365,
-      "repo": "apache/hugegraph-computer",
-      "state": "open",
-      "updated_at": "2026-10-20T23:24:57Z",
-      "tribute": true
-    },
     {
       "html_url": "https://github.com/MMALI3287/vibewatt/pull/100",
       "title": "help-wanted: stake + contribute for #95",
@@ -62,7 +53,7 @@
       "number": 76,
       "repo": "Saidur-droid/MergeEarn",
       "state": "open",
-      "updated_at": "2026-10-20T17:02:06Z",
+      "updated_at": "2026-10-27T13:11:18Z",
       "tribute": true
     },
     {
@@ -80,7 +71,7 @@
       "number": 7,
       "repo": "mangiapanejohn-dev/MOBIUS-Searcher",
       "state": "open",
-      "updated_at": "2026-10-20T13:52:17Z",
+      "updated_at": "2026-10-27T13:21:24Z",
       "tribute": true
     },
     {
@@ -102,7 +93,7 @@
       "tribute": true
     }
   ],
-  "foreign_open_count": 9,
+  "foreign_open_count": 8,
   "tributes": [
     {
       "pr_url": "https://github.com/E-Timileyin/Sail-CLI/pull/23",
@@ -2755,7 +2746,7 @@
       "repo": "apache/hugegraph-computer",
       "number": 365,
       "title": "help-wanted: stake + contribute for #325",
-      "state": "open"
+      "state": "closed"
     },
     {
       "pr_url": "https://github.com/ciaren-labs/Ciaren/pull/234",
@@ -4672,19 +4663,6 @@
       "state": "closed"
     },
     {
-      "pr_url": "https://github.com/P-r-e-m-i-u-m/open-source-starter-lab/pull/492",
-      "kinds": [
-        "upstream_pr"
-      ],
-      "ok": true,
-      "last_ts": "2026-10-07T18:12:26Z",
-      "providers": [],
-      "repo": "P-r-e-m-i-u-m/open-source-starter-lab",
-      "number": 492,
-      "title": "help-wanted: stake + contribute for #490",
-      "state": "closed"
-    },
-    {
       "pr_url": "https://github.com/aHuddini/UniPlaySong/pull/101",
       "kinds": [
         "followup_skip_cooldown"
@@ -5190,7 +5168,7 @@
       "providers": []
     }
   ],
-  "tribute_count": 110,
+  "tribute_count": 109,
   "issues": {
     "https://github.com/vedantnimbarte/zero/issues/72": [
       {
@@ -42015,7 +41993,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "22d68c1a78955a83c09ca0ee957008d32b596774",
+    "source_sha": "3231802fc3505df8b2a91b765d0f730205d10201",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42049,12 +42027,12 @@
   },
   "evolution": [
     {
-      "sha": "22d68c1a78955a83c09ca0ee957008d32b596774",
-      "short_sha": "22d68c1a7895",
-      "date": "2026-10-27T06:09:04-07:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "fix(3l0): re-land observed Delphi weighting + discrimination flag (repairs #1756 overwrite of #1750; math redesign #1784) (#1785)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/22d68c1a78955a83c09ca0ee957008d32b596774"
+      "sha": "3231802fc3505df8b2a91b765d0f730205d10201",
+      "short_sha": "3231802fc350",
+      "date": "2026-10-27T07:10:30-07:00",
+      "author": "github-actions[bot]",
+      "subject": "chore(dashboards): refresh surface feeds (#1778)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/3231802fc3505df8b2a91b765d0f730205d10201"
     }
   ],
   "pipeline": [

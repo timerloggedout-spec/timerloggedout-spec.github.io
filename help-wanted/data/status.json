@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T12:32:39Z",
+  "generated_at": "2026-10-27T12:34:46Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42041,7 +42041,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "5e01e1f6a29d8834596bda87599b5027cb08ba0c",
+    "source_sha": "b5674829ef0bdff9088df2382f62ea63326b67cb",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42075,12 +42075,12 @@
   },
   "evolution": [
     {
-      "sha": "5e01e1f6a29d8834596bda87599b5027cb08ba0c",
-      "short_sha": "5e01e1f6a29d",
-      "date": "2026-10-27T05:31:32-07:00",
+      "sha": "b5674829ef0bdff9088df2382f62ea63326b67cb",
+      "short_sha": "b5674829ef0b",
+      "date": "2026-10-27T05:33:14-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "feat(3l0): backfill observed Delphi weighting from ledger #1489 (#1750)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/5e01e1f6a29d8834596bda87599b5027cb08ba0c"
+      "subject": "feat(delphi): panel feed \u2014 stated passes carry their status; n normalized (#1753)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/b5674829ef0bdff9088df2382f62ea63326b67cb"
     }
   ],
   "pipeline": [

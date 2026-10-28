@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T21:19:09Z",
+  "generated_at": "2026-10-28T22:08:41Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -101,7 +101,7 @@
         "upstream_pr"
       ],
       "ok": true,
-      "last_ts": "2026-10-28T21:19:07Z",
+      "last_ts": "2026-10-28T21:19:38Z",
       "providers": [],
       "repo": "timerloggedout-spec/timerloggedout-spec.github.io",
       "number": 5,
@@ -42029,7 +42029,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "2d43997a1e1643e96a9faebe5c3e208f868364ae",
+    "source_sha": "6707a94a5d7fea5ee423f5f6af576c70d531ab8b",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42063,12 +42063,12 @@
   },
   "evolution": [
     {
-      "sha": "2d43997a1e1643e96a9faebe5c3e208f868364ae",
-      "short_sha": "2d43997a1e16",
-      "date": "2026-10-28T14:17:35-07:00",
+      "sha": "6707a94a5d7fea5ee423f5f6af576c70d531ab8b",
+      "short_sha": "6707a94a5d7f",
+      "date": "2026-10-28T15:07:53-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #2218 from timerloggedout-spec/marketing-channel/neon-link",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/2d43997a1e1643e96a9faebe5c3e208f868364ae"
+      "subject": "challenge: field-size OSINT (required, per-event) + admin metrics feed v1 (#2244)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/6707a94a5d7fea5ee423f5f6af576c70d531ab8b"
     }
   ],
   "pipeline": [

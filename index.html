@@ -40,12 +40,11 @@ footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-con
 <header class="hero"><h1 id="h1"></h1><p id="sub"></p><a class="btn" id="cta1"></a><div class="incentive" id="inc"></div></header>
 <section id="why"><h2>Why</h2><div class="grid3" id="benefits"></div></section>
 <section id="demo"><div class="demo"><div><h2 id="demoTitle"></h2><p class="lead" id="demoText"></p><div class="actions"><a class="btn" id="demoBtn" target="_blank" rel="noopener"></a><a class="btn ghost" id="repoBtn" target="_blank" rel="noopener">View the source</a></div></div><div class="frame"><div class="bar acc"></div><div class="bar"></div><div class="bar short"></div><div class="bar"></div><div class="bar short"></div></div></div></section>
-<section class="trust" id="trustSec"><p id="trust"></p></section>
 <section id="partners"><h2 id="pTitle"></h2><p class="lead" id="pLead"></p><div class="grid4" id="pGrid"></div><p class="pnote" id="pNote"></p></section>
 <section class="cta" id="cta"><h2 id="ctaH"></h2><a class="btn" id="cta2"></a><div class="incentive" id="inc2"></div></section>
 <footer><span id="fline"></span><ul id="flinks"></ul><span class="disc" id="disc"></span></footer>
 </div>
-<script src="js/content.js?v=20261027"></script>
+<script src="js/content.js?v=20261027b"></script>
 <script>
 (function(){const C=window.CONTENT,$=i=>document.getElementById(i),esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 document.title=C.brand;$('brand').textContent=C.brand;$('nav').innerHTML=C.nav.map(n=>`<li><a href="${n.href}">${esc(n.label)}</a></li>`).join('');
@@ -53,7 +52,6 @@ $('h1').textContent=C.hero.headline;$('sub').textContent=C.hero.subhead;for(cons
 $('inc').textContent=C.hero.incentive;$('inc2').textContent=C.hero.incentive;$('ctaH').textContent=C.hero.headline;
 $('benefits').innerHTML=C.benefits.map(b=>`<div class="card"><div class="ic">${esc(b.icon)}</div><h3>${esc(b.title)}</h3><p>${esc(b.text)}</p></div>`).join('');
 $('demoTitle').textContent=C.demo.title;$('demoText').textContent=C.demo.text;$('demoBtn').textContent=C.demo.button;$('demoBtn').href=C.demo.href;$('repoBtn').href=C.demo.repoHref;
-if(C.trust){$('trust').textContent=C.trust}else{$('trustSec').style.display='none'}
 if(C.partners&&C.partners.items&&C.partners.items.length){const P=C.partners;$('pTitle').textContent=P.title;$('pLead').textContent=P.lead;
 $('pGrid').innerHTML=P.items.map(p=>`<a class="card pcard" href="${esc(p.href)}" target="_blank" rel="noopener sponsored"><div class="ic">${esc(p.icon||'◇')}</div><span class="tag">${esc(p.category||'')}</span><h3>${esc(p.name)}</h3><p>${esc(p.text||'')}</p>${p.offer?`<span class="offer">${esc(p.offer)}</span>`:''}</a>`).join('');
 $('pNote').innerHTML=(P.note?esc(P.note)+' ':'')+(P.registryHref?`<a href="${esc(P.registryHref)}" target="_blank" rel="noopener">${esc(P.registryLabel||'Registry')}</a>`:'');}else{$('partners').style.display='none'}
@@ -61,9 +59,11 @@ $('pNote').innerHTML=(P.note?esc(P.note)+' ':'')+(P.registryHref?`<a href="${esc
 // the feed publishes exactly one live code per programme; codes are never
 // baked into this page). Programmes without a live code render nothing.
 fetch('help-wanted/data/referral-feed.json').then(r=>{if(!r.ok)throw new Error('feed '+r.status);return r.json()}).then(F=>{
-const codes=(F.items||[]).filter(i=>i.mechanic==='invite_code'&&i.live_code);
+const ch=new URLSearchParams(location.search).get('ch');
+const pick=i=>i.mechanic==='invite_code'?((ch==='fb-b'&&i.cell_b_code)?i.cell_b_code:i.live_code):null;
+const codes=(F.items||[]).map(i=>({i,code:pick(i)})).filter(x=>x.code);
 if(!codes.length)return;
-$('pGrid').insertAdjacentHTML('beforeend',codes.map(i=>`<div class="card pcard"><span class="tag">Invite code — free</span><h3>${esc(i.name)}</h3><p>${esc(i.visitor_reward||'')}</p><div><span class="codechip">${esc(i.live_code)}</span><button class="copybtn" data-copy="${esc(i.live_code)}">Copy</button></div>${i.free_no_cc?`<p class="warn">${esc(i.free_no_cc)}</p>`:''}${i.reserve_codes?`<p class="pool">Pool healthy: ${i.reserve_codes} backup code${i.reserve_codes>1?'s':''} ready if this one fills.</p>`:''}</div>`).join(''));
+$('pGrid').insertAdjacentHTML('beforeend',codes.map(({i,code})=>`<div class="card pcard"><span class="tag">Invite code — free</span><h3>${esc(i.name)}</h3><p>${esc(i.visitor_reward||'')}</p><div><span class="codechip">${esc(code)}</span><button class="copybtn" data-copy="${esc(code)}">Copy</button></div>${i.free_no_cc?`<p class="warn">${esc(i.free_no_cc)}</p>`:''}${i.reserve_codes?`<p class="pool">Pool healthy: ${i.reserve_codes} backup code${i.reserve_codes>1?'s':''} ready if this one fills.</p>`:''}</div>`).join(''));
 }).catch(()=>{});
 $('pGrid').addEventListener('click',e=>{const b=e.target.closest('[data-copy]');if(!b)return;const done=()=>{b.textContent='Copied';setTimeout(()=>{b.textContent='Copy'},1600)};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(b.getAttribute('data-copy')).then(done).catch(done)}else{done()}});
 $('fline').textContent=C.footer.line;$('flinks').innerHTML=C.footer.links.map(l=>`<li><a href="${l.href}" target="_blank" rel="noopener">${esc(l.label)}</a></li>`).join('');$('disc').textContent=C.footer.disclosure||'';

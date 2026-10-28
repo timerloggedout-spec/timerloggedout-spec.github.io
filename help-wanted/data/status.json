@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T02:45:02Z",
+  "generated_at": "2026-10-28T02:53:51Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -95,6 +95,19 @@
   ],
   "foreign_open_count": 8,
   "tributes": [
+    {
+      "pr_url": "https://github.com/timerloggedout-spec/timerloggedout-spec.github.io/pull/1",
+      "kinds": [
+        "upstream_pr"
+      ],
+      "ok": true,
+      "last_ts": "2026-10-28T02:47:15Z",
+      "providers": [],
+      "repo": "timerloggedout-spec/timerloggedout-spec.github.io",
+      "number": 1,
+      "title": "feat(landing): de-center CellCog; feed-driven invite-code cards",
+      "state": "closed"
+    },
     {
       "pr_url": "https://github.com/E-Timileyin/Sail-CLI/pull/23",
       "kinds": [
@@ -3710,11 +3723,7 @@
       ],
       "ok": true,
       "last_ts": "2026-10-22T11:50:12Z",
-      "providers": [],
-      "repo": "gabe-santana/saccade",
-      "number": 27,
-      "title": "help-wanted: stake + contribute for #25",
-      "state": "closed"
+      "providers": []
     },
     {
       "pr_url": "https://github.com/MyFanss/MyFans/pull/2056",
@@ -5168,7 +5177,7 @@
       "providers": []
     }
   ],
-  "tribute_count": 109,
+  "tribute_count": 110,
   "issues": {
     "https://github.com/vedantnimbarte/zero/issues/72": [
       {
@@ -41993,7 +42002,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "633856c6440d9380da84341a30d84a2879130e27",
+    "source_sha": "b70aadc9e68956faac5eae4f3f1f49d9c15fe826",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42027,12 +42036,12 @@
   },
   "evolution": [
     {
-      "sha": "633856c6440d9380da84341a30d84a2879130e27",
-      "short_sha": "633856c6440d",
-      "date": "2026-10-27T19:44:18-07:00",
+      "sha": "b70aadc9e68956faac5eae4f3f1f49d9c15fe826",
+      "short_sha": "b70aadc9e689",
+      "date": "2026-10-27T19:53:10-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #1893 from timerloggedout-spec/marketing-channel/referral-automation-2026-10-27",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/633856c6440d9380da84341a30d84a2879130e27"
+      "subject": "Merge pull request #1894 from timerloggedout-spec/marketing-channel/referral-recovery-muse-live",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/b70aadc9e68956faac5eae4f3f1f49d9c15fe826"
     }
   ],
   "pipeline": [

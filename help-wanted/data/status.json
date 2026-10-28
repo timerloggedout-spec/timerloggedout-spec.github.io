@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T00:21:22Z",
+  "generated_at": "2026-10-28T01:17:57Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -41993,7 +41993,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "2a68083ad9e12b8a44b8d5749d194009c33333c5",
+    "source_sha": "fd4a64ed0064e6c6250698fc3c19c896ad68cf04",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42027,12 +42027,12 @@
   },
   "evolution": [
     {
-      "sha": "2a68083ad9e12b8a44b8d5749d194009c33333c5",
-      "short_sha": "2a68083ad9e1",
-      "date": "2026-10-27T17:20:31-07:00",
+      "sha": "fd4a64ed0064e6c6250698fc3c19c896ad68cf04",
+      "short_sha": "fd4a64ed0064",
+      "date": "2026-10-27T18:17:07-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "quota: registry expansion \u2014 all 27 provider families get model-lane records with documented limits + telemetry read paths (#1875)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/2a68083ad9e12b8a44b8d5749d194009c33333c5"
+      "subject": "quota: fix null limits from historical allowance mappings + record provisioned credentials (#1877)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/fd4a64ed0064e6c6250698fc3c19c896ad68cf04"
     }
   ],
   "pipeline": [

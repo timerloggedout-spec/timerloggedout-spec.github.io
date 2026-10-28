@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T03:50:29Z",
+  "generated_at": "2026-10-28T03:56:38Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42011,7 +42011,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "a5975384e60babeacde84152d1b408dfab43b70b",
+    "source_sha": "f67f8a81f4cbaa855db7bfa32ff01760bd852932",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42045,12 +42045,12 @@
   },
   "evolution": [
     {
-      "sha": "a5975384e60babeacde84152d1b408dfab43b70b",
-      "short_sha": "a5975384e60b",
-      "date": "2026-10-27T20:49:52-07:00",
+      "sha": "f67f8a81f4cbaa855db7bfa32ff01760bd852932",
+      "short_sha": "f67f8a81f4cb",
+      "date": "2026-10-27T20:55:51-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #1952 from timerloggedout-spec/feat/delphi-rfp-feed-v11",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/a5975384e60babeacde84152d1b408dfab43b70b"
+      "subject": "Merge pull request #1954 from timerloggedout-spec/delphi-rfp-segmentation-v3",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/f67f8a81f4cbaa855db7bfa32ff01760bd852932"
     }
   ],
   "pipeline": [

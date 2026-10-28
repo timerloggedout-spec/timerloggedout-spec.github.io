@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T18:03:37Z",
+  "generated_at": "2026-10-28T20:00:16Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42020,7 +42020,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "aaaaa9f650bd469ad1d53876fb9bd7742aa3f396",
+    "source_sha": "0b03452de6bbea1e085e2c01f5abbcf540e013e6",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42054,12 +42054,12 @@
   },
   "evolution": [
     {
-      "sha": "aaaaa9f650bd469ad1d53876fb9bd7742aa3f396",
-      "short_sha": "aaaaa9f650bd",
-      "date": "2026-10-28T11:02:46-07:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "fix(dashboard): Gantt axis ticks on PT midnights (DST-safe) (#2129)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/aaaaa9f650bd469ad1d53876fb9bd7742aa3f396"
+      "sha": "0b03452de6bbea1e085e2c01f5abbcf540e013e6",
+      "short_sha": "0b03452de6bb",
+      "date": "2026-10-28T19:57:21Z",
+      "author": "github-actions[bot]",
+      "subject": "ops(help-wanted): live status refresh 2026-10-28T19:57Z",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/0b03452de6bbea1e085e2c01f5abbcf540e013e6"
     }
   ],
   "pipeline": [

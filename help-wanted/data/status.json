@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T22:08:41Z",
+  "generated_at": "2026-10-28T22:11:10Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42029,7 +42029,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "6707a94a5d7fea5ee423f5f6af576c70d531ab8b",
+    "source_sha": "87170509830acb20732c2acb5558a50c2bbabef5",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42063,12 +42063,12 @@
   },
   "evolution": [
     {
-      "sha": "6707a94a5d7fea5ee423f5f6af576c70d531ab8b",
-      "short_sha": "6707a94a5d7f",
-      "date": "2026-10-28T15:07:53-07:00",
+      "sha": "87170509830acb20732c2acb5558a50c2bbabef5",
+      "short_sha": "87170509830a",
+      "date": "2026-10-28T15:10:17-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "challenge: field-size OSINT (required, per-event) + admin metrics feed v1 (#2244)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/6707a94a5d7fea5ee423f5f6af576c70d531ab8b"
+      "subject": "challenge: MoneyBall winprob refinements landed (estimate+basis, internal) (#2246)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/87170509830acb20732c2acb5558a50c2bbabef5"
     }
   ],
   "pipeline": [

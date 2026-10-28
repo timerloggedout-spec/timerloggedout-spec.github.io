@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T13:14:16Z",
+  "generated_at": "2026-10-28T13:23:00Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42020,7 +42020,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "2c097e74ca73d66c20a8fdc632b2ae5a2b49db08",
+    "source_sha": "2a287bf7110192bb1793f7ad22ebdf7ce47b0424",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42054,12 +42054,12 @@
   },
   "evolution": [
     {
-      "sha": "2c097e74ca73d66c20a8fdc632b2ae5a2b49db08",
-      "short_sha": "2c097e74ca73",
-      "date": "2026-10-28T06:13:08-07:00",
+      "sha": "2a287bf7110192bb1793f7ad22ebdf7ce47b0424",
+      "short_sha": "2a287bf71101",
+      "date": "2026-10-28T06:21:59-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #2011 from timerloggedout-spec/research-axes-cycle1",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/2c097e74ca73d66c20a8fdc632b2ae5a2b49db08"
+      "subject": "chore(dashboards): dispatch-tree maintenance \u2014 fresh sample + automated collect workflow (#2016)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/2a287bf7110192bb1793f7ad22ebdf7ce47b0424"
     }
   ],
   "pipeline": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T02:53:51Z",
+  "generated_at": "2026-10-28T03:41:18Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -95,6 +95,19 @@
   ],
   "foreign_open_count": 8,
   "tributes": [
+    {
+      "pr_url": "https://github.com/timerloggedout-spec/timerloggedout-spec.github.io/pull/2",
+      "kinds": [
+        "upstream_pr"
+      ],
+      "ok": true,
+      "last_ts": "2026-10-28T02:55:18Z",
+      "providers": [],
+      "repo": "timerloggedout-spec/timerloggedout-spec.github.io",
+      "number": 2,
+      "title": "feat(landing): cut trust section; ?ch= A/B cell codes",
+      "state": "closed"
+    },
     {
       "pr_url": "https://github.com/timerloggedout-spec/timerloggedout-spec.github.io/pull/1",
       "kinds": [
@@ -4236,11 +4249,7 @@
       ],
       "ok": true,
       "last_ts": "2026-10-21T00:36:59Z",
-      "providers": [],
-      "repo": "traceopt-ai/traceml",
-      "number": 547,
-      "title": "help-wanted: stake + contribute for #128",
-      "state": "closed"
+      "providers": []
     },
     {
       "pr_url": "https://github.com/seleniumboot/selenium-boot/pull/183",
@@ -5177,7 +5186,7 @@
       "providers": []
     }
   ],
-  "tribute_count": 110,
+  "tribute_count": 111,
   "issues": {
     "https://github.com/vedantnimbarte/zero/issues/72": [
       {
@@ -42002,7 +42011,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "b70aadc9e68956faac5eae4f3f1f49d9c15fe826",
+    "source_sha": "8b03a4855214849e0174111280fbc2cd9175f14d",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42036,12 +42045,12 @@
   },
   "evolution": [
     {
-      "sha": "b70aadc9e68956faac5eae4f3f1f49d9c15fe826",
-      "short_sha": "b70aadc9e689",
-      "date": "2026-10-27T19:53:10-07:00",
+      "sha": "8b03a4855214849e0174111280fbc2cd9175f14d",
+      "short_sha": "8b03a4855214",
+      "date": "2026-10-27T20:40:37-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #1894 from timerloggedout-spec/marketing-channel/referral-recovery-muse-live",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/b70aadc9e68956faac5eae4f3f1f49d9c15fe826"
+      "subject": "Merge pull request #1946 from timerloggedout-spec/feat/countdowns-gantt-swimlane",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/8b03a4855214849e0174111280fbc2cd9175f14d"
     }
   ],
   "pipeline": [

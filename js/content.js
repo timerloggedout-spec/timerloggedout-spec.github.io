@@ -1,6 +1,8 @@
 // Landing page copy (Chloe, Head of Marketing, 2026-09-08).
 // Nav updated 2026-09-19: Ops dashboard is a sibling path, not a landing twin.
 // Partners block added 2026-09-20 (Rowan, from docs/PARTNERS.md §1) — Chloe owns the copy; keep it mirroring the ACTIVE rows only.
+// Trust section cut 2026-10-27 (marketing lane ruling): a single partner's claim as page-level
+// social proof re-centers that partner; the claim lives on the CellCog grid card only.
 // De-centered 2026-10-27 (Web Design lane, marketing census §4): hero/footer are offering-neutral;
 // CellCog is one partners-grid card among equals. Invite-code programmes render from the live
 // referral feed (help-wanted/data/referral-feed.json) — never baked into this file.
@@ -32,12 +34,11 @@ window.CONTENT = {
     href: "https://termux-monorepo.vercel.app",
     repoHref: "https://github.com/timerloggedout-spec/termux-monorepo"
   },
-  trust: "CellCog Max ranked #1 overall on the Deep Research Benchmark (July 2026 snapshot). Live leaderboard: huggingface.co/spaces/muset-ai/DeepResearch-Bench-Leaderboard",
   partners: {
     title: "Ecosystem partners",
     lead: "Referral and affiliate lanes this project takes part in. Every link is tracked; new accounts may receive promotional credits (terms apply).",
     items: [
-      {icon:"◎", name:"CellCog", category:"AI employees & agents", text:"Autonomous AI employees with persistent inboxes, cloud browsers, and terminal execution — the team behind this repo's CI review lane.", offer:"500 bonus credits on first purchase", href:"https://cellcog.ai/invitation/l19hdRGY9dTh"},
+      {icon:"◎", name:"CellCog", category:"AI employees & agents", text:"Autonomous AI employees with persistent inboxes, cloud browsers, and terminal execution — the team behind this repo's CI review lane. Its Max tier ranked #1 overall on the Deep Research Benchmark (July 2026 snapshot).", offer:"500 bonus credits on first purchase", href:"https://cellcog.ai/invitation/l19hdRGY9dTh"},
       {icon:"⌕", name:"Polsia", category:"AI directory & intelligence", text:"AI directory and intelligence platform.", offer:"Referral bonus credits", href:"https://polsia.com/?ref=B5K7S8NL"},
       {icon:"⚙", name:"Manus AI", category:"AI employees & agents", text:"General-purpose AI agent platform.", offer:"Invitation link", href:"https://manus.im/invitation/5MHU34UJRBOTVC6?utm_source=invitation&utm_medium=social&utm_campaign=system_share"},
       {icon:"▤", name:"Grafana", category:"Observability & cloud", text:"Dashboards and alerting for the CI/CD traces and telemetry this monorepo emits.", offer:"Referral sign-up", href:"https://grafana.com/auth/sign-up?refCode=gr8WEigykKjVGTV"}

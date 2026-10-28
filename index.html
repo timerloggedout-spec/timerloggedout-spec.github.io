@@ -32,6 +32,11 @@ section{padding:64px 0;border-top:1px solid var(--hair)}h2{font-size:30px;letter
 .cta{text-align:center;background:linear-gradient(180deg,var(--surface),var(--bg))}.cta h2{font-size:34px}
 footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;border-top:1px solid var(--hair)}footer ul{display:flex;gap:16px;list-style:none;margin:0;padding:0}footer .disc{width:100%;font-size:12px;opacity:.8}
 @media (max-width:760px){.demo{grid-template-columns:1fr}nav ul{display:none}}
+
+  .tstats{display:flex;gap:1rem;flex-wrap:wrap;margin:.6rem 0}
+  .tstat{background:rgba(255,255,255,.06);border-radius:10px;padding:.7rem 1rem;min-width:150px}
+  .tstat strong{display:block;font-size:1.6rem}
+  .tref{display:flex;justify-content:space-between;max-width:520px;padding:.25rem 0;border-bottom:1px solid rgba(255,255,255,.08)}
 </style>
 </head>
 <body>
@@ -41,7 +46,11 @@ footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-con
 <section id="why"><h2>Why</h2><div class="grid3" id="benefits"></div></section>
 <section id="demo"><div class="demo"><div><h2 id="demoTitle"></h2><p class="lead" id="demoText"></p><div class="actions"><a class="btn" id="demoBtn" target="_blank" rel="noopener"></a><a class="btn ghost" id="repoBtn" target="_blank" rel="noopener">View the source</a></div></div><div class="frame"><div class="bar acc"></div><div class="bar"></div><div class="bar short"></div><div class="bar"></div><div class="bar short"></div></div></div></section>
 <section id="partners"><h2 id="pTitle"></h2><p class="lead" id="pLead"></p><div class="grid4" id="pGrid"></div><p class="pnote" id="pNote"></p></section>
-<section class="cta" id="cta"><h2 id="ctaH"></h2><a class="btn" id="cta2"></a><div class="incentive" id="inc2"></div></section>
+<section class="cta" id="cta"><h2 id="ctaH"></h2><a class="btn" id="cta2"></a><div class="incentive" id="inc2"></div><section id="traffic"><h2>Traffic — counted, not claimed</h2>
+<div class="tstats"><div class="tstat"><strong id="tViews">—</strong><span>visits, trailing 14 days</span></div><div class="tstat"><strong id="tUniques">—</strong><span>unique visitors</span></div></div>
+<div id="tRefs"></div><div id="tFb"></div>
+<p id="tNote">Loading the traffic record…</p>
+</section></section>
 <footer><span id="fline"></span><ul id="flinks"></ul><span class="disc" id="disc"></span></footer>
 </div>
 <script src="js/content.js?v=20261027b"></script>
@@ -68,6 +77,37 @@ $('pGrid').insertAdjacentHTML('beforeend',codes.map(({i,code})=>`<div class="car
 $('pGrid').addEventListener('click',e=>{const b=e.target.closest('[data-copy]');if(!b)return;const done=()=>{b.textContent='Copied';setTimeout(()=>{b.textContent='Copy'},1600)};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(b.getAttribute('data-copy')).then(done).catch(done)}else{done()}});
 $('fline').textContent=C.footer.line;$('flinks').innerHTML=C.footer.links.map(l=>`<li><a href="${l.href}" target="_blank" rel="noopener">${esc(l.label)}</a></li>`).join('');$('disc').textContent=C.footer.disclosure||'';
 document.querySelector('meta[name=description]').content=C.hero.subhead;})();
+</script>
+<script>
+"use strict";
+(function(){
+  var esc=function(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});};
+  fetch('data/traffic-feed.json').then(function(r){ if(!r.ok) throw new Error('feed '+r.status); return r.json(); }).then(function(f){
+    document.getElementById('tViews').textContent=f.views.count;
+    document.getElementById('tUniques').textContent=f.views.uniques;
+    var refs=(f.referrers||[]).map(function(x){ return '<div class="tref"><span>'+esc(x.referrer)+'</span><span>'+esc(x.count)+' visits · '+esc(x.uniques)+' unique</span></div>'; }).join('');
+    document.getElementById('tRefs').innerHTML=refs || '<p>No referrers recorded in this window.</p>';
+    document.getElementById('tNote').textContent=(f.note||'')+' Record generated '+(f.generated_at||'')+' · Source: '+(f.source||'')+'.';
+  }).catch(function(){
+    document.getElementById('tNote').textContent='Traffic record not yet published — the counter starts with the first collect; nothing is shown rather than anything guessed.';
+  });
+  fetch('help-wanted/data/fb-traffic.json').then(function(r){ if(!r.ok) throw new Error('fb '+r.status); return r.json(); }).then(function(f){
+    var num=function(v){ var n=parseInt(v,10); return isNaN(n)?0:n; };
+    var html='<h3>Facebook Pages — per-cell metrics</h3>';
+    (f.pages||[]).forEach(function(pg){
+      var tv=0,tu=0,te=0,tl=0;
+      var rows=(pg.posts||[]).map(function(po){ var m=po.metrics||{}; tv+=num(m.views); tu+=num(m.unique_viewers); te+=num(m.engagements); tl+=num(m.link_clicks);
+        var cap=String(po.caption_head||'').split('
+')[0]; if(cap.length>64) cap=cap.slice(0,63)+'…';
+        return '<div class="tref"><span>'+esc(cap)+'</span><span>'+esc(m.views||'0')+' views · '+esc(m.link_clicks||'0')+' link clicks</span></div>'; }).join('');
+      html+='<p><strong>'+esc(pg.page)+'</strong> · cell '+esc(pg.cell||'')+' — totals: '+tv+' views · '+tu+' unique · '+te+' engagements · '+tl+' link clicks</p>'+rows;
+    });
+    html+='<p>Facebook record as of '+esc(f.as_of||'')+' · Source: '+esc(f.source||'')+'. '+(f.note||'')+'</p>';
+    document.getElementById('tFb').innerHTML=html;
+  }).catch(function(){
+    document.getElementById('tFb').innerHTML='<p>Facebook metrics not yet published.</p>';
+  });
+})();
 </script>
 </body>
 </html>

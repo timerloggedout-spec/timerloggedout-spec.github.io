@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T17:52:47Z",
+  "generated_at": "2026-10-28T17:55:07Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42020,7 +42020,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "c4c7b1594000aa98c2bb433c32db3cb2801c24cc",
+    "source_sha": "a177e15fc7bba314e636429e2f3380fde1b2c744",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42054,12 +42054,12 @@
   },
   "evolution": [
     {
-      "sha": "c4c7b1594000aa98c2bb433c32db3cb2801c24cc",
-      "short_sha": "c4c7b1594000",
-      "date": "2026-10-28T10:51:57-07:00",
+      "sha": "a177e15fc7bba314e636429e2f3380fde1b2c744",
+      "short_sha": "a177e15fc7bb",
+      "date": "2026-10-28T10:53:36-07:00",
       "author": "github-actions[bot]",
-      "subject": "chore(dashboards): refresh dispatch-tree feed + observation (#2127)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/c4c7b1594000aa98c2bb433c32db3cb2801c24cc"
+      "subject": "chore(delphi): refresh delphi-rfp-feed (#2062)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/a177e15fc7bba314e636429e2f3380fde1b2c744"
     }
   ],
   "pipeline": [

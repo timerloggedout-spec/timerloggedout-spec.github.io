@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T02:06:24Z",
+  "generated_at": "2026-10-28T02:22:04Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -41993,7 +41993,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "b69d870ff0ed93abb2dc5d697bfa41000550fb9d",
+    "source_sha": "bf837b1095df8bed17036912a25f5b1b094a4217",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42027,12 +42027,12 @@
   },
   "evolution": [
     {
-      "sha": "b69d870ff0ed93abb2dc5d697bfa41000550fb9d",
-      "short_sha": "b69d870ff0ed",
-      "date": "2026-10-27T19:05:40-07:00",
+      "sha": "bf837b1095df8bed17036912a25f5b1b094a4217",
+      "short_sha": "bf837b1095df",
+      "date": "2026-10-27T19:20:57-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "feat(quota): focused allocations \u2014 pools x focuses x % (#1884) (#1887)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/b69d870ff0ed93abb2dc5d697bfa41000550fb9d"
+      "subject": "fix(dashboards): Linguist panel re-pin to landed linguist-panel-feed/v1 + layers switch (#1891)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/bf837b1095df8bed17036912a25f5b1b094a4217"
     }
   ],
   "pipeline": [

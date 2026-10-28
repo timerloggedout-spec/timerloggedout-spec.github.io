@@ -1,6 +1,9 @@
 // Landing page copy (Chloe, Head of Marketing, 2026-09-08).
 // Nav updated 2026-09-19: Ops dashboard is a sibling path, not a landing twin.
 // Partners block added 2026-09-20 (Rowan, from docs/PARTNERS.md §1) — Chloe owns the copy; keep it mirroring the ACTIVE rows only.
+// De-centered 2026-10-27 (Web Design lane, marketing census §4): hero/footer are offering-neutral;
+// CellCog is one partners-grid card among equals. Invite-code programmes render from the live
+// referral feed (help-wanted/data/referral-feed.json) — never baked into this file.
 window.CONTENT = {
   brand: "Autonomous AI Employees",
   nav: [
@@ -13,9 +16,9 @@ window.CONTENT = {
   hero: {
     headline: "Deploy 24/7 Autonomous AI Employees for Your Engineering Workflows",
     subhead: "Go beyond chat wrappers. Hire deep-reasoning AI employees equipped with persistent inboxes, cloud browsers, and terminal execution to automate complex software tasks.",
-    cta: "Claim Your 500 Bonus Credits",
-    ctaHref: "https://cellcog.ai/invitation/l19hdRGY9dTh",
-    incentive: "Sign up via this invitation and receive 500 bonus credits on your first purchase to kickstart your autonomous team."
+    cta: "Get started free",
+    ctaHref: "#partners",
+    incentive: "Every programme in the stack below is free to join — invite codes and links, no card required."
   },
   benefits: [
     {icon:"⚙", title:"True Cross-Modal Super-Agents", text:"Execute terminal commands, browse live staging sites, and generate production assets across code, data dashboards, and multimedia without leaving your workflow."},
@@ -44,14 +47,12 @@ window.CONTENT = {
     registryHref: "https://github.com/timerloggedout-spec/termux-monorepo/blob/master/docs/PARTNERS.md"
   },
   footer: {
-    line: "Powered by CellCog.",
+    line: "Autonomous AI Employees — built in the open.",
     links: [
-      {label:"Terms of Service", href:"https://cellcog.ai/policies/terms"},
-      {label:"Privacy Policy", href:"https://cellcog.ai/policies/privacy"},
-      {label:"Invitation Link", href:"https://cellcog.ai/invitation/l19hdRGY9dTh"},
+      {label:"Partners", href:"#partners"},
       {label:"GitHub", href:"https://github.com/timerloggedout-spec/termux-monorepo"},
       {label:"Ops dashboard", href:"/help-wanted/"}
     ],
-    disclosure: "New accounts signing up through this partner invitation receive 500 promotional credits upon their first purchase. Partner links on this page may be affiliate or referral links. Terms and platform credit policies apply."
+    disclosure: "Partner links and invite codes on this page may be affiliate or referral arrangements. Every programme listed is free to join unless stated otherwise; each programme's own terms and credit policies apply. Invite codes are published while the pool lasts and rotate when exhausted."
   }
 };

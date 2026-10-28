@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T20:02:12Z",
+  "generated_at": "2026-10-28T20:08:11Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42020,7 +42020,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "d97657a156944606a5a97784e752ca72b333819b",
+    "source_sha": "f65098cdcfb3588c971b238ba9489c8b59946fa2",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42054,12 +42054,12 @@
   },
   "evolution": [
     {
-      "sha": "d97657a156944606a5a97784e752ca72b333819b",
-      "short_sha": "d97657a15694",
-      "date": "2026-10-28T13:00:45-07:00",
+      "sha": "f65098cdcfb3588c971b238ba9489c8b59946fa2",
+      "short_sha": "f65098cdcfb3",
+      "date": "2026-10-28T13:07:07-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "feat(challenge): prizes REQUIRED \u2014 schema surface contract + coordinator.json wired into countdowns feed v1.1 (#2192)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/d97657a156944606a5a97784e752ca72b333819b"
+      "subject": "Merge pull request #2195 from timerloggedout-spec/web-design/countdowns-prizes",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/f65098cdcfb3588c971b238ba9489c8b59946fa2"
     }
   ],
   "pipeline": [

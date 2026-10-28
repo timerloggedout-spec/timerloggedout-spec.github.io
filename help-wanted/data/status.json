@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T14:15:16Z",
+  "generated_at": "2026-10-28T14:20:16Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42020,7 +42020,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "46c79425456288e03a6d18745a7fd28d5c78c65d",
+    "source_sha": "2805fbe77fbe85ffb960ecfdfeb4ed4834365826",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42054,12 +42054,12 @@
   },
   "evolution": [
     {
-      "sha": "46c79425456288e03a6d18745a7fd28d5c78c65d",
-      "short_sha": "46c794254562",
-      "date": "2026-10-28T07:14:35-07:00",
+      "sha": "2805fbe77fbe85ffb960ecfdfeb4ed4834365826",
+      "short_sha": "2805fbe77fbe",
+      "date": "2026-10-28T07:19:34-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "fix(quota): restore 26 registry records lost to PR #2018 stale base (69 -> 95) + pinecone allocations pool (#2030)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/46c79425456288e03a6d18745a7fd28d5c78c65d"
+      "subject": "quota: g4f per-provider resolution (60 records: 17 established / 43 not-established w/ usage-log inference) + full reconcile (#2032)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/2805fbe77fbe85ffb960ecfdfeb4ed4834365826"
     }
   ],
   "pipeline": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T13:34:43Z",
+  "generated_at": "2026-10-28T13:38:24Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42020,7 +42020,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "6e57b110e1c573429bede122b1473848c3e14b96",
+    "source_sha": "69a423941352d5c1208941b93bd3a3e8ca09177b",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42054,12 +42054,12 @@
   },
   "evolution": [
     {
-      "sha": "6e57b110e1c573429bede122b1473848c3e14b96",
-      "short_sha": "6e57b110e1c5",
-      "date": "2026-10-28T06:33:48-07:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #2021 from timerloggedout-spec/marketing-channel/unorouter-pending",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/6e57b110e1c573429bede122b1473848c3e14b96"
+      "sha": "69a423941352d5c1208941b93bd3a3e8ca09177b",
+      "short_sha": "69a423941352",
+      "date": "2026-10-28T06:37:41-07:00",
+      "author": "github-actions[bot]",
+      "subject": "chore(dashboards): refresh dispatch-tree feed + observation (#2024)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/69a423941352d5c1208941b93bd3a3e8ca09177b"
     }
   ],
   "pipeline": [

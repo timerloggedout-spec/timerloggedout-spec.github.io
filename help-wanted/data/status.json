@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T22:25:22Z",
+  "generated_at": "2026-10-28T23:17:25Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42029,7 +42029,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "ee139f78e093538753bf4160483c6745e40f0e28",
+    "source_sha": "e2fe61d62e436734b8442e700632b59e62f802c5",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42063,12 +42063,12 @@
   },
   "evolution": [
     {
-      "sha": "ee139f78e093538753bf4160483c6745e40f0e28",
-      "short_sha": "ee139f78e093",
-      "date": "2026-10-28T15:24:40-07:00",
+      "sha": "e2fe61d62e436734b8442e700632b59e62f802c5",
+      "short_sha": "e2fe61d62e43",
+      "date": "2026-10-28T16:16:22-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #2254 from timerloggedout-spec/web-design/admin-winprob-v2",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/ee139f78e093538753bf4160483c6745e40f0e28"
+      "subject": "feat(dashboard): pr-lanes.html \u2014 PR classifier lane distribution + tables (phase 1) (#2267)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/e2fe61d62e436734b8442e700632b59e62f802c5"
     }
   ],
   "pipeline": [

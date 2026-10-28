@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T20:08:11Z",
+  "generated_at": "2026-10-28T21:19:09Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -95,6 +95,19 @@
   ],
   "foreign_open_count": 8,
   "tributes": [
+    {
+      "pr_url": "https://github.com/timerloggedout-spec/timerloggedout-spec.github.io/pull/5",
+      "kinds": [
+        "upstream_pr"
+      ],
+      "ok": true,
+      "last_ts": "2026-10-28T21:19:07Z",
+      "providers": [],
+      "repo": "timerloggedout-spec/timerloggedout-spec.github.io",
+      "number": 5,
+      "title": "Partners grid: render link-only referral programmes (Neon)",
+      "state": "closed"
+    },
     {
       "pr_url": "https://github.com/timerloggedout-spec/timerloggedout-spec.github.io/pull/4",
       "kinds": [
@@ -4598,11 +4611,7 @@
       ],
       "ok": true,
       "last_ts": "2026-10-12T22:58:27Z",
-      "providers": [],
-      "repo": "Lee-Dongwook/E2E-Self-Heal",
-      "number": 371,
-      "title": "help-wanted: stake + contribute for #351",
-      "state": "closed"
+      "providers": []
     },
     {
       "pr_url": "https://github.com/yakew7/Fair-Code/pull/940",
@@ -5195,7 +5204,7 @@
       "providers": []
     }
   ],
-  "tribute_count": 112,
+  "tribute_count": 113,
   "issues": {
     "https://github.com/vedantnimbarte/zero/issues/72": [
       {
@@ -42020,7 +42029,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "f65098cdcfb3588c971b238ba9489c8b59946fa2",
+    "source_sha": "2d43997a1e1643e96a9faebe5c3e208f868364ae",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42054,12 +42063,12 @@
   },
   "evolution": [
     {
-      "sha": "f65098cdcfb3588c971b238ba9489c8b59946fa2",
-      "short_sha": "f65098cdcfb3",
-      "date": "2026-10-28T13:07:07-07:00",
+      "sha": "2d43997a1e1643e96a9faebe5c3e208f868364ae",
+      "short_sha": "2d43997a1e16",
+      "date": "2026-10-28T14:17:35-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #2195 from timerloggedout-spec/web-design/countdowns-prizes",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/f65098cdcfb3588c971b238ba9489c8b59946fa2"
+      "subject": "Merge pull request #2218 from timerloggedout-spec/marketing-channel/neon-link",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/2d43997a1e1643e96a9faebe5c3e208f868364ae"
     }
   ],
   "pipeline": [

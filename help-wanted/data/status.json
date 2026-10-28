@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T13:59:37Z",
+  "generated_at": "2026-10-28T14:15:16Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -95,6 +95,19 @@
   ],
   "foreign_open_count": 8,
   "tributes": [
+    {
+      "pr_url": "https://github.com/timerloggedout-spec/timerloggedout-spec.github.io/pull/4",
+      "kinds": [
+        "upstream_pr"
+      ],
+      "ok": true,
+      "last_ts": "2026-10-28T14:01:11Z",
+      "providers": [],
+      "repo": "timerloggedout-spec/timerloggedout-spec.github.io",
+      "number": 4,
+      "title": "Landing: affiliate badge render (UnoRouter)",
+      "state": "closed"
+    },
     {
       "pr_url": "https://github.com/timerloggedout-spec/timerloggedout-spec.github.io/pull/3",
       "kinds": [
@@ -4674,19 +4687,6 @@
       "repo": "marrabld/omazone",
       "number": 72,
       "title": "help-wanted: stake + contribute for #14",
-      "state": "closed"
-    },
-    {
-      "pr_url": "https://github.com/tusharmotwani1718/dropsend/pull/24",
-      "kinds": [
-        "upstream_pr"
-      ],
-      "ok": true,
-      "last_ts": "2026-10-09T08:20:42Z",
-      "providers": [],
-      "repo": "tusharmotwani1718/dropsend",
-      "number": 24,
-      "title": "help-wanted: stake + contribute for #23",
       "state": "closed"
     },
     {
@@ -42020,7 +42020,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "1390b148ec30a8dfd0e1538e8de419ffaac69d88",
+    "source_sha": "46c79425456288e03a6d18745a7fd28d5c78c65d",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42054,12 +42054,12 @@
   },
   "evolution": [
     {
-      "sha": "1390b148ec30a8dfd0e1538e8de419ffaac69d88",
-      "short_sha": "1390b148ec30",
-      "date": "2026-10-28T06:58:51-07:00",
+      "sha": "46c79425456288e03a6d18745a7fd28d5c78c65d",
+      "short_sha": "46c794254562",
+      "date": "2026-10-28T07:14:35-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #2026 from timerloggedout-spec/marketing-channel/unorouter-activate",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/1390b148ec30a8dfd0e1538e8de419ffaac69d88"
+      "subject": "fix(quota): restore 26 registry records lost to PR #2018 stale base (69 -> 95) + pinecone allocations pool (#2030)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/46c79425456288e03a6d18745a7fd28d5c78c65d"
     }
   ],
   "pipeline": [

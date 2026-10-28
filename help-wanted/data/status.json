@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T22:15:33Z",
+  "generated_at": "2026-10-28T22:16:14Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42029,7 +42029,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "6897826c7049cbe1e5b8dac780051fac4cd8ee13",
+    "source_sha": "a2fa41bf05f7628815d57985d8827089b42761b8",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42063,12 +42063,12 @@
   },
   "evolution": [
     {
-      "sha": "6897826c7049cbe1e5b8dac780051fac4cd8ee13",
-      "short_sha": "6897826c7049",
-      "date": "2026-10-28T15:14:48-07:00",
+      "sha": "a2fa41bf05f7628815d57985d8827089b42761b8",
+      "short_sha": "a2fa41bf05f7",
+      "date": "2026-10-28T15:15:02-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "challenge: admin feed sync D4 participants 1908->1909 (scraper #2248) (#2249)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/6897826c7049cbe1e5b8dac780051fac4cd8ee13"
+      "subject": "Merge pull request #2247 from timerloggedout-spec/web-design/admin-internal-metrics",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/a2fa41bf05f7628815d57985d8827089b42761b8"
     }
   ],
   "pipeline": [

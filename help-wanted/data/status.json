@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T23:54:42Z",
+  "generated_at": "2026-10-28T00:03:37Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -41993,7 +41993,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "1a9f84940d50a2e077284a19bc2093953267d444",
+    "source_sha": "5ce1a9c233ef56b958c60099b94467273326f1c1",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42027,12 +42027,12 @@
   },
   "evolution": [
     {
-      "sha": "1a9f84940d50a2e077284a19bc2093953267d444",
-      "short_sha": "1a9f84940d50",
-      "date": "2026-10-27T16:54:06-07:00",
+      "sha": "5ce1a9c233ef56b958c60099b94467273326f1c1",
+      "short_sha": "5ce1a9c233ef",
+      "date": "2026-10-27T17:02:58-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "feat(linguist): panel-alignment fields for linguist-panel-feed/v1 (viz lane contract) (#1868)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/1a9f84940d50a2e077284a19bc2093953267d444"
+      "subject": "Merge pull request #1871 from timerloggedout-spec/doe-family-restructure-1865",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/5ce1a9c233ef56b958c60099b94467273326f1c1"
     }
   ],
   "pipeline": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T23:27:00Z",
+  "generated_at": "2026-10-29T00:02:30Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42029,7 +42029,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "56d8c333b5368acd72996b435367328316294e6f",
+    "source_sha": "9fdc4706c6b36c644936faa0015460062eb532b6",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42063,12 +42063,12 @@
   },
   "evolution": [
     {
-      "sha": "56d8c333b5368acd72996b435367328316294e6f",
-      "short_sha": "56d8c333b536",
-      "date": "2026-10-28T16:26:03-07:00",
+      "sha": "9fdc4706c6b36c644936faa0015460062eb532b6",
+      "short_sha": "9fdc4706c6b3",
+      "date": "2026-10-28T17:01:42-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "fix(dashboard): restore + extend pr-lane mirror in both classify commit paths (#2271)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/56d8c333b5368acd72996b435367328316294e6f"
+      "subject": "Merge pull request #2308 from timerloggedout-spec/web-design/proposals-index",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/9fdc4706c6b36c644936faa0015460062eb532b6"
     }
   ],
   "pipeline": [

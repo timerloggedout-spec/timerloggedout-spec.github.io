@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T09:10:02Z",
+  "generated_at": "2026-10-30T10:42:02Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "d8e6372675d98267a4c7f0f76aa55301822941f9",
+    "source_sha": "d713360ee6988e8704175b9eaaba7cf8dbaa7dcb",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "d8e6372675d98267a4c7f0f76aa55301822941f9",
-      "short_sha": "d8e6372675d9",
-      "date": "2026-10-30T02:08:14-07:00",
+      "sha": "d713360ee6988e8704175b9eaaba7cf8dbaa7dcb",
+      "short_sha": "d713360ee698",
+      "date": "2026-10-30T03:41:14-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "feat(quota): execute repo-replay app-slice trigger (#1884) (#2460)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/d8e6372675d98267a4c7f0f76aa55301822941f9"
+      "subject": "feat(quota): land #1884 ENROLL batch-1 lane slices (#2496)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/d713360ee6988e8704175b9eaaba7cf8dbaa7dcb"
     }
   ],
   "pipeline": [

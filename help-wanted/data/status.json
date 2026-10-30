@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T01:49:00Z",
+  "generated_at": "2026-10-30T01:59:59Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "49089ee5c01008e0e857ee5dcce703e1d19aae49",
+    "source_sha": "4fe93c87049b98f1b3e5f282b6eddd3d084aac63",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "49089ee5c01008e0e857ee5dcce703e1d19aae49",
-      "short_sha": "49089ee5c010",
-      "date": "2026-10-29T18:48:10-07:00",
+      "sha": "4fe93c87049b98f1b3e5f282b6eddd3d084aac63",
+      "short_sha": "4fe93c87049b",
+      "date": "2026-10-29T18:59:15-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "feat(quota): first converted-snapshot promotion (probe 2026-10-28T23:36Z) (#2362)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/49089ee5c01008e0e857ee5dcce703e1d19aae49"
+      "subject": "Merge pull request #2360 from timerloggedout-spec/viz/quota-usage-graphs",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/4fe93c87049b98f1b3e5f282b6eddd3d084aac63"
     }
   ],
   "pipeline": [

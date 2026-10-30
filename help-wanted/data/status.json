@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T02:07:27Z",
+  "generated_at": "2026-10-30T02:47:49Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "0750917cf32dda38b51623ffc871b7cb65d81971",
+    "source_sha": "28b7478eb64a88ad27fe3cc1147f2f43ccaf6212",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "0750917cf32dda38b51623ffc871b7cb65d81971",
-      "short_sha": "0750917cf32d",
-      "date": "2026-10-29T19:06:47-07:00",
+      "sha": "28b7478eb64a88ad27fe3cc1147f2f43ccaf6212",
+      "short_sha": "28b7478eb64a",
+      "date": "2026-10-29T19:46:58-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #2374 from timerloggedout-spec/viz/quota-usage-snapshot-landed",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/0750917cf32dda38b51623ffc871b7cb65d81971"
+      "subject": "Merge pull request #2383 from timerloggedout-spec/viz/quota-usage-flow-line",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/28b7478eb64a88ad27fe3cc1147f2f43ccaf6212"
     }
   ],
   "pipeline": [

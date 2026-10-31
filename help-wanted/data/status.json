@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T06:00:05Z",
+  "generated_at": "2026-10-31T06:05:15Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "898bd77f740ae9a387bd45909d0a30b768295e0e",
+    "source_sha": "0b20b013762fa8e837b38fa144181826c5070f85",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "898bd77f740ae9a387bd45909d0a30b768295e0e",
-      "short_sha": "898bd77f740a",
-      "date": "2026-10-30T22:58:50-07:00",
+      "sha": "0b20b013762fa8e837b38fa144181826c5070f85",
+      "short_sha": "0b20b013762f",
+      "date": "2026-10-30T23:04:28-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "desk-feed refresh #1: D0 row (owner-required) + D1 Jules iteration evidence + corrected flow model (#2637)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/898bd77f740ae9a387bd45909d0a30b768295e0e"
+      "subject": "Merge pull request #2640 from timerloggedout-spec/viz/desk-feed-provider-usage",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/0b20b013762fa8e837b38fa144181826c5070f85"
     }
   ],
   "pipeline": [

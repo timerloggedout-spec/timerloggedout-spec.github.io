@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T06:05:15Z",
+  "generated_at": "2026-10-31T06:15:22Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "0b20b013762fa8e837b38fa144181826c5070f85",
+    "source_sha": "7c2c8da0f6aa5499fc1673851c5cea46760c49b0",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "0b20b013762fa8e837b38fa144181826c5070f85",
-      "short_sha": "0b20b013762f",
-      "date": "2026-10-30T23:04:28-07:00",
+      "sha": "7c2c8da0f6aa5499fc1673851c5cea46760c49b0",
+      "short_sha": "7c2c8da0f6aa",
+      "date": "2026-10-30T23:13:59-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #2640 from timerloggedout-spec/viz/desk-feed-provider-usage",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/0b20b013762fa8e837b38fa144181826c5070f85"
+      "subject": "desk-feed refresh #5: usage.status per ruling #2648 (waived pre-mandate rows, activity-only Jules) (#2653)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/7c2c8da0f6aa5499fc1673851c5cea46760c49b0"
     }
   ],
   "pipeline": [

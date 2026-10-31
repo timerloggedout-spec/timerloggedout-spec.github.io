@@ -1,18 +1,18 @@
 {
- "schema": "desk-feed/v1.1",
- "generated_at": "2026-10-31T06:10:00Z",
+ "schema": "desk-feed/v1.2",
+ "generated_at": "2026-10-31T06:14:00Z",
  "built_by": "contribution desk (refresh #1, 2026-10-30)",
- "refresh": "The Contribution Desk lane refreshes this pack by PR as traversals move; states carry their audit basis in each row's evidence. v1.1 (viz lane, owner order 2026-10-30): provider_usage[] per traversal \u2014 the desk stamps provider + session at dispatch time; consumption stays null until a provider surface establishes it, never estimated.",
+ "refresh": "The Contribution Desk lane refreshes this pack by PR as traversals move; states carry their audit basis in each row's evidence. v1.1 (viz lane, owner order 2026-10-30): provider_usage[] per traversal — the desk stamps provider + session at dispatch time; consumption stays null until a provider surface establishes it, never estimated.",
  "desk": {
   "name": "Contribution Desk",
-  "seat": "Challenge Management \u2014 Assistant (contribution desk under the contestant model, PR #2604)",
-  "model": "termux-monorepo = the contestant under test (HQ + build/test body). Build code is produced ONLY by repo provider lanes (88 providers wired, ops/quota/registry.json) \u2014 primary Jules via agent-jules-on-issues; Gemini/DeepSeek dispatch wired; provider-command-dispatch for polish. Muse seats NEVER author build code (owner correction 2026-10-30: substituted Muse-subagent production retracted). The Desk is a UI/UX surface: it renders contribution state and routes specs; it executes nothing.",
+  "seat": "Challenge Management — Assistant (contribution desk under the contestant model, PR #2604)",
+  "model": "termux-monorepo = the contestant under test (HQ + build/test body). Build code is produced ONLY by repo provider lanes (88 providers wired, ops/quota/registry.json) — primary Jules via agent-jules-on-issues; Gemini/DeepSeek dispatch wired; provider-command-dispatch for polish. Muse seats NEVER author build code (owner correction 2026-10-30: substituted Muse-subagent production retracted). The Desk is a UI/UX surface: it renders contribution state and routes specs; it executes nothing.",
   "roles": {
    "owner": "authorization of record (direct orders only; a halt lifts only by the owner)",
-   "sub_managers": "spec / census / gates / verify (incl. provenance) \u2014 not code",
-   "desk": "UI/UX surface: intake board, traversal state, provider+session evidence per PR \u2014 executes nothing",
+   "sub_managers": "spec / census / gates / verify (incl. provenance) — not code",
+   "desk": "UI/UX surface: intake board, traversal state, provider+session evidence per PR — executes nothing",
    "orchestration": "Scout / Orchestrator surfaces own provider dispatch (lane flow fix in progress, 2026-10-30)",
-   "provider_lanes": "Jules / Gemini / DeepSeek / command-dispatch \u2014 author ALL build code via monorepo PRs",
+   "provider_lanes": "Jules / Gemini / DeepSeek / command-dispatch — author ALL build code via monorepo PRs",
    "entries_lane": "coordinator/log single-writer (records)"
   },
   "pipeline": [
@@ -48,7 +48,7 @@
    "evidence": {
     "pr": 1702,
     "merge_sha": "aa110a5e71af",
-    "note": "D0 completion package (Delphi Oracle + fetch_evidence) \u2014 the contestant-model precedent. Own-repo port timerloggedout-spec/delphi-oracle@393e1f4b verified firsthand (blobs identical, tests 5 passed, demo receipts reproduced). Builders of record: Scout (port) + Delphi (verification).",
+    "note": "D0 completion package (Delphi Oracle + fetch_evidence) — the contestant-model precedent. Own-repo port timerloggedout-spec/delphi-oracle@393e1f4b verified firsthand (blobs identical, tests 5 passed, demo receipts reproduced). Builders of record: Scout (port) + Delphi (verification).",
     "sync": "delphi-oracle repo live @393e1f4b (foundation pin)"
    },
    "next": "Closed as foundation for D1 (StudySprint builds on the D0 package).",
@@ -58,8 +58,16 @@
      "via": "provider route of record at the time",
      "session_id": null,
      "state": "landed",
-     "usage": null,
-     "usage_note": "per-dispatch consumption NOT ESTABLISHED (no provider surface recorded it)"
+     "usage": {
+      "value": null,
+      "unit": null,
+      "source": null,
+      "window": null,
+      "match": null,
+      "note": "No provider surface exposes a consumption figure for the owner-named Scout/Delphi lanes; per-dispatch consumption NOT ESTABLISHED.",
+      "status": "waived"
+     },
+     "model": "NOT ESTABLISHED"
     }
    ]
   },
@@ -88,30 +96,52 @@
      "session": "17326020844735872479",
      "pr": 2635,
      "pr_author": "google-labs-jules[bot]",
-     "pr_head": "91b554ea64b2",
-     "ci": "repo gate success + termux smoke success (head_sha)",
-     "state": "PR open \u2014 D1 seat verification pending"
+     "pr_head": "84c6db3e2d37",
+     "ci": "head 84c6db3e2d37: repo gate + termux smoke in_progress at stamp (2026-10-31T06:06Z); prior head 91b554ea64b2: both success",
+     "state": "LANDED — merged + synced (D1 PASS, firsthand: 17 tests, 21 CI success / 0 failure)",
+     "session_state": "COMPLETED",
+     "merge_sha": "2c0894d2e7d3",
+     "sync": "studysprint repo @f7270f379fae; parity 21/21 blobs, ∅ drift (desk sync check)"
     }
    },
-   "next": "Iteration PR #2635 (Jules) awaiting D1 verification; re-sync test target 2026-11-03; submission 2026-11-04 (owner ruling: submit on due day)",
+   "next": "Nov 3 re-sync test (parity tool now in-repo: resync_parity.py); submission Nov 4 (owner ruling: submit on due day)",
    "provider_usage": [
     {
      "provider": "Muse (in-house, pre-correction)",
-     "scope": "original build \u00b7 PR #2606",
-     "via": "D1 lane under owner ruling (we complete ourselves, via main); contributed byte-identical via PR #2606 \u2014 desk/D1 record",
+     "scope": "original build · PR #2606",
+     "via": "D1 lane under owner ruling (we complete ourselves, via main); contributed byte-identical via PR #2606 — desk/D1 record",
      "session_id": null,
      "state": "landed",
-     "usage": null,
-     "usage_note": "no provider surface; pre-correction in-house build"
+     "usage": {
+      "value": null,
+      "unit": null,
+      "source": "Muse subscription status (account level)",
+      "window": "week of 2026-10-30",
+      "match": null,
+      "note": "no provider surface; pre-correction in-house build Per-PR split NOT ESTABLISHED.",
+      "status": "waived"
+     },
+     "model": "NOT ESTABLISHED"
     },
     {
      "provider": "Jules",
      "scope": "iteration dispatch",
      "via": "issue #2626 + jules label (agent-jules-on-issues)",
      "session_id": "17326020844735872479",
-     "state": "PR #2635 open \u2014 authored by google-labs-jules[bot]",
-     "usage": null,
-     "usage_note": "Jules API exposes session state/timing only; per-session consumption NOT ESTABLISHED"
+     "state": "landed (merged 2c0894d2e7d3; synced f7270f379fae)",
+     "usage": {
+      "value": 1,
+      "unit": "sessions",
+      "source": "Jules API session record (sessions/17326020844735872479)",
+      "window": "2026-10-31T05:32Z dispatch; session COMPLETED",
+      "match": "activity-proxy",
+      "note": "activity proxy, labeled — NOT consumption; Jules API exposes no usage figure",
+      "status": "activity-only"
+     },
+     "model": "NOT ESTABLISHED",
+     "moniker": "[MUSEai]@{role:{challenge-entries-manager}}",
+     "role": "contribution-desk dispatch (per-dispatch)",
+     "context": "issue #2626 (D1 iteration backlog) + jules label via agent-jules-on-issues"
     }
    ]
   },
@@ -138,12 +168,23 @@
    "next": "Nov 1 checkpoint met build-side (landed 2026-10-30); submission deadline 2026-11-09",
    "provider_usage": [
     {
-     "provider": "Muse \u2014 desk-spawned subagents",
+     "provider": "Muse — desk-spawned subagents",
      "via": "substituted route (retracted 2026-10-30)",
      "session_id": null,
      "state": "landed",
-     "usage": null,
-     "usage_note": "shared Muse weekly bucket: 100% consumed the night of 2026-10-30 (resets 2026-11-03 03:21 PST); per-dispatch split NOT ESTABLISHED"
+     "usage": {
+      "value": null,
+      "unit": null,
+      "source": "Muse subscription status (account level)",
+      "window": "week of 2026-10-30; resets 2026-11-03 03:21 PST",
+      "match": null,
+      "note": "shared Muse weekly bucket: 100% consumed the night of 2026-10-30 (resets 2026-11-03 03:21 PST); per-dispatch split NOT ESTABLISHED Per-PR split NOT ESTABLISHED — shared Muse bucket (weekly 100% + additional tokens 26% consumed at 2026-10-30 measurement).",
+      "status": "waived"
+     },
+     "model": "Muse Spark 1.3",
+     "moniker": "[MUSEai]@{role:{challenge-entries-manager}}",
+     "role": "contribution-desk dispatch (per-dispatch)",
+     "context": "desk-spawned builder subagents, 2026-10-30 (substituted route, retracted)"
     }
    ]
   },
@@ -172,17 +213,28 @@
      "95cf49d2c917",
      "5687f6033a4b"
     ],
-    "note": "P0 scaffold + P1 retrieval + P2 tests landed (40 ok / 2 skip; P3-VALIDATION.md runbook NOT-RUN). AUTHORSHIP: desk-spawned Muse subagents \u2014 substituted route (Jules unsteerable, no escalation); provider-lane production credit RETRACTED 2026-10-30."
+    "note": "P0 scaffold + P1 retrieval + P2 tests landed (40 ok / 2 skip; P3-VALIDATION.md runbook NOT-RUN). AUTHORSHIP: desk-spawned Muse subagents — substituted route (Jules unsteerable, no escalation); provider-lane production credit RETRACTED 2026-10-30."
    },
-   "next": "P3 execution = AMD seat Nov 07\u201309 (docker first-build + LLM live activation); M4 frozen @5687f6033a4b. Provider route PROVEN on D1 (PR #2635, Jules); future M4 fixes route Jules-only.",
+   "next": "P3 execution = AMD seat Nov 07–09 (docker first-build + LLM live activation); M4 frozen @5687f6033a4b. Provider route PROVEN on D1 (PR #2635, Jules); future M4 fixes route Jules-only.",
    "provider_usage": [
     {
-     "provider": "Muse \u2014 desk-spawned subagents",
+     "provider": "Muse — desk-spawned subagents",
      "via": "substituted route (retracted 2026-10-30)",
      "session_id": null,
      "state": "landed",
-     "usage": null,
-     "usage_note": "shared Muse weekly bucket: 100% consumed the night of 2026-10-30 (resets 2026-11-03 03:21 PST); per-dispatch split NOT ESTABLISHED"
+     "usage": {
+      "value": null,
+      "unit": null,
+      "source": "Muse subscription status (account level)",
+      "window": "week of 2026-10-30; resets 2026-11-03 03:21 PST",
+      "match": null,
+      "note": "shared Muse weekly bucket: 100% consumed the night of 2026-10-30 (resets 2026-11-03 03:21 PST); per-dispatch split NOT ESTABLISHED Per-PR split NOT ESTABLISHED — shared Muse bucket (weekly 100% + additional tokens 26% consumed at 2026-10-30 measurement).",
+      "status": "waived"
+     },
+     "model": "Muse Spark 1.3",
+     "moniker": "[MUSEai]@{role:{challenge-entries-manager}}",
+     "role": "contribution-desk dispatch (per-dispatch)",
+     "context": "desk-spawned builder subagents, 2026-10-30 (substituted route, retracted)"
     }
    ]
   },
@@ -228,7 +280,7 @@
   },
   {
    "entry": "D2",
-   "project": "Vultr Agent Rush \u2014 pick not frozen (candidate: Web Adapter Foundry)",
+   "project": "Vultr Agent Rush — pick not frozen (candidate: Web Adapter Foundry)",
    "artifact_repo": null,
    "status": "queued",
    "stages": {
@@ -241,7 +293,7 @@
     "sync": "pending"
    },
    "evidence": {
-    "note": "build route per D2 seat record: pick/spec \u21d2 Desk \u21d2 builder lanes \u21d2 monorepo PR \u21d2 sync \u21d2 D2 verifies"
+    "note": "build route per D2 seat record: pick/spec ⇒ Desk ⇒ builder lanes ⇒ monorepo PR ⇒ sync ⇒ D2 verifies"
    },
    "next": "Kickoff 2026-11-03T15:00Z; gate D2-NOCARD open (Vultr account before the gift-code step)",
    "provider_usage": []

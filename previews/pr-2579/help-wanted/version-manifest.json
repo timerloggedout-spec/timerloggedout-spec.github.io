@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "version": "1.0.0+551655fa6bca",
+  "channel": "preview",
+  "source_ref": "codex/admin-graph-validation-hardening",
+  "source_sha": "551655fa6bca4a0f13e8096eb8e8ffd667260986",
+  "built_at": "2026-10-31T08:59:40.533Z",
+  "comparison": {
+    "production_manifest": "https://timerloggedout-spec.github.io/help-wanted/version-manifest.json",
+    "repository": "https://github.com/timerloggedout-spec/termux-monorepo"
+  },
+  "pages": [
+    {
+      "id": "help-wanted-home",
+      "file": "index.html",
+      "title": "Help-Wanted Home",
+      "content_sha256": null
+    },
+    {
+      "id": "admin-graph",
+      "file": "admin-graph.html",
+      "title": "Admin Graph",
+      "content_sha256": null
+    },
+    {
+      "id": "version-comparison",
+      "file": "versioning.html",
+      "title": "Version Comparison",
+      "content_sha256": null
+    }
+  ]
+}

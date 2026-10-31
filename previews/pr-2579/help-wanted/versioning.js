@@ -7,7 +7,7 @@
   var APP = "timerloggedout-spec/termux-monorepo";
   var PRODUCTION_ROOT = "https://timerloggedout-spec.github.io/help-wanted/";
   var manifestUrl = new URL("./version-manifest.json", window.location.href).href;
-  var fallbackPages = [{"id":"3l0","file":"3l0.html","title":"3l0"},{"id":"admin-graph","file":"admin-graph.html","title":"Admin Graph"},{"id":"admin","file":"admin.html","title":"Admin"},{"id":"ates","file":"ates.html","title":"Ates"},{"id":"countdowns","file":"countdowns.html","title":"Countdowns"},{"id":"delphi-ledger","file":"delphi-ledger.html","title":"Delphi Ledger"},{"id":"delphi-rfp","file":"delphi-rfp.html","title":"Delphi Rfp"},{"id":"desk","file":"desk.html","title":"Desk"},{"id":"dispatch-tree","file":"dispatch-tree.html","title":"Dispatch Tree"},{"id":"doe","file":"doe.html","title":"Doe"},{"id":"free-tier-value","file":"free-tier-value.html","title":"Free Tier Value"},{"id":"help-wanted-home","file":"index.html","title":"Help-Wanted Home"},{"id":"lanes-and-scopes","file":"lanes-and-scopes.html","title":"Lanes And Scopes"},{"id":"linguist","file":"linguist.html","title":"Linguist"},{"id":"matrix","file":"matrix.html","title":"Matrix"},{"id":"moneyball","file":"moneyball.html","title":"Moneyball"},{"id":"mvt","file":"mvt.html","title":"Mvt"},{"id":"oracle","file":"oracle.html","title":"Oracle"},{"id":"pr-lanes","file":"pr-lanes.html","title":"Pr Lanes"},{"id":"proposals","file":"proposals.html","title":"Proposals"},{"id":"quota-usage","file":"quota-usage.html","title":"Quota Usage"},{"id":"quota","file":"quota.html","title":"Quota"},{"id":"telemetry","file":"telemetry.html","title":"Telemetry"}];
+  var fallbackPages = [{"id":"3l0","file":"3l0.html","title":"3l0"},{"id":"admin-graph","file":"admin-graph.html","title":"Admin Graph"},{"id":"admin","file":"admin.html","title":"Admin"},{"id":"ates","file":"ates.html","title":"Ates"},{"id":"countdowns","file":"countdowns.html","title":"Countdowns"},{"id":"delphi-ledger","file":"delphi-ledger.html","title":"Delphi Ledger"},{"id":"delphi-rfp","file":"delphi-rfp.html","title":"Delphi Rfp"},{"id":"desk","file":"desk.html","title":"Desk"},{"id":"dispatch-tree","file":"dispatch-tree.html","title":"Dispatch Tree"},{"id":"doe","file":"doe.html","title":"Doe"},{"id":"free-tier-value","file":"free-tier-value.html","title":"Free Tier Value"},{"id":"help-wanted-home","file":"index.html","title":"Help-Wanted Home"},{"id":"lanes-and-scopes","file":"lanes-and-scopes.html","title":"Lanes And Scopes"},{"id":"linguist","file":"linguist.html","title":"Linguist"},{"id":"matrix","file":"matrix.html","title":"Matrix"},{"id":"moneyball","file":"moneyball.html","title":"Moneyball"},{"id":"mvt","file":"mvt.html","title":"Mvt"},{"id":"oracle","file":"oracle.html","title":"Oracle"},{"id":"pr-lanes","file":"pr-lanes.html","title":"Pr Lanes"},{"id":"proposals","file":"proposals.html","title":"Proposals"},{"id":"quota-usage","file":"quota-usage.html","title":"Quota Usage"},{"id":"quota","file":"quota.html","title":"Quota"},{"id":"telemetry","file":"telemetry.html","title":"Telemetry"},{"id":"version-comparison","file":"versioning.html","title":"Version Comparison"}];
   function paramsFor(page, manifest) {
     var q = new URLSearchParams();
     q.set("page_unique_id", page.id);
@@ -70,21 +70,29 @@
       fetch(PRODUCTION_ROOT + "version-manifest.json", {cache:"no-store"}).then(function (r) { if(!r.ok) throw new Error("production manifest HTTP "+r.status); return r.json(); })
     ]).then(function (results) {
       var current = results[0], prod = results[1];
-      var rows = (current.pages || []).map(function (p) {
-        var old = (prod.pages || []).find(function (q) { return q.id === p.id; });
-        var changed = !old ? "NEW PAGE" : (!old.content_sha256 || !p.content_sha256 ? "HASH UNAVAILABLE" : (old.content_sha256 !== p.content_sha256 ? "CHANGED" : "same content"));
-        return '<tr><th scope="row">' + esc(p.id) + '</th><td>' + esc(p.title || p.file) +
-          '</td><td>' + esc(changed) + '</td><td><a href="./' + esc(p.file) + '?page_unique_id=' +
+      var currentPages = current.pages || [];
+      var productionPages = prod.pages || [];
+      var ids = Object.create(null);
+      currentPages.concat(productionPages).forEach(function (p) { ids[p.id] = true; });
+      var rows = Object.keys(ids).sort().map(function (id) {
+        var p = currentPages.find(function (q) { return q.id === id; });
+        var old = productionPages.find(function (q) { return q.id === id; });
+        var page = p || old;
+        var changed = !p ? "REMOVED FROM PREVIEW" : (!old ? "NEW PAGE" : (!old.content_sha256 || !p.content_sha256 ? "HASH UNAVAILABLE" : (old.content_sha256 !== p.content_sha256 ? "CHANGED" : "same content")));
+        var previewLink = p ? '<a href="./' + esc(p.file) + '?page_unique_id=' +
           encodeURIComponent(p.id) + '&amp;version=' + encodeURIComponent(current.version) +
-          '&amp;channel=' + encodeURIComponent(current.channel) + '">Open preview</a></td><td>' +
-          (old ? '<a href="' + esc(PRODUCTION_ROOT + old.file) + '">Open production</a>' : '—') + '</td></tr>';
+          '&amp;channel=' + encodeURIComponent(current.channel) + '">Open preview</a>' : '—';
+        var productionLink = old ? '<a href="' + esc(PRODUCTION_ROOT + old.file) + '">Open production</a>' : '—';
+        return '<tr><th scope="row">' + esc(id) + '</th><td>' + esc(page.title || page.file) +
+          '</td><td>' + esc(changed) + '</td><td>' + previewLink + '</td><td>' + productionLink + '</td></tr>';
       }).join("");
       root.innerHTML = '<p><strong>Current:</strong> ' + esc(current.channel) + ' · ' +
         esc(current.version) + ' · <code>' + esc(current.source_sha || "unverified") +
         '</code></p><p><strong>Production:</strong> ' + esc(prod.version || "unverified") +
         ' · <code>' + esc(prod.source_sha || "unverified") + '</code></p>' +
-        '<p><a href="https://github.com/' + APP + '/compare/master...' +
-        encodeURIComponent(current.source_ref || "master") + '">GitHub source diff</a></p>' +
+        (current.source_sha && prod.source_sha ? '<p><a href="https://github.com/' + APP + '/compare/' +
+        encodeURIComponent(prod.source_sha) + '...' + encodeURIComponent(current.source_sha) +
+        '">GitHub source diff</a></p>' : '<p>Source diff unavailable: one or both manifest source SHAs are missing.</p>') +
         '<div class="pv-table-wrap"><table><thead><tr><th>Page unique ID</th><th>Page</th><th>Comparison</th><th>Preview</th><th>Production</th></tr></thead><tbody>' +
         rows + '</tbody></table></div>';
     }).catch(function (error) {

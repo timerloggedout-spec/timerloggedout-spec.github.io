@@ -1,32 +1,158 @@
 {
   "schema_version": 1,
-  "version": "1.0.0+551655fa6bca",
+  "version": "1.0.1+fe147ed07cc2",
   "channel": "preview",
-  "source_ref": "codex/admin-graph-validation-hardening",
-  "source_sha": "551655fa6bca4a0f13e8096eb8e8ffd667260986",
-  "built_at": "2026-10-31T08:59:40.533Z",
+  "source_ref": "master",
+  "source_sha": "fe147ed07cc248eca9c616990c09fe0d988b482e",
+  "built_at": "2026-10-31T17:20:12.053618+00:00",
   "comparison": {
     "production_manifest": "https://timerloggedout-spec.github.io/help-wanted/version-manifest.json",
     "repository": "https://github.com/timerloggedout-spec/termux-monorepo"
   },
   "pages": [
     {
-      "id": "help-wanted-home",
-      "file": "index.html",
-      "title": "Help-Wanted Home",
-      "content_sha256": null
+      "id": "3l0",
+      "file": "3l0.html",
+      "title": "3L0",
+      "content_sha256": "8906adba0d0eeff6931523026303fa85227ab13f202490e5ae2260f04db3d42e"
     },
     {
       "id": "admin-graph",
       "file": "admin-graph.html",
       "title": "Admin Graph",
-      "content_sha256": null
+      "content_sha256": "a92741a4dba1a610490c9a79414028939a95ae6f2334b8da6ab02de6caea4b11"
+    },
+    {
+      "id": "admin",
+      "file": "admin.html",
+      "title": "Admin",
+      "content_sha256": "bafc3d3dd3899a22a6bc207bcd9254bbe0d695e41f5846b29efbf7334337b708"
+    },
+    {
+      "id": "ates",
+      "file": "ates.html",
+      "title": "ATES",
+      "content_sha256": "c64710cdb1206d95e0a9ed45e0f47fe5f826b1334668c51ff86c7d487c3defb1"
+    },
+    {
+      "id": "countdowns",
+      "file": "countdowns.html",
+      "title": "Countdowns",
+      "content_sha256": "93d3895f00ae2429569de1b145dd7c4369a368164b7ff37c70dc5b4f2c9dbcbb"
+    },
+    {
+      "id": "delphi-ledger",
+      "file": "delphi-ledger.html",
+      "title": "Delphi Ledger",
+      "content_sha256": "58c1f2b9d64975a67319acc6332a7c614fbc7c9cfe12c1d85fa8f0352b5bc85d"
+    },
+    {
+      "id": "delphi-rfp",
+      "file": "delphi-rfp.html",
+      "title": "Delphi RFP",
+      "content_sha256": "18a2472222d7bf11fd1b6ca6fd9963a9a8d6d7f0a4406b39cdcf55e1ea695fcf"
+    },
+    {
+      "id": "desk",
+      "file": "desk.html",
+      "title": "Desk",
+      "content_sha256": "95446760f6865792a383208eb5f5b9f2a64451d1aa0d8925468d187ddd247e9e"
+    },
+    {
+      "id": "dispatch-tree",
+      "file": "dispatch-tree.html",
+      "title": "Dispatch Tree",
+      "content_sha256": "79acfd4dc6a58a1d5d6f5fd13cbbee7a9369d35b68ebb91f3a06a0243bc63544"
+    },
+    {
+      "id": "doe",
+      "file": "doe.html",
+      "title": "DoE",
+      "content_sha256": "314e85feb02b00a528e43a322a78d7fa2f10be815100c48a5711c48c96128267"
+    },
+    {
+      "id": "free-tier-value",
+      "file": "free-tier-value.html",
+      "title": "Free Tier Value",
+      "content_sha256": "ec569589ea9c8bba1f7e78ee47a6768957978f5e00bc9bb9cd2b1a5b9dc17063"
+    },
+    {
+      "id": "help-wanted-home",
+      "file": "index.html",
+      "title": "Help-Wanted Home",
+      "content_sha256": "ad42cddcbeedb2476dfa6380f92beab43863db60f0e6ffb965114027a95e53ab"
+    },
+    {
+      "id": "lanes-and-scopes",
+      "file": "lanes-and-scopes.html",
+      "title": "Lanes And Scopes",
+      "content_sha256": "eb12e930bb02fa30f5ce2d982039952c00613e253281672aa460b4b3b342c9ec"
+    },
+    {
+      "id": "linguist",
+      "file": "linguist.html",
+      "title": "Linguist",
+      "content_sha256": "af2db46334e102e030eb6f37a25e1aac0f1627a3b6558fcab6bbd9c18ff9c2ab"
+    },
+    {
+      "id": "matrix",
+      "file": "matrix.html",
+      "title": "Matrix",
+      "content_sha256": "9b2c7823b1d1cc3c710b327baefa06e703144a1fbe3ad7e83e4777cb4e523d32"
+    },
+    {
+      "id": "moneyball",
+      "file": "moneyball.html",
+      "title": "Moneyball",
+      "content_sha256": "7cab96d5117c31bf27686d799cdd3250d882e59ad16cf97652b3dcecd665fa6d"
+    },
+    {
+      "id": "mvt",
+      "file": "mvt.html",
+      "title": "MVT",
+      "content_sha256": "225888f99f0f6caa85f7edfce3f4ff7d830d7c9de2e75f9de74c7b15b3f3ed81"
+    },
+    {
+      "id": "oracle",
+      "file": "oracle.html",
+      "title": "Oracle",
+      "content_sha256": "779994c66a882b37d3d30f558e45d4740efb61aaa3b38006a41fd6da9737e18c"
+    },
+    {
+      "id": "pr-lanes",
+      "file": "pr-lanes.html",
+      "title": "PR Lanes",
+      "content_sha256": "fd89e5174425aae2734edd6ecf18f2823a1ae7bb966e0f1da6c0280011b03e84"
+    },
+    {
+      "id": "proposals",
+      "file": "proposals.html",
+      "title": "Proposals",
+      "content_sha256": "8f591590a28f558d1ad58ca6b48114ed8687bb6ca44dc9f339157ff46b7fb298"
+    },
+    {
+      "id": "quota-usage",
+      "file": "quota-usage.html",
+      "title": "Quota Usage",
+      "content_sha256": "0d575dc77a589d7729011f51d0cd5bfcdb42254931ff32d4023c3f9b882c5b93"
+    },
+    {
+      "id": "quota",
+      "file": "quota.html",
+      "title": "Quota",
+      "content_sha256": "b570f51a17899466ce87431bccaa1cd4e191bd525b640e6b6fce6a228b9b98ed"
+    },
+    {
+      "id": "telemetry",
+      "file": "telemetry.html",
+      "title": "Telemetry",
+      "content_sha256": "d0f57ff3f962bd0caf36e571d9d05f2b4a527f287a650de2c8da916c428622ef"
     },
     {
       "id": "version-comparison",
       "file": "versioning.html",
       "title": "Version Comparison",
-      "content_sha256": null
+      "content_sha256": "6542f574d23361e32c5662653736c0bdf896b1a4d798569d9a91c83138cdf8a9"
     }
   ]
 }

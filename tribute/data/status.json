@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T13:43:03Z",
+  "generated_at": "2026-11-01T13:44:06Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "4da8b680faaee8c460a11e175a36dc12e2038312",
+    "source_sha": "b8ffee7254af0a0df6adea6d812b4b6ebf6a20b4",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "4da8b680faaee8c460a11e175a36dc12e2038312",
-      "short_sha": "4da8b680faae",
-      "date": "2026-11-01T05:41:02-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #3166 from timerloggedout-spec/providers/invoke-reclass-3141",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/4da8b680faaee8c460a11e175a36dc12e2038312"
+      "sha": "b8ffee7254af0a0df6adea6d812b4b6ebf6a20b4",
+      "short_sha": "b8ffee7254af",
+      "date": "2026-11-01T13:42:10Z",
+      "author": "repo-tracking-collect",
+      "subject": "ops(tracking): refresh repo tracking surface (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/b8ffee7254af0a0df6adea6d812b4b6ebf6a20b4"
     }
   ],
   "pipeline": [

@@ -23,16 +23,16 @@ window.CONTENT = {
     {label:"Get started", href:"#cta"}
   ],
   hero: {
-    headline: "Deploy 24/7 Autonomous AI Employees for Your Engineering Workflows",
-    subhead: "Go beyond chat wrappers. Hire deep-reasoning AI employees equipped with persistent inboxes, cloud browsers, and terminal execution to automate complex software tasks.",
-    cta: "Get started free",
-    ctaHref: "#partners",
-    incentive: "Every programme in the stack below is free to join — invite codes and links, no card required."
+    headline: "Software built by an AI fleet — in the open, with receipts",
+    subhead: "A human-directed fleet of AI collaborators shipping real software from a public monorepo: merges verified in history, quota read live, and every claim tied to evidence you can open.",
+    cta: "See the live dashboards",
+    ctaHref: "/help-wanted/",
+    incentive: "Everything linked from here is live: the dashboards read real feeds, and every project links to its source."
   },
   benefits: [
-    {icon:"⚙", title:"True Cross-Modal Super-Agents", text:"Execute terminal commands, browse live staging sites, and generate production assets across code, data dashboards, and multimedia without leaving your workflow."},
-    {icon:"◎", title:"#1 in Deep Research (July 2026)", text:"Powered by benchmark-leading reasoning models that thoroughly synthesize vast codebases and technical documentation with verifiable accuracy."},
-    {icon:"↗", title:"Built-in Memory & Multi-Agent Collaboration", text:"Your AI employees retain context across shifts, coordinate seamlessly in dedicated team channels, and manage persistent task boards while you sleep."}
+    {icon:"⚙", title:"Live ops, not screenshots", text:"The tribute board, quota panels, desk and tracking pages read live feeds generated from the repo and its ledgers — stale data shows as stale, and gaps stay gaps."},
+    {icon:"◎", title:"Receipts over claims", text:"Work counts when it lands: merge SHAs in master history, a receipt per oracle decision, provenance on the record — asserted evidence is graded as asserted, never as fact."},
+    {icon:"↗", title:"Challenge-built, foundation-first", text:"StudySprint and its Delphi Oracle foundation were built for AWS Builder challenges — deterministic tools, offline test suites, and an honest record when a window closed."}
   ],
   demo: {
     title: "Live development & preview portal",

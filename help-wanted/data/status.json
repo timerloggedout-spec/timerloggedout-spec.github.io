@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T01:11:17Z",
+  "generated_at": "2026-11-01T01:46:07Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "235ee0c18f9b0de96b74d68bd39efa1cb49b9af3",
+    "source_sha": "a6b4bb44167f822acfe7d0da20f93844b4a3a0d3",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "235ee0c18f9b0de96b74d68bd39efa1cb49b9af3",
-      "short_sha": "235ee0c18f9b",
-      "date": "2026-11-01T01:07:03Z",
-      "author": "termux-fleet-publisher[bot]",
-      "subject": "Merge pull request #2797 from timerloggedout-spec/quota/schema-v2-rename",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/235ee0c18f9b0de96b74d68bd39efa1cb49b9af3"
+      "sha": "a6b4bb44167f822acfe7d0da20f93844b4a3a0d3",
+      "short_sha": "a6b4bb44167f",
+      "date": "2026-11-01T01:41:32Z",
+      "author": "termux-monorepo sweep",
+      "subject": "chore(ops): record sweep accountability receipt",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/a6b4bb44167f822acfe7d0da20f93844b4a3a0d3"
     }
   ],
   "pipeline": [

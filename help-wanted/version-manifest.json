@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "1.0.1+51208a5a240c",
+  "version": "1.0.1+235ee0c18f9b",
   "channel": "production",
   "source_ref": "master",
-  "source_sha": "51208a5a240c49d64e68d340f898d40cb233159a",
-  "built_at": "2026-10-31T22:45:25.620647+00:00",
+  "source_sha": "235ee0c18f9b0de96b74d68bd39efa1cb49b9af3",
+  "built_at": "2026-11-01T01:11:17.820963+00:00",
   "comparison": {
     "production_manifest": "https://timerloggedout-spec.github.io/help-wanted/version-manifest.json",
     "repository": "https://github.com/timerloggedout-spec/termux-monorepo"
@@ -140,7 +140,7 @@
       "id": "quota",
       "file": "quota.html",
       "title": "Quota",
-      "content_sha256": "b570f51a17899466ce87431bccaa1cd4e191bd525b640e6b6fce6a228b9b98ed"
+      "content_sha256": "27f3ba17c44d7e50fb272d53e1e55322503b56e70a387264d05d0cea21c8a031"
     },
     {
       "id": "telemetry",

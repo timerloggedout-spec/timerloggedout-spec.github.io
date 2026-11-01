@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "1.0.1+7ea1998481d0",
+  "version": "1.0.1+757751eac3f9",
   "channel": "production",
   "source_ref": "master",
-  "source_sha": "7ea1998481d0cf90c8b5f3162ea92d57d7e68757",
-  "built_at": "2026-11-01T03:19:57.235112+00:00",
+  "source_sha": "757751eac3f9a4e936fdf2aa906a7d742c487826",
+  "built_at": "2026-11-01T03:22:01.908691+00:00",
   "comparison": {
     "production_manifest": "https://timerloggedout-spec.github.io/help-wanted/version-manifest.json",
     "repository": "https://github.com/timerloggedout-spec/termux-monorepo"
@@ -131,6 +131,12 @@
       "content_sha256": "8f591590a28f558d1ad58ca6b48114ed8687bb6ca44dc9f339157ff46b7fb298"
     },
     {
+      "id": "quota-graphs",
+      "file": "quota-graphs.html",
+      "title": "Quota Graphs",
+      "content_sha256": "0c0797190a5b4710b4d1f31d84cfe324ead5daf9f0827a78e8a3e30cd107ddd6"
+    },
+    {
       "id": "quota-usage",
       "file": "quota-usage.html",
       "title": "Quota Usage",
@@ -140,7 +146,7 @@
       "id": "quota",
       "file": "quota.html",
       "title": "Quota",
-      "content_sha256": "f3ad841e742b1d24484628ca1610529efcc19f2d759be57352f822ff37864100"
+      "content_sha256": "92d6bedfc9e51b9f201a8759ddad46a58348ed1b8c28f46507caa7501c70ffb7"
     },
     {
       "id": "telemetry",

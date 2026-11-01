@@ -5,6 +5,11 @@ on:
     workflows: ["pages build and deployment"]
     types: [completed]
   workflow_dispatch:
+    inputs:
+      preview_key:
+        description: "Optional published preview key, e.g. pr-3028"
+        required: false
+        type: string
 
 permissions:
   contents: read
@@ -17,6 +22,8 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: Check canonical routes and every primary Tribute destination
+        env:
+          PREVIEW_KEY: ${{ inputs.preview_key || '' }}
         shell: bash
         run: |
           set -euo pipefail
@@ -58,6 +65,19 @@ jobs:
             "https://timerloggedout-spec.github.io/tribute/tracking.html"
             "https://timerloggedout-spec.github.io/tribute/versioning.html"
           )
+          if [ -n "$PREVIEW_KEY" ]; then
+            if ! [[ "$PREVIEW_KEY" =~ ^[a-z0-9][a-z0-9-]{0,60}$ ]]; then
+              echo "::error::preview_key must be lowercase letters, digits, and hyphens."
+              exit 1
+            fi
+            urls+=(
+              "https://timerloggedout-spec.github.io/previews/$PREVIEW_KEY/tribute/"
+              "https://timerloggedout-spec.github.io/previews/$PREVIEW_KEY/tribute/tracking.html"
+              "https://timerloggedout-spec.github.io/previews/$PREVIEW_KEY/tribute/versioning.html"
+              "https://timerloggedout-spec.github.io/previews/$PREVIEW_KEY/tribute/sitemap.xml"
+              "https://timerloggedout-spec.github.io/previews/$PREVIEW_KEY/tribute/robots.txt"
+            )
+          fi
           failed=0
           for url in "${urls[@]}"; do
             code=$(curl --silent --show-error --location --max-time 15 --output /dev/null --write-out '%{http_code}' "$url" || true)

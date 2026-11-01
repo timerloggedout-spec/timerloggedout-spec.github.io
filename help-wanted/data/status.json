@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T15:30:10Z",
+  "generated_at": "2026-11-01T15:30:53Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "c4490e300d69beb96a0749c95e8431cacdd4422e",
+    "source_sha": "f0d6c178b5d4ccee2e3db0442c0e2de565b4f429",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "c4490e300d69beb96a0749c95e8431cacdd4422e",
-      "short_sha": "c4490e300d69",
-      "date": "2026-11-01T07:29:20-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #3211 from timerloggedout-spec/desk/jules-down-wording",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/c4490e300d69beb96a0749c95e8431cacdd4422e"
+      "sha": "f0d6c178b5d4ccee2e3db0442c0e2de565b4f429",
+      "short_sha": "f0d6c178b5d4",
+      "date": "2026-11-01T15:29:56Z",
+      "author": "repo-tracking-collect",
+      "subject": "ops(tracking): refresh repo tracking surface (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/f0d6c178b5d4ccee2e3db0442c0e2de565b4f429"
     }
   ],
   "pipeline": [

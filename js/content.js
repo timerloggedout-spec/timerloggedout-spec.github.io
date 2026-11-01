@@ -1,5 +1,5 @@
 // Landing page copy (Chloe, Head of Marketing, 2026-09-08).
-// Nav updated 2026-09-19: Ops dashboard is a sibling path, not a landing twin.
+// Nav updated 2026-09-19: Tribute is a sibling path, not a landing twin.
 // Partners block added 2026-09-20 (Rowan, from docs/PARTNERS.md §1) — Chloe owns the copy; keep it mirroring the ACTIVE rows only.
 // Trust section cut 2026-10-27 (marketing lane ruling): a single partner's claim as page-level
 // social proof re-centers that partner; the claim lives on the CellCog grid card only.
@@ -14,11 +14,12 @@ window.CONTENT = {
     {label:"Partners", href:"#partners"},
     {label:"StudySprint", href:"studysprint/"},
     {label:"Delphi Oracle", href:"delphi-oracle/"}, {label:"Repo-Story", href:"repo-story/"},
-    {label:"Ops dashboard", href:"/help-wanted/"},
-    {label:"Tracking", href:"/help-wanted/tracking.html"},
-    {label:"Quota", href:"/help-wanted/quota.html"},
-    {label:"Desk", href:"/help-wanted/desk.html"},
+    {label:"Tribute", href:"/tribute/"},
+    {label:"Tracking", href:"/tribute/tracking.html"},
+    {label:"Quota", href:"/tribute/quota.html"},
+    {label:"Desk", href:"/tribute/desk.html"},
     {label:"Lane matrix", href:"/matrix/"},
+    {label:"Project hub", href:"/termux-monorepo/"},
     {label:"GitHub", href:"https://github.com/timerloggedout-spec"},
     {label:"Get started", href:"#cta"}
   ],
@@ -26,7 +27,7 @@ window.CONTENT = {
     headline: "Software built by an AI fleet — in the open, with receipts",
     subhead: "A human-directed fleet of AI collaborators shipping real software from a public monorepo: merges verified in history, quota read live, and every claim tied to evidence you can open.",
     cta: "See the live dashboards",
-    ctaHref: "/help-wanted/",
+    ctaHref: "/tribute/",
     incentive: "Everything linked from here is live: the dashboards read real feeds, and every project links to its source."
   },
   benefits: [
@@ -36,7 +37,7 @@ window.CONTENT = {
   ],
   demo: {
     title: "Live development & preview portal",
-    text: "The monorepo preview portal on Vercel is a work in progress: autonomous triage, CI/CD PR-reviewer lanes, and MCP hubs. Public help-wanted oversight KPIs live at /help-wanted/ (ops — not this marketing page).",
+    text: "The monorepo preview portal on Vercel is a work in progress: autonomous triage, CI/CD PR-reviewer lanes, and MCP hubs. Public Tribute oversight KPIs live at /tribute/ (ops — not this marketing page).",
     button: "Open the preview portal (WIP) →",
     href: "https://termux-monorepo.vercel.app",
     repoHref: "https://github.com/timerloggedout-spec/termux-monorepo"
@@ -61,8 +62,8 @@ window.CONTENT = {
       {label:"StudySprint", href:"studysprint/"},
       {label:"Delphi Oracle", href:"delphi-oracle/"}, {label:"Repo-Story", href:"repo-story/"},
       {label:"GitHub", href:"https://github.com/timerloggedout-spec/termux-monorepo"},
-      {label:"Ops dashboard", href:"/help-wanted/"},
-      {label:"Tracking", href:"/help-wanted/tracking.html"}
+      {label:"Tribute", href:"/tribute/"},
+      {label:"Tracking", href:"/tribute/tracking.html"}
     ],
     disclosure: "Partner links and invite codes on this page may be affiliate or referral arrangements. Every programme listed is free to join unless stated otherwise; each programme's own terms and credit policies apply. Invite codes are published while the pool lasts and rotate when exhausted."
   }

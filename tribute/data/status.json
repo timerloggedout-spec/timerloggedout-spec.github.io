@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T12:17:09Z",
+  "generated_at": "2026-11-01T12:18:45Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "dbe9e5eec86a49a7e82c7f0d8c6caa7bde41258d",
+    "source_sha": "6d4eb44ce1b403815bb437ac5f5fa0c54acab2dc",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "dbe9e5eec86a49a7e82c7f0d8c6caa7bde41258d",
-      "short_sha": "dbe9e5eec86a",
-      "date": "2026-11-01T04:15:07-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #3121 from timerloggedout-spec/providers/dispatch-catalog-app-layer",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/dbe9e5eec86a49a7e82c7f0d8c6caa7bde41258d"
+      "sha": "6d4eb44ce1b403815bb437ac5f5fa0c54acab2dc",
+      "short_sha": "6d4eb44ce1b4",
+      "date": "2026-11-01T12:16:24Z",
+      "author": "repo-tracking-collect",
+      "subject": "ops(tracking): refresh repo tracking surface (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/6d4eb44ce1b403815bb437ac5f5fa0c54acab2dc"
     }
   ],
   "pipeline": [

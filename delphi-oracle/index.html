@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Delphi Oracle — evidence over claims</title>
+<meta name="description" content="Delphi Oracle: a deterministic evidence-gate oracle for agents. It judges a proposed action against a fetched, provenance-stamped evidence set and returns ALLOW_RECOMMENDATION, ABSTAIN, or ESCALATE with a versioned receipt. The completed foundation StudySprint is built on.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0d10;--surface:#12151a;--text:#f2f4f7;--muted:#9aa3ad;--hair:#22272e;--accent:#4fd1c5;--accent2:#2e7e7e}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 0;gap:16px}nav .brand{font-weight:800;letter-spacing:-.01em}nav ul{display:flex;gap:24px;list-style:none;margin:0;padding:0;font-size:14px;color:var(--muted)}nav ul a:hover{color:var(--text)}
+.hero{padding:72px 0 56px;text-align:center}.hero h1{font-size:clamp(32px,5.5vw,56px);font-weight:800;letter-spacing:-.03em;line-height:1.08;margin:0 auto 18px;max-width:820px}
+.hero p{font-size:19px;color:var(--muted);max-width:640px;margin:0 auto 28px}
+.badge{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--accent);background:rgba(79,209,197,.12);border:1px solid var(--accent2);border-radius:999px;padding:5px 12px;margin-bottom:20px}
+.btn{display:inline-block;padding:14px 26px;border-radius:10px;font-weight:700;background:var(--accent);color:#04211f;font-size:16px;min-height:48px}.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:transparent;color:var(--text);border:1px solid var(--hair)}.btn.ghost:hover{border-color:var(--accent)}
+.actions{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+section{padding:56px 0;border-top:1px solid var(--hair)}h2{font-size:30px;letter-spacing:-.02em;margin:0 0 10px}.lead{color:var(--muted);max-width:640px;margin:0 0 32px}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.card{background:var(--surface);border:1px solid var(--hair);border-radius:14px;padding:24px}
+.card .ic{width:40px;height:40px;border-radius:10px;background:rgba(79,209,197,.12);color:var(--accent);display:flex;align-items:center;justify-content:center;font-size:20px;margin-bottom:14px}.card h3{margin:0 0 6px;font-size:17px}.card p{margin:0;color:var(--muted);font-size:15px}
+.receipt{background:var(--surface);border:1px solid var(--hair);border-radius:14px;padding:24px;max-width:720px}
+.receipt p{margin:0 0 10px;font-size:16px}.receipt dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:6px 18px;font-size:14px}.receipt dt{color:var(--muted)}.receipt dd{margin:0;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;word-break:break-word}
+table{width:100%;border-collapse:collapse;font-size:15px}th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--hair);vertical-align:top}th{color:var(--muted);font-weight:600}td code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;color:var(--accent)}
+.tablewrap{overflow-x:auto;border:1px solid var(--hair);border-radius:14px;background:var(--surface);padding:8px 16px}
+.verdict{font-weight:700}.v-allow{color:var(--accent)}
+.strip{display:flex;gap:10px;flex-wrap:wrap}.chip{font-size:14px;color:var(--muted);border:1px solid var(--hair);border-radius:999px;padding:8px 14px}.chip b{color:var(--text);font-weight:600}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}.stepn{font-size:13px;font-weight:800;color:var(--accent);letter-spacing:.06em}
+footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;border-top:1px solid var(--hair)}footer ul{display:flex;gap:16px;list-style:none;margin:0;padding:0;flex-wrap:wrap}footer a:hover{color:var(--accent)}
+@media (max-width:760px){nav ul{display:none}.hero{padding:48px 0 40px}section{padding:40px 0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav>
+  <a class="brand" href="../">← Fleet home</a>
+  <ul>
+    <li><a href="#tool">The tool</a></li>
+    <li><a href="#receipts">Receipts</a></li>
+    <li><a href="#foundation">Foundation</a></li>
+    <li><a href="https://github.com/timerloggedout-spec/delphi-oracle">GitHub</a></li>
+  </ul>
+</nav>
+
+<header class="hero">
+  <span class="badge">Delphi Oracle · completed foundation</span>
+  <h1>Evidence over claims.</h1>
+  <p>The Delphi Oracle is a deterministic evidence-gate oracle: it judges a proposed consequential action against an evidence set and returns <strong>ALLOW_RECOMMENDATION</strong>, <strong>ABSTAIN</strong>, or <strong>ESCALATE</strong> — with a versioned receipt for every decision. It fails closed: no material evidence → ABSTAIN; consequential action classes → ESCALATE before evidence is ever weighed.</p>
+  <div class="actions">
+    <a class="btn" href="https://github.com/timerloggedout-spec/delphi-oracle">View the code</a>
+    <a class="btn ghost" href="#receipts">Read the receipts</a>
+    <a class="btn ghost" href="../studysprint/">What it founded: StudySprint</a>
+  </div>
+</header>
+
+<section id="tool">
+  <h2>The one new tool: <code>fetch_evidence</code></h2>
+  <p class="lead">The starting oracle could only judge evidence it was <em>handed</em> — and handed evidence is usually just someone's claim about the world. <code>fetch_evidence</code> removes that limit: the agent stops grading asserted evidence and starts grading fetched evidence.</p>
+  <div class="grid3">
+    <div class="card"><div class="ic">🔎</div><h3>Read-only retrieval</h3><p>Given a decision request naming an artifact — a pull request, a file, a workflow run — the tool retrieves the artifact's current state, read-only, and assembles a material evidence set.</p></div>
+    <div class="card"><div class="ic">🧾</div><h3>Provenance on every item</h3><p>Every item carries its source, the exact API path it came from, and the time it was observed — so the judged set can be traced back to where it was fetched.</p></div>
+    <div class="card"><div class="ic">⏳</div><h3>Freshness + content hash</h3><p>Each item carries a <code>fresh_until</code> stamp (assembly + 15 min) and a content hash — so the judged set is provably the set that was fetched.</p></div>
+  </div>
+  <div class="steps" style="margin-top:18px">
+    <div class="card"><p class="stepn">STEP 1</p><h3>Judge the claim</h3><p>Asked on asserted evidence only, the oracle abstains — claims aren't evidence.</p></div>
+    <div class="card"><p class="stepn">STEP 2</p><h3>Fetch the proof</h3><p><code>fetch_evidence</code> retrieves the artifact's real state and assembles the stamped evidence set.</p></div>
+    <div class="card"><p class="stepn">STEP 3</p><h3>Judge again, with a receipt</h3><p>The same question is judged on the fetched set, and the decision ships with its versioned receipt.</p></div>
+  </div>
+</section>
+
+<section id="receipts">
+  <h2>The receipts</h2>
+  <p class="lead">Completion-verified 2026-10-30, from the captured real run in <code>evidence/demo-run.json</code> — the demo's evidence is real: PR #1620's actual state and check runs, fetched at run time.</p>
+  <div class="tablewrap"><table>
+    <tr><th>Scenario</th><th>Decision</th><th>Evidence calls</th></tr>
+    <tr><td>A merge-readiness question, asserted evidence only</td><td class="verdict">ABSTAIN</td><td>0 calls</td></tr>
+    <tr><td>The same question, PR #1620 fetched by the tool</td><td class="verdict v-allow">ALLOW_RECOMMENDATION</td><td>2 calls · 103 items</td></tr>
+    <tr><td>A credential-mutation request, with fetched material evidence</td><td class="verdict">ESCALATE</td><td>1 call · 3 items — the class rule runs before evidence is weighed</td></tr>
+  </table></div>
+  <div class="strip" style="margin-top:24px">
+    <span class="chip"><b>pytest 5/5</b> — offline test suite passes</span>
+    <span class="chip"><b>Lambda smoke 200 · ABSTAIN</b> — handler runs locally</span>
+    <span class="chip"><b>Pinned</b> — delphi-oracle @ <code>393e1f4b</code></span>
+  </div>
+  <div class="receipt" style="margin-top:24px">
+    <p>Run it yourself — no credentials needed (public repo reads):</p>
+    <dl>
+      <dt>Demo</dt><dd>cd apps/weekend-challenge-delphi-oracle &amp;&amp; python3 demo.py</dd>
+      <dt>Tests</dt><dd>python3 -m pytest tests/</dd>
+      <dt>Lambda smoke</dt><dd>python3 lambda_handler.py (in the app directory)</dd>
+    </dl>
+  </div>
+</section>
+
+<section>
+  <h2>What's in the package</h2>
+  <div class="tablewrap"><table>
+    <tr><th>File</th><th>Role</th></tr>
+    <tr><td><code>agent.py</code></td><td>The entry agent: the Delphi Oracle as starting agent + the tool loop, emitting a receipt per decision</td></tr>
+    <tr><td><code>fetch_evidence.py</code></td><td>The one new tool — read-only artifact retrieval → provenance/freshness-stamped evidence sets</td></tr>
+    <tr><td><code>lambda_handler.py</code></td><td>AWS Lambda packaging (the Strands Decider pattern's deployable unit); runs locally unchanged</td></tr>
+    <tr><td><code>demo.py</code></td><td>Scripted 3-scenario walkthrough (&lt;3 min); writes <code>evidence/demo-run.json</code></td></tr>
+    <tr><td><code>ENTRY.md</code></td><td>The entry text as it would have been submitted</td></tr>
+    <tr><td><code>scripts/delphi/strands_oracle_mvp.py</code></td><td>The deterministic oracle kernel the package loads</td></tr>
+    <tr><td><code>tests/</code></td><td>The offline test suite (5 tests)</td></tr>
+  </table></div>
+</section>
+
+<section id="foundation">
+  <h2>The foundation StudySprint stands on</h2>
+  <p class="lead">Delphi Oracle is the prerequisite the fleet's D1 entry consumes: <code>fetch_evidence</code> and the oracle kernel are vendored into StudySprint's <code>foundation/</code> with identical blobs, and StudySprint extends the pattern with study evidence of its own. Evidence visible, one tap away — that rule started here.</p>
+  <div class="actions" style="justify-content:flex-start">
+    <a class="btn" href="../studysprint/">Visit the StudySprint page</a>
+    <a class="btn ghost" href="https://github.com/timerloggedout-spec/studysprint">StudySprint repo</a>
+  </div>
+</section>
+
+<section>
+  <h2>The honest record</h2>
+  <p class="lead">This package is the completion record for the AWS Builder Center Weekend Challenge “Give your Agent a Tool” (Oct 23–26, 2026). The window closed with no submission; the entry was completed anyway by owner ruling (2026-10-27) because the fleet entered it. A post-window completion is <strong>not</strong> a submission, and nothing here claims one.</p>
+  <div class="strip">
+    <span class="chip">Submissions: <b>0</b> — no submitted / win / prize claims</span>
+    <span class="chip"><b>No live AWS deployment</b> — no AWS account exists; the Lambda handler is packaged and runs locally, and no Bedrock invocation is claimed</span>
+    <span class="chip"><b>Deterministic MVP kernel</b> — no model or provider ballots are represented anywhere in the receipts</span>
+  </div>
+</section>
+
+<footer>
+  <span>Delphi Oracle · completion record @ 393e1f4b</span>
+  <ul>
+    <li><a href="https://github.com/timerloggedout-spec/delphi-oracle">Repo</a></li>
+    <li><a href="../studysprint/">StudySprint</a></li>
+    <li><a href="../">Fleet home</a></li>
+  </ul>
+</footer>
+</div>
+</body>
+</html>

@@ -14,7 +14,7 @@ nav_block = re.search(r"nav:\s*\[(.*?)\],", content, re.S)
 assert nav_block, "nav block not found in content.js"
 hrefs = re.findall(r'href:"([^"]+)"', nav_block.group(1))
 
-REQUIRED = ["#why", "#demo", "#partners", "studysprint/", "delphi-oracle/",
+REQUIRED = ["#why", "#demo", "#partners", "studysprint/", "delphi-oracle/", "repo-story/",
             "/help-wanted/", "/help-wanted/tracking.html",
             "/help-wanted/quota.html", "/help-wanted/desk.html",
             "/matrix/", "https://github.com/timerloggedout-spec", "#cta"]

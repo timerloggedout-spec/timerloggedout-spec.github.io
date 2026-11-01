@@ -1,18 +1,18 @@
 {
  "schema": "desk-feed/v1.3",
- "generated_at": "2026-11-01T11:24:05Z",
+ "generated_at": "2026-11-01T11:38:42Z",
  "built_by": "providers-dispatch fix seat 5f3a3217 (full-catalog resolution, owner order 2026-11-01) via contribution desk refresh pattern",
  "refresh": "The Contribution Desk lane refreshes this pack by PR as traversals move; states carry their audit basis in each row's evidence. v1.1 (viz lane, owner order 2026-10-30): provider_usage[] per traversal — the desk stamps provider + session at dispatch time; consumption stays null until a provider surface establishes it, never estimated.",
  "desk": {
   "name": "Contribution Desk",
   "seat": "Challenge Management — Assistant (contribution desk under the contestant model, PR #2604)",
-  "model": "Fleet provider lanes execute all build/edit work via monorepo PRs — dispatch resolution = COMPLETE catalog (dispatch.provider_catalog, v1.3): every dispatch-capable surface classed proven / wired-unproven / triggerable, plus the registry model bench (91 records / 89 distinct providers) as inference-only reachable via provider-batch / provider-availability. Bench-wide rotation: no provider takes 2 consecutive dispatches for the same entry. Muse seats never author build code.",
+  "model": "Fleet provider lanes execute all build/edit work via monorepo PRs — dispatch resolution = COMPLETE catalog (dispatch.provider_catalog, v1.3): every dispatch-capable surface classed proven / wired-unproven / triggerable, plus the registry model bench (91 records / 89 distinct providers) as inference-only reachable via provider-batch / provider-availability. Rotation = bench-wide task-fit (dispatch.provider_catalog.rotation_rule). Muse seats never author build code.",
   "roles": {
    "owner": "authorization of record (direct orders only; a halt lifts only by the owner)",
    "sub_managers": "spec / census / gates / verify (incl. provenance) — not code",
    "desk": "UI/UX surface: intake board, traversal state, provider+session evidence per PR — executes nothing",
    "orchestration": "Scout / Orchestrator surfaces own provider dispatch (lane flow fix in progress, 2026-10-30)",
-   "provider_lanes": "Structured catalog = dispatch.provider_catalog (v1.3, complete). Summary: proven build/fix {Jules, Gemini dispatch, DeepSeek termux-agent, DeepAgent bridge+task} · proven review {CodeRabbit, Qodo, Devin, Gemini-after-peers, CellCog, peer-review-orchestrator, ECC Tools} · proven arms {provider-batch (dispatch HELD per #2672 until contracts green), provider-availability, provider-command-dispatch} · owner-named {Scout/Delphi} · wired-unproven {gemini-invoke, gemini-triage, gemini-review} · triggerable {gemini-interactions-smoke, openrouter-free-counter-batch-probe, cadence-provider-onboarding, provider-recon-compound, quota-dispatch-tree} · inference-only = registry model bench via the named arms. Rotation bench-wide, provider + reason stamped per dispatch.",
+   "provider_lanes": "Structured catalog = dispatch.provider_catalog (v1.3, complete). Summary: proven build/fix {Jules, Gemini dispatch, DeepSeek termux-agent, DeepAgent bridge+task} · proven review {CodeRabbit, Qodo, Devin, Gemini-after-peers, CellCog, peer-review-orchestrator, ECC Tools} · proven arms {provider-batch (dispatch HELD per #2672 until contracts green), provider-availability, provider-command-dispatch} · owner-named {Scout/Delphi} · wired-unproven {gemini-invoke, gemini-triage, gemini-review} · triggerable {gemini-interactions-smoke, openrouter-free-counter-batch-probe, cadence-provider-onboarding, provider-recon-compound, quota-dispatch-tree} · inference-only = registry model bench via the named arms. Rotation = bench-wide task-fit; stamps carry provider + selection reason + bench position (catalog class).",
    "entries_lane": "coordinator/log single-writer (records)"
   },
   "pipeline": [
@@ -77,7 +77,7 @@
     "census_note": "Registry figures are firsthand at the census master (they supersede the 161-record / 89-model brief figures, which were an earlier snapshot: 89 = model-lane distinct providers). Run totals for high-frequency event workflows hit the Actions API 40,000 cap and are not cited; cited totals are exact-count workflows only."
    },
    "rotation_rule": {
-    "rule": "Bench-wide: no provider takes 2 consecutive dispatches for the same entry, across ALL catalog lanes (supersedes the 2026-10-31 rule, which capped repeats inside the 4-lane funnel only).",
+    "rule": "Bench-wide TASK-FIT rotation (owner FIX via main, 2026-11-01; supersedes the no-2-consecutive rule): every dispatch selects from the FULL wired bench in this catalog — the surface whose class fits the task (build / fix / review / device / probe / inference arm) — with no fixed funnel and no automatic repeat of the previous pick. Stamps carry provider + selection reason + bench position (the provider's catalog class).",
     "selection": "Task-fit across the full catalog: (1) match task class to lanes; (2) proven lanes carry production work; (3) wired-unproven / triggerable surfaces receive bounded, DoE-stamped proof dispatches instead of permanent exile — a first success promotes them to proven at the next feed refresh; (4) inference-only registry providers are selectable for inference/eval tasks via their named dispatch arm, stamped with provider + model@version; (5) every dispatch stamps provider + surface + selection reason + session/run id (telemetry gate: no stamp => no dispatch).",
     "reselection_d1": "D1 pending dispatches re-selected under the widened bench (fix seat review 2026-11-01): DeepSeek fix-pass (deepseek-termux-agent run 41301295882, success) and Gemini SR module (issue #3050, gemini-dispatch run 41301369671, success) STAND — two distinct providers, rotation-valid, both already fired. The NEXT D1 dispatch must go to a proven lane outside {DeepSeek, Gemini} for its task class (fix: CodeRabbit / Devin / command-dispatch / Jules; feature: Jules / DeepAgent-task), stamped with the reason."
    },
@@ -343,7 +343,7 @@
       "gemini-invoke.yml"
      ],
      "trigger": "workflow_call only (via gemini-dispatch / review callers) — no direct dispatch trigger",
-     "evidence": "0 runs at census; promotion = first caller-routed run with a DoE stamp"
+     "evidence": "0 runs at census; promotion = first caller-routed run with a DoE stamp || BATCH ALL TRIGGERABLE (owner order 2026-11-01; fired by Swarm lane [MUSEai]@{role:{optimizations-assurance}}; stamped by desk [MUSEai]@{role:{challenge-entries-manager}}, context = production batch dispatch, model = NOT ESTABLISHED (workflow-internal)): NO DIRECT FIRE — workflow_call only (no dispatch trigger); batch exposure only via gemini-dispatch/review callers ⇒ class stays wired-unproven."
     },
     {
      "id": "gemini-triage",
@@ -356,7 +356,7 @@
       "gemini-triage.yml"
      ],
      "trigger": "workflow_call only",
-     "evidence": "0 runs at census; promotion = first caller-routed run with a DoE stamp"
+     "evidence": "0 runs at census; promotion = first caller-routed run with a DoE stamp || BATCH ALL TRIGGERABLE (owner order 2026-11-01; fired by Swarm lane [MUSEai]@{role:{optimizations-assurance}}; stamped by desk [MUSEai]@{role:{challenge-entries-manager}}, context = production batch dispatch, model = NOT ESTABLISHED (workflow-internal)): NO DIRECT FIRE — workflow_call only (no dispatch trigger); batch exposure only via callers ⇒ class stays wired-unproven."
     },
     {
      "id": "gemini-review",
@@ -369,7 +369,7 @@
       "gemini-review.yml"
      ],
      "trigger": "PR events (workflow file present)",
-     "evidence": "26 runs, 0 successes; last run failure @2026-08-20 — wired, never proven; promotion = first success run"
+     "evidence": "26 runs, 0 successes; last run failure @2026-08-20 — wired, never proven; promotion = first success run || BATCH ALL TRIGGERABLE (owner order 2026-11-01; fired by Swarm lane [MUSEai]@{role:{optimizations-assurance}}; stamped by desk [MUSEai]@{role:{challenge-entries-manager}}, context = production batch dispatch, model = NOT ESTABLISHED (workflow-internal)): NO BATCH FIRE — PR-event route only; latest runs on record are 2026-08 failures (32385555114) ⇒ class stays wired-unproven; outcome awaits a production PR-event cycle."
     },
     {
      "id": "gemini-interactions-smoke",
@@ -383,7 +383,7 @@
       "gemini-interactions-smoke.yml"
      ],
      "trigger": "workflow_dispatch (model input)",
-     "evidence": "0 runs at census; trigger exists, never fired"
+     "evidence": "0 runs at census; trigger exists, never fired || BATCH ALL TRIGGERABLE (owner order 2026-11-01; fired by Swarm lane [MUSEai]@{role:{optimizations-assurance}}; stamped by desk [MUSEai]@{role:{challenge-entries-manager}}, context = production batch dispatch, model = NOT ESTABLISHED (workflow-internal)): OUTCOME ✗✗ — workflow_dispatch runs 41302258314 + 41302303592 FAILURE (2026-11-01) ⇒ class stays triggerable; failures route to diagnose-on-issue per the owner order (Swarm lane)."
     },
     {
      "id": "openrouter-free-counter-batch-probe",
@@ -392,12 +392,12 @@
       "probe",
       "inference"
      ],
-     "class": "triggerable",
+     "class": "proven",
      "surfaces": [
       "openrouter-free-counter-batch-probe.yml"
      ],
      "trigger": "workflow_dispatch",
-     "evidence": "0 runs at census; trigger exists, never fired"
+     "evidence": "0 runs at census; trigger exists, never fired || BATCH ALL TRIGGERABLE (owner order 2026-11-01; fired by Swarm lane [MUSEai]@{role:{optimizations-assurance}}; stamped by desk [MUSEai]@{role:{challenge-entries-manager}}, context = production batch dispatch, model = NOT ESTABLISHED (workflow-internal)): OUTCOME ✓✓ — workflow_dispatch runs 41302073525 + 41302260322 SUCCESS (2026-11-01) ⇒ class triggerable → proven (dispatch route fires + completes)."
     },
     {
      "id": "cadence-provider-onboarding",
@@ -406,12 +406,12 @@
       "onboarding",
       "promotion"
      ],
-     "class": "triggerable",
+     "class": "proven",
      "surfaces": [
       "cadence-provider-onboarding.yml"
      ],
      "trigger": "workflow_dispatch / schedule / push on registry paths",
-     "evidence": "8 runs; last_success run 41016525562 @2026-10-30 — the promotion arm: inference-only -> wired"
+     "evidence": "8 runs; last_success run 41016525562 @2026-10-30 — the promotion arm: inference-only -> wired || BATCH ALL TRIGGERABLE (owner order 2026-11-01; fired by Swarm lane [MUSEai]@{role:{optimizations-assurance}}; stamped by desk [MUSEai]@{role:{challenge-entries-manager}}, context = production batch dispatch, model = NOT ESTABLISHED (workflow-internal)): OUTCOME ✓ — workflow_dispatch run 41302538342 SUCCESS (2026-11-01) (+ run 41302640540 fired same batch) ⇒ class triggerable → proven (dispatch route fires + completes)."
     },
     {
      "id": "provider-recon-compound",
@@ -425,7 +425,7 @@
       "provider-recon-compound.yml"
      ],
      "trigger": "workflow_dispatch / workflow_run / PR paths",
-     "evidence": "57 runs; last_success run 40556385337 @2026-10-27"
+     "evidence": "57 runs; last_success run 40556385337 @2026-10-27 || BATCH ALL TRIGGERABLE (owner order 2026-11-01; fired by Swarm lane [MUSEai]@{role:{optimizations-assurance}}; stamped by desk [MUSEai]@{role:{challenge-entries-manager}}, context = production batch dispatch, model = NOT ESTABLISHED (workflow-internal)): OUTCOME ✗✗ — workflow_dispatch runs 41302080198 + 41302264142 FAILURE (2026-11-01) ⇒ class stays triggerable; failures route to diagnose-on-issue per the owner order (Swarm lane)."
     },
     {
      "id": "quota-dispatch-tree",
@@ -434,12 +434,12 @@
       "routing",
       "quota-gate"
      ],
-     "class": "triggerable",
+     "class": "proven",
      "surfaces": [
       "quota-dispatch-tree.yml"
      ],
      "trigger": "workflow events / dispatch",
-     "evidence": "51 runs; last_success run 41287565039 @2026-11-01T09:08Z — support surface, not a build lane"
+     "evidence": "51 runs; last_success run 41287565039 @2026-11-01T09:08Z — support surface, not a build lane || BATCH ALL TRIGGERABLE (owner order 2026-11-01; fired by Swarm lane [MUSEai]@{role:{optimizations-assurance}}; stamped by desk [MUSEai]@{role:{challenge-entries-manager}}, context = production batch dispatch, model = NOT ESTABLISHED (workflow-internal)): OUTCOME ✓ — workflow_dispatch run 41302083313 SUCCESS (2026-11-01) (+ run 41302266076 fired same batch) ⇒ class triggerable → proven (dispatch route fires + completes)."
     }
    ],
    "inference_only": {
@@ -1887,7 +1887,7 @@
      "sync": "studysprint repo @f7270f379fae; parity 21/21 blobs, ∅ drift (desk sync check)"
     }
    },
-   "next": "DeepSeek pass run 41301295882 (README+article v0.2.0 notes + demo swap) — PR pending agent completion ⇒ D1 verifies ⇒ desk merges ⇒ sync. Gemini SR module (issue #3050, gemini-dispatch run 41301369671) — PR ⇒ D1 verify; merge timing = D1 call (may hold post-Nov-4). freeze-hold submission 2026-11-04 23:59 PT.",
+   "next": "RE-SELECTION (owner FIX via main, 2026-11-01): the in-flight DeepSeek + Gemini dispatches stand as fired; every follow-up or re-dispatch re-selects from the full wired bench by task fit (no automatic repeat). DeepSeek pass run 41301295882 (README+article v0.2.0 notes + demo swap) — PR pending agent completion ⇒ D1 verifies ⇒ desk merges ⇒ sync. Gemini SR module (issue #3050, gemini-dispatch run 41301369671) — PR ⇒ D1 verify; merge timing = D1 call (may hold post-Nov-4). freeze-hold submission 2026-11-04 23:59 PT.",
    "provider_usage": [
     {
      "provider": "Muse (in-house, pre-correction)",
@@ -1984,7 +1984,9 @@
       "tools_ref": "tools:github-actions-workflow:deepseek-termux-agent#367231371",
       "note": "system_prompt_ref = sha256[:12] of the exact dispatched task payload (1,697 chars); tools_ref = dispatching workflow id."
      },
-     "instance_key": "challenge-entries-manager/d1-studysprint-v020-notes-deepseek/d88b4a1800bd"
+     "instance_key": "challenge-entries-manager/d1-studysprint-v020-notes-deepseek/d88b4a1800bd",
+     "bench_position": "catalog class: proven build/fix — DeepSeek termux-agent (agent-endpoint arm)",
+     "selection_reason": "Staged fix-class pick under the pre-FIX funnel (D1 seat order; fired 2026-11-01, run 41301295882). Per owner FIX via main (2026-11-01) the pick is NOT automatic going forward — any re-dispatch re-selects bench-wide by task fit."
     },
     {
      "provider": "Gemini",
@@ -2011,7 +2013,9 @@
       "tools_ref": "tools:github-actions-workflow:gemini-dispatch#327943478",
       "note": "system_prompt_ref = sha256[:12] of the exact dispatched issue title+body."
      },
-     "instance_key": "challenge-entries-manager/d1-studysprint-sr-module/31f915ff0169"
+     "instance_key": "challenge-entries-manager/d1-studysprint-sr-module/31f915ff0169",
+     "bench_position": "catalog class: proven build/fix — Gemini dispatch (issue arm)",
+     "selection_reason": "Feature-class pick under the pre-FIX rotation (D1 seat order; issue #3050, run 41301369671). Per owner FIX via main (2026-11-01): NOT automatic going forward — follow-ups re-select bench-wide by task fit."
     }
    ]
   },

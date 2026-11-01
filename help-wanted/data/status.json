@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T03:25:19Z",
+  "generated_at": "2026-11-01T03:27:44Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "6c67cc45b17637e788f4ca81e01028f14d6c0375",
+    "source_sha": "de25109a6a51a35e8f18b731f221d2c7b79ddb5d",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "6c67cc45b17637e788f4ca81e01028f14d6c0375",
-      "short_sha": "6c67cc45b176",
-      "date": "2026-11-01T03:23:45Z",
-      "author": "termux-fleet-publisher[bot]",
-      "subject": "Merge pull request #2917 from timerloggedout-spec/quota/quota-txt-snapshot-refresh",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/6c67cc45b17637e788f4ca81e01028f14d6c0375"
+      "sha": "de25109a6a51a35e8f18b731f221d2c7b79ddb5d",
+      "short_sha": "de25109a6a51",
+      "date": "2026-11-01T03:24:57Z",
+      "author": "github-actions[bot]",
+      "subject": "chore(ops): regenerate operator matrix (#2919)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/de25109a6a51a35e8f18b731f221d2c7b79ddb5d"
     }
   ],
   "pipeline": [

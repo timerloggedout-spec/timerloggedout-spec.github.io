@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T11:26:37Z",
+  "generated_at": "2026-11-01T11:28:51Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "a27cf6d12a82d359067a3699e0e19083064ae26a",
+    "source_sha": "403a86ed3f2da191149178ce46b361339d3a81f9",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "a27cf6d12a82d359067a3699e0e19083064ae26a",
-      "short_sha": "a27cf6d12a82",
-      "date": "2026-11-01T03:23:49-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "desk-feed: recognize provider-batch as a dispatchable probe arm (routing recognition) (#3054)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/a27cf6d12a82d359067a3699e0e19083064ae26a"
+      "sha": "403a86ed3f2da191149178ce46b361339d3a81f9",
+      "short_sha": "403a86ed3f2d",
+      "date": "2026-11-01T11:24:18Z",
+      "author": "repo-tracking-collect",
+      "subject": "ops(tracking): refresh repo tracking surface (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/403a86ed3f2da191149178ce46b361339d3a81f9"
     }
   ],
   "pipeline": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T14:05:51Z",
+  "generated_at": "2026-11-01T14:10:06Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "0ee3d20fb246372d39a56d32d4b3034ed93f6b76",
+    "source_sha": "fb31a789c512d10fba8e13fd15aee25d650bb111",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "0ee3d20fb246372d39a56d32d4b3034ed93f6b76",
-      "short_sha": "0ee3d20fb246",
-      "date": "2026-11-01T06:01:18-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #3179 from timerloggedout-spec/desk/d2-route-delta",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/0ee3d20fb246372d39a56d32d4b3034ed93f6b76"
+      "sha": "fb31a789c512d10fba8e13fd15aee25d650bb111",
+      "short_sha": "fb31a789c512",
+      "date": "2026-11-01T14:04:49Z",
+      "author": "repo-tracking-collect",
+      "subject": "ops(tracking): refresh repo tracking surface (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/fb31a789c512d10fba8e13fd15aee25d650bb111"
     }
   ],
   "pipeline": [

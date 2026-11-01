@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T03:27:44Z",
+  "generated_at": "2026-11-01T03:54:11Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "de25109a6a51a35e8f18b731f221d2c7b79ddb5d",
+    "source_sha": "21ae08c7110c76e6c855443c6c82ae8f4114cc22",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "de25109a6a51a35e8f18b731f221d2c7b79ddb5d",
-      "short_sha": "de25109a6a51",
-      "date": "2026-11-01T03:24:57Z",
-      "author": "github-actions[bot]",
-      "subject": "chore(ops): regenerate operator matrix (#2919)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/de25109a6a51a35e8f18b731f221d2c7b79ddb5d"
+      "sha": "21ae08c7110c76e6c855443c6c82ae8f4114cc22",
+      "short_sha": "21ae08c7110c",
+      "date": "2026-10-31T20:53:15-07:00",
+      "author": "Founders' are 'found' to implement.",
+      "subject": "ops(tracking): repo-org tracking surface \u2014 lane x project x state x last-merge x next (auto-derived) (#2922)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/21ae08c7110c76e6c855443c6c82ae8f4114cc22"
     }
   ],
   "pipeline": [

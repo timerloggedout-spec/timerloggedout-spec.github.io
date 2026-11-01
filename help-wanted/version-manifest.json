@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "1.0.1+2ed7cef73351",
+  "version": "1.0.1+90f4fa2e8b6e",
   "channel": "production",
   "source_ref": "master",
-  "source_sha": "2ed7cef73351a804ce890861a00c729f83e5e6e3",
-  "built_at": "2026-11-01T08:19:31.061881+00:00",
+  "source_sha": "90f4fa2e8b6e5034a65d45b8b34a1315258b65bd",
+  "built_at": "2026-11-01T08:21:30.591710+00:00",
   "comparison": {
     "production_manifest": "https://timerloggedout-spec.github.io/help-wanted/version-manifest.json",
     "repository": "https://github.com/timerloggedout-spec/termux-monorepo"
@@ -128,7 +128,7 @@
       "id": "proposals",
       "file": "proposals.html",
       "title": "Proposals",
-      "content_sha256": "a906bde28e8c4133a4773a81e36763ad71a39b3d9735ab8a4f19d074228bb3f5"
+      "content_sha256": "04e95cf7b3d15c8b68b57ced9bd7faeeaf042bf3526572b5a4b33acd79591e13"
     },
     {
       "id": "quota-graphs",

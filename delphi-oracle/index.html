@@ -29,6 +29,7 @@ table{width:100%;border-collapse:collapse;font-size:15px}th,td{text-align:left;p
 .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}.stepn{font-size:13px;font-weight:800;color:var(--accent);letter-spacing:.06em}
 footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;border-top:1px solid var(--hair)}footer ul{display:flex;gap:16px;list-style:none;margin:0;padding:0;flex-wrap:wrap}footer a:hover{color:var(--accent)}
 @media (max-width:760px){nav ul{display:none}.hero{padding:48px 0 40px}section{padding:40px 0}}
+#story p{max-width:720px;color:var(--text)}#story p.lead{color:var(--muted)}#story ul{max-width:720px;color:var(--muted)}#story h3{margin:28px 0 8px;font-size:20px}#story code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;color:var(--accent)}
 </style>
 </head>
 <body>
@@ -39,6 +40,7 @@ footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-con
     <li><a href="#tool">The tool</a></li>
     <li><a href="#receipts">Receipts</a></li>
     <li><a href="#foundation">Foundation</a></li>
+    <li><a href="#story">The write-up</a></li>
     <li><a href="https://github.com/timerloggedout-spec/delphi-oracle">GitHub</a></li>
   </ul>
 </nav>
@@ -113,6 +115,46 @@ footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-con
   <div class="actions" style="justify-content:flex-start">
     <a class="btn" href="../studysprint/">Visit the StudySprint page</a>
     <a class="btn ghost" href="https://github.com/timerloggedout-spec/studysprint">StudySprint repo</a>
+  </div>
+</section>
+
+<section id="story">
+  <h2>Claims Aren't Evidence</h2>
+  <p class="lead">The write-up, as published by the marketing lane.</p>
+  <p>Ask an agent whether a pull request is safe to merge and it will happily tell you — based on whatever someone <em>told</em> it about the pull request. The summary said the tests pass. The summary said the checks are green. Agents are very good at grading homework they never actually saw.</p>
+  <p>The Delphi Oracle exists to be the killjoy in that room.</p>
+  <h3>A gate, not a vibe</h3>
+  <p>The Oracle is a deterministic evidence gate. You bring it a proposed action and an evidence set; it returns exactly one of three verdicts, each with a versioned receipt:</p>
+  <ul>
+    <li><strong>ALLOW_RECOMMENDATION</strong> — the evidence supports acting.</li>
+    <li><strong>ABSTAIN</strong> — there isn't enough material evidence to judge. This is the default, and it isn't a failure state. It's honesty.</li>
+    <li><strong>ESCALATE</strong> — the action class is consequential enough (a merge, a deploy, a credential mutation) that it gets kicked upstairs <em>before</em> evidence is even weighed.</li>
+  </ul>
+  <p>It fails closed. "No evidence" isn't a soft probably-fine — it's an abstention. And the receipt means every verdict is auditable after the fact: what was judged, on what evidence, under which version of the rules.</p>
+  <h3>The one tool: <code>fetch_evidence</code></h3>
+  <p>The Oracle's original limit was that it could only judge evidence it was handed — and handed evidence is usually just someone's claim about the world, with better formatting.</p>
+  <p>So this build adds exactly one tool. <code>fetch_evidence</code> takes a named artifact — a pull request, a file, a workflow run — and retrieves it read-only. What comes back isn't a summary. It's an evidence set where every item carries:</p>
+  <ul>
+    <li><strong>provenance</strong> — source, exact API path, observation time;</li>
+    <li><strong>freshness</strong> — a <code>fresh_until</code> stamp, set fifteen minutes after assembly, because evidence has a shelf life;</li>
+    <li><strong>a content hash</strong> — so the set that was judged is provably the set that was fetched.</li>
+  </ul>
+  <p>The loop writes itself: judge on asserted evidence → ABSTAIN, because claims aren't evidence → call the tool → judge again on the fetched set. The agent stops grading asserted evidence and starts grading fetched evidence.</p>
+  <h3>The demo, in three beats</h3>
+  <p>This runs live, against a real repository — <code>demo.py</code>, with the full run captured in <code>evidence/demo-run.json</code>.</p>
+  <p><strong>Beat one.</strong> A merge-readiness question arrives with asserted evidence only: somebody's say-so. Verdict: <strong>ABSTAIN</strong>. Tool calls made: zero. The Oracle doesn't fetch on a hunch; it refuses first.</p>
+  <p><strong>Beat two.</strong> The same question, now naming PR #1620. The tool fetches the pull request's real state and its check runs — two calls, 103 evidence items, each one stamped and hashed. Verdict: <strong>ALLOW_RECOMMENDATION</strong>, receipt attached.</p>
+  <p><strong>Beat three.</strong> A credential-mutation action comes in. Verdict: <strong>ESCALATE</strong> — before evidence is weighed at all. Some doors don't open on evidence alone.</p>
+  <p>The test suite passes 5/5, a Lambda smoke test confirms the handler abstains correctly, and the whole thing is packaged as an AWS Lambda handler behind a Strands agent; the handler runs locally, unchanged.</p>
+  <h3>Why a gate is a foundation</h3>
+  <p>This isn't a standalone toy. The Oracle is the evidence gate StudySprint — the fleet's study-planning build — runs on: <code>fetch_evidence</code> and the oracle kernel are vendored into StudySprint's foundation with identical blobs, a prerequisite for everything StudySprint builds on top. The same Decider pattern backs the fleet's other Decider-gated agents.</p>
+  <p>That's the point of building the boring part first. Any agent can be confident. Fewer can show their working — and refuse to act when the working isn't there. Receipts over claims, every time.</p>
+  <p><em>Built for AWS Weekend Challenge "Give your Agent a Tool" (Oct 23–26, closed); completed post-window as a completion record — submissions 0, ¬ a submission.</em></p>
+  <div class="strip">
+    <span class="chip"><a href="https://github.com/timerloggedout-spec/delphi-oracle">Repo</a> — the package also lives in the monorepo at <code>apps/weekend-challenge-delphi-oracle/</code></span>
+    <span class="chip"><a href="https://timerloggedout-spec.github.io/delphi-oracle/">Fleet landing</a></span>
+    <span class="chip"><a href="https://github.com/timerloggedout-spec/studysprint">StudySprint</a></span>
+    <span class="chip"><a href="https://www.youtube.com/watch?v=eFXyOYTpuvg">Downstream in action — StudySprint demo</a></span>
   </div>
 </section>
 

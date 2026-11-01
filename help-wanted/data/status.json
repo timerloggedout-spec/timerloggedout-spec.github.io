@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T03:54:11Z",
+  "generated_at": "2026-11-01T03:58:16Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "21ae08c7110c76e6c855443c6c82ae8f4114cc22",
+    "source_sha": "eb00701f78e067053ee58490aff1fb11f7e73fb3",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "21ae08c7110c76e6c855443c6c82ae8f4114cc22",
-      "short_sha": "21ae08c7110c",
-      "date": "2026-10-31T20:53:15-07:00",
+      "sha": "eb00701f78e067053ee58490aff1fb11f7e73fb3",
+      "short_sha": "eb00701f78e0",
+      "date": "2026-10-31T20:57:19-07:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "ops(tracking): repo-org tracking surface \u2014 lane x project x state x last-merge x next (auto-derived) (#2922)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/21ae08c7110c76e6c855443c6c82ae8f4114cc22"
+      "subject": "fix(tracking): fail-soft snapshot fetch (collect run refresh failure) (#2926)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/eb00701f78e067053ee58490aff1fb11f7e73fb3"
     }
   ],
   "pipeline": [

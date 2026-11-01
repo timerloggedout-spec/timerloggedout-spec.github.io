@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T11:33:21Z",
+  "generated_at": "2026-11-01T11:35:31Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "05697267e44005ceed5bad15e843052c714ecead",
+    "source_sha": "a1a698d6f49566a26e206699c6b67064b64762d5",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "05697267e44005ceed5bad15e843052c714ecead",
-      "short_sha": "05697267e440",
-      "date": "2026-11-01T03:29:44-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #3066 from timerloggedout-spec/providers/dispatch-catalog-availability-map",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/05697267e44005ceed5bad15e843052c714ecead"
+      "sha": "a1a698d6f49566a26e206699c6b67064b64762d5",
+      "short_sha": "a1a698d6f495",
+      "date": "2026-11-01T11:33:41Z",
+      "author": "github-actions[bot]",
+      "subject": "ops(help-wanted): live status refresh 2026-11-01T11:33Z",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/a1a698d6f49566a26e206699c6b67064b64762d5"
     }
   ],
   "pipeline": [

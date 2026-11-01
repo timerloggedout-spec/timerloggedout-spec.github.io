@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T15:43:52Z",
+  "generated_at": "2026-11-01T15:44:36Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "9b388b499e819ffd2d026127bb8fdcfab18aa0b5",
+    "source_sha": "6581be34d17ee334bd4f8e592d4dc86fa5dbf95f",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "9b388b499e819ffd2d026127bb8fdcfab18aa0b5",
-      "short_sha": "9b388b499e81",
-      "date": "2026-11-01T07:42:04-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #3219 from timerloggedout-spec/providers/novita-fold",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/9b388b499e819ffd2d026127bb8fdcfab18aa0b5"
+      "sha": "6581be34d17ee334bd4f8e592d4dc86fa5dbf95f",
+      "short_sha": "6581be34d17e",
+      "date": "2026-11-01T15:42:28Z",
+      "author": "repo-tracking-collect",
+      "subject": "ops(tracking): refresh repo tracking surface (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/6581be34d17ee334bd4f8e592d4dc86fa5dbf95f"
     }
   ],
   "pipeline": [

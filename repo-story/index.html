@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Repo+Story — the story of what changed, cited</title>
+<meta name="description" content="Repo+Story turns a repository's git event-stream into a clustered, blast-radius-aware narrative where every claim is cited to its source commit — published as a sticky story on the PR. Concept of record: idea I1.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0d10;--surface:#12151a;--text:#f2f4f7;--muted:#9aa3ad;--hair:#22272e;--accent:#4fd1c5;--accent2:#2e7e7e}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 0;gap:16px}nav .brand{font-weight:800;letter-spacing:-.01em}nav ul{display:flex;gap:24px;list-style:none;margin:0;padding:0;font-size:14px;color:var(--muted)}nav ul a:hover{color:var(--text)}
+.hero{padding:72px 0 56px;text-align:center}.hero h1{font-size:clamp(32px,5.5vw,56px);font-weight:800;letter-spacing:-.03em;line-height:1.08;margin:0 auto 18px;max-width:820px}
+.hero p{font-size:19px;color:var(--muted);max-width:640px;margin:0 auto 28px}
+.badge{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--accent);background:rgba(79,209,197,.12);border:1px solid var(--accent2);border-radius:999px;padding:5px 12px;margin-bottom:20px}
+.btn{display:inline-block;padding:14px 26px;border-radius:10px;font-weight:700;background:var(--accent);color:#04211f;font-size:16px;min-height:48px}.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:transparent;color:var(--text);border:1px solid var(--hair)}.btn.ghost:hover{border-color:var(--accent)}
+.actions{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+section{padding:56px 0;border-top:1px solid var(--hair)}h2{font-size:30px;letter-spacing:-.02em;margin:0 0 10px}.lead{color:var(--muted);max-width:640px;margin:0 0 32px}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.card{background:var(--surface);border:1px solid var(--hair);border-radius:14px;padding:24px}
+.card .ic{width:40px;height:40px;border-radius:10px;background:rgba(79,209,197,.12);color:var(--accent);display:flex;align-items:center;justify-content:center;font-size:20px;margin-bottom:14px}.card h3{margin:0 0 6px;font-size:17px}.card p{margin:0;color:var(--muted);font-size:15px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px}.stepn{font-size:13px;font-weight:800;color:var(--accent);letter-spacing:.06em}
+.pipe{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:14px}.pipe .node{background:var(--surface);border:1px solid var(--hair);border-radius:10px;padding:10px 14px}.pipe .arr{color:var(--accent)}
+.strip{display:flex;gap:10px;flex-wrap:wrap}.chip{font-size:14px;color:var(--muted);border:1px solid var(--hair);border-radius:999px;padding:8px 14px}.chip b{color:var(--text);font-weight:600}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;color:var(--accent)}
+footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;border-top:1px solid var(--hair)}footer ul{display:flex;gap:16px;list-style:none;margin:0;padding:0;flex-wrap:wrap}footer a:hover{color:var(--accent)}
+@media (max-width:760px){nav ul{display:none}.hero{padding:48px 0 40px}section{padding:40px 0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav>
+  <a class="brand" href="../">← Fleet home</a>
+  <ul>
+    <li><a href="#product">Product</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#surfaces">Surfaces</a></li>
+    <li><a href="#status">Status</a></li>
+    <li><a href="https://github.com/timerloggedout-spec/repo-story">GitHub</a></li>
+  </ul>
+</nav>
+
+<header class="hero">
+  <span class="badge">Repo+Story · concept of record · Idea I1</span>
+  <h1>Read the story of what changed.</h1>
+  <p>Repo+Story is a PR/repo-history narrative for review &amp; maintenance. It ingests a repository's git event-stream — commits × file mutations × authors, the data Gource consumes, not its animation — and produces a clustered, blast-radius-aware <strong>story</strong> in which every claim is cited back to its source commit. Reviewers and maintainers read what changed, why it matters, and what it touches — instead of re-deriving it from raw history.</p>
+  <div class="actions">
+    <a class="btn" href="https://github.com/timerloggedout-spec/repo-story">View the repo</a>
+    <a class="btn ghost" href="https://github.com/timerloggedout-spec/repo-story/blob/main/CONCEPT.md">Concept of record</a>
+    <a class="btn ghost" href="https://github.com/timerloggedout-spec/repo-story/blob/main/SPEC.md">Spec v1.1</a>
+  </div>
+</header>
+
+<section>
+  <h2>The problem</h2>
+  <p class="lead">Repo history is write-only memory: commits, PRs and file mutations accumulate, but the <em>story</em> — what changed together, what it put at risk, who touched it — must be re-derived by every reviewer and maintainer, every time.</p>
+</section>
+
+<section id="product">
+  <h2>How the story gets built</h2>
+  <p class="lead">A chronological evolution, not a static diff — narrated by a “technical code chronicler”, with strict markdown citations: <code>[Description](commit_hash)</code>.</p>
+  <div class="steps">
+    <div class="card"><p class="stepn">STEP 1 · INGEST</p><h3>The event-stream</h3><p>Commits × file mutations × authors — the Gource data plane, not its animation.</p></div>
+    <div class="card"><p class="stepn">STEP 2 · CLUSTER</p><h3>Story units</h3><p>Events grouped by change coupling, file neighborhoods, authorship, and time windows — past a noise filter (lockfiles, linters), with rename lineage kept.</p></div>
+    <div class="card"><p class="stepn">STEP 3 · BLAST RADIUS</p><h3>The risk footprint</h3><p>Each unit carries its touched-surface footprint: co-changing file clusters are implicit dependencies, made explicit.</p></div>
+    <div class="card"><p class="stepn">STEP 4 · NARRATE</p><h3>Every claim cited</h3><p>The story is generated with every claim cited ↦ its source commit. An uncited claim does not ship.</p></div>
+    <div class="card"><p class="stepn">STEP 5 · PUBLISH</p><h3>Sticky story</h3><p>A GitHub Action posts and updates a sticky story on the PR.</p></div>
+  </div>
+  <div class="pipe" style="margin-top:28px">
+    <span class="node">git history</span><span class="arr">→</span>
+    <span class="node">PyDriller extraction (Python)</span><span class="arr">→</span>
+    <span class="node">clustering + blast-radius</span><span class="arr">→</span>
+    <span class="node">cited narrative</span><span class="arr">→</span>
+    <span class="node">GitHub Action sticky comment</span>
+  </div>
+  <p style="margin-top:16px;color:var(--muted);font-size:14px">Concrete artifacts in the spec: <code>extract_pr_story_context</code> and <code>mine_pr_evolution</code> (file-coupling matrix; payload {metadata, chronological_stream, architectural_coupling}) · workflow <code>.github/workflows/pr_storyteller.yml</code>. The narrative model reads the Iteration Path (change → rewrite → revert = an architectural dead-end story) and the Why-behind-What (commit messages × line diffs = an auditable trail).</p>
+</section>
+
+<section id="features">
+  <h2>Features</h2>
+  <div class="grid3">
+    <div class="card"><div class="ic">🎯</div><h3>Impact Areas</h3><p>Alerts on the surfaces a change actually puts at risk — drawn from the coupling and blast-radius analysis, not the diff alone.</p></div>
+    <div class="card"><div class="ic">🧾</div><h3>Changelogs with Receipts</h3><p>Automated changelogs where every line carries its receipt: a citation back to the source commit.</p></div>
+    <div class="card"><div class="ic">🔍</div><h3>Contextual Blame</h3><p>Blame with the story attached — not just who touched a line, but the change narrative it belongs to.</p></div>
+    <div class="card"><div class="ic">⚠️</div><h3>Blast-radius maintenance warning</h3><p>A file changed without its coupled test file — e.g. <code>routes/user.py</code> changed without <code>tests/test_user.py</code> — raises a warning before human review.</p></div>
+  </div>
+</section>
+
+<section id="surfaces">
+  <h2>Surfaces &amp; persistence</h2>
+  <div class="grid3">
+    <div class="card"><div class="ic">⚙️</div><h3>GitHub Action</h3><p><code>pr_storyteller.yml</code> on <code>pull_request: [opened, synchronize]</code> — posts the story as the sticky first PR comment.</p></div>
+    <div class="card"><div class="ic">🪝</div><h3>Pre-push hook</h3><p>A lightweight local run that produces a draft PR description before the push lands.</p></div>
+    <div class="card"><div class="ic">📌</div><h3>Pinned Story</h3><p>The pinned markdown Story on the PR thread — the durable, readable record of the change.</p></div>
+  </div>
+  <p style="margin-top:24px;color:var(--muted);max-width:720px">Persistence is an open decision for Spec v2. The Gemini-folded recommendation is a <strong style="color:var(--text)">hybrid</strong>: merge → Action → central datastore → coupling alerts → pinned Story. The I1 candidate set stands as the fallback framing: <code>.story/</code> PR-{id}.json (git-native, orphan refs/notes) · a ChromaDB local vector index (<code>.story_vector_db</code>) · a SQL chrono-graph (Commits / FileMutations / Coupling tables, with a <code>shared_commit_count</code> smell flag). One primary store — the set is options, not a commitment to all three.</p>
+</section>
+
+<section id="status">
+  <h2>Status, honestly</h2>
+  <p class="lead">Repo+Story is a concept of record with a buildable spec — nothing here is a shipped product yet, and this page claims nothing built, live, or entered.</p>
+  <div class="strip">
+    <span class="chip"><b>Concept of record</b> — Idea I1, landed via PR #2481 in the fleet's challenge-entries log</span>
+    <span class="chip"><b>Spec v1.1</b> — Gemini concept fold-in DONE; Spec v2 (Delphi Oracle improvement pass) is the pending step</span>
+    <span class="chip"><b>C8 Codegeist 2026</b> — primary-fit mapping is candidate only: no registration, no submission, no claim beyond the mapping</span>
+    <span class="chip"><b>Not Repo Replay</b> — a vastly different concept on a similar substrate; no shared engine, no shared entry</span>
+    <span class="chip"><b>Not a Gource animation</b> — the data plane, not the playback</span>
+  </div>
+  <p style="margin-top:20px;color:var(--muted);font-size:14px">The source conversation titles this concept “PR+Story”; the fleet name of record is Repo+Story — one concept, two titles.</p>
+</section>
+
+<footer>
+  <span>Repo+Story · concept @ repo-story 8291d49e</span>
+  <ul>
+    <li><a href="https://github.com/timerloggedout-spec/repo-story">Repo</a></li>
+    <li><a href="https://github.com/timerloggedout-spec/repo-story/blob/main/CONCEPT.md">Concept</a></li>
+    <li><a href="https://github.com/timerloggedout-spec/repo-story/blob/main/SPEC.md">Spec</a></li>
+    <li><a href="../">Fleet home</a></li>
+  </ul>
+</footer>
+</div>
+</body>
+</html>

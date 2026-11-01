@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T16:01:07Z",
+  "generated_at": "2026-11-01T16:02:25Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "4e3187d3f286102e1ebf7006763fdd82fbbe26e7",
+    "source_sha": "8719403386cbdc8b5177dbb3e92384ca18105361",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "4e3187d3f286102e1ebf7006763fdd82fbbe26e7",
-      "short_sha": "4e3187d3f286",
-      "date": "2026-11-01T07:59:32-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #3224 from timerloggedout-spec/swarm/friendli-wire-20261101",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/4e3187d3f286102e1ebf7006763fdd82fbbe26e7"
+      "sha": "8719403386cbdc8b5177dbb3e92384ca18105361",
+      "short_sha": "8719403386cb",
+      "date": "2026-11-01T16:00:17Z",
+      "author": "repo-tracking-collect",
+      "subject": "ops(tracking): refresh repo tracking surface (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/8719403386cbdc8b5177dbb3e92384ca18105361"
     }
   ],
   "pipeline": [

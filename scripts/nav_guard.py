@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-"""Nav guard (lock, owner order 2026-11-01): the landing header froze
-at 5 links once and was hidden on mobile by a display:none rule. This
-check fails CI if either regresses. Canonical = the 12-entry set."""
+"""Validate canonical landing navigation routes and visible mobile navigation."""
 import re
 import sys
 from pathlib import Path
@@ -15,9 +13,9 @@ assert nav_block, "nav block not found in content.js"
 hrefs = re.findall(r'href:"([^"]+)"', nav_block.group(1))
 
 REQUIRED = ["#why", "#demo", "#partners", "studysprint/", "delphi-oracle/", "repo-story/",
-            "/help-wanted/", "/help-wanted/tracking.html",
-            "/help-wanted/quota.html", "/help-wanted/desk.html",
-            "/matrix/", "https://github.com/timerloggedout-spec", "#cta"]
+            "/tribute/", "/tribute/tracking.html",
+            "/tribute/quota.html", "/tribute/desk.html",
+            "/matrix/", "/termux-monorepo/", "https://github.com/timerloggedout-spec", "#cta"]
 missing = [h for h in REQUIRED if h not in hrefs]
 assert not missing, f"landing nav missing links: {missing}"
 assert len(hrefs) >= len(REQUIRED), f"landing nav shrank: {len(hrefs)} links"

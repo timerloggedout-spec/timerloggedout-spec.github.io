@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "version": "1.0.1+028f2e665d72",
+  "channel": "production",
+  "source_ref": "master",
+  "source_sha": "028f2e665d72411c9556873d0ac92137ce7ac4f4",
+  "built_at": "2026-11-01T10:19:25.953601+00:00",
+  "comparison": {
+    "production_manifest": "https://timerloggedout-spec.github.io/tribute/version-manifest.json",
+    "repository": "https://github.com/timerloggedout-spec/termux-monorepo"
+  },
+  "pages": [
+    {
+      "id": "3l0",
+      "file": "3l0.html",
+      "title": "3L0",
+      "content_sha256": "840115f270a6e75c60098350f06208750070d664bc70bef1b9006fd22f8d8616"
+    },
+    {
+      "id": "admin-graph",
+      "file": "admin-graph.html",
+      "title": "Admin Graph",
+      "content_sha256": "a92741a4dba1a610490c9a79414028939a95ae6f2334b8da6ab02de6caea4b11"
+    },
+    {
+      "id": "admin",
+      "file": "admin.html",
+      "title": "Admin",
+      "content_sha256": "1c5ab4e9050bbbcd847966e29c308230b08124692dc5a53a69b6f44c3c27963a"
+    },
+    {
+      "id": "ates",
+      "file": "ates.html",
+      "title": "ATES",
+      "content_sha256": "d8dc257ff308eb634ced9eaf8046aeb4f261d482adc38a9afd4237618c8ce298"
+    },
+    {
+      "id": "countdowns",
+      "file": "countdowns.html",
+      "title": "Countdowns",
+      "content_sha256": "4ed87a02e9d499eead237773e32078a0cb34a70113bbf45e1df3f255659f44a0"
+    },
+    {
+      "id": "delphi-ledger",
+      "file": "delphi-ledger.html",
+      "title": "Delphi Ledger",
+      "content_sha256": "c57f70429511e62f86f2d6eb448f30e0d1d46eff07e77650eef7408ea78531a1"
+    },
+    {
+      "id": "delphi-rfp",
+      "file": "delphi-rfp.html",
+      "title": "Delphi RFP",
+      "content_sha256": "c5b59303910836e1a6485d714a6ab546738dc1ed82d4b2738bc65101986acdf2"
+    },
+    {
+      "id": "desk",
+      "file": "desk.html",
+      "title": "Desk",
+      "content_sha256": "8a234e840510c610eb27d7a13e503c442f46320c532e29bcc6f461782288e60b"
+    },
+    {
+      "id": "dispatch-tree",
+      "file": "dispatch-tree.html",
+      "title": "Dispatch Tree",
+      "content_sha256": "c70723a4a6b145226f337aef4b48dc58cd98e80ea9de68ca1412258240f51877"
+    },
+    {
+      "id": "doe",
+      "file": "doe.html",
+      "title": "DoE",
+      "content_sha256": "5d5a6070d9df5dba67810d1779ffa592f4f77ac4c1459a3fc18368914e3363fa"
+    },
+    {
+      "id": "free-tier-value",
+      "file": "free-tier-value.html",
+      "title": "Free Tier Value",
+      "content_sha256": "2d56c9f977fe483cbd75872a5b6f8adc08265a831522a81f1ef34519944407cf"
+    },
+    {
+      "id": "tribute-home",
+      "file": "index.html",
+      "title": "Tribute Home",
+      "content_sha256": "a49738e83d0db6602b4f21bd74321215c56f5e8390384a3e86c2c060330ea896"
+    },
+    {
+      "id": "lanes-and-scopes",
+      "file": "lanes-and-scopes.html",
+      "title": "Lanes And Scopes",
+      "content_sha256": "eb12e930bb02fa30f5ce2d982039952c00613e253281672aa460b4b3b342c9ec"
+    },
+    {
+      "id": "linguist",
+      "file": "linguist.html",
+      "title": "Linguist",
+      "content_sha256": "f5b7439efbf4cf1e101f37335fe54dbeb7888c80686f3419fafb93c662fb00b0"
+    },
+    {
+      "id": "matrix",
+      "file": "matrix.html",
+      "title": "Matrix",
+      "content_sha256": "b2d475199abfeb0a0b8a157e11e25104d0cb65579c86a221ad40f4373463df6b"
+    },
+    {
+      "id": "moneyball",
+      "file": "moneyball.html",
+      "title": "Moneyball",
+      "content_sha256": "51fa073aafe04f333b49a024646e79f2f60fdd1b3a5d5422d55bf513cdf27cf2"
+    },
+    {
+      "id": "mvt",
+      "file": "mvt.html",
+      "title": "MVT",
+      "content_sha256": "90d6cf9b5e1f7bcf4e6ab564e61ce3cbf596cd2aa35eb075bb25db824adf4134"
+    },
+    {
+      "id": "oracle",
+      "file": "oracle.html",
+      "title": "Oracle",
+      "content_sha256": "81f2a519d022fe0fa6a223c87b8d8122043d48871239b701fc45327fc9c0e4a1"
+    },
+    {
+      "id": "pr-lanes",
+      "file": "pr-lanes.html",
+      "title": "PR Lanes",
+      "content_sha256": "5a0af19fcc4e1b4d82aa8a0dbb89702e0d9f92440e6a30e242ce658d2a5b63d9"
+    },
+    {
+      "id": "proposals",
+      "file": "proposals.html",
+      "title": "Proposals",
+      "content_sha256": "04e95cf7b3d15c8b68b57ced9bd7faeeaf042bf3526572b5a4b33acd79591e13"
+    },
+    {
+      "id": "quota-graphs",
+      "file": "quota-graphs.html",
+      "title": "Quota Graphs",
+      "content_sha256": "c8064f2e249c46acb64d014fef13f98ddae1561c8c83de7823593e83ce501dd5"
+    },
+    {
+      "id": "quota-usage",
+      "file": "quota-usage.html",
+      "title": "Quota Usage",
+      "content_sha256": "40934470b6cc8082872c6a9dd44a098d4b10bd3b6beff844dc05970bdd22dccc"
+    },
+    {
+      "id": "quota",
+      "file": "quota.html",
+      "title": "Quota",
+      "content_sha256": "eedfd1c3f1cc9075bf849afee5583c7f064fb47abeb5ad2e454c09ef3a5a4dfb"
+    },
+    {
+      "id": "telemetry",
+      "file": "telemetry.html",
+      "title": "Telemetry",
+      "content_sha256": "68267bd2edafaa267b1650fb5d18e4d8f2c344b23c5c9fd38c8db9a174835af9"
+    },
+    {
+      "id": "tracking",
+      "file": "tracking.html",
+      "title": "Tracking",
+      "content_sha256": "8b267a07c2a75b2d93049d9aa7862f87b33031f2634b9cfd3850abf9e7b36247"
+    },
+    {
+      "id": "version-comparison",
+      "file": "versioning.html",
+      "title": "Version Comparison",
+      "content_sha256": "7056ce91350102cc01b606caea9bd0d3a818add6a5ed24cef9ccc2f9e34006e7"
+    }
+  ]
+}

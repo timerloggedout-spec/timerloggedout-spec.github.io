@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "version": "1.0.1+cb8465491880",
+  "version": "1.0.1+028f2e665d72",
   "channel": "production",
   "source_ref": "master",
-  "source_sha": "cb8465491880ec80321e413a7fa8dc2212d31f81",
-  "built_at": "2026-11-01T08:52:12.827446+00:00",
+  "source_sha": "028f2e665d72411c9556873d0ac92137ce7ac4f4",
+  "built_at": "2026-11-01T10:19:25.953601+00:00",
   "comparison": {
-    "production_manifest": "https://timerloggedout-spec.github.io/help-wanted/version-manifest.json",
+    "production_manifest": "https://timerloggedout-spec.github.io/tribute/version-manifest.json",
     "repository": "https://github.com/timerloggedout-spec/termux-monorepo"
   },
   "pages": [
@@ -77,10 +77,10 @@
       "content_sha256": "2d56c9f977fe483cbd75872a5b6f8adc08265a831522a81f1ef34519944407cf"
     },
     {
-      "id": "help-wanted-home",
+      "id": "tribute-home",
       "file": "index.html",
-      "title": "Help-Wanted Home",
-      "content_sha256": "95138599933791e6c3505e376b2be30be0232985de8282eb62983ab2970e0726"
+      "title": "Tribute Home",
+      "content_sha256": "a49738e83d0db6602b4f21bd74321215c56f5e8390384a3e86c2c060330ea896"
     },
     {
       "id": "lanes-and-scopes",
@@ -98,7 +98,7 @@
       "id": "matrix",
       "file": "matrix.html",
       "title": "Matrix",
-      "content_sha256": "4da0293b875c63e168519f09bd9880952dd15448535626cdbeaa2e304cda4ce1"
+      "content_sha256": "b2d475199abfeb0a0b8a157e11e25104d0cb65579c86a221ad40f4373463df6b"
     },
     {
       "id": "moneyball",
@@ -164,7 +164,7 @@
       "id": "version-comparison",
       "file": "versioning.html",
       "title": "Version Comparison",
-      "content_sha256": "6542f574d23361e32c5662653736c0bdf896b1a4d798569d9a91c83138cdf8a9"
+      "content_sha256": "7056ce91350102cc01b606caea9bd0d3a818add6a5ed24cef9ccc2f9e34006e7"
     }
   ]
 }

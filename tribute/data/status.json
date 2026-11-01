@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T11:23:31Z",
+  "generated_at": "2026-11-01T11:26:37Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "ff76abef797ea3dadcfa85f44ac035a05cd9064b",
+    "source_sha": "a27cf6d12a82d359067a3699e0e19083064ae26a",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "ff76abef797ea3dadcfa85f44ac035a05cd9064b",
-      "short_sha": "ff76abef797e",
-      "date": "2026-11-01T03:21:21-08:00",
+      "sha": "a27cf6d12a82d359067a3699e0e19083064ae26a",
+      "short_sha": "a27cf6d12a82",
+      "date": "2026-11-01T03:23:49-08:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "desk-feed: widen provider bench (owner utilization order) + stamp D1 DeepSeek/Gemini dispatches (#3051)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/ff76abef797ea3dadcfa85f44ac035a05cd9064b"
+      "subject": "desk-feed: recognize provider-batch as a dispatchable probe arm (routing recognition) (#3054)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/a27cf6d12a82d359067a3699e0e19083064ae26a"
     }
   ],
   "pipeline": [

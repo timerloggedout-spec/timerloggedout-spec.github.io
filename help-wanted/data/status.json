@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T04:18:13Z",
+  "generated_at": "2026-11-01T04:19:36Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "aa27eedebc65432b8043c7578edeacb15b26f3fc",
+    "source_sha": "e909f034ef2bbeeecd68815f511ffbfbd233e730",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "aa27eedebc65432b8043c7578edeacb15b26f3fc",
-      "short_sha": "aa27eedebc65",
-      "date": "2026-11-01T04:17:12Z",
-      "author": "termux-fleet-publisher[bot]",
-      "subject": "Merge pull request #2939 from timerloggedout-spec/quota/index-build-arm-coverage",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/aa27eedebc65432b8043c7578edeacb15b26f3fc"
+      "sha": "e909f034ef2bbeeecd68815f511ffbfbd233e730",
+      "short_sha": "e909f034ef2b",
+      "date": "2026-11-01T04:17:39Z",
+      "author": "repo-tracking-collect",
+      "subject": "ops(tracking): refresh repo tracking surface (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/e909f034ef2bbeeecd68815f511ffbfbd233e730"
     }
   ],
   "pipeline": [

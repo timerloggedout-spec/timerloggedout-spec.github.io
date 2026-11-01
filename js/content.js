@@ -12,7 +12,14 @@ window.CONTENT = {
     {label:"Why", href:"#why"},
     {label:"Demo", href:"#demo"},
     {label:"Partners", href:"#partners"},
+    {label:"StudySprint", href:"studysprint/"},
+    {label:"Delphi Oracle", href:"delphi-oracle/"},
     {label:"Ops dashboard", href:"/help-wanted/"},
+    {label:"Tracking", href:"/help-wanted/tracking.html"},
+    {label:"Quota", href:"/help-wanted/quota.html"},
+    {label:"Desk", href:"/help-wanted/desk.html"},
+    {label:"Lane matrix", href:"/matrix/"},
+    {label:"GitHub", href:"https://github.com/timerloggedout-spec"},
     {label:"Get started", href:"#cta"}
   ],
   hero: {
@@ -51,8 +58,11 @@ window.CONTENT = {
     line: "Autonomous AI Employees — built in the open.",
     links: [
       {label:"Partners", href:"#partners"},
+      {label:"StudySprint", href:"studysprint/"},
+      {label:"Delphi Oracle", href:"delphi-oracle/"},
       {label:"GitHub", href:"https://github.com/timerloggedout-spec/termux-monorepo"},
-      {label:"Ops dashboard", href:"/help-wanted/"}
+      {label:"Ops dashboard", href:"/help-wanted/"},
+      {label:"Tracking", href:"/help-wanted/tracking.html"}
     ],
     disclosure: "Partner links and invite codes on this page may be affiliate or referral arrangements. Every programme listed is free to join unless stated otherwise; each programme's own terms and credit policies apply. Invite codes are published while the pool lasts and rotate when exhausted."
   }

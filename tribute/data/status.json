@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T11:50:29Z",
+  "generated_at": "2026-11-01T11:51:21Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "82ff412dfa0fedde1d0bb6dde60445b67f9db796",
+    "source_sha": "e096f1b31543619a367b0dc8c9da1310806883b1",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "82ff412dfa0fedde1d0bb6dde60445b67f9db796",
-      "short_sha": "82ff412dfa0f",
-      "date": "2026-11-01T03:49:42-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #3088 from timerloggedout-spec/desk/d2-fire-conditions-correction",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/82ff412dfa0fedde1d0bb6dde60445b67f9db796"
+      "sha": "e096f1b31543619a367b0dc8c9da1310806883b1",
+      "short_sha": "e096f1b31543",
+      "date": "2026-11-01T11:50:04Z",
+      "author": "repo-tracking-collect",
+      "subject": "ops(tracking): refresh repo tracking surface (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/e096f1b31543619a367b0dc8c9da1310806883b1"
     }
   ],
   "pipeline": [

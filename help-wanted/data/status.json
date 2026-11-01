@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T13:25:18Z",
+  "generated_at": "2026-11-01T13:26:57Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "f5e448de233920e62803eabe033d06303b405c2d",
+    "source_sha": "27f40dd42445f030ea31a1c54517715a9a76bd94",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "f5e448de233920e62803eabe033d06303b405c2d",
-      "short_sha": "f5e448de2339",
-      "date": "2026-11-01T05:23:03-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #3151 from timerloggedout-spec/providers/gate-lift-2672",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/f5e448de233920e62803eabe033d06303b405c2d"
+      "sha": "27f40dd42445f030ea31a1c54517715a9a76bd94",
+      "short_sha": "27f40dd42445",
+      "date": "2026-11-01T13:25:34Z",
+      "author": "repo-tracking-collect",
+      "subject": "ops(tracking): refresh repo tracking surface (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/27f40dd42445f030ea31a1c54517715a9a76bd94"
     }
   ],
   "pipeline": [

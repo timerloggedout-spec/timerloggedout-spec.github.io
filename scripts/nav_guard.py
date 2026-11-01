@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-"""Nav guard (lock, owner order 2026-11-01): the landing header froze
-at 5 links once and was hidden on mobile by a display:none rule. This
-check fails CI if either regresses. Canonical = the 12-entry set."""
+"""Validate canonical landing navigation routes and visible mobile navigation."""
 import re
 import sys
 from pathlib import Path

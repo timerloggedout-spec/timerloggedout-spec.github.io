@@ -13,7 +13,7 @@ window.CONTENT = {
     {label:"Demo", href:"#demo"},
     {label:"Partners", href:"#partners"},
     {label:"StudySprint", href:"studysprint/"},
-    {label:"Delphi Oracle", href:"delphi-oracle/"},
+    {label:"Delphi Oracle", href:"delphi-oracle/"}, {label:"Repo-Story", href:"repo-story/"},
     {label:"Ops dashboard", href:"/help-wanted/"},
     {label:"Tracking", href:"/help-wanted/tracking.html"},
     {label:"Quota", href:"/help-wanted/quota.html"},
@@ -59,7 +59,7 @@ window.CONTENT = {
     links: [
       {label:"Partners", href:"#partners"},
       {label:"StudySprint", href:"studysprint/"},
-      {label:"Delphi Oracle", href:"delphi-oracle/"},
+      {label:"Delphi Oracle", href:"delphi-oracle/"}, {label:"Repo-Story", href:"repo-story/"},
       {label:"GitHub", href:"https://github.com/timerloggedout-spec/termux-monorepo"},
       {label:"Ops dashboard", href:"/help-wanted/"},
       {label:"Tracking", href:"/help-wanted/tracking.html"}

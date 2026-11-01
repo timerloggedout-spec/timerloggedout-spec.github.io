@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T10:23:00Z",
+  "generated_at": "2026-11-01T10:23:50Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "66433c52f1a338f6643b79ad695adfee01c27059",
+    "source_sha": "f884315bf3e6ec05a72c2bca9330ae5735acacfe",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "66433c52f1a338f6643b79ad695adfee01c27059",
-      "short_sha": "66433c52f1a3",
-      "date": "2026-11-01T02:22:14-08:00",
+      "sha": "f884315bf3e6ec05a72c2bca9330ae5735acacfe",
+      "short_sha": "f884315bf3e6",
+      "date": "2026-11-01T02:22:21-08:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "fix(tribute): normalize dashboard links to lowercase route",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/66433c52f1a338f6643b79ad695adfee01c27059"
+      "subject": "test(tribute): reject uppercase case-sensitive route links",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/f884315bf3e6ec05a72c2bca9330ae5735acacfe"
     }
   ],
   "pipeline": [

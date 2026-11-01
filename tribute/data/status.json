@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T16:11:44Z",
+  "generated_at": "2026-11-01T16:13:42Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "7f6d45411dd1f2b1999eda3bcc7dfc55709bf060",
+    "source_sha": "1b02f00617178ddfee8b5ce692eebbc74976bf03",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "7f6d45411dd1f2b1999eda3bcc7dfc55709bf060",
-      "short_sha": "7f6d45411dd1",
-      "date": "2026-11-01T08:08:32-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #3233 from timerloggedout-spec/providers/shard-refine-4",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/7f6d45411dd1f2b1999eda3bcc7dfc55709bf060"
+      "sha": "1b02f00617178ddfee8b5ce692eebbc74976bf03",
+      "short_sha": "1b02f0061717",
+      "date": "2026-11-01T16:10:55Z",
+      "author": "repo-tracking-collect",
+      "subject": "ops(tracking): refresh repo tracking surface (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/1b02f00617178ddfee8b5ce692eebbc74976bf03"
     }
   ],
   "pipeline": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T13:48:52Z",
+  "generated_at": "2026-11-02T13:59:06Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "aeed1b52cd73579c10a650167a47671677006488",
+    "source_sha": "da48df3a8ffb8c25e3d9619fb42d37e8941fb8d2",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "aeed1b52cd73579c10a650167a47671677006488",
-      "short_sha": "aeed1b52cd73",
-      "date": "2026-11-02T13:36:15Z",
-      "author": "quota-usage-series-refresh",
-      "subject": "ops(quota): refresh usage-series pack + swarm feed + mirrors (auto-derived)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/aeed1b52cd73579c10a650167a47671677006488"
+      "sha": "da48df3a8ffb8c25e3d9619fb42d37e8941fb8d2",
+      "short_sha": "da48df3a8ffb",
+      "date": "2026-11-02T13:44:40Z",
+      "author": "github-actions[bot]",
+      "subject": "chore(ops): regenerate operator matrix (#3894)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/da48df3a8ffb8c25e3d9619fb42d37e8941fb8d2"
     }
   ],
   "pipeline": [

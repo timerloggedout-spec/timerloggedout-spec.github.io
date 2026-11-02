@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "1.0.1+ed0392f5fd6f",
+  "version": "1.0.1+a3a6493aaac2",
   "channel": "production",
   "source_ref": "master",
-  "source_sha": "ed0392f5fd6f744d18702672a501dcd5437bc616",
-  "built_at": "2026-11-02T06:36:40.578866+00:00",
+  "source_sha": "a3a6493aaac2f9fe36a940b38fe949dd034ee13e",
+  "built_at": "2026-11-02T06:45:56.995219+00:00",
   "comparison": {
     "production_manifest": "https://timerloggedout-spec.github.io/tribute/version-manifest.json",
     "repository": "https://github.com/timerloggedout-spec/termux-monorepo"
@@ -26,7 +26,7 @@
       "id": "admin",
       "file": "admin.html",
       "title": "Admin",
-      "content_sha256": "1c5ab4e9050bbbcd847966e29c308230b08124692dc5a53a69b6f44c3c27963a"
+      "content_sha256": "9f446b7414b88e65c353a9bac9cc79f7ab1994c6c21213d5a2dc2a21a1f2a7a8"
     },
     {
       "id": "ates",
@@ -119,6 +119,12 @@
       "content_sha256": "81f2a519d022fe0fa6a223c87b8d8122043d48871239b701fc45327fc9c0e4a1"
     },
     {
+      "id": "owner-records",
+      "file": "owner-records.html",
+      "title": "Owner Records",
+      "content_sha256": "e3eafbe81cc171536c77180d8452dd521ad431b8ee3a873d451147c76c11f1a6"
+    },
+    {
       "id": "pr-lanes",
       "file": "pr-lanes.html",
       "title": "PR Lanes",
@@ -158,7 +164,7 @@
       "id": "tracking",
       "file": "tracking.html",
       "title": "Tracking",
-      "content_sha256": "8b267a07c2a75b2d93049d9aa7862f87b33031f2634b9cfd3850abf9e7b36247"
+      "content_sha256": "0ffa50b0ab6a664c01fee4eb47ec89bf7aad5566502be633953a02fe5915cc17"
     },
     {
       "id": "version-comparison",

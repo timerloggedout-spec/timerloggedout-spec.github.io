@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T22:15:37Z",
+  "generated_at": "2026-11-02T22:17:58Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -89,7 +89,7 @@
       "number": 100,
       "repo": "MMALI3287/vibewatt",
       "state": "open",
-      "updated_at": "2026-11-02T22:10:24Z",
+      "updated_at": "2026-11-02T22:15:44Z",
       "tribute": true
     }
   ],
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "2920210ee02e17efcb54df0f6b0047f559333629",
+    "source_sha": "ea4a5f791b2cf9e56044d1ab184ee057702dfcfc",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "2920210ee02e17efcb54df0f6b0047f559333629",
-      "short_sha": "2920210ee02e",
-      "date": "2026-11-02T22:05:21Z",
-      "author": "repo-tracking-collect",
-      "subject": "ops(tracking): refresh repo tracking surface (auto-derived)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/2920210ee02e17efcb54df0f6b0047f559333629"
+      "sha": "ea4a5f791b2cf9e56044d1ab184ee057702dfcfc",
+      "short_sha": "ea4a5f791b2c",
+      "date": "2026-11-02T22:06:01Z",
+      "author": "quota-usage-series-refresh",
+      "subject": "ops(quota): refresh usage-series pack + swarm feed + mirrors (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/ea4a5f791b2cf9e56044d1ab184ee057702dfcfc"
     }
   ],
   "pipeline": [

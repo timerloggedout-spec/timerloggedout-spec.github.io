@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T22:05:45Z",
+  "generated_at": "2026-11-02T22:15:37Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -85,11 +85,11 @@
     },
     {
       "html_url": "https://github.com/MMALI3287/vibewatt/pull/100",
-      "title": "help-wanted: stake + contribute for #95",
+      "title": "docs: complete the fork-PR CI approval guidance for #95",
       "number": 100,
       "repo": "MMALI3287/vibewatt",
       "state": "open",
-      "updated_at": "2026-11-02T08:28:59Z",
+      "updated_at": "2026-11-02T22:10:24Z",
       "tribute": true
     }
   ],
@@ -2720,7 +2720,7 @@
       "providers": [],
       "repo": "MMALI3287/vibewatt",
       "number": 100,
-      "title": "help-wanted: stake + contribute for #95",
+      "title": "docs: complete the fork-PR CI approval guidance for #95",
       "state": "open"
     },
     {
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "301959e95f4a1fad6390f8108f78d08f739f2cdd",
+    "source_sha": "2920210ee02e17efcb54df0f6b0047f559333629",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "301959e95f4a1fad6390f8108f78d08f739f2cdd",
-      "short_sha": "301959e95f4a",
-      "date": "2026-11-02T22:02:35Z",
+      "sha": "2920210ee02e17efcb54df0f6b0047f559333629",
+      "short_sha": "2920210ee02e",
+      "date": "2026-11-02T22:05:21Z",
       "author": "repo-tracking-collect",
       "subject": "ops(tracking): refresh repo tracking surface (auto-derived)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/301959e95f4a1fad6390f8108f78d08f739f2cdd"
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/2920210ee02e17efcb54df0f6b0047f559333629"
     }
   ],
   "pipeline": [

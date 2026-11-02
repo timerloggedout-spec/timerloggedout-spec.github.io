@@ -2600,6 +2600,20 @@
       "provider": "baseten",
       "quota_manager_owner": "Manager",
       "service_id": "baseten.api"
+    },
+    {
+      "freshness_owner": "ChronoMancer",
+      "observation_method": "manual_or_unknown",
+      "provider": "Claude",
+      "quota_manager_owner": "Manager",
+      "service_id": "claude.seat_runtime"
+    },
+    {
+      "freshness_owner": "ChronoMancer",
+      "observation_method": "manual_or_unknown",
+      "provider": "DeepSeek",
+      "quota_manager_owner": "Manager",
+      "service_id": "deepseek.api"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T07:53:31Z",
+  "generated_at": "2026-11-02T07:59:00Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "37783dd6cd7227eede229e785e41ed50cb466f89",
+    "source_sha": "a0aca10756b08001c5e8c1bef9b2560d0d47a8ee",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "37783dd6cd7227eede229e785e41ed50cb466f89",
-      "short_sha": "37783dd6cd72",
-      "date": "2026-11-01T23:49:42-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #3594 from viz/quota-axes-legibility",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/37783dd6cd7227eede229e785e41ed50cb466f89"
+      "sha": "a0aca10756b08001c5e8c1bef9b2560d0d47a8ee",
+      "short_sha": "a0aca10756b0",
+      "date": "2026-11-02T07:57:02Z",
+      "author": "repo-tracking-collect",
+      "subject": "ops(tracking): refresh repo tracking surface (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/a0aca10756b08001c5e8c1bef9b2560d0d47a8ee"
     }
   ],
   "pipeline": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T11:01:06Z",
+  "generated_at": "2026-11-02T11:05:57Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42463,19 +42463,19 @@
   },
   "live": {
     "dashboard": "https://timerloggedout-spec.github.io/tribute/",
-    "githack": "https://raw.githack.com/timerloggedout-spec/termux-monorepo/master/apps/help-wanted-dashboard/index.html",
+    "githack": "https://raw.githack.com/timerloggedout-spec/termux-monorepo/master/apps/tribute-dashboard/index.html",
     "status_raw": "https://raw.githubusercontent.com/timerloggedout-spec/termux-monorepo/master/docs/ops/generated/tribute-status.json",
     "tribute_doc": "docs/ops/TRIBUTE-TRIBUTE.md"
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "f32022a411dd76e101b714ebf0cd39062f35bfed",
+    "source_sha": "4c0aa1f2f80c95573f8d946faab59f4b188a40d4",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
     "history_count": 1,
     "lane_paths": [
-      "apps/help-wanted-dashboard/",
+      "apps/tribute-dashboard/",
       "docs/ops/TRIBUTE-*",
       ".agents/skills/tribute-lane/",
       ".github/workflows/help-wanted-*",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "f32022a411dd76e101b714ebf0cd39062f35bfed",
-      "short_sha": "f32022a411dd",
-      "date": "2026-11-02T10:53:24Z",
-      "author": "repo-tracking-collect",
-      "subject": "ops(tracking): refresh repo tracking surface (auto-derived)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/f32022a411dd76e101b714ebf0cd39062f35bfed"
+      "sha": "4c0aa1f2f80c95573f8d946faab59f4b188a40d4",
+      "short_sha": "4c0aa1f2f80c",
+      "date": "2026-11-02T11:00:43Z",
+      "author": "quota-usage-series-refresh",
+      "subject": "ops(quota): refresh usage-series pack + swarm feed + mirrors (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/4c0aa1f2f80c95573f8d946faab59f4b188a40d4"
     }
   ],
   "pipeline": [

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "1.0.1+2f6563920968",
+  "version": "1.0.1+daf1bdfa57f6",
   "channel": "production",
   "source_ref": "master",
-  "source_sha": "2f65639209682506e103751fefdf24468ceab0af",
-  "built_at": "2026-11-02T13:32:36.218348+00:00",
+  "source_sha": "daf1bdfa57f6e229c9e2de2bfc3c92aa0c54f45f",
+  "built_at": "2026-11-02T13:34:23.014496+00:00",
   "comparison": {
     "production_manifest": "https://timerloggedout-spec.github.io/tribute/version-manifest.json",
     "repository": "https://github.com/timerloggedout-spec/termux-monorepo"
@@ -179,6 +179,12 @@
       "content_sha256": "06f7cb9ccf8c3cceccfaddd08d16d632fc177da047a2afd756fcc7082296fa32"
     },
     {
+      "id": "results-index",
+      "file": "results-index.html",
+      "title": "Results Index",
+      "content_sha256": "dfc1664bce8c19bfb4c83a2652fd23737173283b8ecea94c6f6bf43853bfb025"
+    },
+    {
       "id": "telemetry",
       "file": "telemetry.html",
       "title": "Telemetry",
@@ -200,7 +206,7 @@
       "id": "wagering-book",
       "file": "wagering-book.html",
       "title": "Wagering Book",
-      "content_sha256": "d8b34e9dba214ecb1af3bf39c8ce930e9e6309b1c22826bd4fcc3d2999164f6c"
+      "content_sha256": "74857d6da5a083418e6e0500c756248121056218a80c5f14ff525d3951508e01"
     }
   ]
 }

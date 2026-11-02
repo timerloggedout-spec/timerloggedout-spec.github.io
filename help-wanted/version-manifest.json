@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "1.0.1+0d06ce4295de",
+  "version": "1.0.1+2f6563920968",
   "channel": "production",
   "source_ref": "master",
-  "source_sha": "0d06ce4295dec2e0a5ef2edd1d090a44435b2a91",
-  "built_at": "2026-11-02T13:22:05.505921+00:00",
+  "source_sha": "2f65639209682506e103751fefdf24468ceab0af",
+  "built_at": "2026-11-02T13:32:36.218348+00:00",
   "comparison": {
     "production_manifest": "https://timerloggedout-spec.github.io/tribute/version-manifest.json",
     "repository": "https://github.com/timerloggedout-spec/termux-monorepo"
@@ -14,7 +14,7 @@
       "id": "3l0",
       "file": "3l0.html",
       "title": "3L0",
-      "content_sha256": "5624d68a3cd930dd65e7948261baf04c9296980193741001ff869d7973ff7d84"
+      "content_sha256": "0ca200a783e1154c3aa938ffe8f3ac2e0903dfa6108be290318851b5653c0d5d"
     },
     {
       "id": "admin-graph",
@@ -26,73 +26,73 @@
       "id": "admin",
       "file": "admin.html",
       "title": "Admin",
-      "content_sha256": "13206c4e9ad8c224a6fa926794ffafaa55ad51a2db81fd5d58ed4ed7461eb77b"
+      "content_sha256": "6d56d6590efaba48c7f40f5ed09004af4fda9499e4267917fcf22f9ba2a6192f"
     },
     {
       "id": "ates",
       "file": "ates.html",
       "title": "ATES",
-      "content_sha256": "7f5feb79ed5b3cef0ad4f93d92e3087dd50c51510209f79ca4dffd45a602f8aa"
+      "content_sha256": "9856a936a842db62f6cbc5fed981fd91a5d347a7e9100007301e47ba9c1c5a24"
     },
     {
       "id": "classifiers",
       "file": "classifiers.html",
       "title": "Classifiers",
-      "content_sha256": "43f78b6b953604ea90ea661446f6a106b663636cc64c276f5bd14835b547e2ac"
+      "content_sha256": "b08bdaba804a24eee6ed827af6e77a4a04ab3ee557dfe9bcffe009877c22f8f8"
     },
     {
       "id": "countdowns",
       "file": "countdowns.html",
       "title": "Countdowns",
-      "content_sha256": "278c5e24d0d4d691aca14ce3d6b7fed36d72bf1b527ae081578568a6dfca427c"
+      "content_sha256": "3878b9ca1e81c630bde2143baa24ea5162d4a4a2b3b118a70c80392e266ad0f9"
     },
     {
       "id": "delphi-ledger",
       "file": "delphi-ledger.html",
       "title": "Delphi Ledger",
-      "content_sha256": "e602de56c11abafd56004813b8914d35adc95549ae562e4bf71caa72e4955483"
+      "content_sha256": "aaa750ed434f5f334a152c427694f8cb7cc1707127e8023dff5be72866ee2dfb"
     },
     {
       "id": "delphi-rfp",
       "file": "delphi-rfp.html",
       "title": "Delphi RFP",
-      "content_sha256": "45255ef3aa240608438e00b673060a16aafcecf423f20429e97fd2ae649e3e9e"
+      "content_sha256": "f8ea1b668a06644870df3c5bdf1d3dd5e25636d662f0861fc506e0d0c17b3df9"
     },
     {
       "id": "desk",
       "file": "desk.html",
       "title": "Desk",
-      "content_sha256": "d75f107ccac3fd047b4fd2ea43c22a623eed8329f4b0e8f9ce4b58f5309522a1"
+      "content_sha256": "284e533439331262e476034007567da6f101c29595d2193dff976fd77119fc2d"
     },
     {
       "id": "dispatch-tree",
       "file": "dispatch-tree.html",
       "title": "Dispatch Tree",
-      "content_sha256": "18201176acb749763257817282b7e5a72cb02254ee3c5630afe74284da7c4f91"
+      "content_sha256": "3e05d2fb9b60c8cfc10ce5a139135f1e7889f1f6bdc35ec5a3239d746b45784c"
     },
     {
       "id": "doe",
       "file": "doe.html",
       "title": "DoE",
-      "content_sha256": "dbce341f4f02541dd2679cebf624029a3cce836ea9cf09c001c6b9f24dd0d3c0"
+      "content_sha256": "c8ff9439f5ccabc06c642f5ecdca9f32c21f0b43026e10ed7257b0181f136b46"
     },
     {
       "id": "family",
       "file": "family.html",
       "title": "Family",
-      "content_sha256": "88f1547d5ac219dec3d3adc5bcc6b038672da55ff053a8f35fa8d1cb14621c1b"
+      "content_sha256": "ca80ac7e5664c9ace562bfb34d1e703beb1a7028ba9a3e39ac6bd87b8439d5e0"
     },
     {
       "id": "free-tier-value",
       "file": "free-tier-value.html",
       "title": "Free Tier Value",
-      "content_sha256": "8691b19de1e21ad565e95e6cdb4d373bde13327de3939db49e5fa10a4125b5a2"
+      "content_sha256": "e4cb5cf1ea60ed60ee69343af4ffb175bb0a28b4b368841747225aff0602c97a"
     },
     {
       "id": "tribute-home",
       "file": "index.html",
       "title": "Tribute Home",
-      "content_sha256": "8c7a0c2aa09b15232b7c409b8f0b003e1c7882fd9d609e8edc299b13be28560e"
+      "content_sha256": "b90f1794fe15d9c3e320573c57b52c204b46fa2bbd03df7f4ce32b28a685cd7b"
     },
     {
       "id": "lanes-and-scopes",
@@ -104,7 +104,7 @@
       "id": "linguist",
       "file": "linguist.html",
       "title": "Linguist",
-      "content_sha256": "6870e3c19f8936407cecd7ea2c94eea12171c2889868a4ec374572f24236bb3d"
+      "content_sha256": "145d986e629e7c87d7a82e7a26bbd9ced88a0cb91bdd3421702341ea54eaf914"
     },
     {
       "id": "matrix",
@@ -116,19 +116,19 @@
       "id": "moneyball",
       "file": "moneyball.html",
       "title": "Moneyball",
-      "content_sha256": "88c248f92398df9a6d999c675525d5d3700b5b2d85726fb287d36c45a27df8c9"
+      "content_sha256": "c7bd064e722b60e04bf6ffd6979fa1ad82d3bce5103c7e9110d089dbfd22cad0"
     },
     {
       "id": "mvt",
       "file": "mvt.html",
       "title": "MVT",
-      "content_sha256": "dbc8ad6ebb1a6fa4d65b6ead69a856139d4d5ea48cef2f80f1e99ec4ac793c0b"
+      "content_sha256": "6c2a3fc6c825cc670074c49c642187ed457d38ca25b16c754fc8a21192472e8b"
     },
     {
       "id": "oracle",
       "file": "oracle.html",
       "title": "Oracle",
-      "content_sha256": "4129195ffb9fc38cba3fc77c41606274cfbe8fa83466652a4107755aa261862c"
+      "content_sha256": "09dd4bc9249dce0f4e17138c87285420b565643fb92ce3831bcf02c7e1ccfcfd"
     },
     {
       "id": "owner-records",
@@ -140,13 +140,13 @@
       "id": "pr-lanes",
       "file": "pr-lanes.html",
       "title": "PR Lanes",
-      "content_sha256": "3bc2469d666a3e5991bf12220982f540536bbb06f4c901159dbdbaa6850b3f29"
+      "content_sha256": "627d4e5ffd9454253c3ab26dd5411c510fe5d7da347e6e16bea331cdecbdac4c"
     },
     {
       "id": "proposals",
       "file": "proposals.html",
       "title": "Proposals",
-      "content_sha256": "bbf1f846ed7eb1ec642c6aff7ee20b46076db7cca95014ce5e2dc1f5abd2c48d"
+      "content_sha256": "ebd10ad3ada5870fc4b3dd118d15ad4baad970cef3daa447f6111e7b037d2e31"
     },
     {
       "id": "quota-event-audits",
@@ -158,37 +158,37 @@
       "id": "quota-graphs",
       "file": "quota-graphs.html",
       "title": "Quota Graphs",
-      "content_sha256": "adbebc2e1963fcd7abd8719dc3dde9e5d5906e8633e4ce43eb426d891e06cc39"
+      "content_sha256": "e9afdcebd7491e271069799b34a2a7fae7b13357a4082c463ec90c25537248aa"
     },
     {
       "id": "quota-swarm",
       "file": "quota-swarm.html",
       "title": "Quota Swarm",
-      "content_sha256": "065048b6c0d8daf2fcc415c270e3abd6be1671b3645d26fddd72cce86184017a"
+      "content_sha256": "868a492d9210ab6a6b2030d9de1d82d2a059f6d6eb2bbd333abc8a2a1263abd9"
     },
     {
       "id": "quota-usage",
       "file": "quota-usage.html",
       "title": "Quota Usage",
-      "content_sha256": "73c820cd0b4dee4a4fc5f35ff1fc8cae9b1fac1fa930963cecceab2890d892fa"
+      "content_sha256": "63099650ae5539403bc2cb8ebc2266d804426d474073537b23226cbc9a4b5d19"
     },
     {
       "id": "quota",
       "file": "quota.html",
       "title": "Quota",
-      "content_sha256": "2d752925599e2d2de1095fb8313cb472c7d55f0b6a05a3a06ede7598de26aa2b"
+      "content_sha256": "06f7cb9ccf8c3cceccfaddd08d16d632fc177da047a2afd756fcc7082296fa32"
     },
     {
       "id": "telemetry",
       "file": "telemetry.html",
       "title": "Telemetry",
-      "content_sha256": "703055336344b4af47ae6bc2005f2db7687eba842799aebe8f73f2956dca4c23"
+      "content_sha256": "fa1dcd6dc050f55551d716b189c3e15cb4719f1383e8c78ed381944af1d69596"
     },
     {
       "id": "tracking",
       "file": "tracking.html",
       "title": "Tracking",
-      "content_sha256": "d0128b87ffb2403f725aaf10b53bd2324a49a7eb67750384543ad6e590fa50c2"
+      "content_sha256": "04e42d1a2e77cf301eaac9da706f6b8dbccd93523356c5232001ab511fe0111d"
     },
     {
       "id": "version-comparison",
@@ -200,7 +200,7 @@
       "id": "wagering-book",
       "file": "wagering-book.html",
       "title": "Wagering Book",
-      "content_sha256": "9f4181dc15078763e88a5a614cced36cf20a7bdef1157718a5c45d24561949f5"
+      "content_sha256": "d8b34e9dba214ecb1af3bf39c8ce930e9e6309b1c22826bd4fcc3d2999164f6c"
     }
   ]
 }

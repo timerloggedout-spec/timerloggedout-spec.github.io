@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T13:22:05Z",
+  "generated_at": "2026-11-02T13:32:36Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "0d06ce4295dec2e0a5ef2edd1d090a44435b2a91",
+    "source_sha": "2f65639209682506e103751fefdf24468ceab0af",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "0d06ce4295dec2e0a5ef2edd1d090a44435b2a91",
-      "short_sha": "0d06ce4295de",
-      "date": "2026-11-02T05:19:35-08:00",
+      "sha": "2f65639209682506e103751fefdf24468ceab0af",
+      "short_sha": "2f6563920968",
+      "date": "2026-11-02T05:27:21-08:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #3866 from viz/wagering-book-gantt",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/0d06ce4295dec2e0a5ef2edd1d090a44435b2a91"
+      "subject": "feat(telemetry): results-index v1.2 - persistent_instance, surface_page, dashboard mirror (#3880)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/2f65639209682506e103751fefdf24468ceab0af"
     }
   ],
   "pipeline": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T06:24:43Z",
+  "generated_at": "2026-11-02T06:31:38Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "9e5128daaa486da69cf1f4fa25e8d195a06ceb26",
+    "source_sha": "3fba62044baeba68ed6adc4b0bf70edf2464d537",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "9e5128daaa486da69cf1f4fa25e8d195a06ceb26",
-      "short_sha": "9e5128daaa48",
-      "date": "2026-11-02T06:21:54Z",
-      "author": "quota-usage-series-refresh",
-      "subject": "ops(quota): refresh usage-series pack (auto-derived)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/9e5128daaa486da69cf1f4fa25e8d195a06ceb26"
+      "sha": "3fba62044baeba68ed6adc4b0bf70edf2464d537",
+      "short_sha": "3fba62044bae",
+      "date": "2026-11-01T22:29:51-08:00",
+      "author": "Founders' are 'found' to implement.",
+      "subject": "Merge pull request #3540 from web/quota-graphs-stale-per-series",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/3fba62044baeba68ed6adc4b0bf70edf2464d537"
     }
   ],
   "pipeline": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T07:46:26Z",
+  "generated_at": "2026-11-02T07:50:48Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "9d42ffcd960656443d99d207181d5f10eaf5e131",
+    "source_sha": "490acf583d1ec63b88bcfebf82918abe10f9431b",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "9d42ffcd960656443d99d207181d5f10eaf5e131",
-      "short_sha": "9d42ffcd9606",
-      "date": "2026-11-02T07:44:35Z",
-      "author": "termux-fleet-swarm[bot]",
-      "subject": "chore(quota): event-audits dashboard twin sync (automated)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/9d42ffcd960656443d99d207181d5f10eaf5e131"
+      "sha": "490acf583d1ec63b88bcfebf82918abe10f9431b",
+      "short_sha": "490acf583d1e",
+      "date": "2026-11-02T07:48:06Z",
+      "author": "quota-usage-series-refresh",
+      "subject": "ops(quota): refresh usage-series pack + quota-usage mirror (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/490acf583d1ec63b88bcfebf82918abe10f9431b"
     }
   ],
   "pipeline": [

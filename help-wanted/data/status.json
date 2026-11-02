@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T06:45:56Z",
+  "generated_at": "2026-11-02T06:50:06Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "a3a6493aaac2f9fe36a940b38fe949dd034ee13e",
+    "source_sha": "b2e965fc65400a75bc0c2a51b9ac2a3317409681",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "a3a6493aaac2f9fe36a940b38fe949dd034ee13e",
-      "short_sha": "a3a6493aaac2",
-      "date": "2026-11-01T22:43:02-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #3553 from web/owner-records-page",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/a3a6493aaac2f9fe36a940b38fe949dd034ee13e"
+      "sha": "b2e965fc65400a75bc0c2a51b9ac2a3317409681",
+      "short_sha": "b2e965fc6540",
+      "date": "2026-11-02T06:44:49Z",
+      "author": "repo-tracking-collect",
+      "subject": "ops(tracking): refresh repo tracking surface (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/b2e965fc65400a75bc0c2a51b9ac2a3317409681"
     }
   ],
   "pipeline": [

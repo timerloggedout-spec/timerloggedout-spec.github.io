@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T08:21:06Z",
+  "generated_at": "2026-11-02T08:26:52Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42462,14 +42462,14 @@
     "tribute": "each upstream PR is a contributor tribute to the foreign maintainer"
   },
   "live": {
-    "dashboard": "https://timerloggedout-spec.github.io/help-wanted/",
+    "dashboard": "https://timerloggedout-spec.github.io/tribute/",
     "githack": "https://raw.githack.com/timerloggedout-spec/termux-monorepo/master/apps/help-wanted-dashboard/index.html",
-    "status_raw": "https://raw.githubusercontent.com/timerloggedout-spec/termux-monorepo/master/docs/ops/generated/help-wanted-status.json",
+    "status_raw": "https://raw.githubusercontent.com/timerloggedout-spec/termux-monorepo/master/docs/ops/generated/tribute-status.json",
     "tribute_doc": "docs/ops/HELP-WANTED-TRIBUTE.md"
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "10ff64a7bd7231060ddf79b781e5fb304d8d50ee",
+    "source_sha": "824d5a378aa95ff8e6d9863a666453917d4911bc",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42486,7 +42486,7 @@
     "deployment": [
       {
         "name": "GitHub Pages user site",
-        "url": "https://timerloggedout-spec.github.io/help-wanted/",
+        "url": "https://timerloggedout-spec.github.io/tribute/",
         "role": "canonical public static ops UI"
       },
       {
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "10ff64a7bd7231060ddf79b781e5fb304d8d50ee",
-      "short_sha": "10ff64a7bd72",
-      "date": "2026-11-02T00:12:25-08:00",
+      "sha": "824d5a378aa95ff8e6d9863a666453917d4911bc",
+      "short_sha": "824d5a378aa9",
+      "date": "2026-11-02T00:21:06-08:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #3620 from web/swarm-chrome",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/10ff64a7bd7231060ddf79b781e5fb304d8d50ee"
+      "subject": "tribute normalization bundle A: dispatch-chain rename + D1 artifacts (#3610)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/824d5a378aa95ff8e6d9863a666453917d4911bc"
     }
   ],
   "pipeline": [

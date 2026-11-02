@@ -1,11 +1,11 @@
 {
   "coverage_counts": {
-    "actual_quota_service_mappings": 31,
+    "actual_quota_service_mappings": 32,
     "implemented_passive_adapters": 6,
     "missing_actual_quota_service_mappings": 0,
-    "missing_static_adapter_mappings": 0,
+    "missing_static_adapter_mappings": 1,
     "opt_in_private_service_managers": 2,
-    "provider_families": 31,
+    "provider_families": 32,
     "static_adapter_mappings": 31
   },
   "live_inference_used": false,
@@ -258,6 +258,42 @@
       "static_mapping_id": "adapter:deepinfra",
       "static_mapping_live_account_state": "unknown",
       "static_mapping_state": "static_roster_link_only"
+    },
+    {
+      "covered": true,
+      "documented_limit": null,
+      "documented_reset_semantics": null,
+      "documented_signals": [],
+      "evidence_state": "unknown",
+      "free_entitlement": null,
+      "freshness_owner": "ChronoMancer",
+      "live_account_validation": "unknown",
+      "manager_metadata_state": "documented_only",
+      "manager_status": null,
+      "mapping_state": "documented_registry_mapping",
+      "observation_method": "unknown",
+      "observed_reset": "unknown",
+      "official_evidence": [],
+      "opt_in_private_service_ids": [],
+      "private_balance": "not_published",
+      "provider_family": "deepseek",
+      "quota_check": "scripts/provider_quota_coverage.py:evaluate (not wired to runtime)",
+      "quota_kind": "private_balance_not_publicly_observed",
+      "quota_manager_owner": "Manager",
+      "reader_service_ids": [],
+      "registry": "ops/quota/registry.json",
+      "registry_reader_service_ids": [],
+      "runtime_admission": "unchanged; this inventory and opt-in quota check do not grant runtime admission",
+      "runtime_manager_state": "not_established_by_this_inventory",
+      "scope": null,
+      "service_ids": [
+        "deepseek.api"
+      ],
+      "source_capability": "registered_service",
+      "static_mapping_evidence": [],
+      "static_mapping_id": null,
+      "static_mapping_live_account_state": "unknown",
+      "static_mapping_state": "missing_static_mapping"
     },
     {
       "covered": true,

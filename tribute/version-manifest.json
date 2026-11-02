@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "1.0.1+2feca110a3a1",
+  "version": "1.0.1+0d06ce4295de",
   "channel": "production",
   "source_ref": "master",
-  "source_sha": "2feca110a3a1e70ac4e58ecf1642c62757be1df5",
-  "built_at": "2026-11-02T13:04:03.192445+00:00",
+  "source_sha": "0d06ce4295dec2e0a5ef2edd1d090a44435b2a91",
+  "built_at": "2026-11-02T13:22:05.505921+00:00",
   "comparison": {
     "production_manifest": "https://timerloggedout-spec.github.io/tribute/version-manifest.json",
     "repository": "https://github.com/timerloggedout-spec/termux-monorepo"
@@ -195,6 +195,12 @@
       "file": "versioning.html",
       "title": "Version Comparison",
       "content_sha256": "7056ce91350102cc01b606caea9bd0d3a818add6a5ed24cef9ccc2f9e34006e7"
+    },
+    {
+      "id": "wagering-book",
+      "file": "wagering-book.html",
+      "title": "Wagering Book",
+      "content_sha256": "9f4181dc15078763e88a5a614cced36cf20a7bdef1157718a5c45d24561949f5"
     }
   ]
 }

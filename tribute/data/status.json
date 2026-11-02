@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T13:34:22Z",
+  "generated_at": "2026-11-02T13:37:32Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "daf1bdfa57f6e229c9e2de2bfc3c92aa0c54f45f",
+    "source_sha": "f2fdefc9216c8f68b1a75c2577ea05805db60f06",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "daf1bdfa57f6e229c9e2de2bfc3c92aa0c54f45f",
-      "short_sha": "daf1bdfa57f6",
-      "date": "2026-11-02T05:29:33-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #3881 from viz/results-index",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/daf1bdfa57f6e229c9e2de2bfc3c92aa0c54f45f"
+      "sha": "f2fdefc9216c8f68b1a75c2577ea05805db60f06",
+      "short_sha": "f2fdefc9216c",
+      "date": "2026-11-02T13:33:29Z",
+      "author": "quota-usage-series-refresh",
+      "subject": "ops(quota): refresh usage-series pack + swarm feed + mirrors (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/f2fdefc9216c8f68b1a75c2577ea05805db60f06"
     }
   ],
   "pipeline": [

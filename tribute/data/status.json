@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T10:02:40Z",
+  "generated_at": "2026-11-02T10:35:30Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42465,19 +42465,19 @@
     "dashboard": "https://timerloggedout-spec.github.io/tribute/",
     "githack": "https://raw.githack.com/timerloggedout-spec/termux-monorepo/master/apps/help-wanted-dashboard/index.html",
     "status_raw": "https://raw.githubusercontent.com/timerloggedout-spec/termux-monorepo/master/docs/ops/generated/tribute-status.json",
-    "tribute_doc": "docs/ops/HELP-WANTED-TRIBUTE.md"
+    "tribute_doc": "docs/ops/TRIBUTE-TRIBUTE.md"
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "501a77b4513e29bb3c54f5eee156644d08e3e0b7",
+    "source_sha": "223cd2470c1fbd87137124f36dd47c83bc53af53",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
     "history_count": 1,
     "lane_paths": [
       "apps/help-wanted-dashboard/",
-      "docs/ops/HELP-WANTED-*",
-      ".agents/skills/help-wanted-lane/",
+      "docs/ops/TRIBUTE-*",
+      ".agents/skills/tribute-lane/",
       ".github/workflows/help-wanted-*",
       "scripts/ci/help_wanted_*"
     ],
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "501a77b4513e29bb3c54f5eee156644d08e3e0b7",
-      "short_sha": "501a77b4513e",
-      "date": "2026-11-02T09:47:39Z",
-      "author": "repo-tracking-collect",
-      "subject": "ops(tracking): refresh repo tracking surface (auto-derived)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/501a77b4513e29bb3c54f5eee156644d08e3e0b7"
+      "sha": "223cd2470c1fbd87137124f36dd47c83bc53af53",
+      "short_sha": "223cd2470c1f",
+      "date": "2026-11-02T01:57:01-08:00",
+      "author": "Founders' are 'found' to implement.",
+      "subject": "tribute bundle E tail: HELP-WANTED-*.md doc files -> TRIBUTE-* + pointer sweep (#3730)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/223cd2470c1fbd87137124f36dd47c83bc53af53"
     }
   ],
   "pipeline": [

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "1.0.1+fcc504306f4c",
+  "version": "1.0.1+85911f72a3fb",
   "channel": "production",
   "source_ref": "master",
-  "source_sha": "fcc504306f4c3199889923f83079ecefbf91b00b",
-  "built_at": "2026-11-02T14:27:50.926598+00:00",
+  "source_sha": "85911f72a3fbd3e4e5491c9bb6fa3d88a3540e91",
+  "built_at": "2026-11-02T14:34:48.871427+00:00",
   "comparison": {
     "production_manifest": "https://timerloggedout-spec.github.io/tribute/version-manifest.json",
     "repository": "https://github.com/timerloggedout-spec/termux-monorepo"
@@ -188,7 +188,7 @@
       "id": "telemetry",
       "file": "telemetry.html",
       "title": "Telemetry",
-      "content_sha256": "03ccf660ca2ab1e9da6fbbda855ae139ddb76a3f441df9e208afc04457ee3abb"
+      "content_sha256": "017fd75871438cf8aeb64421094c6e46ddbabb2d5c095df141186af1e438afd1"
     },
     {
       "id": "tracking",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T14:57:08Z",
+  "generated_at": "2026-11-03T15:03:46Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "dc664449d45d37fd8860b352b6bf1a1fdfd74f0e",
+    "source_sha": "c668d262f4e241f2fc17dfaffb921d835b200658",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "dc664449d45d37fd8860b352b6bf1a1fdfd74f0e",
-      "short_sha": "dc664449d45d",
-      "date": "2026-11-03T06:45:49-08:00",
+      "sha": "c668d262f4e241f2fc17dfaffb921d835b200658",
+      "short_sha": "c668d262f4e2",
+      "date": "2026-11-03T06:54:08-08:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "chore(quota): pin 2026-11-02 availability observation; four counts executed 17/21/0 of 28 (#4381)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/dc664449d45d37fd8860b352b6bf1a1fdfd74f0e"
+      "subject": "chore(proposals): refresh proposals-feed.json to proposals-feed/v2 with PR states (#3640)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/c668d262f4e241f2fc17dfaffb921d835b200658"
     }
   ],
   "pipeline": [

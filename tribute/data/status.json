@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T22:19:34Z",
+  "generated_at": "2026-11-03T22:32:28Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "446f1196332b93c413d1e5be8a770643473ad444",
+    "source_sha": "920c31277386887a4ed98115b093a9f145b2d608",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "446f1196332b93c413d1e5be8a770643473ad444",
-      "short_sha": "446f1196332b",
-      "date": "2026-11-03T20:42:53Z",
-      "author": "termux-fleet-publisher[bot]",
-      "subject": "Merge pull request #4594 from timerloggedout-spec/quota/promotion-20261103",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/446f1196332b93c413d1e5be8a770643473ad444"
+      "sha": "920c31277386887a4ed98115b093a9f145b2d608",
+      "short_sha": "920c31277386",
+      "date": "2026-11-03T21:16:16Z",
+      "author": "termux-fleet-swarm[bot]",
+      "subject": "chore(quota): event-audits dashboard twin sync (automated)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/920c31277386887a4ed98115b093a9f145b2d608"
     }
   ],
   "pipeline": [

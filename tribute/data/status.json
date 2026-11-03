@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T13:46:31Z",
+  "generated_at": "2026-11-03T13:48:16Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "0c371464395ef27cb4a76f14ef9d940224d552af",
+    "source_sha": "6fcf922b603e396cd3ab3c1805914003a162eb54",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "0c371464395ef27cb4a76f14ef9d940224d552af",
-      "short_sha": "0c371464395e",
-      "date": "2026-11-03T05:44:23-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #4327 from timerloggedout-spec/desk/egm-exclusion-rule",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/0c371464395ef27cb4a76f14ef9d940224d552af"
+      "sha": "6fcf922b603e396cd3ab3c1805914003a162eb54",
+      "short_sha": "6fcf922b603e",
+      "date": "2026-11-03T13:45:33Z",
+      "author": "quota-usage-series-refresh",
+      "subject": "ops(quota): refresh usage-series pack + swarm feed + mirrors (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/6fcf922b603e396cd3ab3c1805914003a162eb54"
     }
   ],
   "pipeline": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T09:13:13Z",
+  "generated_at": "2026-11-03T09:14:13Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "b8b67ccced1e8c4d0a2a86a8c16995982db0c991",
+    "source_sha": "dce6b2d797a15b67ea3aa2fb2c67f1dad16fb66c",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "b8b67ccced1e8c4d0a2a86a8c16995982db0c991",
-      "short_sha": "b8b67ccced1e",
-      "date": "2026-11-03T01:10:48-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #4121 from timerloggedout-spec/desk/d1-surface-versioning",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/b8b67ccced1e8c4d0a2a86a8c16995982db0c991"
+      "sha": "dce6b2d797a15b67ea3aa2fb2c67f1dad16fb66c",
+      "short_sha": "dce6b2d797a1",
+      "date": "2026-11-03T09:11:40Z",
+      "author": "repo-tracking-collect",
+      "subject": "ops(tracking): refresh repo tracking surface (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/dce6b2d797a15b67ea3aa2fb2c67f1dad16fb66c"
     }
   ],
   "pipeline": [

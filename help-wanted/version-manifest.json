@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "1.0.1+3bdaf41b9156",
+  "version": "1.0.1+ca837626c152",
   "channel": "production",
   "source_ref": "master",
-  "source_sha": "3bdaf41b9156cba8369ac73e022eba89a5046cca",
-  "built_at": "2026-11-03T14:40:23.553299+00:00",
+  "source_sha": "ca837626c15208fcc4212ebdcfc005c14402d19a",
+  "built_at": "2026-11-03T14:46:29.480956+00:00",
   "comparison": {
     "production_manifest": "https://timerloggedout-spec.github.io/tribute/version-manifest.json",
     "repository": "https://github.com/timerloggedout-spec/termux-monorepo"
@@ -62,7 +62,7 @@
       "id": "desk",
       "file": "desk.html",
       "title": "Desk",
-      "content_sha256": "2342ce041c2a86fcb10357d26e120b16635d983ef7698351b723d55183105387"
+      "content_sha256": "e0a2d1da8590875e1d15645b35e1f0ea71b81c5741fcf4903c0da857f56f4092"
     },
     {
       "id": "dispatch-tree",
@@ -146,7 +146,7 @@
       "id": "proposals",
       "file": "proposals.html",
       "title": "Proposals",
-      "content_sha256": "436e4102cf2248012b035761769360ea0df366ba727dbbe155461ab9875e57d6"
+      "content_sha256": "286c9063fddd50d4b78f7a2a1c618d755e4f0221922712fed182510330d36f42"
     },
     {
       "id": "quota-event-audits",

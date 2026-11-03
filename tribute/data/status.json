@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T15:19:22Z",
+  "generated_at": "2026-11-03T15:22:14Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "f06d6e94aee0b8acc9f87a44e5e0c1232102f76d",
+    "source_sha": "22b8ae13ef71d611c4d7c0aa90b16225773d1da0",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "f06d6e94aee0b8acc9f87a44e5e0c1232102f76d",
-      "short_sha": "f06d6e94aee0",
-      "date": "2026-11-03T07:15:29-08:00",
+      "sha": "22b8ae13ef71d611c4d7c0aa90b16225773d1da0",
+      "short_sha": "22b8ae13ef71",
+      "date": "2026-11-03T07:18:49-08:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "chore(proposals): refresh proposals-feed.json (#4418)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/f06d6e94aee0b8acc9f87a44e5e0c1232102f76d"
+      "subject": "LC-002 executed: drop dashboard data-path triggers (LC-001 verified post-fix) (#4421)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/22b8ae13ef71d611c4d7c0aa90b16225773d1da0"
     }
   ],
   "pipeline": [

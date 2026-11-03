@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T23:54:06Z",
+  "generated_at": "2026-11-03T23:55:11Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "2635334ecc905c631a41c6f1ba9eb39f8ea84fef",
+    "source_sha": "1010ad9086bb705f5c758180d3f942d247072f78",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "2635334ecc905c631a41c6f1ba9eb39f8ea84fef",
-      "short_sha": "2635334ecc90",
-      "date": "2026-11-03T15:52:46-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #4563 from timerloggedout-spec/quota/vultr-registry",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/2635334ecc905c631a41c6f1ba9eb39f8ea84fef"
+      "sha": "1010ad9086bb705f5c758180d3f942d247072f78",
+      "short_sha": "1010ad9086bb",
+      "date": "2026-11-03T23:53:11Z",
+      "author": "quota-readings-promote",
+      "subject": "ops(quota): promote readings snapshot + quota.txt (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/1010ad9086bb705f5c758180d3f942d247072f78"
     }
   ],
   "pipeline": [

@@ -161,13 +161,13 @@ footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-con
 </section>
 
 <section id="upgrade">
-  <h2>The Upgrade: Release v1.0.0</h2>
-  <p class="lead">The completion record is now a named release.</p>
-  <p>The package described above — the entry agent, the <code>fetch_evidence</code> tool, the Lambda packaging, the scripted demo, and the offline test suite — is frozen as <a href="https://github.com/timerloggedout-spec/delphi-oracle/releases/tag/v1.0.0"><strong>Release v1.0.0</strong></a> of the <a href="https://github.com/timerloggedout-spec/delphi-oracle">delphi-oracle repository</a>, pinned at commit <code>393e1f4b</code>. The deterministic kernel the release ships is <code>scripts/delphi/strands_oracle_mvp.py</code>.</p>
-  <p>Naming a release changes how the work is cited, not what it claims. Downstream consumers — StudySprint's <code>foundation/</code> vendors this oracle — can now point at a version instead of a moving branch, and the receipts in this record belong to exactly the code the tag names.</p>
+  <h2>The Upgrade: A Package Becomes a Release</h2>
+  <p>The Delphi Oracle started as a folder inside a monorepo — a finished entry package for a challenge window that had already closed. Version 1.0.0 is what it became next: a standalone public repository, a tagged release, and a foundation other work builds on.</p>
+  <p>What v1.0.0 ships: the oracle kernel (<code>strands_oracle_mvp</code>, vendored verbatim), the agent with its tool loop, the one new tool — <code>fetch_evidence</code>, read-only retrieval that returns provenance- and freshness-stamped evidence sets — the Lambda packaging unit, the entry text, an offline test suite (5 tests), and the captured run evidence. Nothing in the release is a rewrite; every file is byte-identical to the verified package, and the whole tree is pinned at commit <code>393e1f4b</code>.</p>
   <video controls preload="metadata" poster="cover.png" style="width:100%;max-width:720px;border-radius:12px;display:block;margin:14px 0" src="delphi-oracle-walkthrough.mp4"></video>
-  <p>Walkthrough — the three-beat demo in 107 seconds: judge on claims and abstain, fetch the evidence with <code>fetch_evidence</code>, judge again with a receipt.</p>
-  <p>The honest record below stands unchanged: <strong>submissions 0</strong>. A release is a completion record with a name — not a submission, not a win, and no live AWS deployment is claimed.</p>
+  <p>Why the receipts matter: most agent demos ask you to trust the narration. This one publishes its evidence. On a fresh clone, independent verification reproduced the demo's three verdicts exactly — asserted claim, no evidence: ABSTAIN, zero calls. PR #1620 fetched: ALLOW_RECOMMENDATION, 2 calls, 103 evidence items. Credential-mutation request: ESCALATE, the class rule ahead of the evidence. The test suite passes 5/5 and the Lambda handler, run locally, abstains on the smoke request exactly as its receipt says. Claims you can re-run beat claims you have to believe — that is the product, and it is also the standard the release is held to.</p>
+  <p>The foundation is already load-bearing: D1's StudySprint vendors <code>fetch_evidence</code> and the kernel into its own <code>foundation/</code> — identical blobs — and builds its study-evidence gate on top.</p>
+  <p>The honest lines ship in the release notes themselves: submissions = 0 — this has not been submitted anywhere; no live-AWS, win, or model-ballot claims. The handler is packaged as a Lambda unit and runs locally; the kernel is a deterministic baseline, not a model panel. A completion record, held to its own rule: evidence over claims.</p>
   <div class="strip">
     <span class="chip"><a href="https://github.com/timerloggedout-spec/delphi-oracle/releases/tag/v1.0.0">Release v1.0.0</a> — delphi-oracle @ <code>393e1f4b</code></span>
     <span class="chip">Kernel — <code>strands_oracle_mvp</code></span>

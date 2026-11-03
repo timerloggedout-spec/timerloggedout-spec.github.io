@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>StudySprint — a study plan you can trust</title>
-<meta name="description" content="StudySprint v0.2.0: a Strands-wired agent for first-generation students. A verified syllabus becomes a week-by-week study plan — trust receipt before planning, a Today view, time-budget reflow, and no-guilt re-plans.">
+<meta name="description" content="StudySprint v0.4.0: a Strands-wired agent for first-generation students. A verified syllabus becomes a week-by-week study plan — trust receipt before planning, a Today view, time-budget reflow, and no-guilt re-plans.">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#0b0d10;--surface:#12151a;--text:#f2f4f7;--muted:#9aa3ad;--hair:#22272e;--accent:#4fd1c5;--accent2:#2e7e7e}
@@ -47,12 +47,12 @@ footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-con
 </nav>
 
 <header class="hero">
-  <span class="badge">StudySprint · v0.2.0</span>
+  <span class="badge">StudySprint · v0.4.0</span>
   <h1>A study plan you can trust.</h1>
   <p>Drop a syllabus → see <em>today's</em> plan in under 10 seconds. StudySprint is a Strands-wired agent built for first-generation college students: a verified syllabus becomes a week-by-week study plan, recall quizzes, and re-plans on missed weeks — with no-guilt mechanics. Missed = re-planned, never a broken streak.</p>
   <div class="actions">
     <a class="btn" href="#demo">Watch the demo</a>
-    <a class="btn ghost" href="https://github.com/timerloggedout-spec/studysprint/releases/tag/v0.2.0">Release v0.2.0</a>
+    <a class="btn ghost" href="https://github.com/timerloggedout-spec/studysprint/releases/tag/v0.4.0">Release v0.4.0</a>
     <a class="btn ghost" href="https://github.com/timerloggedout-spec/studysprint">View the code</a>
   </div>
 </header>
@@ -87,6 +87,9 @@ footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-con
     <div class="card"><div class="ic">💬</div><h3>Plain-language mode</h3><p>No jargon anywhere. Every agent action explains itself in one sentence a first-gen freshman can act on.</p></div>
     <div class="card"><div class="ic">🗂️</div><h3>Week-by-week plan + quizzes</h3><p>Each topic gets a learn block and a retrieve block, recall quizzes per week, and missed weeks are carried forward and flagged — 12 sessions in the sample plan above.</p></div>
     <div class="card"><div class="ic">📖</div><h3>Multi-pass RSVP reader</h3><p>Reading material, section by section: pass 1 skim, pass 2 focused re-read, one-tap term flagging for the words that need a second look. Shipped in v0.3.0 (<code>study_reader.py</code>).</p></div>
+    <div class="card"><div class="ic">🔎</div><h3>Reading pipeline</h3><p>A finder sweeps the reading and builds a term bank — the vocabulary the plans and quizzes draw from (<code>study_pipeline.py</code>).</p></div>
+    <div class="card"><div class="ic">🗓️</div><h3>Multi-course + .ics</h3><p>More than one course at a time — and the plan exports as an <code>.ics</code> calendar file that drops into the calendar the student already uses (<code>study_courses.py</code>).</p></div>
+    <div class="card"><div class="ic">🧠</div><h3>Memory methods</h3><p>Method of loci and pomodoro sessions built into the plan, with reminders that nudge the next step (<code>study_memory.py</code>).</p></div>
   </div>
   <div class="strip" style="margin-top:24px">
     <span class="chip"><b>Hashed receipts</b> — every decision shows its evidence set</span>
@@ -113,7 +116,7 @@ footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-con
 <section id="demo">
   <h2>See it run</h2>
   <p class="lead">The v0.3.0 demo.</p>
-  <!-- demo-video: v0.2.0 cut, supplied by Marketing 2026-10-31 -->
+  <!-- demo-video: final v0.3.0 cut AKCqOCXAFu0, supplied by Marketing 2026-11-03 -->
   <div class="videowrap"><iframe data-demo-id="AKCqOCXAFu0" src="https://www.youtube.com/embed/AKCqOCXAFu0" title="StudySprint demo video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
   <p style="margin-top:14px;color:var(--muted);font-size:14px">Can't play it here? <a href="https://youtube.com/watch?v=AKCqOCXAFu0" style="color:var(--accent)">Watch on YouTube</a>.</p>
 </section>
@@ -164,16 +167,16 @@ footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-con
   <p class="lead">StudySprint is open source and runs locally — no live hosted deployment is claimed. Run the demo, read the receipts, and check the tests yourself.</p>
   <div class="actions" style="justify-content:flex-start">
     <a class="btn" href="https://github.com/timerloggedout-spec/studysprint">GitHub repo</a>
-    <a class="btn ghost" href="https://github.com/timerloggedout-spec/studysprint/releases/tag/v0.2.0">Release v0.2.0</a>
+    <a class="btn ghost" href="https://github.com/timerloggedout-spec/studysprint/releases/tag/v0.4.0">Release v0.4.0</a>
   </div>
   <p style="margin-top:16px;color:var(--muted);font-size:14px"><code>python3 demo.py</code> · <code>python3 -m pytest tests/</code> — 1.0.0 is the Nov 4 submission release.</p>
 </section>
 
 <footer>
-  <span>StudySprint v0.2.0 · Built with the Strands Agents SDK</span>
+  <span>StudySprint v0.4.0 · Built with the Strands Agents SDK</span>
   <ul>
     <li><a href="https://github.com/timerloggedout-spec/studysprint">Repo</a></li>
-    <li><a href="https://github.com/timerloggedout-spec/studysprint/releases/tag/v0.2.0">Release</a></li>
+    <li><a href="https://github.com/timerloggedout-spec/studysprint/releases/tag/v0.4.0">Release</a></li>
     <li><a href="https://builder.aws.com/content/3LRJhGucOZfz9ydzFax8sD2p5yB/studysprint-a-study-plan-you-can-trust-built-with-the-strands-agents-sdk">Builder article</a></li>
     <li><a href="../">Fleet home</a></li>
   </ul>

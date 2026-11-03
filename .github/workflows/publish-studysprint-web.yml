@@ -1,0 +1,128 @@
+name: publish-studysprint-web
+
+# Landing-repo webApp publish (monorepo issue #4455, seam 1).
+# Until this workflow, publishing the webApp to the landing
+# site (timerloggedout-spec.github.io/studysprint/web/) was an
+# operator hand-copy of the ss tree. This is the automation,
+# built on the #4456 pattern: the workflow lives in THIS repo
+# because the write identity is this repo's own token, and the
+# source of record is the studysprint repo's RELEASE ASSET
+# (studysprint-webapp-v<version>.zip, built from the release
+# tag by release-cut.yml) -- the published bytes are the
+# released bytes, never a working tree.
+#
+# What it does: resolve the newest webapp-v* release (or the
+# dispatched version), compare against the live
+# studysprint/web/VERSION, and when they differ: download the
+# asset, lay it into studysprint/web/ (the live bundle) and
+# studysprint/webapp/<version>/ (the version-URL archive, the
+# 0.1.0 precedent), commit + push, then verify the pushed
+# tree's VERSION matches the release.
+#
+# Triggers: workflow_dispatch + a 30-minute schedule. No
+# cross-repo event can reach this repo with an identity that
+# exists today (the ss token cannot leave its repo; the fleet
+# App installations do not cover either repo), so the cadence
+# is the trigger -- parking-proof by construction, and the
+# version check makes idle runs no-ops.
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "webapp version to publish (blank = newest release)"
+        required: false
+        default: ""
+  schedule:
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-studysprint-web
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      SS_REPO: timerloggedout-spec/studysprint
+      WANT: ${{ inputs.version }}
+    steps:
+      - name: Checkout the landing repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Resolve the target version
+        run: |
+          set -euo pipefail
+          python3 - <<'PYEOF'
+          import json, os, urllib.request
+          want = os.environ.get("WANT", "").strip()
+          if not want:
+              req = urllib.request.Request(
+                  "https://api.github.com/repos/"
+                  "timerloggedout-spec/studysprint/releases?per_page=30",
+                  headers={"Accept": "application/vnd.github+json"})
+              rels = json.load(urllib.request.urlopen(req))
+              tags = [r["tag_name"] for r in rels
+                      if r["tag_name"].startswith("webapp-v")]
+              assert tags, "no webapp-v* release exists in ss yet"
+              want = tags[0].removeprefix("webapp-v")
+          live = ""
+          try:
+              live = open("studysprint/web/VERSION").read().strip()
+          except FileNotFoundError:
+              pass
+          with open(os.environ["GITHUB_ENV"], "a") as fh:
+              fh.write(f"VERSION={want}\nLIVE={live}\n")
+          print(f"target {want} · live {live or '(none)'}")
+          PYEOF
+
+      - name: Publish when the release is newer
+        run: |
+          set -euo pipefail
+          if [ "$VERSION" = "$LIVE" ] && \
+             [ -f "studysprint/webapp/$VERSION/VERSION" ]; then
+            echo "landing already serves $VERSION -- no-op"
+            echo "PUBLISHED=false" >> "$GITHUB_ENV"
+            exit 0
+          fi
+          mkdir -p "$RUNNER_TEMP/bundle"
+          curl -sL -o "$RUNNER_TEMP/bundle.zip" \
+            "https://github.com/$SS_REPO/releases/download/webapp-v$VERSION/studysprint-webapp-v$VERSION.zip"
+          python3 -c "import zipfile; zipfile.ZipFile('$RUNNER_TEMP/bundle.zip').extractall('$RUNNER_TEMP/bundle')"
+          rsync -a --delete "$RUNNER_TEMP/bundle/" studysprint/web/
+          mkdir -p "studysprint/webapp/$VERSION"
+          rsync -a "$RUNNER_TEMP/bundle/" "studysprint/webapp/$VERSION/"
+          git status --porcelain | head -30
+          echo "PUBLISHED=true" >> "$GITHUB_ENV"
+
+      - name: Commit + push if the tree moved
+        if: env.PUBLISHED == 'true'
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "bundle identical to the live tree -- no commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "publish: studysprint web $VERSION from ss release webapp-v$VERSION (automated, #4455 seam 1)"
+          git push
+
+      - name: Verify the live tree serves the release
+        run: |
+          set -euo pipefail
+          live=$(cat studysprint/web/VERSION | tr -d '[:space:]')
+          archived=$(cat "studysprint/webapp/$VERSION/VERSION" | tr -d '[:space:]')
+          echo "live VERSION=$live · archive VERSION=$archived · target=$VERSION"
+          [ "$live" = "$VERSION" ] && [ "$archived" = "$VERSION" ]
+          {
+            echo "## publish-studysprint-web"
+            echo
+            echo "served: webapp **$live** (target $VERSION) — live bundle + studysprint/webapp/$VERSION/ archive verified in-tree"
+          } >> "$GITHUB_STEP_SUMMARY"

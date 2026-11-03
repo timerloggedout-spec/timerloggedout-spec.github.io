@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T10:44:32Z",
+  "generated_at": "2026-11-03T10:45:47Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "0d37233a4ebaec59110e3c4c0bdf1ccf2af70d10",
+    "source_sha": "4362c1403946952d34267bbce5b877ab371ac5a3",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "0d37233a4ebaec59110e3c4c0bdf1ccf2af70d10",
-      "short_sha": "0d37233a4eba",
-      "date": "2026-11-03T02:42:44-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #4170 from timerloggedout-spec/desk/stamps-surfaces-landed",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/0d37233a4ebaec59110e3c4c0bdf1ccf2af70d10"
+      "sha": "4362c1403946952d34267bbce5b877ab371ac5a3",
+      "short_sha": "4362c1403946",
+      "date": "2026-11-03T10:43:11Z",
+      "author": "quota-usage-series-refresh",
+      "subject": "ops(quota): refresh usage-series pack + swarm feed + mirrors (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/4362c1403946952d34267bbce5b877ab371ac5a3"
     }
   ],
   "pipeline": [

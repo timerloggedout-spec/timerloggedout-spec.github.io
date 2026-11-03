@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T12:43:38Z",
+  "generated_at": "2026-11-03T12:49:18Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "bc003a2723e0914f71bdd4356e939068dbb3276d",
+    "source_sha": "66bf595c9181b4a48ca058ab03f980ecf9854041",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "bc003a2723e0914f71bdd4356e939068dbb3276d",
-      "short_sha": "bc003a2723e0",
-      "date": "2026-11-03T04:38:10-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #4271 from timerloggedout-spec/desk/c12-appid-correction",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/bc003a2723e0914f71bdd4356e939068dbb3276d"
+      "sha": "66bf595c9181b4a48ca058ab03f980ecf9854041",
+      "short_sha": "66bf595c9181",
+      "date": "2026-11-03T12:42:32Z",
+      "author": "quota-usage-series-refresh",
+      "subject": "ops(quota): refresh usage-series pack + swarm feed + mirrors (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/66bf595c9181b4a48ca058ab03f980ecf9854041"
     }
   ],
   "pipeline": [

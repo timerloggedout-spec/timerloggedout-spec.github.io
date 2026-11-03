@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T03:13:19Z",
+  "generated_at": "2026-11-03T03:17:23Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "f1a21c12069e8f4f129fca7add6394ada1504fd5",
+    "source_sha": "bfa06f3f90f0ada9637e4d059169d26d3a01fa06",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "f1a21c12069e8f4f129fca7add6394ada1504fd5",
-      "short_sha": "f1a21c12069e",
-      "date": "2026-11-02T19:12:26-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #4002 from viz/desk-feed-v13-tribute",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/f1a21c12069e8f4f129fca7add6394ada1504fd5"
+      "sha": "bfa06f3f90f0ada9637e4d059169d26d3a01fa06",
+      "short_sha": "bfa06f3f90f0",
+      "date": "2026-11-02T19:14:39-08:00",
+      "author": "github-actions[bot]",
+      "subject": "chore(dashboards): refresh surface feeds (#3939)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/bfa06f3f90f0ada9637e4d059169d26d3a01fa06"
     }
   ],
   "pipeline": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T08:37:57Z",
+  "generated_at": "2026-11-04T08:38:57Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "e7669de32a1e7213a6b6f085acc901652d441145",
+    "source_sha": "898fb7e46b179dae00e73cfa78d2752850ed4126",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "e7669de32a1e7213a6b6f085acc901652d441145",
-      "short_sha": "e7669de32a1e",
-      "date": "2026-11-04T00:36:36-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #4812 from timerloggedout-spec/desk/d2-flow-start-pick-20261104",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/e7669de32a1e7213a6b6f085acc901652d441145"
+      "sha": "898fb7e46b179dae00e73cfa78d2752850ed4126",
+      "short_sha": "898fb7e46b17",
+      "date": "2026-11-04T08:37:37Z",
+      "author": "quota-usage-series-refresh",
+      "subject": "ops(quota): refresh usage-series pack + swarm feed + mirrors (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/898fb7e46b179dae00e73cfa78d2752850ed4126"
     }
   ],
   "pipeline": [

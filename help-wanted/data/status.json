@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T12:42:23Z",
+  "generated_at": "2026-11-04T12:42:27Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "f6d363794e799d744ae5b634d2a2e3a4e32c24b6",
+    "source_sha": "fa06b3068db347d035a9228392864a0015a0c781",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "f6d363794e799d744ae5b634d2a2e3a4e32c24b6",
-      "short_sha": "f6d363794e79",
-      "date": "2026-11-04T04:37:50-08:00",
+      "sha": "fa06b3068db347d035a9228392864a0015a0c781",
+      "short_sha": "fa06b3068db3",
+      "date": "2026-11-04T04:39:11-08:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #4897 from timerloggedout-spec/deploy-prune-orphans",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/f6d363794e799d744ae5b634d2a2e3a4e32c24b6"
+      "subject": "Merge pull request #4899 from timerloggedout-spec/gantt-title-fix",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/fa06b3068db347d035a9228392864a0015a0c781"
     }
   ],
   "pipeline": [

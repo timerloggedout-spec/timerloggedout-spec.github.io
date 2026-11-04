@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T17:59:05Z",
+  "generated_at": "2026-11-04T19:11:56Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -4930,14 +4930,14 @@
       "state": "closed"
     },
     {
-      "pr_url": "https://github.com/nesstyx/ChessHome/pull/81",
+      "pr_url": "https://github.com/nesstyx/chesshome/pull/81",
       "kinds": [
         "upstream_pr"
       ],
       "ok": true,
       "last_ts": "2026-10-04T20:07:30Z",
       "providers": [],
-      "repo": "nesstyx/ChessHome",
+      "repo": "nesstyx/chesshome",
       "number": 81,
       "title": "help-wanted: stake + contribute for #40",
       "state": "closed"
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "567fc314478a80dcb43358b86defb3f5920919a8",
+    "source_sha": "1ef96d9a2c5102a0a34dff8db91f7131edba9ca5",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "567fc314478a80dcb43358b86defb3f5920919a8",
-      "short_sha": "567fc314478a",
-      "date": "2026-11-04T17:57:47Z",
-      "author": "github-actions[bot]",
-      "subject": "ops(help-wanted): live status refresh 2026-11-04T17:57Z",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/567fc314478a80dcb43358b86defb3f5920919a8"
+      "sha": "1ef96d9a2c5102a0a34dff8db91f7131edba9ca5",
+      "short_sha": "1ef96d9a2c51",
+      "date": "2026-11-04T11:09:57-08:00",
+      "author": "Founders' are 'found' to implement.",
+      "subject": "Merge pull request #4939 from timerloggedout-spec/fix/tribute-deploy-prune-credential",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/1ef96d9a2c5102a0a34dff8db91f7131edba9ca5"
     }
   ],
   "pipeline": [

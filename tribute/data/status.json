@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T09:36:43Z",
+  "generated_at": "2026-11-04T10:31:15Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "f969dd80c01d407e0484cdaf4ef4a41a6cf3d202",
+    "source_sha": "7ac6a21d91bd447520d89a8da83c1fef33c82e5b",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "f969dd80c01d407e0484cdaf4ef4a41a6cf3d202",
-      "short_sha": "f969dd80c01d",
-      "date": "2026-11-04T01:32:40-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #4859 from timerloggedout-spec/fix/que-stale-mirror-del",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/f969dd80c01d407e0484cdaf4ef4a41a6cf3d202"
+      "sha": "7ac6a21d91bd447520d89a8da83c1fef33c82e5b",
+      "short_sha": "7ac6a21d91bd",
+      "date": "2026-11-04T10:29:39Z",
+      "author": "quota-usage-series-refresh",
+      "subject": "ops(quota): refresh usage-series pack + swarm feed + mirrors (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/7ac6a21d91bd447520d89a8da83c1fef33c82e5b"
     }
   ],
   "pipeline": [

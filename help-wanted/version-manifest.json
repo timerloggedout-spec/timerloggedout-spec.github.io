@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "1.0.1+e4bcbd086242",
+  "version": "1.0.1+ca7b8ed40064",
   "channel": "production",
   "source_ref": "master",
-  "source_sha": "e4bcbd086242d682f487e24e3d918dbdb64d41d1",
-  "built_at": "2026-11-03T23:56:18.186505+00:00",
+  "source_sha": "ca7b8ed40064049cce9aa452543b967e85bd3bfc",
+  "built_at": "2026-11-04T00:12:01.674239+00:00",
   "comparison": {
     "production_manifest": "https://timerloggedout-spec.github.io/tribute/version-manifest.json",
     "repository": "https://github.com/timerloggedout-spec/termux-monorepo"
@@ -135,6 +135,12 @@
       "file": "owner-records.html",
       "title": "Owner Records",
       "content_sha256": "55249977f2abbc3ace8b46055212fc3c5afc0f6fb09323f6f86fad24caba59fe"
+    },
+    {
+      "id": "pools",
+      "file": "pools.html",
+      "title": "Pools",
+      "content_sha256": "8c7d0ba5a192c76713289df93a5d0dc67a67bacbd5b79780a3bd124600029420"
     },
     {
       "id": "pr-lanes",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T09:25:22Z",
+  "generated_at": "2026-11-04T09:36:39Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "f874e55fc5fc0ad66fa89236182a67e23555d233",
+    "source_sha": "5705fea1d1c4335a1b77f48b6bc76bbc45ec4a1d",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "f874e55fc5fc0ad66fa89236182a67e23555d233",
-      "short_sha": "f874e55fc5fc",
-      "date": "2026-11-04T01:23:43-08:00",
+      "sha": "5705fea1d1c4335a1b77f48b6bc76bbc45ec4a1d",
+      "short_sha": "5705fea1d1c4",
+      "date": "2026-11-04T01:33:08-08:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #4847 from timerloggedout-spec/admin-gauges-readstate",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/f874e55fc5fc0ad66fa89236182a67e23555d233"
+      "subject": "Merge pull request #4861 from timerloggedout-spec/fix/que-page-aliases",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/5705fea1d1c4335a1b77f48b6bc76bbc45ec4a1d"
     }
   ],
   "pipeline": [

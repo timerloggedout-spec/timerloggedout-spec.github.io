@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "1.0.1+5198398d9b71",
+  "version": "1.0.1+5cf73e9399bc",
   "channel": "production",
   "source_ref": "master",
-  "source_sha": "5198398d9b7152c31ea94da383998e22beb37197",
-  "built_at": "2026-11-04T07:30:45.254904+00:00",
+  "source_sha": "5cf73e9399bce22de44fbbb67de3fe3d92073701",
+  "built_at": "2026-11-04T08:22:14.040688+00:00",
   "comparison": {
     "production_manifest": "https://timerloggedout-spec.github.io/tribute/version-manifest.json",
     "repository": "https://github.com/timerloggedout-spec/termux-monorepo"
@@ -14,7 +14,7 @@
       "id": "3l0",
       "file": "3l0.html",
       "title": "3L0",
-      "content_sha256": "b3c95e36d99a01c4d041441dabb8c6ea3fbb09147afb9e6e3db14f7ae4938051"
+      "content_sha256": "4c997fb4e23b17afb18e96e6e31f7b33008e991dee0a6dcfe793990e24278de6"
     },
     {
       "id": "admin-graph",
@@ -26,73 +26,79 @@
       "id": "admin",
       "file": "admin.html",
       "title": "Admin",
-      "content_sha256": "cc406d51fbc1dc7b6e8fd9ad574516c4262fa825bdcd3d13c0502e9f5b4a70a1"
+      "content_sha256": "4597ae924a1502a6546b1084754c88e7e863f3ff1cd37961b6aa1682872887d4"
     },
     {
       "id": "ates",
       "file": "ates.html",
       "title": "ATES",
-      "content_sha256": "236daebed1dd76767585aaaa8142acbf3ccbbe7b626a76dfd0a8975c49944b86"
+      "content_sha256": "75d314a3863d6f99854c146f2bec4fe6fe8e1bcea95968976d669dfaf6c719e2"
     },
     {
       "id": "classifiers",
       "file": "classifiers.html",
       "title": "Classifiers",
-      "content_sha256": "6cb2192a00c5b565a5c20d8953c30795a0ad8a080d2e402ffde4a345793a414c"
+      "content_sha256": "6e8205362d32afa4bed741e60440488b49b224ee476a79585eb6bc8a8351023e"
     },
     {
       "id": "countdowns",
       "file": "countdowns.html",
       "title": "Countdowns",
-      "content_sha256": "440292d7ca9504a22bb32d2b560b4678056f7b935c431b7149fecbdef0dd0c4d"
+      "content_sha256": "cd4e0b2002e61ab258a7e1573a522cce4a91e36c56da41dca48467c961dfba74"
+    },
+    {
+      "id": "d2-proposals",
+      "file": "d2-proposals.html",
+      "title": "D2 Proposals",
+      "content_sha256": "c942e3b617c8e154644c591c640902ee7799aba7e7e125933c6387253bf6acb0"
     },
     {
       "id": "delphi-ledger",
       "file": "delphi-ledger.html",
       "title": "Delphi Ledger",
-      "content_sha256": "5e004cbbb1dae9df4725df603ebed04262264a4471d8e90ef9b6d8d08d5482c2"
+      "content_sha256": "9f3912080560175bd7e82369645c07cdb09e98a7c73de2f82c10dc3343605c47"
     },
     {
       "id": "delphi-rfp",
       "file": "delphi-rfp.html",
       "title": "Delphi RFP",
-      "content_sha256": "dac71f2e3618306c74b4070baf0cf4e71f5a922eb159fa604859e3bda2339b83"
+      "content_sha256": "b69fac536d57a4b8a198949048013ffe988e710840ea6bc314a8ef64b5c77f5f"
     },
     {
       "id": "desk",
       "file": "desk.html",
       "title": "Desk",
-      "content_sha256": "88b2f2f1e5252695c206142ae6f95de2b68be9efadfc1f3bdcc1682507c1ac6a"
+      "content_sha256": "4b6e123caa7d399bf899c77215a407b01f90e28dc96f9302f431bc7039000e11"
     },
     {
       "id": "dispatch-tree",
       "file": "dispatch-tree.html",
       "title": "Dispatch Tree",
-      "content_sha256": "c10cc1ebba9d1249930cbbbd72a3903f8fcc5da490cb668ef42960d3dbae6766"
+      "content_sha256": "e0d198c78eb8760a675f9636683aebe055f2e7654579bc559931ee9c37da5bc4"
     },
     {
       "id": "doe",
       "file": "doe.html",
       "title": "DoE",
-      "content_sha256": "38d239b53eb07ceaf884ad73c84290681584446516862b2ebdfffe9686efa5ea"
+      "content_sha256": "e9e755ea85be63e91fa4275b98ab70773131b16f8c0ef3e9bc9d72fdc5fc783c"
     },
     {
       "id": "family",
       "file": "family.html",
       "title": "Family",
-      "content_sha256": "d1138a7f554cb6f78b983ea3b5cf9a2f0b2c2c020dd048794e3f51585ccaa2a6"
+      "content_sha256": "ccef9bb24783f17b346b59762f296ab4a2ad06aadc6bf8061f6a2d38b096ea68"
     },
     {
       "id": "free-tier-value",
       "file": "free-tier-value.html",
       "title": "Free Tier Value",
-      "content_sha256": "62d0115fbc48f29d57b44810b1fed41a8f61dc2bd7f9d23a0e885a112aadb580"
+      "content_sha256": "6add8ae5e3f0c4379d19cd20e1ef9b4d7fdd897ee6151f3640f961e376b7beef"
     },
     {
       "id": "tribute-home",
       "file": "index.html",
       "title": "Tribute Home",
-      "content_sha256": "620c99a8e7e58ae941f9b67fec414ac2f385b5f5d1a10dcee65bfe12ead712c6"
+      "content_sha256": "ff6f12538126cdd670d6a5f0b91c972876dc96945bbd653f864937715c6e580a"
     },
     {
       "id": "lanes-and-scopes",
@@ -104,7 +110,7 @@
       "id": "linguist",
       "file": "linguist.html",
       "title": "Linguist",
-      "content_sha256": "b462cfcaa41136406c9886297238d0d1791c0c732ca9591d761922362c7375d7"
+      "content_sha256": "5859494ecc59749a34d1ee35645cff20b8762843b94e440d4c15c3561678863e"
     },
     {
       "id": "matrix",
@@ -116,19 +122,19 @@
       "id": "moneyball",
       "file": "moneyball.html",
       "title": "Moneyball",
-      "content_sha256": "b242a3b16b5552655fc5cc6c1a202d2f267f47739a1cdeb5b479e864e0d938c8"
+      "content_sha256": "3cffeac1e4c328b48377a40afc1e39daf5e83250e3f9fee01f44a8df1ed969e1"
     },
     {
       "id": "mvt",
       "file": "mvt.html",
       "title": "MVT",
-      "content_sha256": "a658c31e6f8c461cc8fa60d301b2cc408774bcdc8aebc79870a1ba1dc4e6a28b"
+      "content_sha256": "323b9d8e4bac0402a4994c5ec8e82dc605f79badf16fef534a4b5ceb5c1ab508"
     },
     {
       "id": "oracle",
       "file": "oracle.html",
       "title": "Oracle",
-      "content_sha256": "99c2ea62c9e84829c784a2ad0078cbb37086d37aa89990ec722ce858eaf07183"
+      "content_sha256": "aa67e259e6ca586556c097e06a495d91e66c4983524fd6570c52ecee8452c4a2"
     },
     {
       "id": "owner-records",
@@ -140,19 +146,19 @@
       "id": "pools",
       "file": "pools.html",
       "title": "Pools",
-      "content_sha256": "6c8c27c310f5291d0a986fef4da1bbde0c1cae2ef670f713bd5dc2ed05a5b187"
+      "content_sha256": "e1fb071a7b8a9312033c77345791a7399d833d365ed840c57e768913fa6597a7"
     },
     {
       "id": "pr-lanes",
       "file": "pr-lanes.html",
       "title": "PR Lanes",
-      "content_sha256": "7d63335fb2f6f7730cd30a8445a3da83d1fae322ae6d91c47c4c6ed73d3330c2"
+      "content_sha256": "1018cbe1599bcd7b0e16c0ad990e5c29178c23eb41928dda52d6ac270a5d8333"
     },
     {
       "id": "proposals",
       "file": "proposals.html",
       "title": "Proposals",
-      "content_sha256": "83dfa3b6e1e9322a7b7aa855fbefd98b76896d4bbe1256ea24bf8f2f9e8eee36"
+      "content_sha256": "73378b3e6dfcce7550d4ccd911e4ab542c582297fae397d1386ea1c9add6f6ee"
     },
     {
       "id": "quota-event-audits",
@@ -164,49 +170,49 @@
       "id": "quota-graphs",
       "file": "quota-graphs.html",
       "title": "Quota Graphs",
-      "content_sha256": "fcee51e04e90ff71609ff0e84eb573fbbedc0a8dc19e81c6fb89763a5614d8c9"
+      "content_sha256": "f4ae7ef0deaf85049a146c7a65479f6597e058781be12cc8f336470141f8b287"
     },
     {
       "id": "quota-swarm",
       "file": "quota-swarm.html",
       "title": "Quota Swarm",
-      "content_sha256": "fa575e4fd5f2e4b8e18955e61956459db84c845953388b1a834c72283c2f5d8f"
+      "content_sha256": "95e9748050d34aea6c44dfa642a2934fe1caeb11786460c79abc251b542ac2f8"
     },
     {
       "id": "quota-usage",
       "file": "quota-usage.html",
       "title": "Quota Usage",
-      "content_sha256": "014b818cc6c68dae35c52f606e81805f936db5ff7b594375fbe63f66dde9d453"
+      "content_sha256": "f8153bd81b8414e365d630f925152635208ab3a9f9827e916b44c8a5ecc09999"
     },
     {
       "id": "quota",
       "file": "quota.html",
       "title": "Quota",
-      "content_sha256": "ca637824f1765a9ccabcbfcf08b641836c2abfc0e79f5d0736207cdfd3a4722e"
+      "content_sha256": "51984b2996bb5257a91ef4c7b4bbdce25bf0a9720193a9b46b5786f7e404e3fb"
     },
     {
       "id": "referrals",
       "file": "referrals.html",
       "title": "Referrals",
-      "content_sha256": "45ff6b6e2876895c05727e62bf592ae8a2f26ee22e50e6954826c20164fbf67f"
+      "content_sha256": "cf836140c50249d294eed141c5957026ea6c34a8079e5684c0f2ccc3e2b07adb"
     },
     {
       "id": "results-index",
       "file": "results-index.html",
       "title": "Results Index",
-      "content_sha256": "e3c29ccdde1e94d917024254503beca2f4170342f5f678fef63ce566cf4da0a4"
+      "content_sha256": "66b62dd17eac7f8c01bb5a90942608eca6ca6e81cc0ba0c43dd870551cb72d57"
     },
     {
       "id": "telemetry",
       "file": "telemetry.html",
       "title": "Telemetry",
-      "content_sha256": "faa80a5eaa632f8c210f4206fd4c908ce33aac05ef0d5f7347937d5468eeaf94"
+      "content_sha256": "995728b4b8acb181517e5812ed0f60ec992d7afdbbddddf9920dfe9eaa42576d"
     },
     {
       "id": "tracking",
       "file": "tracking.html",
       "title": "Tracking",
-      "content_sha256": "c51412528400256aff6776f1aa0702c684c8e36f2ed27c901b49b4ce9c2c5e10"
+      "content_sha256": "bf6d91fb0f48f0fc1ec9039a1ce7575df8765391d79c64d08a2574e578e50d5d"
     },
     {
       "id": "version-comparison",
@@ -218,7 +224,7 @@
       "id": "wagering-book",
       "file": "wagering-book.html",
       "title": "Wagering Book",
-      "content_sha256": "4765af9a95691a3402097b42ef88e7502b8bb45699bf3b0af766e3c0c7f52d79"
+      "content_sha256": "b9d68377a2af98906c8884bf2cad6603e1358aa18aa1a53c650f7d4e7469ce6c"
     }
   ]
 }

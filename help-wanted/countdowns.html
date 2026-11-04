@@ -54,7 +54,7 @@
 <a href="https://timerloggedout-spec.github.io/tribute/quota-swarm.html">Swarm Quota</a><a href="https://timerloggedout-spec.github.io/tribute/admin.html">Admin</a><a href="https://timerloggedout-spec.github.io/tribute/oracle.html">Oracle</a><a href="https://timerloggedout-spec.github.io/tribute/3l0.html">3L0</a><a href="https://timerloggedout-spec.github.io/tribute/moneyball.html">MoneyBall</a>
 <a href="https://timerloggedout-spec.github.io/tribute/wagering-book.html">Wagering Book</a><a href="https://timerloggedout-spec.github.io/tribute/pools.html">Pools</a><a href="https://timerloggedout-spec.github.io/tribute/mvt.html">MVT</a><a href="https://timerloggedout-spec.github.io/tribute/doe.html">DoE</a><a href="https://timerloggedout-spec.github.io/tribute/ates.html">ATES</a>
 <a href="https://timerloggedout-spec.github.io/tribute/results-index.html">Results Index</a><a href="https://timerloggedout-spec.github.io/tribute/free-tier-value.html">Free-tier value</a><a href="https://timerloggedout-spec.github.io/tribute/dispatch-tree.html">Dispatch Tree</a>
-        <a href="https://timerloggedout-spec.github.io/tribute/admin-graph.html">Admin Graph</a><a href="https://timerloggedout-spec.github.io/tribute/countdowns.html" aria-current="page">Countdowns</a><a href="https://timerloggedout-spec.github.io/tribute/linguist.html">Linguist</a><a href="https://timerloggedout-spec.github.io/tribute/delphi-rfp.html">Delphi RFP</a><a href="https://timerloggedout-spec.github.io/tribute/delphi-ledger.html">Delphi Ledgers</a>
+        <a href="https://timerloggedout-spec.github.io/tribute/admin-graph.html">Admin Graph</a><a href="https://timerloggedout-spec.github.io/tribute/countdowns.html" aria-current="page">Countdowns</a><a href="https://timerloggedout-spec.github.io/tribute/d2-proposals.html">D2 Proposals</a><a href="https://timerloggedout-spec.github.io/tribute/linguist.html">Linguist</a><a href="https://timerloggedout-spec.github.io/tribute/delphi-rfp.html">Delphi RFP</a><a href="https://timerloggedout-spec.github.io/tribute/delphi-ledger.html">Delphi Ledgers</a>
 <a href="https://timerloggedout-spec.github.io/tribute/classifiers.html">Classifiers</a><a href="https://timerloggedout-spec.github.io/tribute/pr-lanes.html">PR Lanes</a><a href="https://timerloggedout-spec.github.io/tribute/proposals.html">Proposals</a><a href="https://timerloggedout-spec.github.io/tribute/referrals.html">Referrals</a><a href="https://timerloggedout-spec.github.io/tribute/telemetry.html">Telemetry</a><a href="https://timerloggedout-spec.github.io/tribute/desk.html">Desk</a><a href="https://timerloggedout-spec.github.io/tribute/tracking.html">Tracking</a>
 <a href="https://timerloggedout-spec.github.io/tribute/family.html">Family</a><a href="https://Tribute-oversight.vercel.app/">Vercel deployment</a><a href="https://timerloggedout-spec.github.io/tribute/sitemap.xml">Sitemap</a><a href="https://github.com/timerloggedout-spec/termux-monorepo">Monorepo</a></nav>
 <div class="hero">
@@ -209,6 +209,13 @@ function submissionHTML(e){
   if(s.ref) h+=' · <a href="'+esc(s.ref)+'" target="_blank" rel="noopener">view submission</a>';
   return h+'</p></div>';
 }
+function delineationHTML(e){
+  // D2's proposal delineation lives in the dashboard as its own page;
+  // the challenge card is its discovery hop (association: D2 exercise
+  // record). Other entries have no delineation page.
+  if(e.id!=="D2") return "";
+  return '<div class="submission"><span class="cd-label">Proposals</span><p class="sub-line"><a href="./d2-proposals.html">Proposal delineation \u2014 6 candidates, advisory ranking</a></p></div>';
+}
 let ENTRIES=[];
 function render(){
   $("cards").innerHTML=ENTRIES.map(e=>
@@ -220,6 +227,7 @@ function render(){
     '<div class="cd-when">Opens: '+esc(fmtInstant(e.opens))+'<br>Closes: '+esc(fmtInstant(e.closes))+'</div>'+
     prizesHTML(e)+
     submissionHTML(e)+
+    delineationHTML(e)+
     '</div>').join("");
   renderGantt();
   renderLanes();

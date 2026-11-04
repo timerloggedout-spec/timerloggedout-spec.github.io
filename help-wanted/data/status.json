@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T12:42:27Z",
+  "generated_at": "2026-11-04T14:47:37Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "fa06b3068db347d035a9228392864a0015a0c781",
+    "source_sha": "5af0baddddf1cae94a723744b3052dd4ab2732bc",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "fa06b3068db347d035a9228392864a0015a0c781",
-      "short_sha": "fa06b3068db3",
-      "date": "2026-11-04T04:39:11-08:00",
+      "sha": "5af0baddddf1cae94a723744b3052dd4ab2732bc",
+      "short_sha": "5af0baddddf1",
+      "date": "2026-11-04T06:45:47-08:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #4899 from timerloggedout-spec/gantt-title-fix",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/fa06b3068db347d035a9228392864a0015a0c781"
+      "subject": "Merge pull request #4932 from timerloggedout-spec/deploy-prune-harden",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/5af0baddddf1cae94a723744b3052dd4ab2732bc"
     }
   ],
   "pipeline": [

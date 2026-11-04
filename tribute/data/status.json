@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T12:40:31Z",
+  "generated_at": "2026-11-04T12:42:23Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "1d232b34ee28bb7161f1aa1e292954130979f003",
+    "source_sha": "f6d363794e799d744ae5b634d2a2e3a4e32c24b6",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "1d232b34ee28bb7161f1aa1e292954130979f003",
-      "short_sha": "1d232b34ee28",
-      "date": "2026-11-04T04:34:49-08:00",
+      "sha": "f6d363794e799d744ae5b634d2a2e3a4e32c24b6",
+      "short_sha": "f6d363794e79",
+      "date": "2026-11-04T04:37:50-08:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #4895 from timerloggedout-spec/viz/surfaces-map-scout",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/1d232b34ee28bb7161f1aa1e292954130979f003"
+      "subject": "Merge pull request #4897 from timerloggedout-spec/deploy-prune-orphans",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/f6d363794e799d744ae5b634d2a2e3a4e32c24b6"
     }
   ],
   "pipeline": [

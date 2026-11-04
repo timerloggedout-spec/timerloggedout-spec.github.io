@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T01:13:27Z",
+  "generated_at": "2026-11-04T01:17:02Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42469,7 +42469,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "c9b9ef575cd4e509946aea19ad2002d50fe79445",
+    "source_sha": "824612e2f18a4c899667750c7bee2644121bdd9e",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42503,12 @@
   },
   "evolution": [
     {
-      "sha": "c9b9ef575cd4e509946aea19ad2002d50fe79445",
-      "short_sha": "c9b9ef575cd4",
-      "date": "2026-11-04T01:12:31Z",
-      "author": "termux-fleet-publisher[bot]",
-      "subject": "Merge pull request #4761 from timerloggedout-spec/quota/allocations-feed-fly-rule",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/c9b9ef575cd4e509946aea19ad2002d50fe79445"
+      "sha": "824612e2f18a4c899667750c7bee2644121bdd9e",
+      "short_sha": "824612e2f18a",
+      "date": "2026-11-04T01:15:47Z",
+      "author": "quota-usage-series-refresh",
+      "subject": "ops(quota): refresh usage-series pack + swarm feed + mirrors (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/824612e2f18a4c899667750c7bee2644121bdd9e"
     }
   ],
   "pipeline": [

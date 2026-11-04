@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "1.0.1+c2db4a95859a",
+  "version": "1.0.1+1d232b34ee28",
   "channel": "production",
   "source_ref": "master",
-  "source_sha": "c2db4a95859a627fb51f85ba5a23b2faf5415126",
-  "built_at": "2026-11-04T12:32:29.938313+00:00",
+  "source_sha": "1d232b34ee28bb7161f1aa1e292954130979f003",
+  "built_at": "2026-11-04T12:40:32.227014+00:00",
   "comparison": {
     "production_manifest": "https://timerloggedout-spec.github.io/tribute/version-manifest.json",
     "repository": "https://github.com/timerloggedout-spec/termux-monorepo"
@@ -207,6 +207,12 @@
       "file": "results-index.html",
       "title": "Results Index",
       "content_sha256": "dab39dd8e2d29e93e3c2b800386af315d51bf80d35e29c5d525e24e347e05342"
+    },
+    {
+      "id": "surfaces-map",
+      "file": "surfaces-map.html",
+      "title": "Surfaces Map",
+      "content_sha256": "e0fcbf08437fdab9a7796dbccdf13deb58d74954f84b4ca2b9f472aa9e7414bf"
     },
     {
       "id": "telemetry",

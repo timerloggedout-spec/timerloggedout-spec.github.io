@@ -1,0 +1,110 @@
+name: Sync StudySprint webApp release to Pages
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: studysprint-pages-release-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Pages repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Resolve latest completed webApp release
+        id: release
+        shell: bash
+        run: |
+          set -euo pipefail
+          releases="$(curl -fsSL --retry 3 --retry-delay 2 \
+            https://api.github.com/repos/timerloggedout-spec/studysprint/releases?per_page=100)"
+          tag="$(printf '%s' "$releases" | jq -r '
+            [.[] | . as $release
+              | select($release.tag_name | startswith("webapp-v"))
+              | select($release.draft == false)
+              | select(any($release.assets[]?;
+                  .name == ("studysprint-webapp-v" +
+                    ($release.tag_name | sub("^webapp-v"; "")) + ".zip")))]
+            | sort_by(.created_at) | last | .tag_name // empty')"
+          if [ -z "$tag" ]; then
+            echo "No completed webApp release with its expected ZIP asset; nothing to publish."
+            exit 0
+          fi
+          version="${tag#webapp-v}"
+          current="$(cat studysprint/web/VERSION 2>/dev/null || true)"
+          echo "latest_tag=$tag" >> "$GITHUB_OUTPUT"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "current=$current" >> "$GITHUB_OUTPUT"
+          if [ "$current" = "$version" ]; then
+            echo "Pages already serves webApp $version."
+            echo "up_to_date=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "up_to_date=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Stop when Pages already serves the latest release
+        if: steps.release.outputs.up_to_date == 'true' || steps.release.outputs.latest_tag == ''
+        run: echo "No deployment changes."
+
+      - name: Checkout immutable webApp release tag and rebuild state
+        if: steps.release.outputs.up_to_date != 'true' && steps.release.outputs.latest_tag != ''
+        env:
+          TAG: ${{ steps.release.outputs.latest_tag }}
+          VERSION: ${{ steps.release.outputs.version }}
+        run: |
+          set -euo pipefail
+          git clone --depth 1 --branch "$TAG" \
+            https://github.com/timerloggedout-spec/studysprint.git \
+            "$RUNNER_TEMP/studysprint"
+          python3 -m pip install --disable-pip-version-check -q fsrs genanki
+          (cd "$RUNNER_TEMP/studysprint" && python3 web/build_data.py)
+          python3 - "$RUNNER_TEMP/studysprint/web" "$VERSION" <<'PY'
+          import json, pathlib, sys
+          root = pathlib.Path(sys.argv[1])
+          version = sys.argv[2]
+          state = json.loads((root / "data/state.json").read_text())
+          sw = (root / "sw.js").read_text()
+          assert (root / "VERSION").read_text().strip() == version
+          assert state["surface_version"] == version, state.get("surface_version")
+          assert f"studysprint-webapp-v{version}" in sw
+          print(f"verified webApp bundle version {version}")
+          PY
+
+      - name: Publish versioned snapshot and current web path
+        if: steps.release.outputs.up_to_date != 'true' && steps.release.outputs.latest_tag != ''
+        env:
+          VERSION: ${{ steps.release.outputs.version }}
+        run: |
+          set -euo pipefail
+          mkdir -p "studysprint/webapp/$VERSION"
+          if [ -z "$(find "studysprint/webapp/$VERSION" -mindepth 1 -maxdepth 1 -print -quit)" ]; then
+            cp -a "$RUNNER_TEMP/studysprint/web/." "studysprint/webapp/$VERSION/"
+          fi
+          rsync -a --delete "$RUNNER_TEMP/studysprint/web/" studysprint/web/
+
+      - name: Commit and publish Pages update
+        if: steps.release.outputs.up_to_date != 'true' && steps.release.outputs.latest_tag != ''
+        env:
+          TAG: ${{ steps.release.outputs.latest_tag }}
+          VERSION: ${{ steps.release.outputs.version }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "studysprint/web" "studysprint/webapp/$VERSION"
+          if git diff --cached --quiet; then
+            echo "No Pages tree changes."
+            exit 0
+          fi
+          git commit -m "deploy(studysprint): publish webApp $VERSION from $TAG"
+          git push origin HEAD:main

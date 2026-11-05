@@ -116,7 +116,7 @@ footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-con
 
 <section id="demo">
   <h2>See it run</h2>
-  <p class="lead">The final demo — recorded on v0.4.0; the live surfaces are now at 0.5.1.</p>
+  <p class="lead">The final demo — recorded on v0.4.0. The live web app release is <strong>v<span id="webapp-version">loading…</span></strong>; the version is read from the deployed app itself.</p>
   <!-- demo-video: demo cut WK9LMwpvHUk, supplied by Marketing 2026-11-03 -->
   <div class="videowrap"><iframe data-demo-id="WK9LMwpvHUk" src="https://www.youtube.com/embed/WK9LMwpvHUk" title="StudySprint demo video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
   <p style="margin-top:14px;color:var(--muted);font-size:14px">Can't play it here? <a href="https://youtube.com/watch?v=WK9LMwpvHUk" style="color:var(--accent)">Watch on YouTube</a>.</p>
@@ -192,5 +192,18 @@ footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-con
   </ul>
 </footer>
 </div>
+<script>
+fetch("web/VERSION", { cache: "no-store" })
+  .then((response) => {
+    if (!response.ok) throw new Error("version unavailable");
+    return response.text();
+  })
+  .then((version) => {
+    document.getElementById("webapp-version").textContent = version.trim();
+  })
+  .catch(() => {
+    document.getElementById("webapp-version").textContent = "unavailable";
+  });
+</script>
 </body>
 </html>

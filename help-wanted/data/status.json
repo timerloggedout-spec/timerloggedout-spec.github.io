@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T11:40:33Z",
+  "generated_at": "2026-11-05T19:01:17Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -75,15 +75,6 @@
       "tribute": true
     },
     {
-      "html_url": "https://github.com/ROCm/rocm-libraries/pull/13152",
-      "title": "help-wanted: stake + contribute for #10586",
-      "number": 13152,
-      "repo": "ROCm/rocm-libraries",
-      "state": "open",
-      "updated_at": "2026-10-22T16:20:08Z",
-      "tribute": true
-    },
-    {
       "html_url": "https://github.com/MMALI3287/vibewatt/pull/100",
       "title": "docs: complete the fork-PR CI approval guidance for #95",
       "number": 100,
@@ -93,7 +84,7 @@
       "tribute": true
     }
   ],
-  "foreign_open_count": 8,
+  "foreign_open_count": 7,
   "tributes": [
     {
       "pr_url": "https://github.com/E-Timileyin/Sail-CLI/pull/23",
@@ -2463,7 +2454,7 @@
       "repo": "ROCm/rocm-libraries",
       "number": 13152,
       "title": "help-wanted: stake + contribute for #10586",
-      "state": "open"
+      "state": "closed"
     },
     {
       "pr_url": "https://github.com/topoteretes/cognee/pull/5439",
@@ -42469,7 +42460,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "a644443ba78478e78239df3f17d4b1145d844532",
+    "source_sha": "e9b3ee61c0092e650d16c2a983482f12fd15afe2",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42503,12 +42494,12 @@
   },
   "evolution": [
     {
-      "sha": "a644443ba78478e78239df3f17d4b1145d844532",
-      "short_sha": "a644443ba784",
-      "date": "2026-11-05T11:39:42Z",
+      "sha": "e9b3ee61c0092e650d16c2a983482f12fd15afe2",
+      "short_sha": "e9b3ee61c009",
+      "date": "2026-11-05T19:00:27Z",
       "author": "github-actions[bot]",
-      "subject": "ops(help-wanted): live status refresh 2026-11-05T11:39Z",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/a644443ba78478e78239df3f17d4b1145d844532"
+      "subject": "ops(help-wanted): live status refresh 2026-11-05T19:00Z",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/e9b3ee61c0092e650d16c2a983482f12fd15afe2"
     }
   ],
   "pipeline": [

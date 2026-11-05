@@ -168,7 +168,7 @@ footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-con
   <p class="lead">Three doors, one working app, sample course already loaded. Pick by where you're standing:</p>
   <p><strong>Door 1 — web (~10 seconds).</strong> <a href="web/">Open the web app</a> in any modern browser. Press <em>Start Today's Sprint</em>, flip the card, grade it. Works offline after the first load.</p>
   <p><strong>Door 2 — terminal (~1 minute).</strong> <code>git clone https://github.com/timerloggedout-spec/studysprint &amp;&amp; cd studysprint &amp;&amp; pip install textual fsrs genanki &amp;&amp; python3 tui.py</code> — eight tabs, from Today to Export.</p>
-  <p><strong>Door 3 — Android (~1 minute).</strong> Download <a href="https://github.com/timerloggedout-spec/studysprint/releases/tag/apk-v0.5.1">studysprint.apk (214,185 bytes)</a> and open it on the phone; the release carries SHA256SUMS and a trust block if you want to verify before installing.</p>
+  <p><strong>Door 3 — Android (~1 minute).</strong> Download <a id="apk-release-link" href="https://github.com/timerloggedout-spec/studysprint/releases">the latest studysprint.apk</a> and open it on the phone; the release carries SHA256SUMS and a trust block if you want to verify before installing.</p>
 </section>
 
 <section>
@@ -193,17 +193,27 @@ footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-con
 </footer>
 </div>
 <script>
-fetch("web/VERSION", { cache: "no-store" })
-  .then((response) => {
+(async () => {
+  const versionNode = document.getElementById("webapp-version");
+  const apkLink = document.getElementById("apk-release-link");
+  try {
+    const response = await fetch("web/VERSION", { cache: "no-store" });
     if (!response.ok) throw new Error("version unavailable");
-    return response.text();
-  })
-  .then((version) => {
-    document.getElementById("webapp-version").textContent = version.trim();
-  })
-  .catch(() => {
-    document.getElementById("webapp-version").textContent = "unavailable";
-  });
+    const version = (await response.text()).trim();
+    if (!/^\\d+\\.\\d+\\.\\d+$/.test(version)) throw new Error("invalid version");
+    versionNode.textContent = version;
+    if (apkLink) {
+      apkLink.href = `https://github.com/timerloggedout-spec/studysprint/releases/tag/apk-v${version}`;
+      apkLink.textContent = `studysprint.apk (v${version})`;
+    }
+  } catch {
+    versionNode.textContent = "unavailable";
+    if (apkLink) {
+      apkLink.href = "https://github.com/timerloggedout-spec/studysprint/releases";
+      apkLink.textContent = "latest studysprint.apk";
+    }
+  }
+})();
 </script>
 </body>
 </html>

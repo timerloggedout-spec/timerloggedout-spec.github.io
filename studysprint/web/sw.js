@@ -6,12 +6,13 @@
  * refreshed plan reaches installed users; the cache is only the
  * offline fallback); the shell uses stale-while-revalidate. The
  * study data in localStorage is never cached here. */
-const CACHE = "studysprint-webapp-v0.5.1";
+const CACHE = "studysprint-webapp-v0.5.2";
 const SHELL = [
   "./",
   "index.html",
   "styles.css",
   "app.js",
+  "live.js",
   "manifest.webmanifest",
   "data/state.json",
   "icons/icon-192.png",

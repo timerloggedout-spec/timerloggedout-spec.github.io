@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T21:07:08Z",
+  "generated_at": "2026-11-07T22:05:11Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -82,10 +82,45 @@
       "state": "open",
       "updated_at": "2026-11-02T22:36:41Z",
       "tribute": true
+    },
+    {
+      "html_url": "https://github.com/credkellar/iOS-Termux/pull/2",
+      "title": "Enhance translations: add 22 new command pairs and 4 new path mappings",
+      "number": 2,
+      "repo": "credkellar/iOS-Termux",
+      "state": "open",
+      "updated_at": "2026-11-07T21:39:17Z",
+      "tribute": true
     }
   ],
-  "foreign_open_count": 7,
+  "foreign_open_count": 8,
   "tributes": [
+    {
+      "pr_url": "https://github.com/credkellar/iOS-Termux/pull/1",
+      "kinds": [
+        "upstream_pr"
+      ],
+      "ok": true,
+      "last_ts": "2026-11-07T22:02:51Z",
+      "providers": [],
+      "repo": "credkellar/iOS-Termux",
+      "number": 1,
+      "title": "Enhance translations: add 22 new command pairs and 4 new path mappings",
+      "state": "closed"
+    },
+    {
+      "pr_url": "https://github.com/credkellar/iOS-Termux/pull/2",
+      "kinds": [
+        "upstream_pr"
+      ],
+      "ok": true,
+      "last_ts": "2026-11-07T21:39:17Z",
+      "providers": [],
+      "repo": "credkellar/iOS-Termux",
+      "number": 2,
+      "title": "Enhance translations: add 22 new command pairs and 4 new path mappings",
+      "state": "open"
+    },
     {
       "pr_url": "https://github.com/E-Timileyin/Sail-CLI/pull/23",
       "kinds": [
@@ -5634,7 +5669,7 @@
       "state": "closed"
     }
   ],
-  "tribute_count": 132,
+  "tribute_count": 134,
   "issues": {
     "https://github.com/vedantnimbarte/zero/issues/72": [
       {
@@ -42460,7 +42495,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "7caf5fa5f4efc27a43b4b2fac7fbb9fdeab7fbdd",
+    "source_sha": "9d70c0ebdee137df1d46d242642002f2cde11ea4",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42494,12 +42529,12 @@
   },
   "evolution": [
     {
-      "sha": "7caf5fa5f4efc27a43b4b2fac7fbb9fdeab7fbdd",
-      "short_sha": "7caf5fa5f4ef",
-      "date": "2026-11-07T20:48:18Z",
+      "sha": "9d70c0ebdee137df1d46d242642002f2cde11ea4",
+      "short_sha": "9d70c0ebdee1",
+      "date": "2026-11-07T22:04:25Z",
       "author": "github-actions[bot]",
-      "subject": "ops(help-wanted): live status refresh 2026-11-07T20:48Z",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/7caf5fa5f4efc27a43b4b2fac7fbb9fdeab7fbdd"
+      "subject": "ops(help-wanted): live status refresh 2026-11-07T22:04Z",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/9d70c0ebdee137df1d46d242642002f2cde11ea4"
     }
   ],
   "pipeline": [

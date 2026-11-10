@@ -1,47 +1,12 @@
 {
  "schema": "traffic-feed/1",
- "generated_at": "2026-11-03T17:13:27Z",
+ "generated_at": "2026-11-10T17:34:59Z",
  "source": "github-traffic-api: timerloggedout-spec/timerloggedout-spec.github.io",
  "window_days": 14,
  "views": {
-  "count": 4,
-  "uniques": 3,
+  "count": 10,
+  "uniques": 5,
   "per_day": [
-   {
-    "day": "2026-10-20",
-    "count": 0,
-    "uniques": 0
-   },
-   {
-    "day": "2026-10-21",
-    "count": 0,
-    "uniques": 0
-   },
-   {
-    "day": "2026-10-22",
-    "count": 0,
-    "uniques": 0
-   },
-   {
-    "day": "2026-10-23",
-    "count": 0,
-    "uniques": 0
-   },
-   {
-    "day": "2026-10-24",
-    "count": 0,
-    "uniques": 0
-   },
-   {
-    "day": "2026-10-25",
-    "count": 0,
-    "uniques": 0
-   },
-   {
-    "day": "2026-10-26",
-    "count": 0,
-    "uniques": 0
-   },
    {
     "day": "2026-10-27",
     "count": 0,
@@ -76,6 +41,41 @@
     "day": "2026-11-02",
     "count": 0,
     "uniques": 0
+   },
+   {
+    "day": "2026-11-03",
+    "count": 0,
+    "uniques": 0
+   },
+   {
+    "day": "2026-11-04",
+    "count": 0,
+    "uniques": 0
+   },
+   {
+    "day": "2026-11-05",
+    "count": 5,
+    "uniques": 2
+   },
+   {
+    "day": "2026-11-06",
+    "count": 1,
+    "uniques": 1
+   },
+   {
+    "day": "2026-11-07",
+    "count": 0,
+    "uniques": 0
+   },
+   {
+    "day": "2026-11-08",
+    "count": 0,
+    "uniques": 0
+   },
+   {
+    "day": "2026-11-09",
+    "count": 0,
+    "uniques": 0
    }
   ]
  },
@@ -90,8 +90,14 @@
   {
    "path": "/timerloggedout-spec/timerloggedout-spec.github.io",
    "title": "Overview",
-   "count": 2,
-   "uniques": 2
+   "count": 4,
+   "uniques": 3
+  },
+  {
+   "path": "/timerloggedout-spec/timerloggedout-spec.github.io/actions/runs/41987696113",
+   "title": "/actions/runs/41987696113",
+   "count": 1,
+   "uniques": 1
   },
   {
    "path": "/timerloggedout-spec/timerloggedout-spec.github.io/blob/main/index.html",
@@ -100,8 +106,26 @@
    "uniques": 1
   },
   {
+   "path": "/timerloggedout-spec/timerloggedout-spec.github.io/blob/main/studysprint/web/VERSION",
+   "title": "/blob/main/studysprint/web/VERSION",
+   "count": 1,
+   "uniques": 1
+  },
+  {
    "path": "/timerloggedout-spec/timerloggedout-spec.github.io/pull/2",
    "title": "/pull/2",
+   "count": 1,
+   "uniques": 1
+  },
+  {
+   "path": "/timerloggedout-spec/timerloggedout-spec.github.io/pull/4",
+   "title": "/pull/4",
+   "count": 1,
+   "uniques": 1
+  },
+  {
+   "path": "/timerloggedout-spec/timerloggedout-spec.github.io/tree/main/studysprint/web",
+   "title": "/tree/main/studysprint/web",
    "count": 1,
    "uniques": 1
   }

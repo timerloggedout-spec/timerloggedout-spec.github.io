@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T10:40:01Z",
+  "generated_at": "2026-11-11T11:25:07Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42495,7 +42495,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "b8e06dd4069de388d5b1851058c669af72c41623",
+    "source_sha": "afcfa08c9cc48ac8cfd7d6701d7a81f4efe77c7d",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42529,12 +42529,12 @@
   },
   "evolution": [
     {
-      "sha": "b8e06dd4069de388d5b1851058c669af72c41623",
-      "short_sha": "b8e06dd4069d",
-      "date": "2026-11-11T02:01:22-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #5163 from timerloggedout-spec/feat/provider-family-doe-observatory-20261111",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/b8e06dd4069de388d5b1851058c669af72c41623"
+      "sha": "afcfa08c9cc48ac8cfd7d6701d7a81f4efe77c7d",
+      "short_sha": "afcfa08c9cc4",
+      "date": "2026-11-11T10:59:53Z",
+      "author": "termux-monorepo sweep",
+      "subject": "chore(ops): record sweep accountability receipt",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/afcfa08c9cc48ac8cfd7d6701d7a81f4efe77c7d"
     }
   ],
   "pipeline": [

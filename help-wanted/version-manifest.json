@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "1.0.1+7395d70874fd",
+  "version": "1.0.1+5e0927652159",
   "channel": "production",
   "source_ref": "master",
-  "source_sha": "7395d70874fd4a13485b69241ad784751daed2bd",
-  "built_at": "2026-11-11T14:56:59.251760+00:00",
+  "source_sha": "5e09276521598d760cca7d23ea7e9a91a9e12f8c",
+  "built_at": "2026-11-11T15:42:36.481898+00:00",
   "comparison": {
     "production_manifest": "https://timerloggedout-spec.github.io/tribute/version-manifest.json",
     "repository": "https://github.com/timerloggedout-spec/termux-monorepo"
@@ -33,6 +33,12 @@
       "file": "ates.html",
       "title": "ATES",
       "content_sha256": "fc9909c0c054517e5824e869473522fbd7da327366eea2640f08b3fecc8fc4bd"
+    },
+    {
+      "id": "billion-tokens",
+      "file": "billion-tokens.html",
+      "title": "Billion Tokens",
+      "content_sha256": "3031f242ebfd7ef49580621a00e563694cec121c8ca61ebd35823bd3c2f9954a"
     },
     {
       "id": "classifiers",
@@ -206,7 +212,7 @@
       "id": "referrals",
       "file": "referrals.html",
       "title": "Referrals",
-      "content_sha256": "55d887cd6705d1eb2f28b4f08fcb2cff1e3efb6540d0297decd04c65ba34045d"
+      "content_sha256": "fd44135118c2d4093a3752b20b3ebc7d5b650566181467c6c57c8a875bc553bb"
     },
     {
       "id": "results-index",

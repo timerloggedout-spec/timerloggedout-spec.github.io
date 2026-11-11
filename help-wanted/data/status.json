@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T16:16:27Z",
+  "generated_at": "2026-11-11T16:43:02Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42495,7 +42495,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "f4f8336b583ef858f70062fb058bc883c212f80f",
+    "source_sha": "501ff2a9a645e9e5fee81c10993f153a418e219e",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42529,12 +42529,12 @@
   },
   "evolution": [
     {
-      "sha": "f4f8336b583ef858f70062fb058bc883c212f80f",
-      "short_sha": "f4f8336b583e",
-      "date": "2026-11-11T07:35:43-08:00",
+      "sha": "501ff2a9a645e9e5fee81c10993f153a418e219e",
+      "short_sha": "501ff2a9a645",
+      "date": "2026-11-11T07:50:28-08:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "backup-relay: export exp-20261111T152835Z-4df26c",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/f4f8336b583ef858f70062fb058bc883c212f80f"
+      "subject": "relay: vm-backup export exp-20261111T154333Z-400be1",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/501ff2a9a645e9e5fee81c10993f153a418e219e"
     }
   ],
   "pipeline": [

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "1.0.1+b8d570398457",
+  "version": "1.0.1+b8e06dd4069d",
   "channel": "production",
   "source_ref": "master",
-  "source_sha": "b8d570398457e6f467f54b1fffc78f1cc871d84e",
-  "built_at": "2026-11-11T10:34:39.892207+00:00",
+  "source_sha": "b8e06dd4069de388d5b1851058c669af72c41623",
+  "built_at": "2026-11-11T10:40:01.993547+00:00",
   "comparison": {
     "production_manifest": "https://timerloggedout-spec.github.io/tribute/version-manifest.json",
     "repository": "https://github.com/timerloggedout-spec/termux-monorepo"
@@ -77,6 +77,12 @@
       "content_sha256": "0645c2553388d2b7d529338a021586ef31a2d365be24d78e2fcefb642e443b4d"
     },
     {
+      "id": "doe-settings",
+      "file": "doe-settings.html",
+      "title": "Doe Settings",
+      "content_sha256": "035b50e9c1a552e2be792afcbbad6d1149e6a5bbb4e1bf877b31540dac805feb"
+    },
+    {
       "id": "doe",
       "file": "doe.html",
       "title": "DoE",
@@ -86,7 +92,7 @@
       "id": "family",
       "file": "family.html",
       "title": "Family",
-      "content_sha256": "74933b734bd07e3fa48213a8452614b1f1f2a4a3c1a6d6002789305e42da96d9"
+      "content_sha256": "a054b9a1d8fd3e840307c43cabc36905cf00aecb8a93f4ec80e424ffcf85919a"
     },
     {
       "id": "free-tier-value",
@@ -182,7 +188,7 @@
       "id": "quota-swarm",
       "file": "quota-swarm.html",
       "title": "Quota Swarm",
-      "content_sha256": "16e9eb16300266b47cc41bffb8917119a81a987b9b6395c650503d59ab9140c3"
+      "content_sha256": "3bd9c281366d1eb2aa96b575b672503d093566b84b8b4db823edf10b54b596c0"
     },
     {
       "id": "quota-usage",
@@ -212,7 +218,7 @@
       "id": "surfaces-map",
       "file": "surfaces-map.html",
       "title": "Surfaces Map",
-      "content_sha256": "e0fcbf08437fdab9a7796dbccdf13deb58d74954f84b4ca2b9f472aa9e7414bf"
+      "content_sha256": "653bac89661dcf0ec62fbc020dcc6dbf03d737acd8cf9c0050a697f0455debee"
     },
     {
       "id": "telemetry",

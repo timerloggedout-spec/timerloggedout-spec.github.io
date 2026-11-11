@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T03:52:50Z",
+  "generated_at": "2026-11-11T04:50:50Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42495,7 +42495,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "957c2522f7d5daa5c0ff1f9b05df8356bb8d1773",
+    "source_sha": "8595a141f5afdd8744dc91a40caa128b695a361f",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42529,12 +42529,12 @@
   },
   "evolution": [
     {
-      "sha": "957c2522f7d5daa5c0ff1f9b05df8356bb8d1773",
-      "short_sha": "957c2522f7d5",
-      "date": "2026-11-11T03:33:22Z",
-      "author": "github-actions[bot]",
-      "subject": "ops(help-wanted): live status refresh 2026-11-11T03:33Z",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/957c2522f7d5daa5c0ff1f9b05df8356bb8d1773"
+      "sha": "8595a141f5afdd8744dc91a40caa128b695a361f",
+      "short_sha": "8595a141f5af",
+      "date": "2026-11-10T20:00:45-08:00",
+      "author": "Founders' are 'found' to implement.",
+      "subject": "fix(quota): render snapshots without service-state maps",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/8595a141f5afdd8744dc91a40caa128b695a361f"
     }
   ],
   "pipeline": [

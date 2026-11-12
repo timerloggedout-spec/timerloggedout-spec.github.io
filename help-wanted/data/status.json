@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T14:31:17Z",
+  "generated_at": "2026-11-12T14:39:27Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42495,7 +42495,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "64e25288edaddfd5760e5e0f9ab35ca1ef5987df",
+    "source_sha": "269a278553fc02edf0265a08b3e87cfacd718d5d",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42529,12 +42529,12 @@
   },
   "evolution": [
     {
-      "sha": "64e25288edaddfd5760e5e0f9ab35ca1ef5987df",
-      "short_sha": "64e25288edad",
-      "date": "2026-11-12T13:59:17Z",
-      "author": "quota-usage-series-refresh",
-      "subject": "ops(quota): refresh usage-series pack + swarm feed + mirrors (auto-derived)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/64e25288edaddfd5760e5e0f9ab35ca1ef5987df"
+      "sha": "269a278553fc02edf0265a08b3e87cfacd718d5d",
+      "short_sha": "269a278553fc",
+      "date": "2026-11-12T13:59:33Z",
+      "author": "termux-monorepo sweep",
+      "subject": "chore(ops): record sweep accountability receipt",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/269a278553fc02edf0265a08b3e87cfacd718d5d"
     }
   ],
   "pipeline": [

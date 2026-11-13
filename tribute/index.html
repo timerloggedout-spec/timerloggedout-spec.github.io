@@ -10,6 +10,7 @@
 .foreign{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:.65rem}.foreign article{border:1px solid var(--line);border-radius:9px;padding:.75rem;background:#0b1118}
 .controls{display:grid;grid-template-columns:1.2fr 1fr;gap:.8rem}.timeline{display:grid;gap:.5rem}.event{display:grid;grid-template-columns:120px 1fr auto;gap:.7rem;padding:.6rem 0;border-bottom:1px solid var(--line)}.event time{color:var(--gold);font-size:.75rem}.event .sha{font-family:ui-monospace,monospace;color:var(--blue);font-size:.75rem}.policy{margin:0;padding-left:1.1rem;color:var(--muted)}
 @media(max-width:850px){.controls{grid-template-columns:1fr}.event{grid-template-columns:1fr}}
+ .skip-link{position:absolute;left:-9999px}.skip-link:focus{left:12px;top:8px;z-index:1000;background:#4fd1c5;color:#04211f;padding:10px;border-radius:8px}
 </style>
  <script src="./versioning.js" defer></script>
 
@@ -38,6 +39,7 @@
 }</script>
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 <nav aria-label="Primary"><a class="brand" href="https://timerloggedout-spec.github.io/">Autonomous AI Employees</a><a href="https://timerloggedout-spec.github.io/">Marketing</a><a href="https://timerloggedout-spec.github.io/tribute/" aria-current="page">Ops · Tribute</a><a href="https://timerloggedout-spec.github.io/matrix/">Lane matrix</a><a href="https://timerloggedout-spec.github.io/tribute/quota.html">Quota</a><a href="https://timerloggedout-spec.github.io/tribute/quota-usage.html">Quota Usage</a><a href="https://timerloggedout-spec.github.io/tribute/quota-graphs.html">Quota Graphs</a>
 <a href="https://timerloggedout-spec.github.io/tribute/quota-swarm.html">Swarm Quota</a><a href="https://timerloggedout-spec.github.io/tribute/admin.html">Admin</a><a href="https://timerloggedout-spec.github.io/tribute/oracle.html">Oracle</a><a href="https://timerloggedout-spec.github.io/tribute/3l0.html">3L0</a><a href="https://timerloggedout-spec.github.io/tribute/moneyball.html">MoneyBall</a>
 <a href="https://timerloggedout-spec.github.io/tribute/wagering-book.html">Wagering Book</a><a href="https://timerloggedout-spec.github.io/tribute/pools.html">Pools</a><a href="https://timerloggedout-spec.github.io/tribute/mvt.html">MVT</a><a href="https://timerloggedout-spec.github.io/tribute/doe.html">DoE</a><a href="https://timerloggedout-spec.github.io/tribute/ates.html">ATES</a>
@@ -47,7 +49,7 @@
 <a href="https://timerloggedout-spec.github.io/tribute/marketing-gantt.html">Marketing Gantt</a><a href="https://timerloggedout-spec.github.io/tribute/telemetry.html">Telemetry</a><a href="https://timerloggedout-spec.github.io/tribute/desk.html">Desk</a><a href="https://timerloggedout-spec.github.io/tribute/tracking.html">Tracking</a>
 <a href="https://timerloggedout-spec.github.io/tribute/family.html">Family</a><a href="https://Tribute-oversight.vercel.app/">Vercel deployment</a><a href="https://timerloggedout-spec.github.io/tribute/sitemap.xml">Sitemap</a><a href="https://github.com/timerloggedout-spec/termux-monorepo">Monorepo</a></nav>
 <header><div class="hero"><div><div class="eyebrow">Contributor lane · evidence + control surface</div><h1><span class="gold">Tribute</span></h1><p class="lede">Observe the upstream contribution lane from scout → claim → PR → follow-up → evidence → publication. This surface is a projection of repository evidence, not a second source of truth and not a MoneyBall admission score.</p><div id="pipeline" class="links" style="margin-top:1rem" aria-label="Pipeline"></div></div><div class="fresh" aria-live="polite"><strong id="freshness">Loading…</strong><small id="generated">Fetching snapshot.</small></div></div></header>
-<main>
+<main id="main-content">
 <section aria-labelledby="overview"><div class="head"><h2 id="overview">Live board</h2><span class="note" id="summary">—</span></div><div class="grid" id="kpis"></div></section>
 
 <section aria-labelledby="charts"><div class="head"><h2 id="charts">Live charts</h2><span class="note" id="charts-stamp">—</span></div>

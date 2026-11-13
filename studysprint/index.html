@@ -32,6 +32,7 @@ section{padding:56px 0;border-top:1px solid var(--hair)}h2{font-size:30px;letter
 .strip{display:flex;gap:10px;flex-wrap:wrap}.chip{font-size:14px;color:var(--muted);border:1px solid var(--hair);border-radius:999px;padding:8px 14px}.chip b{color:var(--text);font-weight:600}
 footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;border-top:1px solid var(--hair)}footer ul{display:flex;gap:16px;list-style:none;margin:0;padding:0;flex-wrap:wrap}footer a:hover{color:var(--accent)}
 @media (max-width:760px){nav ul{display:none}.hero{padding:48px 0 40px}section{padding:40px 0}}
+ .skip-link{position:absolute;left:-9999px}.skip-link:focus{left:12px;top:8px;z-index:1000;background:#4fd1c5;color:#04211f;padding:10px;border-radius:8px}
 </style>
 
 <link rel="canonical" href="https://timerloggedout-spec.github.io/studysprint/">
@@ -59,6 +60,7 @@ footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-con
 }</script>
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 <div class="wrap">
 <nav>
   <a class="brand" href="../">← Fleet home</a>
@@ -70,6 +72,7 @@ footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-con
   </ul>
 </nav>
 
+<main id="main-content">
 <header class="hero">
   <span class="badge">StudySprint · v1.0.0</span>
   <h1>A study plan you can trust.</h1>
@@ -206,6 +209,7 @@ footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-con
   <p style="margin-top:16px;color:var(--muted);font-size:14px"><code>python3 demo.py</code> · <code>python3 -m pytest tests/</code> — 1.0.0 is the Nov 4 submission release.</p>
 </section>
 
+</main>
 <footer>
   <span>StudySprint · foundation v1.0.0 · Built with the Strands Agents SDK</span>
   <ul>

@@ -2,6 +2,10 @@
 
 > Hierarchical index of public pages and machine-readable resources on https://timerloggedout-spec.github.io/.
 
+## Reference
+
+- [Glossary](https://timerloggedout-spec.github.io/glossary/): Shared definitions for evidence, provenance, orchestration, and delivery states.
+
 ## Main pages
 
 - [Home](https://timerloggedout-spec.github.io/): Fleet overview and navigation.

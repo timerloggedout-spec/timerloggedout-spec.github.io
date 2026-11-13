@@ -11,6 +11,10 @@
 - [Delphi Oracle](https://timerloggedout-spec.github.io/delphi-oracle/): Deterministic evidence gate.
 - [Repo+Story](https://timerloggedout-spec.github.io/repo-story/): Cited repository-history narratives.
 
+## Reference
+
+- [Glossary](https://timerloggedout-spec.github.io/glossary/): Shared definitions for evidence, provenance, orchestration, and delivery states.
+
 ## Agent and discovery resources
 
 - [llms.txt](https://timerloggedout-spec.github.io/llms.txt): Curated agent entry point.

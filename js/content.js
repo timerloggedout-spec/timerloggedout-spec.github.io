@@ -19,7 +19,7 @@ window.CONTENT = {
     {label:"Quota", href:"/tribute/quota.html"},
     {label:"Desk", href:"/tribute/desk.html"},
     {label:"Lane matrix", href:"/matrix/"},
-    {label:"Project hub", href:"/termux-monorepo/"},
+    {label:"Project hub", href:"https://github.com/timerloggedout-spec/termux-monorepo"},
     {label:"GitHub", href:"https://github.com/timerloggedout-spec"},
     {label:"Get started", href:"#cta"}
   ],

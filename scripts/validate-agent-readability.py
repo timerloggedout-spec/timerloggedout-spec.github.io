@@ -94,9 +94,9 @@ for html_path, md_path in PAGES:
             errors.append(f"{html_path}: invalid JSON-LD: {exc}")
     if html_path == "index.html":
         require(has_breadcrumb, "index.html: JSON-LD needs a BreadcrumbList")
-        visible = re.sub(r"<script\\b[\\s\\S]*?</script>|<style\\b[\\s\\S]*?</style>", " ", html, flags=re.I)
+        visible = re.sub(r"<script\b[\s\S]*?</script>|<style\b[\s\S]*?</style>", " ", html, flags=re.I)
         visible = unescape(re.sub(r"<[^>]+>", " ", visible))
-        text_ratio = len(re.sub(r"\\s+", " ", visible).strip()) / max(1, len(html))
+        text_ratio = len(re.sub(r"\s+", " ", visible).strip()) / max(1, len(html))
         require(text_ratio >= 0.15, f"index.html: static text-to-HTML ratio {text_ratio:.1%} is below 15%")
     require(markdown.startswith("---\n"), f"{md_path}: missing YAML frontmatter")
     for field in ("title:", "description:", "last_updated:"):
@@ -111,7 +111,7 @@ status = json.loads(read("data/agent-readability-status.json"))
 require(status.get("threshold") == 95, "agent-readability badge threshold must equal 95")
 score = status.get("score")
 if score is not None and score >= 95:
-    require(bool(re.match(r"^https://agent-ready\\.dev/scan/[A-Za-z0-9_-]+$", str(status.get("scan_url") or ""))), "95+ badge needs a verified Agent Ready scan URL")
+    require(bool(re.match(r"^https://agent-ready\.dev/scan/[A-Za-z0-9_-]+$", str(status.get("scan_url") or ""))), "95+ badge needs a verified Agent Ready scan URL")
     require(bool(status.get("verified_at")), "95+ badge needs a verification timestamp")
 else:
     require('id="agent-readability-badge"' in home and 'id="agent-readability-badge" class="agent-readability-badge" href=' in home and ' hidden ' in home, "badge must remain hidden below the verified 95 threshold")

@@ -1,0 +1,63 @@
+name: Agent Readability Contract
+
+on:
+  pull_request:
+    paths:
+      - "index.html"
+      - "index.md"
+      - "site.css"
+      - "js/landing.js"
+      - "js/landing-metrics.js"
+      - "js/agent-readability-badge.js"
+      - "data/agent-readability-status.json"
+      - "sw.js"
+      - "scripts/validate-agent-readability.py"
+      - "llms*.txt"
+      - "AGENTS.md"
+      - "robots.txt"
+      - "sitemap.*"
+      - "glossary.md"
+      - "matrix/**"
+      - "tribute/**"
+      - "termux-monorepo/**"
+      - "studysprint/**"
+      - "delphi-oracle/**"
+      - "repo-story/**"
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "index.md"
+      - "site.css"
+      - "js/landing.js"
+      - "js/landing-metrics.js"
+      - "js/agent-readability-badge.js"
+      - "data/agent-readability-status.json"
+      - "sw.js"
+      - "scripts/validate-agent-readability.py"
+      - "llms*.txt"
+      - "AGENTS.md"
+      - "robots.txt"
+      - "sitemap.*"
+      - "glossary.md"
+      - "matrix/**"
+      - "tribute/**"
+      - "termux-monorepo/**"
+      - "studysprint/**"
+      - "delphi-oracle/**"
+      - "repo-story/**"
+
+permissions:
+  contents: read
+
+jobs:
+  static-contract:
+    name: Validate static Agent Readability contract
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate metadata, mirrors, breadcrumbs, text ratio, and badge gate
+        run: python scripts/validate-agent-readability.py

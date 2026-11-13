@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T05:26:14Z",
+  "generated_at": "2026-11-13T05:38:44Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42495,7 +42495,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "20bac37d2927529122b56d53b5dd0342d5c837d0",
+    "source_sha": "ccea4f68dc93142dae24a0dac56cd475e4895547",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42529,12 +42529,12 @@
   },
   "evolution": [
     {
-      "sha": "20bac37d2927529122b56d53b5dd0342d5c837d0",
-      "short_sha": "20bac37d2927",
-      "date": "2026-11-12T21:19:48-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #4424 from timerloggedout-spec/proposals-feed/refresh",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/20bac37d2927529122b56d53b5dd0342d5c837d0"
+      "sha": "ccea4f68dc93142dae24a0dac56cd475e4895547",
+      "short_sha": "ccea4f68dc93",
+      "date": "2026-11-13T05:37:49Z",
+      "author": "repo-tracking-collect",
+      "subject": "ops(tracking): refresh repo tracking surface (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/ccea4f68dc93142dae24a0dac56cd475e4895547"
     }
   ],
   "pipeline": [

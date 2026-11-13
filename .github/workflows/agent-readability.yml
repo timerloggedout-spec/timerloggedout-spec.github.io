@@ -1,0 +1,53 @@
+name: Agent Readability Contract
+
+on:
+  pull_request:
+    paths:
+      - "index.html"
+      - "index.md"
+      - "llms*.txt"
+      - "AGENTS.md"
+      - "robots.txt"
+      - "sitemap.*"
+      - "glossary.md"
+      - "matrix/**"
+      - "tribute/**"
+      - "termux-monorepo/**"
+      - "studysprint/**"
+      - "delphi-oracle/**"
+      - "repo-story/**"
+      - "scripts/validate-agent-readability.py"
+      - ".github/workflows/agent-readability.yml"
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "index.md"
+      - "llms*.txt"
+      - "AGENTS.md"
+      - "robots.txt"
+      - "sitemap.*"
+      - "glossary.md"
+      - "matrix/**"
+      - "tribute/**"
+      - "termux-monorepo/**"
+      - "studysprint/**"
+      - "delphi-oracle/**"
+      - "repo-story/**"
+      - "scripts/validate-agent-readability.py"
+      - ".github/workflows/agent-readability.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  contract:
+    name: Validate static agent-readability contract
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate discovery, mirrors, metadata, and sitemap
+        run: python scripts/validate-agent-readability.py

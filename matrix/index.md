@@ -22,6 +22,10 @@ The matrix is a projection, not a pull request, merge authorization, or source o
 - [termux-monorepo](https://github.com/timerloggedout-spec/termux-monorepo)
 - [Generated lane matrix status](https://github.com/timerloggedout-spec/termux-monorepo/tree/master/docs/ops/generated)
 
+## Related terminology
+
+- [Glossary](https://timerloggedout-spec.github.io/glossary/)
+
 ## Sitemap
 
 - [Complete route sitemap](https://timerloggedout-spec.github.io/sitemap.md)

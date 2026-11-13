@@ -8,6 +8,7 @@ Marketing landing page and public project/operations index, served by GitHub Pag
 - HTML structure, styles, metadata, and **static fallback copy**: `index.html`.
 - Keep the visible initial HTML semantically equivalent to `js/content.js`; essential content must be readable without JavaScript.
 - Project explainers: `studysprint/`, `delphi-oracle/`, and `repo-story/`.
+- [Glossary](glossary/): shared evidence and orchestration terminology.
 - Operations surfaces: `tribute/` and `matrix/`.
 
 ## Agent-readable discovery

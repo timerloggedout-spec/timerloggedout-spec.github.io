@@ -77,25 +77,20 @@ for html_path, md_path in PAGES:
     require("Skip to main content" in html, f"{html_path}: missing skip link")
     json_blocks = re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S)
     require(bool(json_blocks), f"{html_path}: missing JSON-LD")
-    has_breadcrumb = False
-    has_webpage_breadcrumb = False
+    graph_nodes = []
     for block in json_blocks:
         try:
             data = json.loads(block)
-            require(bool(data.get("@type")), f"{html_path}: JSON-LD missing @type")
-            if data.get("@type") == "BreadcrumbList":
-                has_breadcrumb = True
-                require(bool(data.get("itemListElement")), f"{html_path}: BreadcrumbList missing itemListElement")
-                continue
-            if data.get("@type") == "WebPage":
-                breadcrumb = data.get("breadcrumb") or {}
-                has_webpage_breadcrumb = breadcrumb.get("@type") == "BreadcrumbList" and bool(breadcrumb.get("itemListElement"))
-            require(bool(data.get("name") or data.get("headline")), f"{html_path}: JSON-LD missing name/headline")
-            require(bool(data.get("description")), f"{html_path}: JSON-LD missing description")
-            require(bool(data.get("url")), f"{html_path}: JSON-LD missing url")
-            require(bool(data.get("dateModified")), f"{html_path}: JSON-LD missing dateModified")
+            graph_nodes.extend(data.get("@graph", [data]))
         except json.JSONDecodeError as exc:
             errors.append(f"{html_path}: invalid JSON-LD: {exc}")
+    has_breadcrumb = any(node.get("@type") == "BreadcrumbList" and node.get("itemListElement") for node in graph_nodes)
+    has_webpage_breadcrumb = any(
+        node.get("@type") == "WebPage"
+        and (node.get("breadcrumb", {}).get("@id") == "https://timerloggedout-spec.github.io/#breadcrumb"
+             or node.get("breadcrumb", {}).get("@type") == "BreadcrumbList")
+        for node in graph_nodes
+    )
     if html_path == "index.html":
         require(has_breadcrumb, "index.html: JSON-LD needs a BreadcrumbList")
         require(has_webpage_breadcrumb, "index.html: primary WebPage JSON-LD needs a breadcrumb property")

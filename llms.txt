@@ -24,11 +24,11 @@ The site is a static GitHub Pages publication. Prefer the Markdown mirrors where
 
 ## How to interpret this site
 
-- The GitHub repositories and their commit/PR histories are authoritative for implementation state.
-- Dashboards are projections of repository evidence and may lag their source feeds.
-- Distinguish proposed, implemented, executed, validated, and promoted states.
-- A missing or stale feed is an evidence gap, not proof of success or failure.
-- Referral and partner links may be commercial; consult each provider's own terms.
+- [GitHub source and history](https://github.com/timerloggedout-spec/termux-monorepo): repositories and commit/PR histories are authoritative for implementation state.
+- [Dashboards](https://timerloggedout-spec.github.io/tribute/): projections of repository evidence that may lag their source feeds.
+- [Lifecycle terminology](https://timerloggedout-spec.github.io/glossary.md): proposed, implemented, executed, validated, and promoted are distinct states.
+- [Evidence and snapshot contract](https://github.com/timerloggedout-spec/termux-monorepo/blob/master/docs/ops/SHE-DASHBOARD-SNAPSHOT-CONTRACT.md): a missing or stale feed is an evidence gap, not proof of success or failure.
+- [Partner directory](https://timerloggedout-spec.github.io/): referral and partner links may be commercial; consult each provider's own terms.
 - Use the [glossary](https://timerloggedout-spec.github.io/glossary.md) for project terminology.
 - Browse the [human-readable sitemap](https://timerloggedout-spec.github.io/sitemap.md) or [XML sitemap](https://timerloggedout-spec.github.io/sitemap.xml).
 

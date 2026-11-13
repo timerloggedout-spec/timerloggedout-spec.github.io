@@ -24,6 +24,7 @@ The site is primarily static HTML, CSS, JavaScript, Markdown, JSON, and XML.
 - `studysprint/`: StudySprint project explainer.
 - `delphi-oracle/`: Delphi Oracle project explainer.
 - `repo-story/`: Repo+Story project explainer.
+- `glossary/`: shared terminology and definitions.
 - `llms.txt`: curated agent-facing entry point.
 - `llms-full.txt`: expanded agent-facing context.
 - `sitemap.xml` and `sitemap.md`: machine-readable and human/agent-readable route indexes.

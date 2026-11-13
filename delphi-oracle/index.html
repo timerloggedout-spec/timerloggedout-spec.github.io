@@ -30,6 +30,7 @@ table{width:100%;border-collapse:collapse;font-size:15px}th,td{text-align:left;p
 footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;border-top:1px solid var(--hair)}footer ul{display:flex;gap:16px;list-style:none;margin:0;padding:0;flex-wrap:wrap}footer a:hover{color:var(--accent)}
 @media (max-width:760px){nav ul{display:none}.hero{padding:48px 0 40px}section{padding:40px 0}}
 #story p{max-width:720px;color:var(--text)}#story p.lead{color:var(--muted)}#story ul{max-width:720px;color:var(--muted)}#story h3{margin:28px 0 8px;font-size:20px}#story code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;color:var(--accent)}
+ .skip-link{position:absolute;left:-9999px}.skip-link:focus{left:12px;top:8px;z-index:1000;background:#4fd1c5;color:#04211f;padding:10px;border-radius:8px}
 </style>
 
 <link rel="canonical" href="https://timerloggedout-spec.github.io/delphi-oracle/">
@@ -57,6 +58,7 @@ footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-con
 }</script>
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 <div class="wrap">
 <nav>
   <a class="brand" href="../">← Fleet home</a>
@@ -70,6 +72,7 @@ footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-con
   </ul>
 </nav>
 
+<main id="main-content">
 <header class="hero">
   <span class="badge">Delphi Oracle · Release v1.0.0 · completed foundation</span>
   <h1>Evidence over claims.</h1>
@@ -208,6 +211,7 @@ footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-con
   </div>
 </section>
 
+</main>
 <footer>
   <span>Delphi Oracle · completion record @ 393e1f4b · <a href="https://github.com/timerloggedout-spec/delphi-oracle/releases/tag/v1.0.0">Release v1.0.0</a></span>
   <ul>

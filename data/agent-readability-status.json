@@ -1,8 +1,11 @@
 {
   "schema_version": 1,
-  "score": null,
+  "score": 89,
   "threshold": 95,
-  "scan_url": null,
-  "verified_at": null,
-  "status": "awaiting_verified_scan"
+  "scan_url": "https://agent-ready.dev/scan/AgbKuOoQd0",
+  "verified_at": "2026-11-13",
+  "status": "below_threshold",
+  "accessibility_score": 100,
+  "llms_txt_score": 100,
+  "notes": "Badge remains hidden until a fresh scan verifies a score of at least 95/100."
 }

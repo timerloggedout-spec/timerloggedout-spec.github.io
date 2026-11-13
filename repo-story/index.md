@@ -34,3 +34,9 @@ The published page explicitly describes Repo+Story as a concept of record with a
 - [Concept of record](https://github.com/timerloggedout-spec/repo-story/blob/main/CONCEPT.md)
 - [Specification](https://github.com/timerloggedout-spec/repo-story/blob/main/SPEC.md)
 - [Fleet landing page](https://timerloggedout-spec.github.io/repo-story/)
+
+
+## Sitemap
+
+- [Site sitemap](https://timerloggedout-spec.github.io/sitemap.md)
+- [Agent discovery index](https://timerloggedout-spec.github.io/llms.txt)

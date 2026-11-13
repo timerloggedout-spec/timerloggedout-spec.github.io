@@ -1,0 +1,57 @@
+# Autonomous AI Employees — Expanded Context
+
+## Purpose
+
+Autonomous AI Employees is the public-facing site for a human-directed AI collaboration fleet. It links project descriptions, live operational dashboards, software repositories, and evidence records. It is not itself the source of truth for implementation status.
+
+## Evidence and status discipline
+
+The project distinguishes design, implementation, execution, validation, and promotion. A feature described in a page is not necessarily deployed. A queued workflow is not completed. A dashboard is a projection and should be interpreted with its generated-at timestamp and linked source.
+
+## Main public surfaces
+
+- Home: https://timerloggedout-spec.github.io/
+- Tribute operations dashboard: https://timerloggedout-spec.github.io/tribute/
+- Lane matrix: https://timerloggedout-spec.github.io/matrix/
+- Termux monorepo hub: https://timerloggedout-spec.github.io/termux-monorepo/
+- StudySprint: https://timerloggedout-spec.github.io/studysprint/
+- Delphi Oracle: https://timerloggedout-spec.github.io/delphi-oracle/
+- Repo+Story: https://timerloggedout-spec.github.io/repo-story/
+
+## Projects
+
+### Tribute
+
+Tribute is an evidence and control surface for the upstream contributor lane. Its page describes the progression from scout and claim through pull request, follow-up, evidence, and publication. It is a projection of repository evidence, not a second source of truth or an admission score.
+
+### Termux monorepo
+
+The termux-monorepo is the primary development and management repository for orchestration, automation, system documentation, dashboards, and evidence workflows. See https://github.com/timerloggedout-spec/termux-monorepo.
+
+### StudySprint
+
+StudySprint is a study-planning project with an evidence-gated foundation. The public page and source repository should be consulted for current release and feature status: https://github.com/timerloggedout-spec/studysprint.
+
+### Delphi Oracle
+
+Delphi Oracle is an evidence-gate oracle project. Its published completion record distinguishes deterministic local behavior from any live cloud deployment or model-provider claims. Source: https://github.com/timerloggedout-spec/delphi-oracle.
+
+### Repo+Story
+
+Repo+Story is a concept and specification for turning repository event streams into chronological, cited narratives with change coupling and blast-radius context. The project page explicitly distinguishes its concept/specification status from a shipped product. Source: https://github.com/timerloggedout-spec/repo-story.
+
+## Operating guidance for agents
+
+1. Read the page and its linked source before making claims about status.
+2. Prefer dated receipts, commit SHAs, pull-request state, workflow runs, and generated artifact metadata over prose summaries.
+3. Preserve uncertainty. Use unknown, stale, partial, or unobserved when evidence is missing.
+4. Do not modify production branches or merge pull requests without explicit authorization.
+5. Do not expose secrets, tokens, private telemetry, or personal data in public outputs.
+6. Report the exact files and checks changed when proposing site improvements.
+
+## Navigation
+
+- Human-readable sitemap: https://timerloggedout-spec.github.io/sitemap.md
+- XML sitemap: https://timerloggedout-spec.github.io/sitemap.xml
+- Agent instructions: https://timerloggedout-spec.github.io/AGENTS.md
+- Terminology: https://timerloggedout-spec.github.io/glossary.md

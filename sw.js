@@ -2,9 +2,9 @@
    Pages are LIVE: every fetch goes network-first; the cache answers
    only when the network is unreachable. Scope "/" — the dashboard app
    under /help-wanted/ registers its own, more specific worker. */
-var CACHE = "site-v1";
+var CACHE = "site-v2";
 var SHELL = ["/", "/index.html", "/manifest.webmanifest",
-             "/icon-192.png", "/icon-512.png"];
+             "/icon-192.png", "/icon-512.png", "/site.css", "/js/landing.js", "/js/landing-metrics.js", "/js/agent-readability-badge.js", "/data/agent-readability-status.json"];
 self.addEventListener("install", function (e) {
   e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(SHELL); })
     .then(function () { return self.skipWaiting(); }));

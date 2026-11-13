@@ -27,6 +27,7 @@ on:
   push:
     branches: [main]
     paths:
+      - ".github/workflows/agent-readability-contract.yml"
       - "index.html"
       - "index.md"
       - "site.css"

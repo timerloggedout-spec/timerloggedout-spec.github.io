@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Glossary — Autonomous AI Employees</title>
+<meta name="description" content="Definitions for the evidence, provenance, agent orchestration, dashboard, and software delivery terms used across the Autonomous AI Employees website.">
+<link rel="canonical" href="https://timerloggedout-spec.github.io/glossary/">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Glossary — Autonomous AI Employees">
+<meta property="og:description" content="Definitions for the evidence, provenance, agent orchestration, dashboard, and software delivery terms used across the Autonomous AI Employees website.">
+<meta property="og:url" content="https://timerloggedout-spec.github.io/glossary/">
+<link rel="alternate" type="text/markdown" href="/glossary/index.md" title="Markdown version">
+<link rel="describedby" href="/llms.txt">
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"DefinedTermSet",
+  "name":"Autonomous AI Employees Glossary",
+  "description":"Definitions for evidence, provenance, agent orchestration, dashboards, and software delivery terms.",
+  "url":"https://timerloggedout-spec.github.io/glossary/",
+  "dateModified":"2026-11-13",
+  "headline":"Glossary — Autonomous AI Employees"
+}</script>
+<style>
+:root{color-scheme:dark;background:#0b0d10;color:#f2f4f7;font:16px/1.65 system-ui,sans-serif}
+body{max-width:900px;margin:0 auto;padding:24px}
+a{color:#4fd1c5}.skip-link{position:absolute;left:-9999px}.skip-link:focus{left:12px;top:8px;z-index:1000;background:#4fd1c5;color:#04211f;padding:10px;border-radius:8px}
+header,section{padding:20px 0;border-bottom:1px solid #29313a}
+h1{font-size:clamp(2rem,5vw,3rem);line-height:1.1}h2{margin-top:1.8rem}dt{font-weight:700;color:#4fd1c5;margin-top:1rem}dd{margin-left:0;color:#c8d0d9}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header><a href="/">← Autonomous AI Employees</a><p>Terminology and definitions</p><h1>Glossary</h1><p>Shared vocabulary for reading the public project pages, operational dashboards, and evidence records.</p></header>
+<main id="main-content">
+<section><h2>Evidence and provenance</h2><dl>
+<dt>Evidence</dt><dd>A source-backed observation that can be inspected or independently retrieved. A summary or assertion without a supporting source is not equivalent to evidence.</dd>
+<dt>Receipt</dt><dd>A structured record of a decision or operation, including the inputs, outcome, version, and provenance needed to audit what happened.</dd>
+<dt>Provenance</dt><dd>The origin and observation context of a record: where it came from, which artifact or API path supplied it, and when it was observed.</dd>
+<dt>Freshness</dt><dd>Whether an observation is recent enough for the decision being made. A timestamp or expiry bound makes freshness explicit; old data is not silently treated as current.</dd>
+<dt>Asserted evidence</dt><dd>A statement supplied by a person or agent but not independently verified against its source. It may guide retrieval, but it is not proof by itself.</dd>
+<dt>Content hash</dt><dd>A cryptographic digest used to identify exact content bytes and detect changes. A hash supports integrity checking; it does not establish that the source claim is true.</dd>
+</dl></section>
+<section><h2>Execution and delivery states</h2><dl>
+<dt>COMMITTED</dt><dd>A change exists in version-control history. This alone does not prove that automation executed or that the change is deployed.</dd>
+<dt>EXECUTED</dt><dd>The relevant job or process actually ran, with runtime evidence such as job and step results.</dd>
+<dt>VALIDATED</dt><dd>The expected outputs and quality requirements were checked against observed evidence.</dd>
+<dt>PROMOTED</dt><dd>The change was deliberately moved into its target production or canonical state. Promotion is distinct from commit, execution, and validation.</dd>
+<dt>PARTIAL</dt><dd>Only a bounded portion of the intended dataset or operation is complete. Partial data must not be described as complete.</dd>
+<dt>STALE</dt><dd>The displayed observation is older than its freshness policy or the latest known source state.</dd>
+</dl></section>
+<section><h2>Agent orchestration and measurement</h2><dl>
+<dt>Agent</dt><dd>An automated software actor that performs a bounded task using tools, instructions, and an execution environment.</dd>
+<dt>Manager / orchestrator</dt><dd>The policy layer that assigns work, selects agents, coordinates dependencies, manages retries, and decides when to integrate or escalate.</dd>
+<dt>ATES</dt><dd>Agent Throughput and Effectiveness Score: a family of throughput and execution-efficiency observations. It is not a substitute for correctness or quality evidence.</dd>
+<dt>WTCV</dt><dd>Weighted Task Completion Value: a throughput/effectiveness measure whose interpretation depends on task weight and outcome quality.</dd>
+<dt>3L0 / MoneyBall</dt><dd>The project's evidence-oriented evaluation approach for comparing agent and manager outcomes using quality, integration, time, context use, retries, conflicts, and human intervention rather than raw activity alone.</dd>
+<dt>Lane Matrix</dt><dd>A generated projection that groups pull requests into operational lanes for triage. It is a navigation and prioritization aid, not merge authorization.</dd>
+</dl></section>
+<section><h2>Related resources</h2>
+<ul><li><a href="/llms.txt">Agent index</a></li><li><a href="/sitemap.md">Markdown sitemap</a></li><li><a href="/AGENTS.md">Repository agent instructions</a></li><li><a href="https://github.com/timerloggedout-spec/termux-monorepo/tree/master/docs/ops">Canonical operations documentation</a></li></ul>
+</section>
+</main>
+<footer><p><a href="/">Home</a> · <a href="/tribute/">Tribute</a> · <a href="/matrix/">Lane Matrix</a></p></footer>
+</body>
+</html>

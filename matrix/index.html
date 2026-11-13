@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>LANE-MATRIX</title>
+<title>Lane Matrix — live pull request lanes</title>
 <meta name="description" content="LANE-MATRIX live board — monorepo PR lanes. Not nested under Tribute.">
 <link rel="stylesheet" href="./dashboard.css">
 <script src="./site-nav.js" defer></script>
-<style>main{padding-top:1.5rem}.table-wrap{border:1px solid var(--line);border-radius:12px}.table{min-width:760px}</style>
+<style>main{padding-top:1.5rem}.table-wrap{border:1px solid var(--line);border-radius:12px}.table{min-width:760px}.skip-link{position:absolute;left:-9999px}.skip-link:focus{left:12px;top:8px;z-index:1000;background:#4fd1c5;color:#04211f;padding:10px;border-radius:8px}</style>
 
 <link rel="canonical" href="https://timerloggedout-spec.github.io/matrix/">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
@@ -34,11 +34,20 @@
 }</script>
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 <nav id="site-primary-nav" aria-label="Primary"></nav>
-<main>
+<main id="main-content">
   <p class="label">Live board · not a PR · not Tribute</p>
   <h1>LANE-MATRIX</h1>
-  <p class="lede" id="meta">Loading matrix…</p>
+  <p class="lede" id="meta">The Lane Matrix is a live projection of open pull requests in the termux-monorepo. It reports the observation timestamp and source master SHA, then groups pull requests by operational lane with age, reason, and title.</p>
+  <section aria-labelledby="matrix-guide">
+    <h2 id="matrix-guide">What this board shows</h2>
+    <p>Each row represents an observed pull request. The lane classification is a triage signal, not an approval, merge decision, or claim that the work is complete. The board also summarizes open pull-request totals and counts by lane.</p>
+    <h2 id="matrix-evidence">How to verify a row</h2>
+    <p>Open the linked pull request and inspect its current head SHA, reviews, checks, workflow runs, and any attached evidence. Use the observation timestamp and master SHA to understand when the generated matrix was collected.</p>
+    <h2 id="matrix-fallback">When data is unavailable</h2>
+    <p>The page tries the generated status feed in the source repository and then its local fallback. If neither is available, it reports that the matrix is unavailable. Missing data is never replaced with invented counts or guessed lane assignments.</p>
+  </section>
   <div class="grid" id="kpis"></div>
   <div class="table-wrap"><table class="table"><thead><tr><th>PR</th><th>Lane</th><th>Days</th><th>Reason</th><th>Title</th></tr></thead><tbody id="rows"></tbody></table></div>
 </main>

@@ -37,3 +37,9 @@ The page explicitly states that there is no live AWS deployment, no Bedrock invo
 - [Release v1.0.0](https://github.com/timerloggedout-spec/delphi-oracle/releases/tag/v1.0.0)
 - [StudySprint](https://github.com/timerloggedout-spec/studysprint)
 - [Fleet landing page](https://timerloggedout-spec.github.io/delphi-oracle/)
+
+
+## Sitemap
+
+- [Site sitemap](https://timerloggedout-spec.github.io/sitemap.md)
+- [Agent discovery index](https://timerloggedout-spec.github.io/llms.txt)

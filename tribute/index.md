@@ -41,3 +41,9 @@ The dashboard loads generated status and evidence feeds at runtime. If a feed is
 ## Operating principle
 
 Distinguish proposed, committed, executed, validated, and promoted states. A queued run is not completed; a commit is not proof of runtime execution; and a dashboard projection does not replace its source evidence.
+
+
+## Sitemap
+
+- [Site sitemap](https://timerloggedout-spec.github.io/sitemap.md)
+- [Agent discovery index](https://timerloggedout-spec.github.io/llms.txt)

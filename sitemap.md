@@ -57,6 +57,7 @@
 - [Family](https://timerloggedout-spec.github.io/tribute/family.html)
 - [Versioning](https://timerloggedout-spec.github.io/tribute/versioning.html)
 - [Lanes and scopes](https://timerloggedout-spec.github.io/tribute/lanes-and-scopes.html)
+- [Billion tokens](https://timerloggedout-spec.github.io/tribute/billion-tokens.html)
 
 ## External source repositories
 

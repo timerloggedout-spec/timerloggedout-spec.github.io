@@ -1,0 +1,80 @@
+# Autonomous AI Employees — Expanded Agent Context
+
+> A human-directed software fleet whose public site exposes project descriptions, operational dashboards, source repositories, and evidence-linked engineering records.
+
+## What this site is
+
+The root domain is a static GitHub Pages publication for the timerloggedout-spec ecosystem. It combines a public landing page, project explainers, and operational dashboards. Some dashboard values are fetched from generated repository feeds at runtime. A loading indicator, stale marker, missing record, or unavailable feed must not be converted into a claim of success or completeness.
+
+The website is a discovery and presentation surface. GitHub source repositories, commit history, pull requests, workflow runs, generated evidence, and their documented source-of-truth contracts remain authoritative for engineering state.
+
+## Operating principles
+
+- Evidence over unsupported claims: cite the source artifact, commit, workflow run, or record.
+- Preserve distinctions between designed, committed, executed, validated, and promoted.
+- A reachable URL or a green-looking dashboard is not proof that a particular source SHA was deployed.
+- Missing, stale, partial, or unavailable data remains explicitly missing, stale, partial, or unavailable.
+- Operational dashboards are read-only projections unless their owning platform explicitly provides an authenticated action.
+- Never infer secret values, credentials, private session data, or internal-only metrics from public pages.
+
+## Public entry points
+
+### Home
+
+URL: https://timerloggedout-spec.github.io/
+
+The landing page describes a human-directed fleet of AI collaborators shipping software in public repositories. Its key themes are live operations rather than screenshots, evidence receipts rather than claims, and projects built with deterministic tests and auditable source history.
+
+### Tribute
+
+URL: https://timerloggedout-spec.github.io/tribute/
+
+Tribute is an evidence and control surface for the upstream contributor lane: scout, claim, pull request, follow-up, evidence, and publication. Its own page states that it is a projection of repository evidence, not a second source of truth and not a MoneyBall admission score. The browser surface is for inspection and navigation; platform permissions govern actions.
+
+### Lane Matrix
+
+URL: https://timerloggedout-spec.github.io/matrix/
+
+The Lane Matrix presents observed pull-request lane classifications, age, reasons, titles, counts, observation timestamp, and source SHA. It loads its data from generated repository status JSON. If its data sources are unavailable, the page reports that the matrix is unavailable rather than inventing values.
+
+### StudySprint
+
+URL: https://timerloggedout-spec.github.io/studysprint/
+
+StudySprint is a study-planning agent for first-generation students. A verified syllabus becomes a week-by-week plan. The project emphasizes a trust receipt before planning, a Today view, time-budget reflow, and no-guilt replanning. See the page and the linked source repository for implementation details and current release status.
+
+### Delphi Oracle
+
+URL: https://timerloggedout-spec.github.io/delphi-oracle/
+
+Delphi Oracle is a deterministic evidence-gate oracle. It evaluates a proposed consequential action against a material evidence set and returns ALLOW_RECOMMENDATION, ABSTAIN, or ESCALATE with a versioned receipt. Its stated safety posture is fail-closed: insufficient material evidence leads to ABSTAIN, while consequential action classes are escalated before evidence is weighed.
+
+### Repo+Story
+
+URL: https://timerloggedout-spec.github.io/repo-story/
+
+Repo+Story turns a repository's git event stream into a chronological, clustered, blast-radius-aware narrative. It groups related changes and requires claims to cite source commits. The intent is to help reviewers understand what changed, why it matters, and which surfaces may be affected without re-deriving the story from raw history.
+
+## Canonical source locations
+
+- GitHub organization: https://github.com/timerloggedout-spec
+- Engineering monorepo: https://github.com/timerloggedout-spec/termux-monorepo
+- Operations documentation: https://github.com/timerloggedout-spec/termux-monorepo/tree/master/docs/ops
+- Partner registry: https://github.com/timerloggedout-spec/termux-monorepo/blob/master/docs/PARTNERS.md
+
+## Data interpretation
+
+- A dashboard is a projection, not the underlying event ledger.
+- A feed's generated timestamp and source identifier matter when evaluating freshness.
+- A pull request's existence does not establish merge or deployment.
+- Workflow admission/queued state does not establish execution or validation.
+- A successful test suite does not independently establish production promotion.
+- Public pages must not expose credentials, prompts, completions, private tool payloads, or internal-only evaluation metrics.
+
+## Markdown representations and navigation
+
+Use the Markdown mirrors for efficient extraction. They are static text representations of the corresponding HTML pages and link back to the canonical public route. The complete route hierarchy is in [sitemap.md](https://timerloggedout-spec.github.io/sitemap.md); the machine-readable URL list is [sitemap.xml](https://timerloggedout-spec.github.io/sitemap.xml).
+
+## Agent instructions
+
+Read [AGENTS.md](https://timerloggedout-spec.github.io/AGENTS.md) before proposing or changing this site's source. Follow the source-of-truth boundaries and validation guidance documented there.

@@ -29,3 +29,9 @@ The HTML dashboard loads its live rows from the generated lane-matrix status dat
 - [Tribute operations dashboard](https://timerloggedout-spec.github.io/tribute/)
 - [Main site](https://timerloggedout-spec.github.io/)
 - [Sitemap](https://timerloggedout-spec.github.io/sitemap.md)
+
+
+## Sitemap
+
+- [Site sitemap](https://timerloggedout-spec.github.io/sitemap.md)
+- [Agent discovery index](https://timerloggedout-spec.github.io/llms.txt)

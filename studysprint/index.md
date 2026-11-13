@@ -41,3 +41,9 @@ The published page includes a sample synthetic BIO 101 syllabus and a sample rec
 - [Fleet landing page](https://timerloggedout-spec.github.io/studysprint/)
 
 The page's published sample is a demonstration. Consult the repository and release notes for current implementation and release status.
+
+
+## Sitemap
+
+- [Site sitemap](https://timerloggedout-spec.github.io/sitemap.md)
+- [Agent discovery index](https://timerloggedout-spec.github.io/llms.txt)

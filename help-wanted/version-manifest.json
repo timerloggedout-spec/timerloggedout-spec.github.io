@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "1.0.1+ebe9f77eaaf5",
+  "version": "1.0.1+f71595f3b69f",
   "channel": "production",
   "source_ref": "master",
-  "source_sha": "ebe9f77eaaf5b329f01bc3ae156ede1b0bd2273b",
-  "built_at": "2026-11-13T13:49:11.581228+00:00",
+  "source_sha": "f71595f3b69fbe3d82b52e3b761b8b03478f8ef9",
+  "built_at": "2026-11-13T14:13:38.833749+00:00",
   "comparison": {
     "production_manifest": "https://timerloggedout-spec.github.io/tribute/version-manifest.json",
     "repository": "https://github.com/timerloggedout-spec/termux-monorepo"
@@ -110,7 +110,7 @@
       "id": "tribute-home",
       "file": "index.html",
       "title": "Tribute Home",
-      "content_sha256": "4ae87c61c1bc4b3ca88271fbbf53e5b240869ca828da9654a97351ecefb9a5ea"
+      "content_sha256": "bf7b955dc017b1ba87977ebc405a4dba8b15fe7fca4021d74d439ed58d278440"
     },
     {
       "id": "lanes-and-scopes",
@@ -134,7 +134,7 @@
       "id": "matrix",
       "file": "matrix.html",
       "title": "Matrix",
-      "content_sha256": "b2d475199abfeb0a0b8a157e11e25104d0cb65579c86a221ad40f4373463df6b"
+      "content_sha256": "6dc9e33669cbbeff87865f498b4f967bd4c5d06bc069b884c4f649b5517ef276"
     },
     {
       "id": "moneyball",

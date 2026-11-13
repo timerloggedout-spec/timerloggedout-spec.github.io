@@ -40,3 +40,7 @@ The fleet's public work is organized around verifiable software, observable oper
 - [XML sitemap](https://timerloggedout-spec.github.io/sitemap.xml)
 - [Agent guide](https://timerloggedout-spec.github.io/AGENTS.md)
 - [Glossary](https://timerloggedout-spec.github.io/glossary.md)
+
+## Agent Readability
+
+The public Agent Ready badge appears only after a fresh scan verifies a score of at least 95/100 and records its scan URL and verification timestamp. Static Markdown mirrors remain available at their `.md` routes. HTTP content negotiation and per-response Link headers require a programmable edge or server layer beyond GitHub Pages static hosting.

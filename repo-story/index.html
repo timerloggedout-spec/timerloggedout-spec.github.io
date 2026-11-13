@@ -26,6 +26,7 @@ section{padding:56px 0;border-top:1px solid var(--hair)}h2{font-size:30px;letter
 code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;color:var(--accent)}
 footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;border-top:1px solid var(--hair)}footer ul{display:flex;gap:16px;list-style:none;margin:0;padding:0;flex-wrap:wrap}footer a:hover{color:var(--accent)}
 @media (max-width:760px){nav ul{display:none}.hero{padding:48px 0 40px}section{padding:40px 0}}
+ .skip-link{position:absolute;left:-9999px}.skip-link:focus{left:12px;top:8px;z-index:1000;background:#4fd1c5;color:#04211f;padding:10px;border-radius:8px}
 </style>
 
 <link rel="canonical" href="https://timerloggedout-spec.github.io/repo-story/">
@@ -53,6 +54,7 @@ footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-con
 }</script>
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 <div class="wrap">
 <nav>
   <a class="brand" href="../">← Fleet home</a>
@@ -65,6 +67,7 @@ footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-con
   </ul>
 </nav>
 
+<main id="main-content">
 <header class="hero">
   <span class="badge">Repo+Story · concept of record · Idea I1</span>
   <h1>Read the story of what changed.</h1>
@@ -134,6 +137,7 @@ footer{padding:36px 0;color:var(--muted);font-size:13px;display:flex;justify-con
   <p style="margin-top:20px;color:var(--muted);font-size:14px">The source conversation titles this concept “PR+Story”; the fleet name of record is Repo+Story — one concept, two titles.</p>
 </section>
 
+</main>
 <footer>
   <span>Repo+Story · concept of record I1 · spec in repo</span>
   <ul>

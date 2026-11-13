@@ -12,7 +12,6 @@
       if(!Number.isFinite(score)||score<threshold||score>100||!scanValid||!Number.isFinite(verified))return;
       badge.href=scan;
       badge.textContent="Agent Ready "+score+"/100";
-      badge.setAttribute("aria-label","Verified Agent Readability score "+score+" out of 100");
       badge.hidden=false;
     })
     .catch(function(){});

@@ -75,6 +75,10 @@ Repo+Story turns a repository's git event stream into a chronological, clustered
 
 Use the Markdown mirrors for efficient extraction. They are static text representations of the corresponding HTML pages and link back to the canonical public route. The complete route hierarchy is in [sitemap.md](https://timerloggedout-spec.github.io/sitemap.md); the machine-readable URL list is [sitemap.xml](https://timerloggedout-spec.github.io/sitemap.xml).
 
+## Shared terminology
+
+See the [project glossary](https://timerloggedout-spec.github.io/glossary/) for definitions of evidence, receipts, provenance, freshness, lifecycle states, orchestration, ATES, WTCV, and the Lane Matrix.
+
 ## Agent instructions
 
 Read [AGENTS.md](https://timerloggedout-spec.github.io/AGENTS.md) before proposing or changing this site's source. Follow the source-of-truth boundaries and validation guidance documented there.

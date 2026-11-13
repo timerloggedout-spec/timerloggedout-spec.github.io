@@ -29,3 +29,9 @@ The termux-monorepo brings together project architecture, automation, CI/CD, age
 ## Evidence discipline
 
 Do not treat a planned feature as implemented, a commit as proof of execution, a queued workflow as success, or a dashboard as the canonical record. Follow each claim to its repository evidence and preserve unknown or partial states.
+
+
+## Sitemap
+
+- [Site sitemap](https://timerloggedout-spec.github.io/sitemap.md)
+- [Agent discovery index](https://timerloggedout-spec.github.io/llms.txt)

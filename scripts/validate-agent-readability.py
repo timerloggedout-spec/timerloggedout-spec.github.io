@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import re
+from html import unescape
 import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -76,21 +77,45 @@ for html_path, md_path in PAGES:
     require("Skip to main content" in html, f"{html_path}: missing skip link")
     json_blocks = re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S)
     require(bool(json_blocks), f"{html_path}: missing JSON-LD")
+    has_breadcrumb = False
     for block in json_blocks:
         try:
             data = json.loads(block)
             require(bool(data.get("@type")), f"{html_path}: JSON-LD missing @type")
+            if data.get("@type") == "BreadcrumbList":
+                has_breadcrumb = True
+                require(bool(data.get("itemListElement")), f"{html_path}: BreadcrumbList missing itemListElement")
+                continue
             require(bool(data.get("name") or data.get("headline")), f"{html_path}: JSON-LD missing name/headline")
             require(bool(data.get("description")), f"{html_path}: JSON-LD missing description")
             require(bool(data.get("url")), f"{html_path}: JSON-LD missing url")
             require(bool(data.get("dateModified")), f"{html_path}: JSON-LD missing dateModified")
         except json.JSONDecodeError as exc:
             errors.append(f"{html_path}: invalid JSON-LD: {exc}")
+    if html_path == "index.html":
+        require(has_breadcrumb, "index.html: JSON-LD needs a BreadcrumbList")
+        visible = re.sub(r"<script\b[\s\S]*?</script>|<style\b[\s\S]*?</style>", " ", html, flags=re.I)
+        visible = unescape(re.sub(r"<[^>]+>", " ", visible))
+        text_ratio = len(re.sub(r"\s+", " ", visible).strip()) / max(1, len(html))
+        require(text_ratio >= 0.15, f"index.html: static text-to-HTML ratio {text_ratio:.1%} is below 15%")
     require(markdown.startswith("---\n"), f"{md_path}: missing YAML frontmatter")
     for field in ("title:", "description:", "last_updated:"):
         require(field in markdown.split("---", 2)[1] if "---" in markdown[4:] else False, f"{md_path}: frontmatter missing {field}")
     require(bool(re.search(r"(?m)^# ", markdown)), f"{md_path}: missing H1")
     require(bool(re.search(r"(?m)^## Sitemap\s*$", markdown)), f"{md_path}: missing Sitemap section")
+
+home = read("index.html")
+for asset in ("site.css", "js/landing.js", "js/landing-metrics.js", "js/agent-readability-badge.js"):
+    read(asset)
+status = json.loads(read("data/agent-readability-status.json"))
+require(status.get("threshold") == 95, "agent-readability badge threshold must equal 95")
+score = status.get("score")
+if score is not None and score >= 95:
+    require(bool(re.match(r"^https://agent-ready\.dev/scan/[A-Za-z0-9_-]+$", str(status.get("scan_url") or ""))), "95+ badge needs a verified Agent Ready scan URL")
+    require(bool(status.get("verified_at")), "95+ badge needs a verification timestamp")
+else:
+    require('id="agent-readability-badge"' in home and 'id="agent-readability-badge" class="agent-readability-badge" href=' in home and ' hidden ' in home, "badge must remain hidden below the verified 95 threshold")
+require('src="/js/agent-readability-badge.js"' in home, "homepage missing conditional Agent Readability badge script")
 
 robots = read("robots.txt")
 require("Sitemap: " + BASE + "/sitemap.xml" in robots, "robots.txt missing canonical sitemap declaration")

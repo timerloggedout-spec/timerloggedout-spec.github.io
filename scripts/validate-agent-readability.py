@@ -73,6 +73,7 @@ for html_path, md_path in PAGES:
     require(f'href="/{md_path}"' in html, f"{html_path}: missing Markdown alternate link to /{md_path}")
     require("/glossary.md" in html, f"{html_path}: missing glossary link")
     require("<main" in html and "</main>" in html, f"{html_path}: missing main landmark")
+    require("Skip to main content" in html, f"{html_path}: missing skip link")
     json_blocks = re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S)
     require(bool(json_blocks), f"{html_path}: missing JSON-LD")
     for block in json_blocks:

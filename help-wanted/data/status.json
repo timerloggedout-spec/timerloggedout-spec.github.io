@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T04:47:35Z",
+  "generated_at": "2026-11-13T05:26:14Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42495,7 +42495,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "cb57aec0d01118a2a3941edd7aa33fa32a0780f7",
+    "source_sha": "20bac37d2927529122b56d53b5dd0342d5c837d0",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42529,12 +42529,12 @@
   },
   "evolution": [
     {
-      "sha": "cb57aec0d01118a2a3941edd7aa33fa32a0780f7",
-      "short_sha": "cb57aec0d011",
-      "date": "2026-11-13T04:43:54Z",
-      "author": "quota-usage-series-refresh",
-      "subject": "ops(quota): refresh usage-series pack + swarm feed + mirrors (auto-derived)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/cb57aec0d01118a2a3941edd7aa33fa32a0780f7"
+      "sha": "20bac37d2927529122b56d53b5dd0342d5c837d0",
+      "short_sha": "20bac37d2927",
+      "date": "2026-11-12T21:19:48-08:00",
+      "author": "Founders' are 'found' to implement.",
+      "subject": "Merge pull request #4424 from timerloggedout-spec/proposals-feed/refresh",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/20bac37d2927529122b56d53b5dd0342d5c837d0"
     }
   ],
   "pipeline": [

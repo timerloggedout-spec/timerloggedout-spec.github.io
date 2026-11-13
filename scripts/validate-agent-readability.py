@@ -78,6 +78,7 @@ for html_path, md_path in PAGES:
     json_blocks = re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S)
     require(bool(json_blocks), f"{html_path}: missing JSON-LD")
     has_breadcrumb = False
+    has_webpage_breadcrumb = False
     for block in json_blocks:
         try:
             data = json.loads(block)
@@ -86,6 +87,9 @@ for html_path, md_path in PAGES:
                 has_breadcrumb = True
                 require(bool(data.get("itemListElement")), f"{html_path}: BreadcrumbList missing itemListElement")
                 continue
+            if data.get("@type") == "WebPage":
+                breadcrumb = data.get("breadcrumb") or {}
+                has_webpage_breadcrumb = breadcrumb.get("@type") == "BreadcrumbList" and bool(breadcrumb.get("itemListElement"))
             require(bool(data.get("name") or data.get("headline")), f"{html_path}: JSON-LD missing name/headline")
             require(bool(data.get("description")), f"{html_path}: JSON-LD missing description")
             require(bool(data.get("url")), f"{html_path}: JSON-LD missing url")
@@ -94,6 +98,7 @@ for html_path, md_path in PAGES:
             errors.append(f"{html_path}: invalid JSON-LD: {exc}")
     if html_path == "index.html":
         require(has_breadcrumb, "index.html: JSON-LD needs a BreadcrumbList")
+        require(has_webpage_breadcrumb, "index.html: primary WebPage JSON-LD needs a breadcrumb property")
         visible = re.sub(r"<script\b[\s\S]*?</script>|<style\b[\s\S]*?</style>", " ", html, flags=re.I)
         visible = unescape(re.sub(r"<[^>]+>", " ", visible))
         text_ratio = len(re.sub(r"\s+", " ", visible).strip()) / max(1, len(html))
@@ -115,6 +120,7 @@ if score is not None and score >= 95:
     require(bool(status.get("verified_at")), "95+ badge needs a verification timestamp")
 else:
     require('id="agent-readability-badge"' in home and 'id="agent-readability-badge" class="agent-readability-badge" href=' in home and ' hidden ' in home, "badge must remain hidden below the verified 95 threshold")
+require(re.search(r'<a[^>]*id="agent-readability-badge"[^>]*aria-label=', home) is None, "badge accessible name must follow its visible label")
 require('src="/js/agent-readability-badge.js"' in home, "homepage missing conditional Agent Readability badge script")
 
 robots = read("robots.txt")

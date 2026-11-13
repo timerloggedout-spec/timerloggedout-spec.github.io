@@ -120,7 +120,7 @@ if score is not None and score >= 95:
     require(bool(status.get("verified_at")), "95+ badge needs a verification timestamp")
 else:
     require('id="agent-readability-badge"' in home and 'id="agent-readability-badge" class="agent-readability-badge" href=' in home and ' hidden ' in home, "badge must remain hidden below the verified 95 threshold")
-require(re.search(r'<a[^>]*id="agent-readability-badge"[^>]*aria-label=', home) is None, "badge accessible name must follow its visible label")
+require(re.search(r'<a\\b(?=[^>]*\\bid="agent-readability-badge")[^>]*\\baria-label\\s*=', home, re.I) is None, "badge accessible name must follow its visible label")
 require('src="/js/agent-readability-badge.js"' in home, "homepage missing conditional Agent Readability badge script")
 
 robots = read("robots.txt")

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "1.0.1+40fe313bc418",
+  "version": "1.0.1+dacd20c4c57c",
   "channel": "production",
   "source_ref": "master",
-  "source_sha": "40fe313bc418523d5da0d08b200f491f5f7dd161",
-  "built_at": "2026-11-15T13:30:02.564876+00:00",
+  "source_sha": "dacd20c4c57c1e06c292de46674ec56e89498497",
+  "built_at": "2026-11-15T13:55:51.131793+00:00",
   "comparison": {
     "production_manifest": "https://timerloggedout-spec.github.io/tribute/version-manifest.json",
     "repository": "https://github.com/timerloggedout-spec/termux-monorepo"
@@ -110,7 +110,7 @@
       "id": "tribute-home",
       "file": "index.html",
       "title": "Tribute Home",
-      "content_sha256": "bf7b955dc017b1ba87977ebc405a4dba8b15fe7fca4021d74d439ed58d278440"
+      "content_sha256": "d10e2ddd903a4cbc5e3fbfea1e5e13a78637d3d9d3cd6a0132a9627b010caf24"
     },
     {
       "id": "lanes-and-scopes",
@@ -179,6 +179,12 @@
       "content_sha256": "d4b2fdab0daae6ba3f6aceb4eb4d0721b3b291f9fcf1d5fa704e196e250eb7e3"
     },
     {
+      "id": "publishing",
+      "file": "publishing.html",
+      "title": "Publishing Reconciliation",
+      "content_sha256": "e0a3afabc5d79127e10f4e92b5dad127127249bf31a193ea86fad2875ff8fc4c"
+    },
+    {
       "id": "quota-event-audits",
       "file": "quota-event-audits.html",
       "title": "Quota Event Audits",
@@ -224,7 +230,7 @@
       "id": "surfaces-map",
       "file": "surfaces-map.html",
       "title": "Surfaces Map",
-      "content_sha256": "653bac89661dcf0ec62fbc020dcc6dbf03d737acd8cf9c0050a697f0455debee"
+      "content_sha256": "706a225781f14b83e7673d6379071e7e9d62f790c31a55f650f16cd1043a0360"
     },
     {
       "id": "telemetry",

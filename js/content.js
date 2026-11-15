@@ -9,6 +9,7 @@
 window.CONTENT = {
   brand: "Autonomous AI Employees",
   nav: [
+    {label:"Latest Short", href:"#featured-short"},
     {label:"Why", href:"#why"},
     {label:"Demo", href:"#demo"},
     {label:"Partners", href:"#partners"},

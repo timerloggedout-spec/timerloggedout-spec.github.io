@@ -12,6 +12,7 @@ window.CONTENT = {
     {label:"Why", href:"#why"},
     {label:"Demo", href:"#demo"},
     {label:"Partners", href:"#partners"},
+    {label:"Videos", href:"videos.html"},
     {label:"StudySprint", href:"studysprint/"},
     {label:"Delphi Oracle", href:"delphi-oracle/"}, {label:"Repo-Story", href:"repo-story/"},
     {label:"Tribute", href:"/tribute/"},
@@ -59,6 +60,7 @@ window.CONTENT = {
     line: "Autonomous AI Employees — built in the open.",
     links: [
       {label:"Partners", href:"#partners"},
+      {label:"Videos", href:"videos.html"},
       {label:"StudySprint", href:"studysprint/"},
       {label:"Delphi Oracle", href:"delphi-oracle/"}, {label:"Repo-Story", href:"repo-story/"},
       {label:"GitHub", href:"https://github.com/timerloggedout-spec/termux-monorepo"},

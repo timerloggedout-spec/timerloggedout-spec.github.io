@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "1.0.1+685ccf0fbf59",
+  "version": "1.0.1+17a2758e2607",
   "channel": "production",
   "source_ref": "master",
-  "source_sha": "685ccf0fbf592067c64a702e6854bcb434f06519",
-  "built_at": "2026-11-15T14:14:21.728204+00:00",
+  "source_sha": "17a2758e26070a84355033f85d0b170c28cc57f7",
+  "built_at": "2026-11-15T14:29:37.061957+00:00",
   "comparison": {
     "production_manifest": "https://timerloggedout-spec.github.io/tribute/version-manifest.json",
     "repository": "https://github.com/timerloggedout-spec/termux-monorepo"
@@ -182,7 +182,7 @@
       "id": "publishing",
       "file": "publishing.html",
       "title": "Publishing Reconciliation",
-      "content_sha256": "114fc144762163af0f5cd8e10ecb5e06d46d9221177d03ad6a198c32d38f6dd1"
+      "content_sha256": "5da93dd68d83f501793be56e8e08a659d2fba6777224c9d0720e2e4b55dc471f"
     },
     {
       "id": "quota-event-audits",

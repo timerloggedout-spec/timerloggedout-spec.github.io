@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T16:44:41Z",
+  "generated_at": "2026-11-15T16:52:20Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42460,7 +42460,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "4215ededa2f4a33b35ae517ad6b5b8b2f711c14d",
+    "source_sha": "43655f1caee0bf1f31cf9b049f58b3d3a88b3311",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42494,12 +42494,12 @@
   },
   "evolution": [
     {
-      "sha": "4215ededa2f4a33b35ae517ad6b5b8b2f711c14d",
-      "short_sha": "4215ededa2f4",
-      "date": "2026-11-15T16:42:57Z",
-      "author": "quota-usage-series-refresh",
-      "subject": "ops(quota): refresh usage-series pack + swarm feed + mirrors (auto-derived)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/4215ededa2f4a33b35ae517ad6b5b8b2f711c14d"
+      "sha": "43655f1caee0bf1f31cf9b049f58b3d3a88b3311",
+      "short_sha": "43655f1caee0",
+      "date": "2026-11-15T16:51:32Z",
+      "author": "repo-tracking-collect",
+      "subject": "ops(tracking): refresh repo tracking surface (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/43655f1caee0bf1f31cf9b049f58b3d3a88b3311"
     }
   ],
   "pipeline": [

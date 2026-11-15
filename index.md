@@ -10,6 +10,12 @@ last_updated: 2026-11-13
 
 The fleet's public work is organized around verifiable software, observable operations, and explicit provenance. Claims about implementation or deployment should be checked against the linked source repositories, commits, pull requests, releases, and workflow artifacts.
 
+## Latest channel update
+
+[![Latest LoggedOut Timer Short](https://i.ytimg.com/vi/i0FusuYuRUs/frame0.jpg)](https://youtube.com/shorts/i0FusuYuRUs?is=ldjFTRznW8UjLRML)
+
+**Releases are dropping soon. Find your place(s).** An 8-second public update published November 14, 2026. [Watch on YouTube](https://youtube.com/shorts/i0FusuYuRUs?is=ldjFTRznW8UjLRML) · [Browse the full video library](/videos.html).
+
 ## Explore
 
 - [Tribute operations dashboard](https://timerloggedout-spec.github.io/tribute/) — evidence and control surface for the upstream contributor lane.

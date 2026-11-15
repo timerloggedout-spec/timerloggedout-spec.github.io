@@ -33,7 +33,7 @@ for filename in ("sitemap.xml", "sitemap.md", "llms.txt", "llms-full.txt"):
     assert "/videos.html" in text, f"{filename} does not discover videos.html"
 gallery = videos_html.read_text(encoding="utf-8")
 assert 'type="text/markdown"' in gallery and 'href="/videos.md"' in gallery, "video page Markdown alternate is missing"
-for video_id in ("i0FusuYuRUs", "DNREnvgjIv0", "VkjO57haraQ", "4Qf0OAq4d7c", "ixpUUm4pkdQ", "gUC3RqTZXCQ", "-CNherwZM-o", "z-hkwnUFOqM", "WK9LMwpvHUk"):
+for video_id in ("i0FusuYuRUs", "DNREnvgjIv0", "VkjO57haraQ", "4Qf0OAq4d7c", "ixpUUm4pkdQ", "gUC3RqTZXCQ", "-CNherwZM-o", "z-hkwnUFOqM", "WK9LMwpvHUk", "AZSeqOI5H9M", "N3HBRV4LOGQ", "AKCqOCXAFu0", "eFXyOYTpuvg"):
     assert video_id in gallery, f"video library is missing curated asset {video_id}"
 
 print(f"nav guard OK: {len(hrefs)} links, mobile nav visible")

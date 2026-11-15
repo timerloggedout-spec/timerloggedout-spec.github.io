@@ -5,6 +5,7 @@
 ## Main site
 
 - [Home — Autonomous AI Employees](https://timerloggedout-spec.github.io/)
+- [Videos — LoggedOut Timer teasers and demos](https://timerloggedout-spec.github.io/videos.html)
 - [Operations dashboard — Tribute](https://timerloggedout-spec.github.io/tribute/)
 - [Lane matrix](https://timerloggedout-spec.github.io/matrix/)
 - [Termux monorepo hub](https://timerloggedout-spec.github.io/termux-monorepo/)

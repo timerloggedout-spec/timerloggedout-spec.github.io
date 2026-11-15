@@ -24,6 +24,14 @@ A curated set of channel teasers and product demonstrations. Videos remain hoste
 - **StudySprint 0.5.1 — current-surface evidence reel** — 1:44, November 4, 2026. APK gate recording and current web/TUI captures. [Watch](https://www.youtube.com/watch?v=-CNherwZM-o)
 - **Quarantine Browser Clerk — browser-agent demo** — 2:23, November 4, 2026. Contained browser-agent demonstration with a hash-chained receipt and lookalike-page safety test. [Watch](https://www.youtube.com/watch?v=z-hkwnUFOqM)
 
+## More project walkthroughs
+
+- **Delphi Oracle — Evidence Over Claims | v1.0.0 Walkthrough** — 1:48, November 3, 2026. Walkthrough of the evidence-gate oracle and its version 1.0.0 release. [Watch](https://www.youtube.com/watch?v=AZSeqOI5H9M)
+- **StudySprint — a study plan you can trust | Strands Agents SDK demo** — 1:10, November 1, 2026. Earlier walkthrough introducing the Strands Agents SDK build. [Watch](https://www.youtube.com/watch?v=N3HBRV4LOGQ)
+
 ## Earlier release demo
 
 - **StudySprint v0.4.0 — a study plan you can trust** — 2:55, November 3, 2026. Earlier release demonstration; the newer 0.5.1 walkthroughs are listed above. [Watch](https://www.youtube.com/watch?v=WK9LMwpvHUk)
+
+- **StudySprint v0.3.0 — plans that schedule the remembering** — 2:34, November 3, 2026. Earlier product walkthrough, retained as release history. [Watch](https://www.youtube.com/watch?v=AKCqOCXAFu0)
+- **StudySprint v0.2.0 — a study plan you can trust** — 1:40, November 1, 2026. Earlier product walkthrough, retained as release history. [Watch](https://www.youtube.com/watch?v=eFXyOYTpuvg)

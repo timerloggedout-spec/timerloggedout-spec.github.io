@@ -16,6 +16,12 @@ The fleet's public work is organized around verifiable software, observable oper
 
 **Releases are dropping soon. Find your place(s).** An 8-second public update published November 14, 2026. [Watch on YouTube](https://youtube.com/shorts/i0FusuYuRUs?is=ldjFTRznW8UjLRML) · [Browse the full video library](/videos.html).
 
+## Featured product walkthroughs
+
+- **StudySprint 0.5.1** — verified study plans, trust receipts, spaced repetition and exports. [Watch the narrated demo](https://www.youtube.com/watch?v=gUC3RqTZXCQ)
+- **Delphi Oracle v1.0.0** — Evidence Over Claims project walkthrough. [Watch](https://www.youtube.com/watch?v=AZSeqOI5H9M)
+- [Browse all 13 curated videos](/videos.html)
+
 ## Explore
 
 - [Tribute operations dashboard](https://timerloggedout-spec.github.io/tribute/) — evidence and control surface for the upstream contributor lane.

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T10:01:35Z",
+  "generated_at": "2026-11-16T11:13:00Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42460,7 +42460,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "6b5ea57d5f5f5783badfcaee81f6a9ea04fdfe21",
+    "source_sha": "d0c81c0c291daaf976b1a7860350f12d9ad075d6",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42494,12 +42494,12 @@
   },
   "evolution": [
     {
-      "sha": "6b5ea57d5f5f5783badfcaee81f6a9ea04fdfe21",
-      "short_sha": "6b5ea57d5f5f",
-      "date": "2026-11-16T09:39:53Z",
-      "author": "github-actions[bot]",
-      "subject": "ops(lane-matrix): materialize PR lifecycle change",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/6b5ea57d5f5f5783badfcaee81f6a9ea04fdfe21"
+      "sha": "d0c81c0c291daaf976b1a7860350f12d9ad075d6",
+      "short_sha": "d0c81c0c291d",
+      "date": "2026-11-16T11:12:04Z",
+      "author": "repo-tracking-collect",
+      "subject": "ops(tracking): refresh repo tracking surface (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/d0c81c0c291daaf976b1a7860350f12d9ad075d6"
     }
   ],
   "pipeline": [

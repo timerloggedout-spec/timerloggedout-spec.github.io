@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T01:18:33Z",
+  "generated_at": "2026-11-17T01:22:33Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42460,7 +42460,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "0bf4c98afe15a098c68e4e67a3e3fe6407749819",
+    "source_sha": "b78714d9f5dfca61e32038db8ebf4abd462b5b04",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42494,12 +42494,12 @@
   },
   "evolution": [
     {
-      "sha": "0bf4c98afe15a098c68e4e67a3e3fe6407749819",
-      "short_sha": "0bf4c98afe15",
-      "date": "2026-11-16T17:14:53-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "feat(admin-graph): surface live QUE dispatch feed",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/0bf4c98afe15a098c68e4e67a3e3fe6407749819"
+      "sha": "b78714d9f5dfca61e32038db8ebf4abd462b5b04",
+      "short_sha": "b78714d9f5df",
+      "date": "2026-11-17T01:15:59Z",
+      "author": "quota-usage-series-refresh",
+      "subject": "ops(quota): refresh usage-series pack + swarm feed + mirrors (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/b78714d9f5dfca61e32038db8ebf4abd462b5b04"
     }
   ],
   "pipeline": [

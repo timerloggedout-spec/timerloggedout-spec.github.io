@@ -1,12 +1,12 @@
 ---
 title: Videos — LoggedOut Timer
 description: Short teasers and product demonstrations from the LoggedOut Timer channel.
-last_updated: 2026-11-15
+last_updated: 2026-11-17
 ---
 
 # Watch the work take shape
 
-A curated set of channel teasers and product demonstrations. Videos remain hosted on YouTube and open there when selected.
+A curated set of channel teasers and product demonstrations. Videos are hosted on YouTube and Cloudinary; the Admin Graph operational walkthrough is playable inline on the HTML gallery.
 
 [Visit the LoggedOut Timer YouTube channel](https://www.youtube.com/@LoggedOutTimer-m9v)
 
@@ -24,7 +24,7 @@ A curated set of channel teasers and product demonstrations. Videos remain hoste
 - **StudySprint 0.5.1 — current-surface evidence reel** — 1:44, November 4, 2026. APK gate recording and current web/TUI captures. [Watch](https://www.youtube.com/watch?v=-CNherwZM-o)
 - **Quarantine Browser Clerk — browser-agent demo** — 2:23, November 4, 2026. Contained browser-agent demonstration with a hash-chained receipt and lookalike-page safety test. [Watch](https://www.youtube.com/watch?v=z-hkwnUFOqM)
 
-## More project walkthroughs
+## Infrastructure & operations\n\n- **Admin Interaction Graph — live runtime walkthrough** — 2:21, November 17, 2026. Narrated implementation preview of GitHub Actions workflow/job lifecycle events, privacy-safe normalization, GitHub API verification, Cloudflare D1 deduplication, dashboard pulses, health reporting and activation boundaries. [Play inline in the video gallery](https://timerloggedout-spec.github.io/videos.html) · [Open the published video](https://share.descript.com/view/VBqxWH42Wpy). Cloudinary MP4: [watch](https://res.cloudinary.com/cc4wyoa6/video/upload/v1794874227/loggedout-timer/product-demos/admin-graph-live-runtime-walkthrough.mp4).\n\n## More project walkthroughs
 
 - **Delphi Oracle — Evidence Over Claims | v1.0.0 Walkthrough** — 1:48, November 3, 2026. Walkthrough of the evidence-gate oracle and its version 1.0.0 release. [Watch](https://www.youtube.com/watch?v=AZSeqOI5H9M)
 - **StudySprint — a study plan you can trust | Strands Agents SDK demo** — 1:10, November 1, 2026. Earlier walkthrough introducing the Strands Agents SDK build. [Watch](https://www.youtube.com/watch?v=N3HBRV4LOGQ)

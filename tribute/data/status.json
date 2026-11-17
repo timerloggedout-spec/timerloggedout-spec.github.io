@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T14:53:53Z",
+  "generated_at": "2026-11-17T15:05:16Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42460,7 +42460,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "77070cc807fac5c9ba4b2213d6771578a6395050",
+    "source_sha": "7fd2294e0aff8d9092e881a086159aaa4cdbaf6e",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42494,12 +42494,12 @@
   },
   "evolution": [
     {
-      "sha": "77070cc807fac5c9ba4b2213d6771578a6395050",
-      "short_sha": "77070cc807fa",
-      "date": "2026-11-17T06:26:49-08:00",
-      "author": "Founders' are 'found' to implement.",
-      "subject": "Merge pull request #5569 from timerloggedout-spec/desk/d5-reconcile",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/77070cc807fac5c9ba4b2213d6771578a6395050"
+      "sha": "7fd2294e0aff8d9092e881a086159aaa4cdbaf6e",
+      "short_sha": "7fd2294e0aff",
+      "date": "2026-11-17T14:37:25Z",
+      "author": "quota-usage-series-refresh",
+      "subject": "ops(quota): refresh usage-series pack + swarm feed + mirrors (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/7fd2294e0aff8d9092e881a086159aaa4cdbaf6e"
     }
   ],
   "pipeline": [

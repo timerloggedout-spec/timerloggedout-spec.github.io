@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T22:21:02Z",
+  "generated_at": "2026-11-18T22:21:57Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42460,7 +42460,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "7e4678eb2721464397ffbc185faef260b170a758",
+    "source_sha": "b220a5bd037d49ac904d0b5a0282b8224b52b57d",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42494,12 +42494,12 @@
   },
   "evolution": [
     {
-      "sha": "7e4678eb2721464397ffbc185faef260b170a758",
-      "short_sha": "7e4678eb2721",
-      "date": "2026-11-18T22:18:12Z",
+      "sha": "b220a5bd037d49ac904d0b5a0282b8224b52b57d",
+      "short_sha": "b220a5bd037d",
+      "date": "2026-11-18T22:20:03Z",
       "author": "quota-usage-series-refresh",
       "subject": "ops(quota): refresh usage-series pack + swarm feed + mirrors (auto-derived)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/7e4678eb2721464397ffbc185faef260b170a758"
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/b220a5bd037d49ac904d0b5a0282b8224b52b57d"
     }
   ],
   "pipeline": [

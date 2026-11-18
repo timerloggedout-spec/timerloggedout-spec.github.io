@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T20:23:56Z",
+  "generated_at": "2026-11-18T20:31:15Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42460,7 +42460,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "541f7771ebf88eb779bd54d73a67bee0924e830c",
+    "source_sha": "1bdf87ed37c57c11077ce7abae6cf3c024f34a0a",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42494,12 +42494,12 @@
   },
   "evolution": [
     {
-      "sha": "541f7771ebf88eb779bd54d73a67bee0924e830c",
-      "short_sha": "541f7771ebf8",
-      "date": "2026-11-18T12:17:32-08:00",
+      "sha": "1bdf87ed37c57c11077ce7abae6cf3c024f34a0a",
+      "short_sha": "1bdf87ed37c5",
+      "date": "2026-11-18T12:19:02-08:00",
       "author": "Founders' are 'found' to implement.",
-      "subject": "feat(pages): add Brain operations dashboard source",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/541f7771ebf88eb779bd54d73a67bee0924e830c"
+      "subject": "docs(pages): add Brain Ops and architecture links",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/1bdf87ed37c57c11077ce7abae6cf3c024f34a0a"
     }
   ],
   "pipeline": [

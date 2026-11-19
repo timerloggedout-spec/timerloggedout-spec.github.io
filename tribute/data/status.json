@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T13:35:20Z",
+  "generated_at": "2026-11-19T13:36:20Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42460,7 +42460,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "7ad1da32bfa5489548385371902d7eb188c80685",
+    "source_sha": "796b539c8dd63aca871053086a93522c03474769",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42494,12 +42494,12 @@
   },
   "evolution": [
     {
-      "sha": "7ad1da32bfa5489548385371902d7eb188c80685",
-      "short_sha": "7ad1da32bfa5",
-      "date": "2026-11-19T13:34:04Z",
-      "author": "github-actions[bot]",
-      "subject": "ops(help-wanted): live status refresh 2026-11-19T13:34Z",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/7ad1da32bfa5489548385371902d7eb188c80685"
+      "sha": "796b539c8dd63aca871053086a93522c03474769",
+      "short_sha": "796b539c8dd6",
+      "date": "2026-11-19T13:35:01Z",
+      "author": "quota-usage-series-refresh",
+      "subject": "ops(quota): refresh usage-series pack + swarm feed + mirrors (auto-derived)",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/796b539c8dd63aca871053086a93522c03474769"
     }
   ],
   "pipeline": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T06:04:31Z",
+  "generated_at": "2026-11-19T06:05:24Z",
   "lane": "help-wanted",
   "project": "help-wanted-with-tribute",
   "receipts": 3962,
@@ -42460,7 +42460,7 @@
   },
   "control_surface": {
     "schema_version": "help-wanted.control-surface.v2",
-    "source_sha": "f125451e626812e44b41888f6d923f4bd6036fce",
+    "source_sha": "bbac8b7c6077b877429e548912e6e4983e644413",
     "source_ref": "master",
     "history_complete": false,
     "history_coverage": "lane-local-complete; repository-wide historical accountability requires sweep-accountability backfill",
@@ -42494,12 +42494,12 @@
   },
   "evolution": [
     {
-      "sha": "f125451e626812e44b41888f6d923f4bd6036fce",
-      "short_sha": "f125451e6268",
-      "date": "2026-11-19T06:03:37Z",
-      "author": "repo-tracking-collect",
-      "subject": "ops(tracking): refresh repo tracking surface (auto-derived)",
-      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/f125451e626812e44b41888f6d923f4bd6036fce"
+      "sha": "bbac8b7c6077b877429e548912e6e4983e644413",
+      "short_sha": "bbac8b7c6077",
+      "date": "2026-11-19T06:04:09Z",
+      "author": "termux-fleet-swarm[bot]",
+      "subject": "que: feed cycle 2026-11-19T06:04Z",
+      "url": "https://github.com/timerloggedout-spec/termux-monorepo/commit/bbac8b7c6077b877429e548912e6e4983e644413"
     }
   ],
   "pipeline": [

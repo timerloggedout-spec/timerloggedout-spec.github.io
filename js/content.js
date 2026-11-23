@@ -50,7 +50,8 @@ window.CONTENT = {
       {icon:"◎", name:"CellCog", category:"AI employees & agents", text:"Autonomous AI employees with persistent inboxes, cloud browsers, and terminal execution — the team behind this repo's CI review lane. Its Max tier ranked #1 overall on the Deep Research Benchmark (July 2026 snapshot).", offer:"500 bonus credits on first purchase", href:"https://cellcog.ai/invitation/l19hdRGY9dTh"},
       {icon:"⌕", name:"Polsia", category:"AI directory & intelligence", text:"AI directory and intelligence platform.", offer:"Referral bonus credits", href:"https://polsia.com/?ref=B5K7S8NL"},
       {icon:"⚙", name:"Manus AI", category:"AI employees & agents", text:"General-purpose AI agent platform.", offer:"Invitation link", href:"https://manus.im/invitation/5MHU34UJRBOTVC6?utm_source=invitation&utm_medium=social&utm_campaign=system_share"},
-      {icon:"▤", name:"Grafana", category:"Observability & cloud", text:"Dashboards and alerting for the CI/CD traces and telemetry this monorepo emits.", offer:"Referral sign-up", href:"https://grafana.com/auth/sign-up?refCode=gr8WEigykKjVGTV"}
+      {icon:"▤", name:"Grafana", category:"Observability & cloud", text:"Dashboards and alerting for the CI/CD traces and telemetry this monorepo emits.", offer:"Referral sign-up", href:"https://grafana.com/auth/sign-up?refCode=gr8WEigykKjVGTV"},
+      {icon:"◇", name:"MermaidChart", category:"Diagramming & visual collaboration", text:"Diagramming workspace for creating and sharing diagrams.", offer:"Affiliate link; visitor offer and commission terms unverified", href:"https://mermaidchart.cello.so/uztNIvj9s4a"},
     ],
     note: "The full registry (active lanes, pipeline, wallets) lives in the monorepo:",
     registryLabel: "docs/PARTNERS.md →",

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "1.0.1+7cf7634cf40b",
+  "version": "1.0.1+601adc35e203",
   "channel": "production",
   "source_ref": "master",
-  "source_sha": "7cf7634cf40bc77d43cd1c8adbf335f48d8942a1",
-  "built_at": "2026-11-25T11:16:06.845363+00:00",
+  "source_sha": "601adc35e203e324d3803291ea2a6f1a6f5f3710",
+  "built_at": "2026-11-25T11:19:23.455147+00:00",
   "comparison": {
     "production_manifest": "https://timerloggedout-spec.github.io/tribute/version-manifest.json",
     "repository": "https://github.com/timerloggedout-spec/termux-monorepo"
@@ -110,7 +110,7 @@
       "id": "icm-cctv",
       "file": "icm-cctv.html",
       "title": "Icm Cctv",
-      "content_sha256": "02b3234f43b1ebb329a42c0696a3e791867b0ef897442bf439c02fb0a6b37dc5"
+      "content_sha256": "2087e7af66becf28356c20edc1f1b9f51759d0505094a2049d445ef3cc259d60"
     },
     {
       "id": "tribute-home",

@@ -1,6 +1,6 @@
 {
  "schema": "moneyball.wagering-book/v2",
- "generated_at": "2026-11-26T07:45:20Z",
+ "generated_at": "2026-11-26T07:47:08Z",
  "book": {
   "opened": "2026-11-02",
   "subjects": 39
@@ -51,7 +51,7 @@
  ],
  "pct_block": {
   "rule": "pct_consumed/pct_remaining computed at feed build from window anchors; stamped per subject; never hand-entered; degenerate windows carry null + pct_note",
-  "computed_at": "2026-11-26T07:45:20Z",
+  "computed_at": "2026-11-26T07:47:08Z",
   "upstream_computed_at": "2026-11-03T14:17:33Z",
   "method": "recomputed by this generator from the window anchors at build time; the upstream feed's stamped pct is proof-of-shape only"
  },
@@ -99,7 +99,7 @@
    "window_pct": {
     "consumed": 100.0,
     "remaining": 0.0,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -146,7 +146,7 @@
    "window_pct": {
     "consumed": 100.0,
     "remaining": 0.0,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -193,7 +193,7 @@
    "window_pct": {
     "consumed": null,
     "remaining": null,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": "degenerate window (instant/point subject) \u2014 no honest percentage"
    },
    "settlement": {
@@ -242,7 +242,7 @@
    "window_pct": {
     "consumed": 100.0,
     "remaining": 0.0,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -290,7 +290,7 @@
    "window_pct": {
     "consumed": 100.0,
     "remaining": 0.0,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -339,7 +339,7 @@
    "window_pct": {
     "consumed": 100.0,
     "remaining": 0.0,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -388,7 +388,7 @@
    "window_pct": {
     "consumed": 100.0,
     "remaining": 0.0,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -437,7 +437,7 @@
    "window_pct": {
     "consumed": 100.0,
     "remaining": 0.0,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -485,7 +485,7 @@
    "window_pct": {
     "consumed": 100.0,
     "remaining": 0.0,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -534,7 +534,7 @@
    "window_pct": {
     "consumed": 0.0,
     "remaining": 100.0,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -583,7 +583,7 @@
    "window_pct": {
     "consumed": 0.0,
     "remaining": 100.0,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -632,7 +632,7 @@
    "window_pct": {
     "consumed": 0.0,
     "remaining": 100.0,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -680,7 +680,7 @@
    "window_pct": {
     "consumed": 0.0,
     "remaining": 100.0,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -727,7 +727,7 @@
    "window_pct": {
     "consumed": null,
     "remaining": null,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": "degenerate window (instant/point subject) \u2014 no honest percentage"
    },
    "settlement": {
@@ -776,7 +776,7 @@
    "window_pct": {
     "consumed": 100.0,
     "remaining": 0.0,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -824,7 +824,7 @@
    "window_pct": {
     "consumed": 100.0,
     "remaining": 0.0,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -870,7 +870,7 @@
    "window_pct": {
     "consumed": 100.0,
     "remaining": 0.0,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -916,7 +916,7 @@
    "window_pct": {
     "consumed": 100.0,
     "remaining": 0.0,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -965,7 +965,7 @@
    "window_pct": {
     "consumed": 100.0,
     "remaining": 0.0,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -1012,9 +1012,9 @@
     "wall": "2026-11-25T23:59:00-08:00"
    },
    "window_pct": {
-    "consumed": 99.7,
-    "remaining": 0.3,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "consumed": 99.8,
+    "remaining": 0.2,
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -1063,7 +1063,7 @@
    "window_pct": {
     "consumed": 17.0,
     "remaining": 83.0,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -1113,7 +1113,7 @@
    "window_pct": {
     "consumed": 10.1,
     "remaining": 89.9,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -1163,7 +1163,7 @@
    "window_pct": {
     "consumed": 0.0,
     "remaining": 100.0,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -1209,7 +1209,7 @@
    "window_pct": {
     "consumed": 100.0,
     "remaining": 0.0,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -1255,7 +1255,7 @@
    "window_pct": {
     "consumed": 100.0,
     "remaining": 0.0,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -1301,7 +1301,7 @@
    "window_pct": {
     "consumed": 82.1,
     "remaining": 17.9,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {
@@ -1346,7 +1346,7 @@
    "window_pct": {
     "consumed": null,
     "remaining": null,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": "no wall \u2014 window open-ended until the instance's run record lands; no honest percentage"
    },
    "settlement": {
@@ -1391,7 +1391,7 @@
    "window_pct": {
     "consumed": null,
     "remaining": null,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": "no wall \u2014 window open-ended until the instance's run record lands; no honest percentage"
    },
    "settlement": {
@@ -1436,7 +1436,7 @@
    "window_pct": {
     "consumed": null,
     "remaining": null,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": "no wall \u2014 window open-ended until the instance's run record lands; no honest percentage"
    },
    "settlement": {
@@ -1481,7 +1481,7 @@
    "window_pct": {
     "consumed": null,
     "remaining": null,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": "no wall \u2014 window open-ended until the instance's run record lands; no honest percentage"
    },
    "settlement": {
@@ -1526,7 +1526,7 @@
    "window_pct": {
     "consumed": null,
     "remaining": null,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": "no wall \u2014 window open-ended until the instance's run record lands; no honest percentage"
    },
    "settlement": {
@@ -1571,7 +1571,7 @@
    "window_pct": {
     "consumed": null,
     "remaining": null,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": "no wall \u2014 window open-ended until the instance's run record lands; no honest percentage"
    },
    "settlement": {
@@ -1616,7 +1616,7 @@
    "window_pct": {
     "consumed": null,
     "remaining": null,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": "no wall \u2014 window open-ended until the instance's run record lands; no honest percentage"
    },
    "settlement": {
@@ -1661,7 +1661,7 @@
    "window_pct": {
     "consumed": null,
     "remaining": null,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": "no wall \u2014 window open-ended until the instance's run record lands; no honest percentage"
    },
    "settlement": {
@@ -1706,7 +1706,7 @@
    "window_pct": {
     "consumed": null,
     "remaining": null,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": "no wall \u2014 window open-ended until the instance's run record lands; no honest percentage"
    },
    "settlement": {
@@ -1751,7 +1751,7 @@
    "window_pct": {
     "consumed": null,
     "remaining": null,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": "no wall \u2014 window open-ended until the instance's run record lands; no honest percentage"
    },
    "settlement": {
@@ -1796,7 +1796,7 @@
    "window_pct": {
     "consumed": null,
     "remaining": null,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": "no wall \u2014 window open-ended until the instance's run record lands; no honest percentage"
    },
    "settlement": {
@@ -1841,7 +1841,7 @@
    "window_pct": {
     "consumed": null,
     "remaining": null,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": "no wall \u2014 window open-ended until the instance's run record lands; no honest percentage"
    },
    "settlement": {
@@ -1887,7 +1887,7 @@
    "window_pct": {
     "consumed": 37.9,
     "remaining": 62.1,
-    "computed_at": "2026-11-26T07:45:20Z",
+    "computed_at": "2026-11-26T07:47:08Z",
     "note": null
    },
    "settlement": {

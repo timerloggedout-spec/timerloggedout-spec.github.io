@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="ChatGPT" />
+  <title>Teammate Portal (Hackathon Desk) · manifest</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Teammate Portal (Hackathon Desk) · manifest</h1>
+<p class="author">ChatGPT</p>
+</header>
+<h1 id="manifest-hackathon-desk">MANIFEST — hackathon-desk</h1>
+<h2 id="summary">Summary</h2>
+<p>Build a teammate-facing Hackathon Desk inside the existing Tribute
+dashboard. The desk connects current opportunities, challenge records,
+hackathons, teammates, proposal intake, GitHub contribution workflows,
+and pipeline evidence into one accessible read-only projection. GitHub
+remains the identity and write-authority provider; contribution actions
+navigate to GitHub, where GitHub authenticates the teammate and enforces
+repository permissions.</p>
+<h2 id="scope">Scope</h2>
+<ul>
+<li>Responsive Hackathon Desk integrated into Tribute navigation and
+sitemap.</li>
+<li>Opportunities and challenges backed by the QUE priority feed and
+challenge coordinator.</li>
+<li>Hackathon event/deadline display using the existing countdown
+projection.</li>
+<li>Teammate onboarding and contribution guidance with GitHub-owned
+identity and permission enforcement.</li>
+<li>Proposal intake/navigation that reuses the existing proposal
+lifecycle.</li>
+<li>Pipeline visibility sourced from existing desk, dispatch, and QUE
+feeds.</li>
+<li>Standalone teammate guide and accessibility guide.</li>
+<li>WCAG 2.2 AA-oriented implementation and verification.</li>
+<li>ICM route proposal through the existing Challenge and Certifications
+Program object and governed ICM maintenance pipeline.</li>
+</ul>
+<h2 id="authority-and-boundaries">Authority and boundaries</h2>
+<ul>
+<li>ops/que/feeds/opportunity-priority.json owns ranked opportunity
+state and freshness.</li>
+<li>ops/challenge/coordinator.json owns challenge event, participant,
+and gate state.</li>
+<li>apps/tribute-dashboard/data/challenge-countdowns-feed.json owns the
+published countdown instants/prize projection.</li>
+<li>Desk feed supplies traversal/status evidence; deprecated
+priority-timebox data is excluded from opportunity ranking.</li>
+<li>Public teammate UI excludes metrics_internal, win_probability,
+internal admin feeds, credentials, and private operational metrics.</li>
+<li>The public portal is a read-only projection. GitHub Issues, Pull
+Requests, and repository pages enforce identity and write
+permissions.</li>
+<li>Discord contact details remain optional and unpublished until
+teammate opt-in. A Discord handle is a contact reference, not a GitHub
+identity.</li>
+<li>Existing challenge, proposal, QUE, and dispatch systems remain
+authoritative. The Desk adds no parallel scheduler, state store,
+dispatch engine, or permission model.</li>
+<li>ICM map edits remain behind the human review checkpoint in
+docs/icm/maintenance/02_design/.</li>
+</ul>
+<h2 id="operator-decisions-recorded">Operator decisions recorded</h2>
+<ul>
+<li>Access model: GitHub-authenticated contribution flow.</li>
+<li>Scope: full Desk, teammate guide, and accessibility.</li>
+<li>Architecture call: static Tribute page; GitHub authenticates
+contribution actions at the destination. Custom OAuth/backend is outside
+this proposal.</li>
+</ul>
+<h2 id="review-log">Review log</h2>
+<h3 id="timerloggedout-spec">2026-11-24 — timerloggedout-spec</h3>
+<ul>
+<li>Disposition: accepted</li>
+<li>Notes: Explicit chat instruction authorized proposal registration,
+ICM routing, and full-scope implementation; access=github;
+scope=full.</li>
+</ul>
+<h2 id="checklist">Checklist</h2>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="" />Registered in
+docs/proposals/registry.yaml</label></li>
+<li><label><input type="checkbox" checked="" />ITEMS.md
+itemized</label></li>
+<li><label><input type="checkbox" checked="" />Operator authorization
+recorded</label></li>
+<li><label><input type="checkbox" />ICM map-change proposal reviewed
+through the ICM human checkpoint</label></li>
+<li><label><input type="checkbox" />Implementation plan
+reviewed</label></li>
+<li><label><input type="checkbox" />Focused tests and accessibility
+checks pass</label></li>
+<li><label><input type="checkbox" />Repository gate and Termux smoke
+pass on the same head</label></li>
+<li><label><input type="checkbox" />Required PR checks complete and head
+SHA re-fetched</label></li>
+<li><label><input type="checkbox" />Deployment freshness and live route
+verified</label></li>
+<li><label><input type="checkbox" />All items terminal and proposal
+closed through the lifecycle</label></li>
+</ul>
+</body>
+</html>

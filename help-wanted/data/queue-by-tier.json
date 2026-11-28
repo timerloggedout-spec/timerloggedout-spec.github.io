@@ -1,27 +1,24 @@
 {
  "schema": "que.queue-by-tier/v1",
- "generated_at": "2026-11-28T11:46:00Z",
+ "generated_at": "2026-11-28T12:16:55Z",
  "repo": "timerloggedout-spec/termux-monorepo",
  "tiers": {
   "1": {
    "tier": 1,
-   "queued": 4,
+   "queued": 3,
    "in_progress": 1,
    "oldest_queued_at": "2026-11-25T08:15:08Z",
    "by_workflow_queued": {
-    "repo gate": 2,
-    "Orchestration Regression Guard": 2
+    "Orchestration Regression Guard": 1,
+    "repo gate": 2
    }
   },
   "2": {
    "tier": 2,
-   "queued": 2,
-   "in_progress": 1,
-   "oldest_queued_at": "2026-11-28T11:44:47Z",
-   "by_workflow_queued": {
-    "pages build and deployment": 1,
-    "tribute-dashboard-deploy": 1
-   }
+   "queued": 0,
+   "in_progress": 2,
+   "oldest_queued_at": null,
+   "by_workflow_queued": {}
   },
   "3": {
    "tier": 3,
@@ -32,32 +29,20 @@
   },
   "4": {
    "tier": 4,
-   "queued": 18,
+   "queued": 4,
    "in_progress": 16,
    "oldest_queued_at": "2026-11-25T08:15:08Z",
    "by_workflow_queued": {
-    "n8n SHE bridge": 1,
-    "Agent Readability Source Contract": 1,
-    "que-cadence-kick": 1,
-    "hitl-control-plane-verify": 1,
-    "\ud83d\udee1\ufe0f Direct Master Empty-Commit Watcher": 2,
-    "Foresight Evidence Spine": 1,
-    "termux smoke": 2,
+    "\ud83d\udee1\ufe0f Direct Master Empty-Commit Watcher": 1,
     "quota-analysis": 1,
-    "lane events recorder": 1,
-    "Quota Dispatch Tree": 1,
-    "Sweep Accountability": 1,
-    "Context Relationship + Lead/Lag Audit": 1,
-    "surface-feeds-collect": 1,
-    "quota-allocation-planner": 1,
-    "PR evidence evaluation": 1,
-    "Workflow Surface Policy": 1
+    "DO Statement Style": 1,
+    "termux smoke": 1
    }
   }
  },
  "totals": {
-  "queued": 24,
-  "in_progress": 18
+  "queued": 7,
+  "in_progress": 19
  },
  "wedged_ancient": [
   {
@@ -113,13 +98,13 @@
  "tier_basis": {
   "population": "actions-runs (queued \u2227 in_progress)",
   "explicit": {
-   "1": 5,
-   "2": 3,
+   "1": 4,
+   "2": 2,
    "3": 0,
    "4": 0
   },
-  "explicit_total": 8,
-  "default_t4": 34,
+  "explicit_total": 6,
+  "default_t4": 20,
   "unmatched": 0,
   "ancient_excluded": 8,
   "operator_excluded": 1

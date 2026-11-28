@@ -1,0 +1,930 @@
+{
+ "schema": "repo-tracking/v1",
+ "generated_at": "2026-11-24T12:35:40Z",
+ "generated_by": "scripts/tracking/repo_tracking.py via repo-tracking-collect.yml (single-writer)",
+ "sources": {
+  "pr_feed": {
+   "read_at": "2026-11-24T12:35:39Z",
+   "merged": 150,
+   "open": 200
+  },
+  "lane_events": {
+   "read_at": "2026-11-24T12:35:39Z",
+   "status": "error:HTTPError",
+   "count": null,
+   "events_in_snapshot": 0
+  },
+  "records": [
+   "ops/challenge/coordinator.json",
+   "ops/challenge/desk-feed.json",
+   "ops/quota/registry.json",
+   "experiments/doe/*/DESIGN.json",
+   "experiments/doe/*/{PLAN*.json,records/**,dispatch/**} (treatment.instance join)",
+   "ops/tracking/projects.json (seed: identity+match only)"
+  ]
+ },
+ "honesty_rules": [
+  "State/last-merge/next are derived at generation time from the stamped snapshots + records; never copied forward, never hand-edited in the outputs.",
+  "A value no source holds renders as NOT_ESTABLISHED or a named gap, never synthesized.",
+  "lane-events failures are evidence/next hints, never a state by themselves.",
+  "Provider x DoE join: instance tuples come only from PLAN/records/dispatch files carrying treatment.instance (or PLAN rows[].instance); design factors alone never synthesize an instance row \u2014 a campaign without one is design_only."
+ ],
+ "summary": {
+  "rows": 22,
+  "by_domain": {
+   "challenges": 7,
+   "opportunities": 1,
+   "quota": 1,
+   "doe": 2,
+   "classifiers": 1,
+   "desk": 2,
+   "webdev-viz": 1,
+   "marketing": 2,
+   "swarm": 1,
+   "providers": 3,
+   "replay": 1
+  },
+  "by_state": {
+   "closed": 1,
+   "unknown": 8,
+   "landed": 1,
+   "in-flight": 10,
+   "active": 2
+  }
+ },
+ "rows": [
+  {
+   "lane": "challenge-entries",
+   "project": "D0 Delphi Oracle",
+   "domain": "challenges",
+   "project_id": "d0-delphi-oracle",
+   "state": "closed",
+   "last_merge": null,
+   "next": "IN UPGRADE MAINTENANCE (owner correction 2026-11-03, D0 seat): the 4/4 close was the UPGRADE program's, \u00ac the entry's maintenance life \u00b7 production owner = Optimizations (Swarm seat) \u00b7 PAIR CLOSED 2026-11-03: repo \u2713 (2026-10-31) + per-entry AppID \u2713 (App 5602904 \u00b7 install 178358203, delphi-oracle ONLY; record PR #4659) \u00b7 adoption (workflow mint steps in delphi-oracle) = follow-on PRs via Optimizations \u00b7 winners capture leg #4547 unchanged",
+   "next_basis": "record",
+   "evidence": [
+    "coordinator submission=none",
+    "coordinator event D0 status=closed",
+    "desk-feed traversal D0 pr=#1702"
+   ],
+   "updated_at": "2026-11-24T12:35:40Z"
+  },
+  {
+   "lane": "challenge-entries-d1",
+   "project": "D1 StudySprint (Workshop to Ship)",
+   "domain": "challenges",
+   "project_id": "d1-studysprint",
+   "state": "unknown",
+   "last_merge": null,
+   "next": "SUBMITTED 2026-11-03 (confirmation_ref in submission) \u00b7 open line to the wall: v1.0.0 cut on the richest green tree \u00b7 article currency edit \u00b7 frozen-state verification at the freeze \u00b7 $5,000 AT_RISK (OC-003) resolves at event close",
+   "next_basis": "record",
+   "evidence": [
+    "coordinator submission=SUBMITTED - PUBLISHED",
+    "coordinator event D1 status=submitted - PUBLISHED 2026-11-03; in edit window until the Nov 4 23:59 PT freeze",
+    "desk-feed traversal D1 pr=#2626"
+   ],
+   "updated_at": "2026-11-24T12:35:40Z"
+  },
+  {
+   "lane": "challenge-entries-d2",
+   "project": "D2 Vultr Agent Rush",
+   "domain": "challenges",
+   "project_id": "d2-vultr",
+   "state": "unknown",
+   "last_merge": null,
+   "next": "Queue leg CLOSED (WAF spec struck, owner direct 2026-11-01) \u00b7 D2 production target DECIDED 2026-11-04 00:51 PT: B \u2014 Quarantine Browser Clerk (C1\u00b7B) \u00b7 kickoff mechanics stand OUTSIDE batch @2026-11-03T15:00Z: {new repo \u2227 new AppID via 7075f9c0 \u2227 Vultr account + $200 gift code (gate D2-NOCARD) \u2227 team} \u00b7 kickoff mechanics FIRE on the decision (pick stage done \u2192 spec active) \u00b7 ROUTE \u0394 (D2 seat, 2026-11-01): kickoff routing = DeepSeek + command-dispatch until recovery probe PASS; Jules-primary suspended \u00ac deleted; \u2205 silent reroute beyond this named pair \u00b7 ARMS \u0394 (2026-11-01, manager/Swarm): DeepSeek tunnel DOWN (tunnel-unresolved skip \u00d72, agent \u2205 invoked \u2014 runs 41301295882/41321691938) \u21d2 live arms @kickoff 2026-11-03 = command-dispatch ALONE {Jules DOWN \u00b7 Gemini OUT \u00b7 DeepSeek DOWN}; restoration \u21d2 desk flags D2 seat same-turn \u00b7 LANDING TARGET Nov 7 (wall: submission \u2264 Nov 8 15:00 PT). OWNER BUFFER RULE (2026-11-02): wall \u2260 landing \u2014 desk dispatch planning consumes the LANDING TARGET; final stretch = buffer + submission mechanics only, \u2205 build dispatch into it.",
+   "next_basis": "record",
+   "evidence": [
+    "coordinator submission=DRAFT saved on lablab (NOT submitted) - 76%",
+    "coordinator event D2 status=registered - PICK DECIDED (B Quarantine Browser Clerk); build sequence firing 2026-11-04; landing Nov 7, wall Nov 8 15:00 PT"
+   ],
+   "updated_at": "2026-11-24T12:35:40Z"
+  },
+  {
+   "lane": "challenge-entries-d3",
+   "project": "D3 ListingLens (Builder.io)",
+   "domain": "challenges",
+   "project_id": "d3-listinglens",
+   "state": "landed",
+   "last_merge": {
+    "pr": 5251,
+    "sha": "860582e0d0b5",
+    "at": "2026-11-12T15:23:47Z",
+    "title": "D3 project harmonized: assets.clips_url + terminal status"
+   },
+   "next": "Nov 1 checkpoint met build-side (landed 2026-10-30); submission deadline 2026-11-09 \u00b7 ROUTE \u0394 (D3 seat, 2026-11-01): batch B1\u2013B5 trigger route = DeepSeek + command-dispatch until recovery probe PASS (Jules DOWN (created 3/completed 0/errored 3, Swarm 2026-11-01; opportunistic OFF) \u2227 Gemini-CLI build leg OUT); producer-naming req unchanged \u00b7 LANDING TARGET Nov 8 (wall: submission Nov 9 23:59 PT). OWNER BUFFER RULE (2026-11-02): wall \u2260 landing \u2014 desk dispatch planning consumes the LANDING TARGET; final stretch = buffer + submission mechanics only, \u2205 build dispatch into it.",
+   "next_basis": "record",
+   "evidence": [
+    "desk-feed traversal D3 pr=#2616"
+   ],
+   "updated_at": "2026-11-24T12:35:40Z"
+  },
+  {
+   "lane": "challenge-entries-d4",
+   "project": "D4 Kiroween (skeleton-crew)",
+   "domain": "challenges",
+   "project_id": "d4-kiroween",
+   "state": "unknown",
+   "last_merge": null,
+   "next": "BATCH QUEUED (owner batch order 2026-11-01, priority \u2191) \u00b7 dispatch AT build window >2026-11-08, \u2205 fire before window \u00b7 AppID owed at build start via AppID lane 7075f9c0 (owner rule 2026-11-01) \u2014 flagged for dispatch \u00b7 gate D4-ACCOUNTS still open (Kiro ID, \u22642026-12-01T12:00PT) \u00b7 submit 2026-12-04 14:00 PT \u00b7 PROVIDER \u0394 (2026-11-01): Jules DOWN (created 3/completed 0/errored 3, Swarm 2026-11-01; opportunistic OFF) + Gemini build leg OUT (Swarm via manager) \u2014 at build window, route re-selects per manager rule {DeepSeek + command-dispatch} unless recovery probe PASS first \u00b7 LANDING TARGET Dec 2 (wall: submit Dec 4 14:00 PT). OWNER BUFFER RULE (2026-11-02): wall \u2260 landing \u2014 desk dispatch planning consumes the LANDING TARGET; final stretch = buffer + submission mechanics only, \u2205 build dispatch into it.",
+   "next_basis": "record",
+   "evidence": [
+    "coordinator submission=none",
+    "coordinator event D4 status=registering"
+   ],
+   "updated_at": "2026-11-24T12:35:40Z"
+  },
+  {
+   "lane": "challenge-entries-d5",
+   "project": "D5 Aha! AI Builder Day",
+   "domain": "challenges",
+   "project_id": "d5-aha",
+   "state": "in-flight",
+   "last_merge": {
+    "pr": 5582,
+    "sha": "c4159225e3da",
+    "at": "2026-11-17T16:29:57Z",
+    "title": "D5 AppID landed: Termux Fleet Understudy 5803279"
+   },
+   "next": "kickoff 2026-11-17 09:00 PT \u00b7 on Registry issuance \u21d2 repo+AppID dispatch (AppID lane 7075f9c0) \u21d2 spec \u21d2 Desk QUE filing \u21d2 Swarm build (claim-free construction; submission claim OFF \u2014 ruling issued; reinstatement pre-wall re-opens it; appeal in flight) \u00b7 landing Nov 18 EOD \u00b7 wall 2026-11-19 12:00 PT SUBMIT-ONCE (claim gated) \u00b7 awards 2026-11-20 11:30 PT",
+   "next_basis": "record",
+   "evidence": [
+    "open PRs: #5563"
+   ],
+   "updated_at": "2026-11-24T12:35:40Z"
+  },
+  {
+   "lane": "challenge-entries-amd",
+   "project": "C11 AMD AI League / Academy",
+   "domain": "challenges",
+   "project_id": "c11-amd",
+   "state": "in-flight",
+   "last_merge": {
+    "pr": 5312,
+    "sha": "ec92552eced8",
+    "at": "2026-11-13T07:05:43Z",
+    "title": "docs(guides): evidence index \u2014 AMD Academy C3 completion (1/5)"
+   },
+   "next": "Routes after M3 or when builders idle \u00b7 LANDING TARGET Nov 28 (league wall Dec 1 11:00 PT; M4 target Nov 9 stands). OWNER BUFFER RULE (2026-11-02): wall \u2260 landing \u2014 desk dispatch planning consumes the LANDING TARGET; final stretch = buffer + submission mechanics only, \u2205 build dispatch into it.",
+   "next_basis": "record",
+   "evidence": [
+    "coordinator submission=none",
+    "coordinator event C11 status=active",
+    "open PRs: #5429, #5428, #5426"
+   ],
+   "updated_at": "2026-11-24T12:35:40Z"
+  },
+  {
+   "lane": "challenge-entries",
+   "project": "Challenge OSINT + opportunity ledger",
+   "domain": "opportunities",
+   "project_id": "challenge-osint",
+   "state": "in-flight",
+   "last_merge": {
+    "pr": 5558,
+    "sha": "bca4313025b0",
+    "at": "2026-11-17T14:18:40Z",
+    "title": "docs(registry): opportunity moniker issuance \u2014 A/C/D remap register (QUE #5556)"
+   },
+   "next": "land/close PR #5758 \u2014 docs(ops): expand Devpost + GitLab challenge OSINT observatory",
+   "next_basis": "open-pr",
+   "evidence": [
+    "open PRs: #5758, #2235"
+   ],
+   "updated_at": "2026-11-24T12:35:40Z"
+  },
+  {
+   "lane": "quota",
+   "project": "Quota registry / allocations / dispatch-tree",
+   "domain": "quota",
+   "project_id": "quota-system",
+   "state": "in-flight",
+   "last_merge": {
+    "pr": 5797,
+    "sha": "b8f70c7e0a86",
+    "at": "2026-11-23T11:11:55Z",
+    "title": "ops(quota): Update bucket headroom polling and rate evidence"
+   },
+   "next": "land/close PR #5831 \u2014 feat(mesh): meter Docker Hub pull quota for self-hosted workers",
+   "next_basis": "open-pr",
+   "evidence": [
+    "quota registry services=172",
+    "open PRs: #5831, #5034, #5808, #5782, #5767"
+   ],
+   "updated_at": "2026-11-24T12:35:40Z"
+  },
+  {
+   "lane": "doe",
+   "project": "DoE campaigns (lab-1 / pilot-1 / live waves)",
+   "domain": "doe",
+   "project_id": "doe-campaigns",
+   "state": "in-flight",
+   "last_merge": {
+    "pr": 5648,
+    "sha": "c9648146400d",
+    "at": "2026-11-19T09:11:31Z",
+    "title": "feat(mesh): register clf-doe request kind in schema allowlist"
+   },
+   "next": "land/close PR #5793 \u2014 doe: compare Rust migration tools; add extensible Rust lane",
+   "next_basis": "open-pr",
+   "evidence": [
+    "doe DESIGN.json campaigns=19",
+    "open PRs: #5793, #5832, #5813, #5814, #5790"
+   ],
+   "updated_at": "2026-11-24T12:35:40Z"
+  },
+  {
+   "lane": "doe-nc1",
+   "project": "DoE nc-1 notation-compliance",
+   "domain": "doe",
+   "project_id": "doe-nc1",
+   "state": "unknown",
+   "last_merge": null,
+   "next": "NOT_ESTABLISHED",
+   "next_basis": "none",
+   "evidence": [],
+   "updated_at": "2026-11-24T12:35:40Z"
+  },
+  {
+   "lane": "tier-1",
+   "project": "Tier-1 classifier engine",
+   "domain": "classifiers",
+   "project_id": "classifiers-tier1",
+   "state": "in-flight",
+   "last_merge": null,
+   "next": "land/close PR #5681 \u2014 feat(capabilities): nested skill/plugin/tool discovery and progressive activation",
+   "next_basis": "open-pr",
+   "evidence": [
+    "open PRs: #5681"
+   ],
+   "updated_at": "2026-11-24T12:35:40Z"
+  },
+  {
+   "lane": "contribution-desk",
+   "project": "Contribution Desk + desk-feed",
+   "domain": "desk",
+   "project_id": "desk",
+   "state": "active",
+   "last_merge": {
+    "pr": 5215,
+    "sha": "25215ce21f8c",
+    "at": "2026-11-12T10:36:15Z",
+    "title": "fix(tracking): repo-tracking-collect crash on string desk-feed evidence [skip render]"
+   },
+   "next": "NOT_ESTABLISHED",
+   "next_basis": "none",
+   "evidence": [
+    "desk-feed traversals=13 generated_at=2026-11-17T14:36:00Z"
+   ],
+   "updated_at": "2026-11-24T12:35:40Z"
+  },
+  {
+   "lane": "web-design-viz",
+   "project": "Fleet landing + dashboard/viz surfaces",
+   "domain": "webdev-viz",
+   "project_id": "webdev-viz",
+   "state": "in-flight",
+   "last_merge": null,
+   "next": "land/close PR #5673 \u2014 C13 Covenant \u2014 draft package landing (QUE #5671)",
+   "next_basis": "open-pr",
+   "evidence": [
+    "open PRs: #5673, #4069"
+   ],
+   "updated_at": "2026-11-24T12:35:40Z"
+  },
+  {
+   "lane": "marketing",
+   "project": "FB Pages MVT + challenge promo",
+   "domain": "marketing",
+   "project_id": "marketing-fb-mvt",
+   "state": "in-flight",
+   "last_merge": {
+    "pr": 5456,
+    "sha": "dacd20c4c57c",
+    "at": "2026-11-15T13:42:20Z",
+    "title": "feat(tribute): add public publishing and promotion surfaces"
+   },
+   "next": "land/close PR #5721 \u2014 Skills selective-promote: #5667 payload to master (QUE #5669)",
+   "next_basis": "open-pr",
+   "evidence": [
+    "open PRs: #5721, #5800, #5781, #5780, #5630"
+   ],
+   "updated_at": "2026-11-24T12:35:40Z"
+  },
+  {
+   "lane": "marketing-social",
+   "project": "Social connectors (Meta Pages / WhatsApp)",
+   "domain": "marketing",
+   "project_id": "social-connectors",
+   "state": "unknown",
+   "last_merge": null,
+   "next": "NOT_ESTABLISHED",
+   "next_basis": "none",
+   "evidence": [],
+   "updated_at": "2026-11-24T12:35:40Z"
+  },
+  {
+   "lane": "swarm",
+   "project": "Swarm App + F1 token migration wave",
+   "domain": "swarm",
+   "project_id": "swarm-f1",
+   "state": "active",
+   "last_merge": {
+    "pr": 5359,
+    "sha": "5e57dcd3d1e8",
+    "at": "2026-11-13T17:17:46Z",
+    "title": "chore(msm): consolidate royalty and simulation evidence into Swarms branch"
+   },
+   "next": "NOT_ESTABLISHED",
+   "next_basis": "none",
+   "evidence": [],
+   "updated_at": "2026-11-24T12:35:40Z"
+  },
+  {
+   "lane": "providers",
+   "project": "Provider registry / catalog / availability",
+   "domain": "providers",
+   "project_id": "providers-registry",
+   "state": "in-flight",
+   "last_merge": null,
+   "next": "land/close PR #3916 \u2014 chore(reviewer-metrics): regenerate provider x context map",
+   "next_basis": "open-pr",
+   "evidence": [
+    "quota registry services=172",
+    "open PRs: #3916, #5839, #5834, #5827, #5816"
+   ],
+   "updated_at": "2026-11-24T12:35:40Z"
+  },
+  {
+   "lane": "providers-phrases",
+   "project": "Provider-phrases SSOT + JIT phrase layer",
+   "domain": "providers",
+   "project_id": "provider-phrases",
+   "state": "unknown",
+   "last_merge": null,
+   "next": "NOT_ESTABLISHED",
+   "next_basis": "none",
+   "evidence": [],
+   "updated_at": "2026-11-24T12:35:40Z"
+  },
+  {
+   "lane": "repo-replay",
+   "project": "Repo Replay",
+   "domain": "replay",
+   "project_id": "repo-replay",
+   "state": "unknown",
+   "last_merge": null,
+   "next": "NOT_ESTABLISHED",
+   "next_basis": "none",
+   "evidence": [],
+   "updated_at": "2026-11-24T12:35:40Z"
+  },
+  {
+   "lane": "ops",
+   "project": "Lane-events Neon ledger",
+   "domain": "desk",
+   "project_id": "lane-events",
+   "state": "unknown",
+   "last_merge": null,
+   "next": "NOT_ESTABLISHED",
+   "next_basis": "none",
+   "evidence": [],
+   "updated_at": "2026-11-24T12:35:40Z"
+  },
+  {
+   "lane": "telemetry",
+   "project": "HindSight + Provenance telemetry ingest",
+   "domain": "providers",
+   "project_id": "telemetry-ingest",
+   "state": "in-flight",
+   "last_merge": {
+    "pr": 5684,
+    "sha": "79943221cc5f",
+    "at": "2026-11-20T06:23:04Z",
+    "title": "fix(5553): fly-hindsight-config \u2014 use provisioned FLY_IO_ORG_TOKEN"
+   },
+   "next": "land/close PR #3890 \u2014 chore(telemetry): refresh HindSight+Provenance ingest",
+   "next_basis": "open-pr",
+   "evidence": [
+    "open PRs: #3890, #5750, #5663, #5427"
+   ],
+   "updated_at": "2026-11-24T12:35:40Z"
+  }
+ ],
+ "doe_join": {
+  "summary": {
+   "campaigns": 19,
+   "campaigns_joined": 2,
+   "distinct_instances": 18,
+   "providers": [
+    "Muse",
+    "baseten",
+    "cohere",
+    "google",
+    "mistral",
+    "openrouter",
+    "sealion"
+   ]
+  },
+  "campaigns": [
+   {
+    "campaign": "apk-1-parallel-versioning",
+    "status": "admitted_design_only",
+    "moniker": "apk-release",
+    "design_factors": {},
+    "providers": [],
+    "join_state": "design_only",
+    "instances": [],
+    "experiment_records": 0,
+    "experiment_records_with_instance": 0
+   },
+   {
+    "campaign": "bf-1-backfill-methods",
+    "status": "admitted_implementing",
+    "moniker": "doe-expert",
+    "design_factors": {},
+    "providers": [],
+    "join_state": "design_only",
+    "instances": [],
+    "experiment_records": 0,
+    "experiment_records_with_instance": 0
+   },
+   {
+    "campaign": "cb-1-chronomancer-emission",
+    "status": "admitted_design_only",
+    "moniker": "doe-mgr-live-builds",
+    "design_factors": {},
+    "providers": [],
+    "join_state": "design_only",
+    "instances": [],
+    "experiment_records": 0,
+    "experiment_records_with_instance": 0
+   },
+   {
+    "campaign": "cmp-register",
+    "status": "open_register",
+    "moniker": "doe-expert",
+    "design_factors": {},
+    "providers": [],
+    "join_state": "design_only",
+    "instances": [],
+    "experiment_records": 0,
+    "experiment_records_with_instance": 0
+   },
+   {
+    "campaign": "game-development-specialist-evolution",
+    "status": "proposed_not_admitted",
+    "moniker": "doe-mgr-game-development",
+    "design_factors": {},
+    "providers": [],
+    "join_state": "design_only",
+    "instances": [],
+    "experiment_records": 0,
+    "experiment_records_with_instance": 0
+   },
+   {
+    "campaign": "lab-1-prompt-x-model-x-role",
+    "status": "admitted",
+    "moniker": "doe-expert",
+    "design_factors": {
+     "prompt": [
+      "prompt-a",
+      "prompt-b"
+     ],
+     "model": [
+      "openrouter/openai/gpt-4o-mini",
+      "openrouter/meta-llama/llama-3.1-8b-instruct:free"
+     ],
+     "role": [
+      "triage",
+      "reviewer"
+     ]
+    },
+    "providers": [
+     "openrouter"
+    ],
+    "join_state": "joined",
+    "instances": [
+     {
+      "provider": "openrouter",
+      "model_at_version": "meta-llama/llama-3.1-8b-instruct:free",
+      "role": "reviewer",
+      "prompt": "experiments/doe/lab-1-prompt-x-model-x-role/prompts/prompt-a.md (+ role line: reviewer)#a8f522b64adf",
+      "moniker": "doe-expert",
+      "context": "lab-1-prompt-x-model-x-role",
+      "instance_key": "7f5083a90dadd6829c70081dfb7034e50e7f5dc5af1f9df522763c084a270326",
+      "occurrences": {
+       "plan": 8,
+       "record": 0,
+       "dispatch": 0
+      }
+     },
+     {
+      "provider": "openrouter",
+      "model_at_version": "meta-llama/llama-3.1-8b-instruct:free",
+      "role": "reviewer",
+      "prompt": "experiments/doe/lab-1-prompt-x-model-x-role/prompts/prompt-b.md (+ role line: reviewer)#1a3c8af80ddd",
+      "moniker": "doe-expert",
+      "context": "lab-1-prompt-x-model-x-role",
+      "instance_key": "e42a430c55555c13806c0a9507a72989bf3f2f94ff8bfabab6adbaa9570fb643",
+      "occurrences": {
+       "plan": 8,
+       "record": 0,
+       "dispatch": 0
+      }
+     },
+     {
+      "provider": "openrouter",
+      "model_at_version": "meta-llama/llama-3.1-8b-instruct:free",
+      "role": "triage",
+      "prompt": "experiments/doe/lab-1-prompt-x-model-x-role/prompts/prompt-a.md (+ role line: triage)#6dbc83fe4a09",
+      "moniker": "doe-expert",
+      "context": "lab-1-prompt-x-model-x-role",
+      "instance_key": "2121b5f4c20fbd3fdfff7cc38ca0ac72545e816340f779a4726cfc94dbf773e4",
+      "occurrences": {
+       "plan": 8,
+       "record": 0,
+       "dispatch": 0
+      }
+     },
+     {
+      "provider": "openrouter",
+      "model_at_version": "meta-llama/llama-3.1-8b-instruct:free",
+      "role": "triage",
+      "prompt": "experiments/doe/lab-1-prompt-x-model-x-role/prompts/prompt-b.md (+ role line: triage)#63ee8aad657b",
+      "moniker": "doe-expert",
+      "context": "lab-1-prompt-x-model-x-role",
+      "instance_key": "e2f6199c75a3f228871d7fd274686ea660ca332af3404fe82a93849b5ce3570f",
+      "occurrences": {
+       "plan": 8,
+       "record": 0,
+       "dispatch": 0
+      }
+     },
+     {
+      "provider": "openrouter",
+      "model_at_version": "openai/gpt-4o-mini",
+      "role": "reviewer",
+      "prompt": "experiments/doe/lab-1-prompt-x-model-x-role/prompts/prompt-a.md (+ role line: reviewer)#a8f522b64adf",
+      "moniker": "doe-expert",
+      "context": "lab-1-prompt-x-model-x-role",
+      "instance_key": "cb4a2e08ff8728a6211c27bef64617c50589762cd3ad3ea8a9486dab4be3cef2",
+      "occurrences": {
+       "plan": 8,
+       "record": 0,
+       "dispatch": 0
+      }
+     },
+     {
+      "provider": "openrouter",
+      "model_at_version": "openai/gpt-4o-mini",
+      "role": "reviewer",
+      "prompt": "experiments/doe/lab-1-prompt-x-model-x-role/prompts/prompt-b.md (+ role line: reviewer)#1a3c8af80ddd",
+      "moniker": "doe-expert",
+      "context": "lab-1-prompt-x-model-x-role",
+      "instance_key": "cb4644f74a529666d2a35aa58c737fa35fb5a8024cb25a04ad013840b3ddbf37",
+      "occurrences": {
+       "plan": 8,
+       "record": 0,
+       "dispatch": 0
+      }
+     },
+     {
+      "provider": "openrouter",
+      "model_at_version": "openai/gpt-4o-mini",
+      "role": "triage",
+      "prompt": "experiments/doe/lab-1-prompt-x-model-x-role/prompts/prompt-a.md (+ role line: triage)#6dbc83fe4a09",
+      "moniker": "doe-expert",
+      "context": "lab-1-prompt-x-model-x-role",
+      "instance_key": "2889490a8da8cbe46040a2c8d0ef4e38099ba7ce6c0b32009085e2ffd6949926",
+      "occurrences": {
+       "plan": 8,
+       "record": 0,
+       "dispatch": 0
+      }
+     },
+     {
+      "provider": "openrouter",
+      "model_at_version": "openai/gpt-4o-mini",
+      "role": "triage",
+      "prompt": "experiments/doe/lab-1-prompt-x-model-x-role/prompts/prompt-b.md (+ role line: triage)#63ee8aad657b",
+      "moniker": "doe-expert",
+      "context": "lab-1-prompt-x-model-x-role",
+      "instance_key": "990dfd2fd2454549689b414fe35bb0933d9d14eb2b6fbb0eb1b9f8740d2231b5",
+      "occurrences": {
+       "plan": 8,
+       "record": 0,
+       "dispatch": 0
+      }
+     }
+    ],
+    "experiment_records": 0,
+    "experiment_records_with_instance": 0
+   },
+   {
+    "campaign": "live-1-wave-framing",
+    "status": "admitted_design_only",
+    "moniker": "doe-mgr-live-builds",
+    "design_factors": {},
+    "providers": [],
+    "join_state": "design_only",
+    "instances": [],
+    "experiment_records": 9,
+    "experiment_records_with_instance": 0
+   },
+   {
+    "campaign": "live-2-prlane-tuning",
+    "status": "admitted_design_only",
+    "moniker": "doe-expert",
+    "design_factors": {},
+    "providers": [],
+    "join_state": "design_only",
+    "instances": [],
+    "experiment_records": 0,
+    "experiment_records_with_instance": 0
+   },
+   {
+    "campaign": "live-3-phrases-deepseek",
+    "status": "admitted_design_only",
+    "moniker": "doe-mgr-phrases-jit",
+    "design_factors": {},
+    "providers": [],
+    "join_state": "design_only",
+    "instances": [],
+    "experiment_records": 0,
+    "experiment_records_with_instance": 0
+   },
+   {
+    "campaign": "live-4-dispatch-framing",
+    "status": "superseded",
+    "moniker": "doe-mgr-live-builds",
+    "design_factors": {},
+    "providers": [],
+    "join_state": "design_only",
+    "instances": [],
+    "experiment_records": 0,
+    "experiment_records_with_instance": 0
+   },
+   {
+    "campaign": "nc-1-notation-compliance",
+    "status": "admitted_design_only",
+    "moniker": "doe-expert",
+    "design_factors": {},
+    "providers": [],
+    "join_state": "design_only",
+    "instances": [],
+    "experiment_records": 2,
+    "experiment_records_with_instance": 0
+   },
+   {
+    "campaign": "phone-1-mcp-background-control",
+    "status": "population_landed",
+    "moniker": "speculators-build",
+    "design_factors": {},
+    "providers": [],
+    "join_state": "design_only",
+    "instances": [],
+    "experiment_records": 0,
+    "experiment_records_with_instance": 0
+   },
+   {
+    "campaign": "pilot-1-context-routing-x-compression",
+    "status": "admitted",
+    "moniker": null,
+    "design_factors": {
+     "representation": [
+      "explicit",
+      "compressed"
+     ],
+     "routing": [
+      "icm-guided",
+      "bounded-search"
+     ]
+    },
+    "providers": [],
+    "join_state": "design_only",
+    "instances": [],
+    "experiment_records": 32,
+    "experiment_records_with_instance": 0
+   },
+   {
+    "campaign": "routed-dispatch",
+    "status": "admitted_implementing",
+    "moniker": "optimizations-assurance",
+    "design_factors": {},
+    "providers": [
+     "Muse",
+     "baseten",
+     "cohere",
+     "google",
+     "mistral",
+     "sealion"
+    ],
+    "join_state": "joined",
+    "instances": [
+     {
+      "provider": "Muse",
+      "model_at_version": "Muse Spark 1.3",
+      "role": "builder",
+      "prompt": "docs/ops/SWARM-OPTIMIZATION-ASSURANCE.md#7d7481cc3c52",
+      "moniker": "optimizations-assurance",
+      "context": "fan-out wiring completion set (build-class)",
+      "instance_key": "1a60e8329fb6c7300ce5611eb6b9a5009b959a9fa032d3f4a8cfbf7801ba0fdd",
+      "occurrences": {
+       "plan": 0,
+       "record": 3,
+       "dispatch": 0
+      }
+     },
+     {
+      "provider": "baseten",
+      "model_at_version": "openai/gpt-oss-120b",
+      "role": "builder",
+      "prompt": "scripts/ops/build_arm_harness.py#system-prompt#04de4332afa3",
+      "moniker": "providers-dispatch-fix",
+      "context": "build-dispatch multi-arm (#5151)",
+      "instance_key": "4c9b24b77fe3a22224d4d58f52c75133041b1c0b936fc08d7e6ed171d5690db1",
+      "occurrences": {
+       "plan": 0,
+       "record": 1,
+       "dispatch": 0
+      }
+     },
+     {
+      "provider": "cohere",
+      "model_at_version": "c4ai-aya-expanse-32b",
+      "role": "builder",
+      "prompt": "scripts/certifications/run_unit.py#c34eb7290dfe",
+      "moniker": "optimizations-assurance",
+      "context": "certifications-unit l1-relational-databases-v9/061",
+      "instance_key": "7434577f5900e36626447c37e6a283fe1c03f1c1538e64e1228cfae64f74e9da",
+      "occurrences": {
+       "plan": 0,
+       "record": 1,
+       "dispatch": 0
+      }
+     },
+     {
+      "provider": "cohere",
+      "model_at_version": "command-a-03-2025",
+      "role": "builder",
+      "prompt": "scripts/ops/build_arm_harness.py#system-prompt#04de4332afa3",
+      "moniker": "providers-dispatch-fix",
+      "context": "build-dispatch multi-arm (#5151)",
+      "instance_key": "5989508502402517b648d34d034d9b806f52c7ddc3029b79cb260814b90b54e5",
+      "occurrences": {
+       "plan": 0,
+       "record": 1,
+       "dispatch": 0
+      }
+     },
+     {
+      "provider": "google",
+      "model_at_version": "gemini-3.5-flash-lite",
+      "role": "builder",
+      "prompt": "scripts/ops/build_arm_harness.py#system-prompt#NOT_ESTABLIS",
+      "moniker": "providers-dispatch-fix",
+      "context": "build-dispatch multi-arm (#5151)",
+      "instance_key": "ed64aec90f3b08b16a653864909bb94f4c20fd3dd9d5e611dd6cdb77cee43b65",
+      "occurrences": {
+       "plan": 0,
+       "record": 3,
+       "dispatch": 0
+      }
+     },
+     {
+      "provider": "mistral",
+      "model_at_version": "codestral-2508",
+      "role": "builder",
+      "prompt": "scripts/ops/build_arm_harness.py#system-prompt#04de4332afa3",
+      "moniker": "providers-dispatch-fix",
+      "context": "build-dispatch multi-arm (#5151)",
+      "instance_key": "b39313a3a380133e6376eb78d09ff010420cf3e5126ff4520eb16c34b7432e84",
+      "occurrences": {
+       "plan": 0,
+       "record": 1,
+       "dispatch": 0
+      }
+     },
+     {
+      "provider": "sealion",
+      "model_at_version": "aisingapore/Llama-SEA-LION-v3-70B-IT",
+      "role": "builder",
+      "prompt": "scripts/certifications/run_unit.py#c34eb7290dfe",
+      "moniker": "optimizations-assurance",
+      "context": "FCC L1 M5 theory batch (cert-unit workflow dispatch)",
+      "instance_key": "7e20822af41d263ad950cb8ed17817ed97824df1d95db4f56464b4efeb2de4db",
+      "occurrences": {
+       "plan": 0,
+       "record": 3,
+       "dispatch": 0
+      }
+     },
+     {
+      "provider": "sealion",
+      "model_at_version": "aisingapore/Llama-SEA-LION-v3-70B-IT",
+      "role": "builder",
+      "prompt": "scripts/ops/build_arm_harness.py#system-prompt#04de4332afa3",
+      "moniker": "providers-dispatch-fix",
+      "context": "build-dispatch multi-arm (#5151)",
+      "instance_key": "a1d2b5ece4e273228cdfb2872783e65cc549d17d74f1c2651b879998bf2a6b87",
+      "occurrences": {
+       "plan": 0,
+       "record": 2,
+       "dispatch": 0
+      }
+     },
+     {
+      "provider": "sealion",
+      "model_at_version": "aisingapore/Llama-SEA-LION-v3-70B-IT",
+      "role": "builder",
+      "prompt": "scripts/ops/build_arm_harness.py#system-prompt#296e7d97d139",
+      "moniker": "providers-dispatch-fix",
+      "context": "build-dispatch multi-arm (#5151)",
+      "instance_key": "41d1eb546dbd2d98e40ebd5e658bb278a166d2b56e409548e572140cf78ea6c6",
+      "occurrences": {
+       "plan": 0,
+       "record": 1,
+       "dispatch": 0
+      }
+     },
+     {
+      "provider": "sealion",
+      "model_at_version": "aisingapore/Llama-SEA-LION-v3-70B-IT",
+      "role": "builder",
+      "prompt": "scripts/ops/build_arm_harness.py#system-prompt#b87aa0cd1ef9",
+      "moniker": "providers-dispatch-fix",
+      "context": "build-dispatch multi-arm (#5151)",
+      "instance_key": "a7b03570542f4cd57da6c31b19bcf90e9e1b301acf8036e09f33158b78ce7f1f",
+      "occurrences": {
+       "plan": 0,
+       "record": 1,
+       "dispatch": 0
+      }
+     }
+    ],
+    "experiment_records": 41,
+    "experiment_records_with_instance": 17
+   },
+   {
+    "campaign": "rust-zero-drift-evolution",
+    "status": "proposed_not_admitted",
+    "moniker": "doe-expert-rust-zero-drift",
+    "design_factors": {},
+    "providers": [],
+    "join_state": "design_only",
+    "instances": [],
+    "experiment_records": 0,
+    "experiment_records_with_instance": 0
+   },
+   {
+    "campaign": "util-1-provider-rotation",
+    "status": "admitted_implementing",
+    "moniker": "doe-expert",
+    "design_factors": {},
+    "providers": [],
+    "join_state": "design_only",
+    "instances": [],
+    "experiment_records": 0,
+    "experiment_records_with_instance": 0
+   },
+   {
+    "campaign": "ww-1-duckduckgo",
+    "status": "admitted_design_only",
+    "moniker": "optimizations-assurance",
+    "design_factors": {},
+    "providers": [],
+    "join_state": "design_only",
+    "instances": [],
+    "experiment_records": 0,
+    "experiment_records_with_instance": 0
+   },
+   {
+    "campaign": "ww-2-brave",
+    "status": "admitted_design_only",
+    "moniker": "optimizations-assurance",
+    "design_factors": {},
+    "providers": [],
+    "join_state": "design_only",
+    "instances": [],
+    "experiment_records": 0,
+    "experiment_records_with_instance": 0
+   },
+   {
+    "campaign": "ww-3-you-com",
+    "status": "admitted_design_only",
+    "moniker": "optimizations-assurance",
+    "design_factors": {},
+    "providers": [],
+    "join_state": "design_only",
+    "instances": [],
+    "experiment_records": 0,
+    "experiment_records_with_instance": 0
+   }
+  ]
+ },
+ "gaps": [
+  "lane-events source status=error:HTTPError: events contribute no evidence this run",
+  "merged PRs unclassified by seed match rules: 111/150 (extend ops/tracking/projects.json match rules)"
+ ]
+}

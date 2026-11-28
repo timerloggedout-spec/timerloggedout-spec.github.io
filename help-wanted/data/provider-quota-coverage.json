@@ -1624,6 +1624,13 @@
     },
     {
       "freshness_owner": "ChronoMancer",
+      "observation_method": "manual_or_unknown",
+      "provider": "LocalLlamaServer",
+      "quota_manager_owner": "Manager",
+      "service_id": "local.bonsai_llama_server"
+    },
+    {
+      "freshness_owner": "ChronoMancer",
       "observation_method": "implemented_read_only_reader",
       "provider": "vercel",
       "quota_manager_owner": "Manager",

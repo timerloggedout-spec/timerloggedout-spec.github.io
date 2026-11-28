@@ -1,10 +1,10 @@
 {
  "schema": "quota.usage-series/v1",
  "generated_by": "scripts/quota_usage_series.py",
- "generated_at": "2026-11-28T13:33:48Z",
+ "generated_at": "2026-11-28T13:43:19Z",
  "inputs_generated_at": {
   "ops/quota/quota-usage.json": "2026-11-28T11:45:03Z",
-  "ops/tracking/nested-family.json": "2026-11-28T13:33:25Z"
+  "ops/tracking/nested-family.json": "2026-11-28T13:42:45Z"
  },
  "sources": [
   "ops/quota/quota-usage.json",

@@ -10,10 +10,11 @@ reviewers:
   - id: timerloggedout-spec
     role: operator-authorizer
     status: accepted
-related_prs: []
+related_prs:
+  - 5840
 related_branches:
   - feat/hackathon-desk-full-20261124
-gates_required: [proposal-lifecycle, repo-gate, termux-smoke]</p>
+gates_required: [proposal-lifecycle, repo-gate]</p>
 <hr />
 <h1>MANIFEST — hackathon-desk</h1>
 <h2>Summary</h2>
@@ -38,8 +39,8 @@ gates_required: [proposal-lifecycle, repo-gate, termux-smoke]</p>
 <li>Desk feed supplies traversal/status evidence; deprecated priority-timebox data is excluded from opportunity ranking.</li>
 <li>Public teammate UI excludes metrics_internal, win_probability, internal admin feeds, credentials, and private operational metrics.</li>
 <li>The public portal is a read-only projection. GitHub Issues, Pull Requests, and repository pages enforce identity and write permissions.</li>
-<li>Discord contact details remain optional and unpublished until teammate opt-in. A Discord handle is a contact reference, not a GitHub identity.</li>
-<li>Existing challenge, proposal, QUE, and dispatch systems remain authoritative. The Desk adds no parallel scheduler, state store, dispatch engine, or permission model.</li>
+<li>Discord contact details remain optional and unpublished until teammate opt-in. A Discord handle serves as a contact reference; GitHub remains the contribution identity.</li>
+<li>Existing challenge, proposal, QUE, and dispatch systems remain authoritative. The Desk reuses the existing scheduler, state store, dispatch engine, and permission model.</li>
 <li>ICM map edits remain behind the human review checkpoint in docs/icm/maintenance/02_design/.</li>
 </ul>
 <h2>Operator decisions recorded</h2>
@@ -62,7 +63,8 @@ gates_required: [proposal-lifecycle, repo-gate, termux-smoke]</p>
 <li>[ ] ICM map-change proposal reviewed through the ICM human checkpoint</li>
 <li>[ ] Implementation plan reviewed</li>
 <li>[ ] Focused tests and accessibility checks pass</li>
-<li>[ ] Repository gate and Termux smoke pass on the same head</li>
+<li>[ ] Repository gate, focused tests, and accessibility checks pass on the same head</li>
+<li>[x] Termux device/session execution status: OFFLINE; any Ubuntu-hosted <code>agentic termux smoke</code> result is recorded separately as Linux CI only</li>
 <li>[ ] Required PR checks complete and head SHA re-fetched</li>
 <li>[ ] Deployment freshness and live route verified</li>
 <li>[ ] All items terminal and proposal closed through the lifecycle</li>

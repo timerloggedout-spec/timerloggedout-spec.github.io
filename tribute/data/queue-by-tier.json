@@ -1,22 +1,21 @@
 {
  "schema": "que.queue-by-tier/v1",
- "generated_at": "2026-11-28T12:16:55Z",
+ "generated_at": "2026-11-28T12:29:25Z",
  "repo": "timerloggedout-spec/termux-monorepo",
  "tiers": {
   "1": {
    "tier": 1,
-   "queued": 3,
-   "in_progress": 1,
+   "queued": 1,
+   "in_progress": 0,
    "oldest_queued_at": "2026-11-25T08:15:08Z",
    "by_workflow_queued": {
-    "Orchestration Regression Guard": 1,
-    "repo gate": 2
+    "repo gate": 1
    }
   },
   "2": {
    "tier": 2,
    "queued": 0,
-   "in_progress": 2,
+   "in_progress": 3,
    "oldest_queued_at": null,
    "by_workflow_queued": {}
   },
@@ -30,19 +29,19 @@
   "4": {
    "tier": 4,
    "queued": 4,
-   "in_progress": 16,
+   "in_progress": 8,
    "oldest_queued_at": "2026-11-25T08:15:08Z",
    "by_workflow_queued": {
-    "\ud83d\udee1\ufe0f Direct Master Empty-Commit Watcher": 1,
-    "quota-analysis": 1,
-    "DO Statement Style": 1,
+    "quota-served-probe": 1,
+    "Foresight Evidence Spine": 1,
+    "Agent Readability Source Contract": 1,
     "termux smoke": 1
    }
   }
  },
  "totals": {
-  "queued": 7,
-  "in_progress": 19
+  "queued": 5,
+  "in_progress": 11
  },
  "wedged_ancient": [
   {
@@ -98,13 +97,13 @@
  "tier_basis": {
   "population": "actions-runs (queued \u2227 in_progress)",
   "explicit": {
-   "1": 4,
-   "2": 2,
+   "1": 1,
+   "2": 3,
    "3": 0,
    "4": 0
   },
-  "explicit_total": 6,
-  "default_t4": 20,
+  "explicit_total": 4,
+  "default_t4": 12,
   "unmatched": 0,
   "ancient_excluded": 8,
   "operator_excluded": 1
